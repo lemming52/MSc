@@ -21,7 +21,7 @@ Course Structure
 
 Recommended Book:
 
-\section{26/9/16}
+\section{26/9/16: Emission Mechanisms}
 
 "Lecture 1" is non-examinable.
 
@@ -33,7 +33,71 @@ Surface Brightness ($B_v$), measure of power received by a collector from an emi
 
 These values are effectively the same, with a couple of caveats. Surface brightness is a conserved property. Caveats arise owing to the physical nature of reality. Surface brightness is a property determined at the source, while Specific intensity is determined at receiver. As such, an system that interacts with the radiation between source and detector will affect the specific intensity and prevent the equivalence. Factors are obvious, absorption, scattering, curvature of the universe, diffraction.
 
+\subsection{Planck Function}
+
+\begin{equation}
+B_v(T) = \frac{2k_BT\nu^2}{c^2}[\frac{h\nu}{k_BT}\frac{1}{e^{h\nu/k_BT}-1}]
+\end{equation}
+
+Typically for radio astronomy we can use the Rayleigh-Jeans approximation $h\nu \ll k_BT$ so $B_v = \frac{2k_BT\nu^2}{c^2}$. This relies on assuming that the source is a perfect Black-Body. Technique is to define a brightness temperature; the object being viewed has the same intensity as a black body of that temperature. As the brightness temperature can be very high orders of magnitude, so high that they are significantly hotter than any thermal object, so can be used to identify whether a body is a thermal emitter.
+
+\subsection{Larmor's Theorem}
+
+Amount of energy lost by a single accelerating charged particle.
+
+\begin{equation}
+	-\frac{dE}{dt} = \frac{e^2|\bf{\dot{v}}|^2}{6\pi\epsilon_0c^3}
+\end{equation}
+
+\subsection{Parseval's Theorem}
+Exploit the Fourier relationship between time and frequency to shoow power can be a function of time and frequency.
+
+
+\begin{equation}
+\int_{-\infty}^{\infty}|\bf{\dot{v}(t)}|^2dt = \int_{-\infty}^{\infty}|\bf{\dot{v}}(\omega)|^2d\omega
+\end{equation}
  
+ \subsection{Emission Coefficient}
+ For a particle to be accelerated there needs to be a force, caused by an interaction. To calculate the average for a collection of particles the entire population is considered by using the interactions per time and volume.
+ 
+ So emission coefficient or specific intensity per unit volume in a medium:
+ 
+ \begin{equation}
+ \epsilon_\nu = \frac{\langle I_\nu\rangle}{4\pi}
+ \end{equation}
+ 
+ \subsection{Absorption Coefficient}
+ Any cloud that can emit can absorb.
+ 
+ Absorption coefficient is specific intensity lost per unit distance. When we consider a system in local thermodynamic equilibrium, they are linked by the Planck function:
+ 
+ \begin{equation}
+ k_\nu = \frac{\epsilon_\nu}{B_\nu(T)}
+ \end{equation}
+ 
+ Considering a plasma cloud, it will have some emissivity. In addition any photons in the cloud can be scattered, absorbed etc.
+
+
+\subsection{Thermodynamic Equilibrium}
+Situation when energy exchange between the radiative and kinetic energies of a gas is sufficiently efficient that both are described by the same temperature.
+
+Again, limits of nature prevent this as they have an edge, so the equilibrium cannot occur. However, we assume that most systems away from an edge are close to thermodynamic equilibrium, hence Local thermodynamic Equilibrium.
+
+\subsection{Optical Depth}
+The integrated absorption along the line of sight in a medium. Media are thick ($>1$) or thin ($<1$).
+
+\begin{equation}
+\tau_\nu = \int_{back}^{front}k_\nu dl
+\end{equation}
+
+\subsection{Flux Density}
+Integral of surface brightness over solid angle of the beam. As distance to a source increases, the get smaller not dimmer, flux density decreases.
+
+\begin{equation}
+S_\nu = \int_{\Omega}B_\nu(\Omega)d\Omega
+\end{equation}
+
+The units of flux are $Wm^{-2}Hz^{-1}$. A Jansky is $10^{-26}Wm^{-2}Hz^{-1}$. 
 
 \end{document}
 
