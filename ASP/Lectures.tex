@@ -1,0 +1,94 @@
+\documentclass[]{article}
+
+\usepackage{amsmath}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\usepackage[none]{hyphenat}
+\usepackage{fancyhdr}
+\lhead{PHYS40571 - Advanced Statistical Physics}
+\pagestyle{fancy}
+
+\usepackage[top=1.5cm, bottom=1.5cm, left=3cm, right=3cm]{geometry}
+\begin{document}
+\large
+
+\section*{Overall Notes}
+
+Course Structure
+\begin{itemize}
+	\item Basics of Probability Theory
+	\item Theory of Stochastic Processes (discrete Markov Chains, continuous stochastic differential equations)
+	\item Numerical Methods
+	\item Applications
+\end{itemize}
+
+Recommended Book:
+
+\section*{Quotes}
+
+	People who are not trained in probability shouldn't say anything
+
+\section{26/9/16: Intro}
+
+Relates to 2nd year thermal and statistical Physics, thermodynamics and statistical physics.
+
+Statistical Physics: Theory that allows you to move from micro to macro level. During the second year course, all approaches were dealt with at equilibrium. Thermodynamic properties considere wer constant in time. (Boltzmann, the result at end of time evolution). For this course, non-equilibrium tme dependent conditions will be considered, as systems evolve between microstates.
+
+	\subsection{Key Observation}
+		In equilibrium statistical physics, one starts from an energy function $H$ , and associate energy $\epsilon_i$ to microstate i.  Boltzmann: $p_i = \frac{1}{Z}e^{-\beta\epsilon_i}$
+		
+		Many systems do not have an energy function so are defined by dynamical rules.
+		
+		Example: Branching process. Some sort of system of cells that can duplicate or die, calculate population after a certain time.
+		Asymmetric simple exclusion process (ASEP). Certain number of sites, a model of biological transport.
+	
+	What is the probability the sun will rise tomorrow (Sunrise Problem)
+	
+	\subsection{Basics of Advanced Probability}
+	
+	Types of uncertainnty in the context of modelling:
+		aleatory (latin for rolling of dice): randomness that is intrinsic to a phenomenon
+		epistemic (greek episteme=knowledge): uncertainty caused by lack of knowledge, we could in principle know more about the system.
+		
+	Comparing modelling disease spread: could do basic probability of infection, could model entire system of human body and particle transport. If use simple variable of say $p$ disease is spread and $q$ is probability is not, that is an epistemic model. We could investigate further but it is not feasible.
+	
+	The systems with intrinsic randomness is mostly limited to quantum physics.
+	
+	Knowledge of probability theory allows one to access, evaluate and structure the world in ways not available to those who don't know probability theory.
+	
+	\subsection{Definition of probability}
+	
+	Sample Space: the Sample Space $\Omega$ of a probabilistic experiment is a set such that each outcome of the experiment corressponds to one element of the set.
+	
+		Roll of a dice, $\Omega = \{1, 2, ..., 6\}$.
+		2 Dice, $\Omega = \{(1, 1), (1, 2), (2, 1)..., (6, 6) \}$, 36 in distinguishable case, 21 in indistinguishable case.
+		
+	Event: A subset of $\Omega$.
+		Flip of a coin twice: $\Omega = \{(h, h), (h, t), ...\}$
+		Event, at least one head $A = \{(h, h), (h, t), ...\}$
+		
+	An elementary event consists of only one outcome, (2 heads).
+	
+	\subsection{Procedure to determine probability of an event}	
+		\begin{itemize}
+			\item Set up $\Omega$
+			\item Assign probability to elements of $\Omega$
+			\item p(A) = $\sum_{\omega\epsilon A} p(\omega)$
+		\end{itemize}
+		
+	Conditional Probabilities: $P(A|B)$, probability A occurs given B occurs. Standard overlapping subset diagram for A and B  in $\Omega$.
+	
+	\begin{equation}
+		P(A|B) = \frac{P(A\cap B)}{P(B)} = \frac{P(B|A)P(A)}{P(B)}
+	\end{equation}
+	
+	Bayes theorem.
+	
+	
+
+		
+
+
+\end{document}
+
+

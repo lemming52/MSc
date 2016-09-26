@@ -1,0 +1,97 @@
+\documentclass[]{article}
+
+\usepackage{amsmath}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\usepackage[none]{hyphenat}
+\usepackage{fancyhdr}
+\lhead{PHYS30471 - Introduction to Nonlinear Physics}
+\pagestyle{fancy}
+
+\usepackage[top=1.5cm, bottom=1.5cm, left=3cm, right=3cm]{geometry}
+\begin{document}
+\large
+
+\section*{Overall Notes}
+
+Course Structure
+\begin{itemize}
+	\item Nonlinear systems in 1D: stability, bifurcations, num methods
+	\item 2 and 3: stability, impossibility of chaos in 2D, excitable dynamics
+	\item spatio temporal dynamics and patterns: chaos in fluids
+	\item Chaos in Discrete maps: Logistic map, Lyapunov exponent, Feigenbaum diagram
+	\item Fractals
+	\item Strange Attractors
+\end{itemize}
+
+Recommended Book: S. H. Strogatz, Nonlinear dynamics and chaos.
+
+\section{26/9/16: Intro, }
+
+\subsection{Views of Classical Physics}
+
+Deterministic:
+
+\begin{itemize}
+	\item  Laplace: Regard the represent state of the universe as a result oof the precedn state and a cause of later states(newetonian dynamics). Planetary motion, fluids, weather.
+	\item Written equations can't be solved without a larger computer. Ex: the three body problem, restricted versions have exact solutions but general case is insoluble.
+
+\end{itemize}
+
+Probabilistic
+
+\begin{itemize}
+	\item  Maxwell: True logic of the world is calculation of probabilities.
+	
+\item In principle each of the above is deterministic, but the probabilistic approach is more useful for representing complex systems. Success in statistical Mechanics.
+	
+\end{itemize}
+
+\subsection{Nonlinearity}
+
+Source of the difficulty in these complex systems that result in unpredictable behaviours.
+
+Newtons eq. of motion for a three body problem are nonlinear due to the coupling between three bodies. Nonlinearity in this case is that the output of a sustem ins not proportional to input.
+
+Often, no analytic solutions to nonlinear eq, and Chaos may arise.
+
+\subsection{Chaos}
+Refers to a well characterised state of a dynamic system, defined by an extreme sensitivity to initial conditions. Example, parametrically excited pendulum in chaotic regime. Initially they evolve in the same manner, until at some point they begin diverging considerably.
+
+Poincare definition: \textit{it may happen that small differences in the initial conditions produce very great ones in the final phenomena. A small error in the former will produce an enormouse error in the latter.}
+
+\subsection{Linear Systems}
+Most UG problems focus on these as they can be solved using simple analytical techniques. E.g, pendulum. $ml\dddot{\theta} = -mgsin\theta$. Which gives the nonlinear $\dddot{\theta} + \frac{g}{l}sin\theta$, which is typically solve in the limit of small angles as $\ddot{\theta} + \omega_0^2\theta = 0$ or SHO.
+
+Solutions of linear equations can be superposed to form another solution. If $\theta_1(t)$ and $\theta_2(t)$ are solutions of the SHO equation, so is $\phi(t) = a\theta_1 + b\theta_2$. Proof:
+
+\begin{equation}
+\ddot{\phi} = a\ddot{\theta_1} + b\ddot{\theta_2} 
+= -\omega_0^2(a\theta_1 + b\theta_2) 
+= -\omega_0^2\phi
+\end{equation} 
+
+Obviously fails for non-linear case.
+
+\subsection{Important Linear Physics}
+
+\begin{itemize}
+	\item Schodinger Eq.: $\frac{d\psi}{dt} = $
+	\item Wave equation
+	\item Maxwell
+	\item Klein-Gordon
+	\item Diffusion
+\end{itemize}
+
+\subsection{Nonlinear Systems}
+
+Solutions cannot be superimposed. Example, capillary waves (pebble in pond)
+
+Physical consequences of Nonlinearity: inject a pulse into a linear system, expect the pulse to spread and decay which is dispersion.
+
+
+
+
+\end{document}
+
+
