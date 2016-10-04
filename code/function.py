@@ -1,6 +1,7 @@
-import numpy
+import numpy as np
 
 class Function:
+    # Abstract (is this a thing?) class for any kind of mathematical function
 
     def __init__(self, constants):
         self.constants = constants
@@ -13,10 +14,13 @@ class Function:
         return None
 
 class ExponentialDist(Function):
+    # f(x) = lambda * e^(-lambda*x)
+    # evaluate for x
+    # takes numpy arrays easily
 
     def __init__(self, rate_parameter):
         self.rate = rate_parameter
         self.name = 'exponential_dist'
 
     def eval(self, variables):
-        return self.rate * numpy.exp(-1*self.rate*variables)
+        return self.rate * np.exp(-1*self.rate*variables)
