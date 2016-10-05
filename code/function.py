@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Function:
     # Abstract (is this a thing?) class for any kind of mathematical function
 
@@ -13,6 +14,7 @@ class Function:
     def eval(self, variables):
         return None
 
+
 class ExponentialDist(Function):
     # f(x) = lambda * e^(-lambda*x)
     # evaluate for x
@@ -23,4 +25,14 @@ class ExponentialDist(Function):
         self.name = 'exponential_dist'
 
     def eval(self, variables):
-        return self.rate * np.exp(-1*self.rate*variables)
+        return self.rate * np.exp(-1 * self.rate * variables)
+
+
+class LogRate(Function):
+
+    def __init__(self, rate_parameter):
+        self.rate = rate_parameter
+        self.name = 'log_rate_func Y = -1/lambda * ln(x)'
+
+    def eval(self, variables):
+        return -1 * np.log(variables) / self.rate
