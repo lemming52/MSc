@@ -8,7 +8,7 @@ class Graph_2d:
     """
 
     def __init__(self):
-        self.title = None
+        self.title = ''
         self.line = False
         self.legend = False
         self.x_axis = ''
