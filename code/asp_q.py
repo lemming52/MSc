@@ -32,8 +32,8 @@ def one_ten():
     hist.plot(average, 60)
     hist.normalise(True)
     hist.color('b')
-    hist.add_title('ASP Q1.10 (Batch Count: %s' % batch_count)
-    hist.label_axis('Average value (batch size: %s' % batch_size,
+    hist.add_title('ASP Q1.10 (Batch Count: %s)' % batch_count)
+    hist.label_axis('Average value (batch size: %s)' % batch_size,
                     'Relative Frequency')
     hist.show()
 
