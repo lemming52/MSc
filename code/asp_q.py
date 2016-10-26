@@ -37,3 +37,26 @@ def one_ten():
                     'Relative Frequency')
     hist.show()
 
+def two_eight():
+
+    graph_size = 1000000
+
+    graph = np.zeros((graph_size,), dtype=np.int)
+
+    for i in range(1, graph_size):
+        index = np.random.random_integers(0, i-1)
+        graph[i] = 1
+        graph[index] += 1
+
+    max_val = np.max(graph)
+
+    hist = graphing.Histogram()
+    hist.plot(graph, max_val-1)
+    hist.normalise(True)
+    rate_param = 1/2
+    exp_dist = function.ExponentialDist(rate_param)
+    hist.add_line(exp_dist, np.linspace(1, max_val, max_val), 'ro--', label='p(k)')
+    hist.show()
+
+
+

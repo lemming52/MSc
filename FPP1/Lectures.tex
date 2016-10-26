@@ -212,6 +212,65 @@ Non accelerator particle physics, cosmic rays, proton decay.
 	The momentum transfer to the electron is the integral of the electrostatic force over the time of passage of the particle. Longitudinal components cancel, and overall results is $\Delta p_\perp = \frac{2ze^2}{bv}$ omitting constant factors and where $b$ is impact parameter of the electron.
 	
 	A single electron gets $\Delta p$, so classical $E_k = \frac{\Delta p^2}{2m_e}$. Now consider a cylindrical barrel. 
+	
+	
+\section{12/10/2016}
+
+	\subsection{Scintillation}
+	
+	
+		Energy loss $\frac{dE}{dx}$ converted into visible light in a translucent medium via excitation of molecules.
+		
+		Light is emitted in a characteristic spectrum around visible/UV range. EMitted radiation is usually less energetic than the absorbed radiation.
+		
+		Scintillation is an inherent property of some organic molecules (salts, gases liquids) arising from electronic structure.
+		
+		Triplet excited states decay over a longer timescale than singlet state decays, owing to extra angular momentum. These two processes are fluorescence(fast) and phosphorescence(slow). Depending on the energy loss of a particular particle, the ratio of the population of the fast/slow states will be different. This causes formation of a characteristic pulse shape whic can identify a particle.
+		
+	\subsection{Cherenkov Radiation}
+	
+	Charged particle moving faster than the speed of light in the medium.
+	
+	With relativistic electrodynamics, there is a retardation time associated with the propagation of the fields. In the Cherenkov condition $v > c/n$, this results in the propagation of the particle being faster than the propagation of the fields. As a result, there is a region of non-zero field with an expanding region of field. This implies energy transition, ergo radiation. The waefront can be recoveredd via huygens construction with an angle $cos\theta_C=\frac{c}{nv}$.
+	
+	The number of cherenkon photons per unit wavelength/ path:
+	
+	\begin{equation}
+		\frac{d^2N}{d\lambda dx} = \frac{2\pi\alpha z^2}{\lambda^2}sin^2\theta_c
+	\end{equation}
+	
+	Proportional to $1/\lambda2$, well matched to photomultipliers. Measurements of $\theta_c$ give particle velocity and can be used in identification. 
+	
+	Useful:
+		\begin{itemize}
+			\item $cos\theta_C=\frac{1}{n\beta}$
+			\item $\gamma = \frac{1}{\sqrt{1- 1/n^2}}$
+			\item $\frac{dN}{dx} = 2\pi\alpha z^2 \int (1-\frac{1}{n^2\beta^2})\frac{d\lambda}{\lambda^2}$
+		\end{itemize}
+	
+	Cherenkov radiation can distinguish between muon and electorn neutrinos. A muon produces a well defined cone of cherenkov radiation in a detector, while an eleccton neutrino gnerates an electron shower which results in a diffuse ring.
+	
+	\subsection{Light Detection}
+	Photomultpliers detect visible photons, work based on the photoelectric effect. A single photon is coverted to electrons and multiplied to a measurable electronic system. Light falls on a hoto-cathod, disloging an electron (PE effect). Quantum efficiency ~25\%. Electron focsed and acelerated through dynodes by an electrc field. Each dynode absorbs the elctron and re-emits several, resulting in massive multiplication over several stages. Low overal transit/reacion time.
+	
+	\subsection{transition radiation}
+	A highly relativistic charged particle traversing a boundary between materials can emit radiation, with intensity ~ proportional to E. The photons are emitted in a very small angle relative to the flight $\theta=\frac{1}{\gamma}$, typically in the x-ray region.  Useful at high energy.
+	
+	\subsection{Energy Loss by Bremsstrahlung}
+	
+	Bremsstrahlung arises if particles are accelerate in the coulomb field of a nucleus. Energy loss is proportional to $\frac{1}{m^2}$ relevant to muons an highly relativistic muons.
+	
+	\subsection{Energy Loss by electrons and photons}
+	
+	At low energy, the photoelectric effct is dominant. At higher enrgy, compton scattering begins in sominated follwed by pair production. 
+	
+	EM showers may be initiated by electrons or photons via bremsstrahlung, pair p, Compton or PE effects.
+	
+	\subsection{Electromagnetic Showers}
+	
+	Bremsstrahlung and pair p processes have small opening angles $\theta \approx \frac{m_e}{E_g}$. As such showers are well contained in tranverse direction. The transverse development is characterised by the Moliere radius, defined as radius of cylinder containing 90\% of the energy.
+	
+	A simple model assumes one interaction per particle per radiation length, giving $2^t particles$ after t lengths. Each particle has mean energy $E(t)=E_0/2^t$. Showering process stops at $t_{max}$ where $E = E_C$ and ionisation occurs. $t_{max} = \ln(\frac{E_0}{E_C})/\ln(2)$, $N_{max}=E_0/E_C$ particles, total energy is proportional to showever multiplicity.
 
 \end{document}
 
