@@ -36,3 +36,11 @@ class LogRate(Function):
 
     def eval(self, variables):
         return -1 * np.log(variables) / self.rate
+
+class Magnitude(Function):
+
+    def __init__(self):
+        self.name = 'magnitude'
+
+    def eval(self, variables):
+        return np.linalg.norm(variables, axis=0)

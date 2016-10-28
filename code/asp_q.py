@@ -2,6 +2,7 @@ import function
 import rand_generator
 import graphing
 import numpy as np
+import pagerank
 from pprint import pprint
 
 
@@ -9,7 +10,7 @@ def one_nine():
     rate_param = 2
     exp_dist = function.ExponentialDist(rate_param)
     log_rate = function.LogRate(rate_param)
-    gen = rand_generator.Generator(log_rate, 100000)
+    gen = rand_generator.Generator(log_rate, [100000])
     gen.populate_zero_one()
     results = gen.eval()
     hist = graphing.Histogram()
@@ -57,6 +58,51 @@ def two_eight():
     exp_dist = function.ExponentialDist(rate_param)
     hist.add_line(exp_dist, np.linspace(1, max_val, max_val), 'ro--', label='p(k)')
     hist.show()
+
+def two_nine():
+
+    sample_counts = [5, 10, 33, 100, 333, 1000, 3333, 10000, 33333, 100000, 333333, 1000000, 3333333, 10000000]
+    estimates = np.empty(len(sample_counts))
+    magnitude = function.Magnitude()
+
+    for i in range(len(sample_counts)):
+
+        count = 0
+
+        gen = rand_generator.Generator(magnitude, [2, sample_counts[i]])
+        gen.populate_zero_one()
+        results = gen.eval()
+        for value in results:
+            if value <= 1:
+                count += 1
+
+        estimates[i] = count/sample_counts[i]*4
+
+    plot = graphing.LineGraph()
+    plot.init_line()
+
+    plot.add_line(sample_counts, estimates, 'b+', markersize=14, label='Estimated Value')
+    plot.add_line(sample_counts, [np.pi]*len(sample_counts), 'r', label='Pi')
+    plot.add_title('ASP Q2.9: Estimate of Pi against sample count N')
+    plot.label_axis('N', 'Estimate')
+    plot.log_axes(True, False)
+    plot.set_axes(0, 33333333, 1.5, 4.5)
+    plot.show_legend()
+
+    plot.show()
+
+def two_ten():
+    graph = [[1, 2], [1, 3], [1, 4], [1, 5],
+        [2, 4],
+        [3, 4],
+        [4, 3], [4, 5],
+        [5, 2], [5, 3], [5, 4]]
+
+    print(pagerank.rank(graph, 0.85, 0.000000001))
+    print(pagerank.rank(graph, 1, 0.0000000001))
+
+
+
 
 
 

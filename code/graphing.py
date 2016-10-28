@@ -30,6 +30,9 @@ class Graph_2d:
         self.x_axis = x_axis
         self.y_axis = y_axis
 
+    def show_legend(self):
+        self.legend = True
+
     def show_features(self):
         if self.line:
             self.plot_line()
@@ -125,3 +128,28 @@ class Histogram(Graph_2d):
             0,
             np.max(self.n) * 1.125
         ]
+
+
+class LineGraph(Graph_2d):
+
+    def init_line(self):
+        self.fig = plt.figure()
+        self.ax = self.fig.add_subplot(1, 1, 1)
+
+    def add_line(self, x_val, y_val, prop_string, **kwargs):
+        self.ax.plot(x_val,  y_val, prop_string, **kwargs)
+
+    def show(self):
+        self.show_features()
+        self.save_graph(self.fig)
+        self.fig.show()
+
+    def log_axes(self, x, y):
+        if x:
+            self.ax.set_xscale('log')
+        if y:
+            self.ax.set_yscale('log')
+
+    def set_axes(self, x_min, x_max, y_min, y_max):
+        self.ax.axis([x_min, x_max, y_min, y_max])
+
