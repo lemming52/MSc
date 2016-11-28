@@ -242,6 +242,92 @@ def four_two():
 
     xyplot.show()
 
+def four_two_d():
+
+    omega = 5000
+    b = 1.8
+    timestep = 0.01
+    count = 1000000*2
+
+    processes = {
+        'A' : [omega, 1, 0, 0, 0],
+        'B' : [1, -1, 0, 1, 0],
+        'C' : [b, -1, 1, 1, 0],
+        'D' : [1/(omega*omega), 1, -1, 2, 1],
+    }
+
+    initial = [1000, 1000]
+
+    t = np.linspace(0, timestep*count, count)
+    results = np.zeros((2, count))
+    results[0][0] = initial[0]
+    results[1][0] = initial[1]
+
+    times = np.zeros(count)
+    time = 0
+
+    for i in range(1, count):
+
+        combined_rates = 0
+
+        for process in processes:
+            params = processes[process]
+            rate_param = params[0] * np.power(results[0][i-1], params[3]) * np.power(results[1][i-1], params[4])
+            combined_rates += rate_param
+
+        rand = random.random()
+        time += -1/combined_rates * np.log(random.random())
+        times[i] = time
+
+        cumul_fraction = 0
+
+        for process in processes:
+            params = processes[process]
+            rate_param = params[0] * np.power(results[0][i-1], params[3]) * np.power(results[1][i-1], params[4])
+            fraction = rate_param / combined_rates
+            cumul_fraction += fraction
+            if rand < cumul_fraction:
+                results[0][i] = results[0][i-1] + params[1]
+                results[1][i] = results[1][i-1] + params[2]
+                break
+
+    plot = graphing.LineGraph()
+    plot.init_line()
+
+    plot.add_line(times, results[0]/omega, 'b--', markersize=12, label='x')
+    plot.add_line(times, results[1]/omega, 'r--', markersize=12, label='y')
+    plot.add_title('ASP Q4.2: Gillespie simulation of Brusselator')
+    plot.label_axis('t', 'n')
+    plot.log_axes(False, False)
+    plot.show_legend()
+
+    plot.show()
+
+    xyplot = graphing.LineGraph()
+    xyplot.init_line()
+
+    xyplot.add_line(results[0]/omega, results[1]/omega, 'b--', markersize=12)
+    xyplot.add_title('ASP Q4.2: Gillespie simulation estimate for x and y)')
+    xyplot.label_axis('x(t)', 'y(t)')
+    xyplot.log_axes(False, False)
+
+    xyplot.show()
+
+    ratioplot = graphing.LineGraph()
+    ratioplot.init_line()
+
+    ratioplot.add_line(times, results[1]/results[0], 'b--', markersize=12, label='ratio')
+    ratioplot.add_line(times, [b]*len(times), 'r--', markersize=12, label='b')
+    ratioplot.add_title('ASP Q4.2: Gillespie simulation of Brusselator, ratio y/x')
+    ratioplot.label_axis('t', 'ratio y/x')
+    ratioplot.log_axes(False, False)
+
+    ratioplot.show()
+
+
+
+
+
 
 class FourThreeN(function.Function):
 
