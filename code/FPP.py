@@ -1,8 +1,8 @@
 import function
 import rand_generator
 import graphing
+import montecarlo
 import numpy as np
-import pagerank
 from pprint import pprint
 
 class Emergent(function.Function):
@@ -54,3 +54,45 @@ def one_eight():
 
     plot.show()
 
+
+def two_nine():
+
+    sample_counts = [5, 10, 33, 100, 333, 1000, 3333, 10000, 33333, 100000, 333333, 1000000, 3333333, 10000000]
+    estimates = np.empty(len(sample_counts))
+
+    for i in range(len(sample_counts)):
+        estimates[i] = montecarlo.pi_estimate(sample_counts[i], 3)
+
+    plot = graphing.LineGraph()
+    plot.init_line()
+
+    plot.add_line(sample_counts, estimates, 'b+', markersize=14, label='Estimated Value')
+    plot.add_line(sample_counts, [np.pi]*len(sample_counts), 'r', label='Pi')
+    plot.add_title('FPP Q2.9: Estimate of Pi against sample count N')
+    plot.label_axis('N', 'Estimate')
+    plot.log_axes(True, False)
+    plot.set_axes(0, 33333333, 1.5, 4.5)
+    plot.show_legend()
+
+    plot.show()
+
+def two_ten():
+
+    sample_counts = [1, 5, 10, 33, 50, 100, 333, 500, 1000, 3333, 10000, 33333, 100000, 333333, 1000000]
+    estimates = np.empty(len(sample_counts))
+
+    for i in range(len(sample_counts)):
+        estimates[i] = montecarlo.e_estimate(sample_counts[i])
+
+    plot = graphing.LineGraph()
+    plot.init_line()
+
+    plot.add_line(sample_counts, estimates, 'b+', markersize=14, label='Estimated Value')
+    plot.add_line(sample_counts, [np.e]*len(sample_counts), 'r', label='e')
+    plot.add_title('FPP Q2.10: Estimate of e against sample count N')
+    plot.label_axis('N', 'Estimate')
+    plot.log_axes(True, False)
+    plot.set_axes(0, 33333333, 1.5, 4.5)
+    plot.show_legend()
+
+    plot.show()
