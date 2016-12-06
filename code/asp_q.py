@@ -2,6 +2,7 @@ import function
 import rand_generator
 import graphing
 import numpy as np
+import matplotlib.pyplot as plt
 import random
 import integration
 import pagerank
@@ -369,8 +370,58 @@ def four_three():
 
     plot.show()
 
+def five_six():
+
+    time_step = 0.001
+    time_step_root = time_step**(1/2)
+    count = 1000000
+    a = 2
+    mean = 0
+    D = 0.2
+    variance = 2*D
+    sd = variance**(1/2)
+
+    x_init = 0
 
 
+    results = np.zeros(count)
+    squares = np.zeros(count)
+    averages = np.zeros(count)
+    results[0] = x_init
+    squares[0] = x_init**2
+    averages[0] = squares[0]
 
+    total = squares[0]
 
+    f = function.ConstantMultiply(a)
+
+    for i in range(count-1):
+        noise = np.random.normal(mean, sd)
+        results[i + 1] = results[i] + time_step * f.eval(results[i]) + time_step_root * noise
+        squares[i+1] = results[i+1]**2
+        total = total + squares[i+1]
+        averages[i+1] = (total/(i+1))
+
+    t = np.linspace(0, time_step*count, count)
+
+    plot = graphing.LineGraph()
+    plot.init_line();
+
+    plot.add_line(t, results, 'b--', markersize=12)
+    plot.add_title('ASP Q5.6: OU Process')
+    plot.label_axis('t', 'x(t)')
+    plot.log_axes(False, False)
+
+    plot.show()
+
+    aplot = graphing.LineGraph()
+    aplot.init_line();
+
+    aplot.add_line(t, averages, 'b--', markersize=12)
+    aplot.add_line(t, [D/a]*count, 'r--', label='D/a', markersize=12)
+    aplot.add_title('ASP Q5.6: OU Process')
+    aplot.label_axis('t', '<x(t)^2>')
+    aplot.log_axes(False, False)
+
+    aplot.show()
 

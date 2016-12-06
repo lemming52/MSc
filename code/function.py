@@ -44,3 +44,13 @@ class Magnitude(Function):
 
     def eval(self, variables):
         return np.linalg.norm(variables, axis=0)
+
+
+class ConstantMultiply(Function):
+
+    def __init__(self, constant):
+        self.name = 'Constant linear multiplication'
+        self.a = constant
+
+    def eval(self, variables):
+        return -1 * self.a * variables
