@@ -1,0 +1,26 @@
+\chapter{Event Selection}\label{c:ES}
+
+This section describes the selection criteria required for the events and reconstructed objects used in the analysis. These cuts and criteria are designed with the \VBFHBB event topology in mind, along with the limitations introduced by considering the available trigger chains as discussed in Section \ref{VBF:TriggerChains}. These cuts are applied in the \VBFHBB analysis and the direct object comparison covered in Chapter \ref{c:OP}.
+
+\section{Events}
+
+Data events were required to pass the all year 25ns Good Runs List\footnote{\detokenize{data16_13TeV.periodAllYear_DetStatus-v88-pro20-21_DQDefects-00-02-04_PHYS_StandardGRL_All_Good_25ns.xml}} \REF{GRL} and also be Clean \REF{Clean}. 
+
+\section{Offline Jets}
+
+	Offline jet reconstruction was performed by the anti-$k_t$ algorithm (R=0.4) as discussed in Section \ref{t:jetReco}. Jets were calibrated in line with the 20.7 recommendations \REF{jets:calib}. When considering individual jets during the analysis, all jets were required to have a \pt $> 45$ GeV to be recorded.
+	
+\section{Online Jets}
+	
+	Online Jet reconstruction is a mystery. A full collection of online jets was recovered by extracting the split jets (Section \ref{det:split) and L1 Jets (Section \ref{det:trigger:L1}). The full set of online jets was considered as the recovered split jets combined with any L1 jets that did not match any split jet. When considering individual jets during the analysis, all jets were required to have a \pt $> 45$ GeV to be recorded. \todo{This needs to be understood}
+	
+\section{Offline \textit{b}-jets}
+
+	The specifics of $b$-tagging are covered in Section \ref{det:btagging}. Offline $b$-jets were tagged using the \textit{MV2c10}-tagger\footnote{Jan 2017 Recommendations: \detokenize{2016-20_7-13TeV-MC15-CDI-2017-01-31_v1.root}} with two defined efficiency working points: \textit{Tight}, with an overall efficiency of 70\% and \textit{Loose} with 85\% tagging efficiency. 
+	
+\section{Online \textit{b}-jets}
+	
+	 Online $b$-jets were tagged using the \textit{MV2c20}-tagger\footnote{Mar 2016 Recommendations: \detokenize{2016-Winter-13TeV-MC15-CDI-March10_v1.root}} with two defined efficiency working points: \textit{Tight}, with an overall efficiency of 70\% and \textit{Loose} with 85\% tagging efficiency. 
+
+
+\endinput

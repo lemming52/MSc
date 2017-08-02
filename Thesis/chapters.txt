@@ -1,0 +1,69 @@
+Standard Guff, abstract etc.
+
+ATLAS EXPERIMENT:
+
+    Detector (General)
+        Rate Limitations
+        Calibration
+        Monte Carlo
+        forward/central etc.
+    Trigger System (Complete)
+        Levels
+        Scaling
+    HLT (Specific)
+        SplitJets
+        B-Tagging
+            Algorithms
+    TLA
+    BDTs?
+
+THEORETICAL BACKGROUND (ORDER ISSUES):
+
+    Collisions
+    Jets
+    B Jets
+
+    VBFHbb
+        Topology
+        Backgrounds
+        Channels
+
+ONLINE/OFFLINE COMPARISON (DIRECT):
+
+    Kinematics:
+            General kinematic vars for all comparable jets, ratios
+        B Jets?
+        J Jets?
+        Event Topologies/ Signatures/ Makeup
+            trigger emulation counts?
+        Forward Jets:
+            kinematic vars
+
+    B Tagging:
+            plot: algorithm input vars
+            kinematics of tagged b jets
+        Efficiencies
+            already made effciiency plots
+
+ONLINE/OFFLINE COMPARISON (HbbVBF):
+
+    Naked VBF plots
+
+    2C:
+        Signature Kinematics
+            mbb, mjj, data/mc plots, blinded
+        Cut Flows
+            Reasons for differences
+        S/B
+
+    4C (hopefully):
+        same
+
+FURTHER:
+
+    Comparison of MC/Data
+    Evaluation of possible S/B improvements
+        background + signal count hists
+    Evaluation of possible cut changes
+        cutflwo count changes between different kinematic cuts
+    Need for (CPU) rate considerations

@@ -1,0 +1,37 @@
+\select@language {british}
+\contentsline {chapter}{Summary}{ii}{chapter*.1}
+\contentsline {chapter}{Contents}{iii}{section*.2}
+\contentsline {chapter}{Declaration}{iv}{chapter*.3}
+\contentsline {chapter}{Acknowledgements}{v}{chapter*.4}
+\contentsline {chapter}{\chapternumberline {1}Event Selection}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Events}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Offline Jets}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Online Jets}{1}{section.1.3}
+\contentsline {section}{\numberline {1.4}Offline \textit {b}-jets}{2}{section.1.4}
+\contentsline {section}{\numberline {1.5}Online \textit {b}-jets}{2}{section.1.5}
+\contentsline {chapter}{\chapternumberline {2}Object Performance}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Leading \textit {b}-jets}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Monte-Carlo}{4}{subsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Plots of \textit {b}-jet features}{4}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.2}Conclusions from MC jet features}{5}{subsubsection.2.1.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Data}{6}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Leading Non \textit {b}-jets}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Monte-Carlo}{8}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Data}{9}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Central Jets}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}Forward Jets}{10}{section.2.4}
+\contentsline {section}{\numberline {2.5}Extremal? Jets}{10}{section.2.5}
+\contentsline {section}{\numberline {2.6}Jet Tagging Efficiency}{10}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}\textit {b}-jet efficiency}{11}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}\textit {c}-jet efficiency}{11}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Light-jet efficiency}{12}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Tag Matching}{12}{subsection.2.6.4}
+\contentsline {section}{\numberline {2.7}MV2 Discriminant Values - ???}{12}{section.2.7}
+\contentsline {section}{\numberline {2.8}MV2 Input Variables - ???}{12}{section.2.8}
+\contentsline {chapter}{\chapternumberline {3}Kinematics}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Specific Jet Feature Distributions}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Specific Jet Feature Distributions}{13}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Two Central Channel}{13}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}BDT Input Variables}{13}{section.3.3}
+\contentsline {section}{\numberline {3.4}Mbb Distribution}{14}{section.3.4}
+\contentsline {chapter}{References}{15}{section*.6}

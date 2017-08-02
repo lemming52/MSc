@@ -1,0 +1,353 @@
+\NeedsTeXFormat{LaTeX2e}
+%==============================================================================%
+% For PhD thesis template, based on LaTeX memoir class rather than the         %
+% standard book class, as memoir offers many additional configuration options. %
+%==============================================================================%
+\ProvidesPackage{thesis}[2016/09/02 Version 1.12 (Dave Green)]
+%
+\AtEndDocument{
+\typeout{**************************************************************}
+\typeout{* This is Version 1.12 of Dave Green's thesis template        }
+\typeout{* (see http://www.mrao.cam.ac.uk/~dag/THESIS/ for any updates)}
+\typeout{**************************************************************}
+}
+%
+% 1) set additional stylistic options for memoir package ...
+%
+%    a) choose a chapter style (see Chapter 6 of the memoir manual, or
+%       the memoirchapterstyles package for other styles) or specify a
+%       custom chapter style ...
+%
+%\chapterstyle{brotherton}
+%\chapterstyle{ell}
+%\chapterstyle{ger}
+%\chapterstyle{madsen}
+%\chapterstyle{thatcher}
+%\chapterstyle{wilsondob}
+%
+%       or load particular customised style ...
+%
+\usepackage{mystyle}
+\chapterstyle{mystyle}
+%
+%    b) adjust the header style ...
+%       (for the default style \uppercaseheads is the default, but
+%       this can be switched off with \nouppercaseheads, or instead
+%       set up a pagealias to point to an alternate style)
+%
+\nouppercaseheads
+%
+%\aliaspagestyle{headings}{ruled}
+%\aliaspagestyle{headings}{Ruled}
+%
+%    c) remove vertical space in lists ...
+%       (or \defaultlists for default LaTeX vertical spacing)
+%       and change default labels to be 1) etc not 1. etc ...
+\tightlists
+\renewcommand{\labelenumi}{\theenumi)}
+%
+%    d) set page size and marginal note dimensions ...
+%       (larger l=inner than r=outer margin, to allow for binding,
+%       and larger lower margin, as that looks better)
+%
+\setlrmarginsandblock{35mm}{30mm}{*}
+\setulmarginsandblock{35mm}{40mm}{*}
+%
+\marginparmargin{outer}
+\setmarginnotes{5mm}{20mm}{5mm}
+%
+%       or if in larger (inner) margin, uncomment below ...
+%
+%\marginparmargin{inner}
+%\setmarginnotes{5mm}{25mm}{5mm}
+%
+%       then actually set the page layout ...
+%
+\checkandfixthelayout
+%
+%    e) define caption style (smaller font, usually narrower)
+%       for tables and figures ...
+%       also define \captionof (cf. capt-of.sty)
+%
+\captionnamefont{\small\bfseries}
+\captiontitlefont{\small}
+%
+\newlength\thesiscaptionwidth
+\newcommand{\narrowcaptionwidth}{\setlength{\thesiscaptionwidth}{\linewidth}%
+\addtolength{\thesiscaptionwidth}{-1.0cm}\captionwidth{\thesiscaptionwidth}%
+\changecaptionwidth}
+%
+\narrowcaptionwidth
+%
+\newcommand\captionof[1]{\def\@captype{#1}\caption}
+%
+%    f) do include bibliography in table of contents ...
+%
+\bibintoc
+%
+%    g) number all sub-divisions, but only list down to sections
+%       in the table of contents ...
+%
+\maxsecnumdepth{all}
+\maxtocdepth{section}
+%
+%    h) use lower case letters for footnotes, not numbers ...
+%       (note: need to load after other packages ...)
+%
+\AtBeginDocument{\renewcommand\thefootnote{\alph{footnote}}}
+%==============================================================================%
+% 2) load babel for British english hyphenation ...
+%
+\usepackage[british]{babel}
+%------------------------------------------------------------------------------%
+% 3) load AMS packages for maths ...
+%
+\usepackage{amsfonts}
+\usepackage{amsmath}
+%------------------------------------------------------------------------------%
+% 4) set fonts (with matching maths fonts) ...
+%    (for upright greek letters, use $\muup$ etc)
+%
+%    Note: $\nu$ looks quite like $v$ with newtx, txfonts or pxfonts,
+%          so instead, either
+%            1) explicitly use $\varv$ for a different `v', or
+%            2) give the "varg" option to the font package (e.g.
+%               \usepackage[slantedGreek,varg]{newtxmath}") to
+%               use the alternate `v', which also uses alternate
+%               `w', `g' and `y' in maths ...
+%
+% a) use Times based fonts using newtxtext and newtxmath ...
+%
+\usepackage{newtxtext}
+\usepackage[slantedGreek]{newtxmath}
+\DeclareMathAlphabet{\mathbf}{OML}{ntxmi}{bx}{it}
+%
+% hack to scale loading of ntxtt fonts at a different scale...
+%
+\let\saved@ntx@scaled=\ntx@scaled
+\def\ntx@scaled{s*[0.9]}
+\input t1ntxtt.fd
+\let\ntx@scaled=\saved@ntx@scaled
+%
+% b) or use Times based txfonts, changing bold maths fonts for vectors ...
+%
+%\usepackage{txfonts}
+%\DeclareMathAlphabet{\mathbf}{OML}{txmi}{bx}{it}
+%
+% c) or use Palatino based pxfonts, changing bold maths fonts for vectors ...
+%
+%\usepackage{pxfonts}
+%\DeclareMathAlphabet{\mathbf}{OML}{pxmi}{bx}{it}
+%
+%    for all of the above font options, make lowercase greek characters
+%    be letters, so can switch to bold for vectors ...
+%
+\DeclareMathSymbol{\alpha}{\mathalpha}{letters}{"0B}
+\DeclareMathSymbol{\beta}{\mathalpha}{letters}{"0C}
+\DeclareMathSymbol{\gamma}{\mathalpha}{letters}{"0D}
+\DeclareMathSymbol{\delta}{\mathalpha}{letters}{"0E}
+\DeclareMathSymbol{\epsilon}{\mathalpha}{letters}{"0F}
+\DeclareMathSymbol{\zeta}{\mathalpha}{letters}{"10}
+\DeclareMathSymbol{\eta}{\mathalpha}{letters}{"11}
+\DeclareMathSymbol{\theta}{\mathalpha}{letters}{"12}
+\DeclareMathSymbol{\iota}{\mathalpha}{letters}{"13}
+\DeclareMathSymbol{\kappa}{\mathalpha}{letters}{"14}
+\DeclareMathSymbol{\lambda}{\mathalpha}{letters}{"15}
+\DeclareMathSymbol{\mu}{\mathalpha}{letters}{"16}
+\DeclareMathSymbol{\nu}{\mathalpha}{letters}{"17}
+\DeclareMathSymbol{\xi}{\mathalpha}{letters}{"18}
+\DeclareMathSymbol{\pi}{\mathalpha}{letters}{"19}
+\DeclareMathSymbol{\rho}{\mathalpha}{letters}{"1A}
+\DeclareMathSymbol{\sigma}{\mathalpha}{letters}{"1B}
+\DeclareMathSymbol{\tau}{\mathalpha}{letters}{"1C}
+\DeclareMathSymbol{\upsilon}{\mathalpha}{letters}{"1D}
+\DeclareMathSymbol{\phi}{\mathalpha}{letters}{"1E}
+\DeclareMathSymbol{\chi}{\mathalpha}{letters}{"1F}
+\DeclareMathSymbol{\psi}{\mathalpha}{letters}{"20}
+\DeclareMathSymbol{\omega}{\mathalpha}{letters}{"21}
+\DeclareMathSymbol{\varepsilon}{\mathalpha}{letters}{"22}
+\DeclareMathSymbol{\vartheta}{\mathalpha}{letters}{"23}
+\DeclareMathSymbol{\varpi}{\mathalpha}{letters}{"24}
+\DeclareMathSymbol{\varrho}{\mathalpha}{letters}{"25}
+\DeclareMathSymbol{\varsigma}{\mathalpha}{letters}{"26}
+\DeclareMathSymbol{\varphi}{\mathalpha}{letters}{"27}
+%
+\DeclareMathSymbol{\Gamma}{\mathalpha}{letters}{"00}
+\DeclareMathSymbol{\Delta}{\mathalpha}{letters}{"01}
+\DeclareMathSymbol{\Theta}{\mathalpha}{letters}{"02}
+\DeclareMathSymbol{\Lambda}{\mathalpha}{letters}{"03}
+\DeclareMathSymbol{\Xi}{\mathalpha}{letters}{"04}
+\DeclareMathSymbol{\Pi}{\mathalpha}{letters}{"05}
+\DeclareMathSymbol{\Sigma}{\mathalpha}{letters}{"06}
+\DeclareMathSymbol{\Upsilon}{\mathalpha}{letters}{"07}
+\DeclareMathSymbol{\Phi}{\mathalpha}{letters}{"08}
+\DeclareMathSymbol{\Psi}{\mathalpha}{letters}{"09}
+\DeclareMathSymbol{\Omega}{\mathalpha}{letters}{"0A}
+%
+%    for vectors, use slanted bold ...
+%
+\renewcommand{\vec}[1]{\mathbf{#1}}
+%
+%    define some useful astronomical abbreviations ...
+%    (as per journals, for use in maths modes only)
+%
+\newcommand{\fdg}{^\circ\mkern-6.5mu.\mkern0.5mu}
+\newcommand{\degr}{^\circ}
+\newcommand{\arcmin}{'}
+\newcommand{\farcm}{'\mkern-5mu.}
+\newcommand{\arcsec}{''}
+\newcommand{\farcs}{''\mkern-8mu.\mkern3mu}
+\newcommand{\fh}{^{\rm h}\mkern-6mu.}
+\newcommand{\fm}{^{\rm m}\mkern-8mu.\mkern3mu}
+\newcommand{\fs}{^{\rm s}\mkern-6mu.}
+\newcommand{\fp}{^{\rm p}\mkern-6mu.}
+%
+%    define \ion for ionisation states
+%
+\newcommand\ion[2]{\textsc{#1\,\lowercase{#2}}}
+%
+%    use T1 font encoding ...
+%
+\usepackage[T1]{fontenc}
+%------------------------------------------------------------------------------%
+% 5) load and setup bibtex for bibliographies ...
+%
+\usepackage{natbib}
+\bibpunct[, ]{(}{)}{;}{a}{}{,}
+\setlength{\bibsep}{0pt}
+\renewcommand{\bibname}{References}
+%------------------------------------------------------------------------------%
+% 6) load graphicx for inclusion of .eps/.pdf figures ...
+%    (note: \graphicspath is set below for each chapter)
+%    and rotating (for sideways figures/tables) ...
+%    and xcolor package ...
+%
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{xcolor}
+%------------------------------------------------------------------------------%
+% 7) load pdfpages for inclusion of other .pdf documents ...
+%
+\usepackage{pdfpages}
+%------------------------------------------------------------------------------%
+% 8) load hyperef for hyperlinks ...
+%
+\usepackage{hyperref}
+%
+%    if pdflatex, set pdf output options ...
+%
+\ifpdf
+  \hypersetup{pdftitle={This is the document title},
+              pdfauthor={Andrew Strange, UoM, Manchester, UK},
+              bookmarks=true,
+              bookmarksopen=false,
+              bookmarksnumbered=true}
+\fi
+%
+%    define links as coloured text, not boxed ...
+%
+%    a) use standard named colours, which are rather bright ...
+%
+%\hypersetup{colorlinks=true,
+%           linkcolor=purple,   % i.e. 0.75, 0.0, 0.25
+%            citecolor=teal,     % i.e. 0.0, 0.5, 0.5
+%            urlcolor=violet}    % i.e. 0.5, 0.0, 0.5
+%
+% or b) uncomment below to use darker colours ...
+%
+\definecolor{mydarkpurple}{rgb}{0.3,0.0,0.2}
+\definecolor{mydarkteal}{rgb}{0.0,0.25,0.25}
+\definecolor{mydarkviolet}{rgb}{0.25,0.0,0.25}
+\hypersetup{colorlinks=true,
+            linkcolor=mydarkpurple,
+            citecolor=mydarkteal,
+            urlcolor=mydarkviolet}
+%
+% or c) uncomment below for a dark grey for all links (e.g. for printing) ...
+%
+%\definecolor{mydarkgrey}{rgb}{0.15,0.15,0.15}
+%\hypersetup{colorlinks=true,
+%            allcolors=mydarkgrey}
+%
+%----------------------------------------------------------------------------%
+% Optional additional packages to load... uncomment if needed...
+%
+%     a) lineno for linenumbers ...
+%
+%\usepackage{lineno}
+%\linenumbers
+%
+%     b) draftwatermark for `watermark' on each page ...
+%
+%\usepackage{draftwatermark}
+%
+%     commands for date/time, and setup watermark in left margin ...
+%
+%\count@\time
+%\divide\count@ 60
+%\count2=-\count@
+%\multiply\count2 60
+%\advance\count2 \time
+%\edef\datetime{\the\year/\two@digits{\the\month}/\two@digits{\the\day}\
+%  \two@digits{\the\count@}:\two@digits{\the\count2}}
+%
+%\SetWatermarkLightness{0.8}
+%\SetWatermarkAngle{90}
+%\SetWatermarkHorCenter{1.5cm}
+%\SetWatermarkVerCenter{15cm}
+%\SetWatermarkFontSize{1.5cm}
+%\SetWatermarkText{\texttt{draft \datetime\ draft}}
+%------------------------------------------------------------------------------%
+% Other settings...
+%------------------------------------------------------------------------------%
+\renewcommand\baselinestretch{1.3}               % linespacing a bit bigger...
+\normalsize
+%
+% choose a) make all pages the same height...
+%
+%\flushbottom
+%
+%     or b) do not make all pages the same height...
+%
+\raggedbottom
+%
+\setcounter{topnumber}{3}                        % settings for number of
+\setcounter{bottomnumber}{2}                     % and fraction of page
+\setcounter{totalnumber}{4}                      % containing Figures and
+\renewcommand{\floatpagefraction}{0.8}           % Tables...
+%
+% Define \note{...} command for marginal notes,
+% and use this to define \todo{...} and \tocheck{...} ...
+%
+\newcommand\note[1]{\mbox{}\marginpar{\normalfont\tiny\raggedright
+\hspace{0pt}#1\par}}
+%
+\definecolor{mydarkgreen}{rgb}{0.0,0.5,0.0}
+\long\def\fixed#1{\note{\color{mydarkgreen}{***}}%
+{\color{mydarkgreen}#1\color{black}}}
+%
+\newcommand\todo[1]{\note{\color{red}\textbf{To do:} #1}}
+\newcommand\tocheck[1]{\note{\color{blue}\textbf{To check:} #1}}
+%
+% in addition, the memoir class provides \added{...}, \deleted{...} and
+% \changed{...} commands to provide marginal notes to indicate
+% revisions, and make these marks visible ...
+%
+\changemarks   % or \nochangemarks to hide margin notes for changes ...
+\draftdoctrue  % so \changemarks work, even if "draft" option not use ...
+%==============================================================================%
+
+%    AJS PACKAGES   %
+\usepackage{verbatim}
+
+
+%    AJS MACROS    %
+\newcommand{\VBFHBB}{VBF $H\rightarrow b\bar{b}$ }
+\newcommand{\REF}[1]{\textbf{\ref{#1}}}
+\newcommand{\pt}{$p_\text{T}$ }
+
+
+%    AJS VALUES    %
+\newcommand{\DELTARTHRESHOLD}{0.3} 
+
+\endinput
