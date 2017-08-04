@@ -28,22 +28,38 @@ THEORETICAL BACKGROUND (ORDER ISSUES):
         Backgrounds
         Channels
 
+
+
 ONLINE/OFFLINE COMPARISON (DIRECT):
+
+    Jet multiplicity?
 
     Kinematics:
             General kinematic vars for all comparable jets, ratios
-        B Jets?
-        J Jets?
-        Event Topologies/ Signatures/ Makeup
-            trigger emulation counts?
+
+            For: pt, eta, m, phi:
+                paired general distribution and also specific ratio (would need to add an eta plot)
+                (4x hist/ratio plots + 4x 2d plots)
+                alternative: for general dist, show data + mc on same chart (normalising issues) with separate 2dratio plots
+
+                i.e. 16 or 12 plots
+
+        B Jets/ Non B Jets:
+            For Each:
+            choice, either plotting of all or just leading, same plots as available for general kinematic vars
+            could use either truth or tagged for MC
+
+                i.e 32 / 24 plots, these could hypothetically be combined with above
+
         Forward Jets:
-            kinematic vars
+            This is where eta splitting would be most relevant
 
     B Tagging:
-            plot: algorithm input vars
-            kinematics of tagged b jets
-        Efficiencies
-            already made effciiency plots
+            algorithm input vars (requires working on AOD, or just showing online ones)
+
+            Efficiency plots, c, tau, light, pt, eta, m,
+
+            Matching value
 
 ONLINE/OFFLINE COMPARISON (HbbVBF):
 

@@ -250,6 +250,10 @@ def four_two_d():
     timestep = 0.01
     count = 1000000*2
 
+    # Each process: [rate coefficient, change in nx, change in ny, power nx in
+    #                rate coefficient, power ny in rate coefficient]
+    # i.e. given process with rate coeff: lambda * nx^2 which increases nx by 1
+    #      [lambda, 1, 0, 2, 0]
     processes = {
         'A' : [omega, 1, 0, 0, 0],
         'B' : [1, -1, 0, 1, 0],

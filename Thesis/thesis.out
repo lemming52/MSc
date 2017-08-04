@@ -3,24 +3,26 @@
 \BOOKMARK [0][-]{section*.2}{Contents}{}% 3
 \BOOKMARK [0][-]{chapter*.3}{Declaration}{}% 4
 \BOOKMARK [0][-]{chapter*.4}{Acknowledgements}{}% 5
-\BOOKMARK [0][-]{chapter.1}{1 Event Selection}{}% 6
-\BOOKMARK [1][-]{section.1.1}{1.1 Events}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.2}{1.2 Offline Jets}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.3}{1.3 Online Jets}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.4}{1.4 Offline b-jets}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.5}{1.5 Online b-jets}{chapter.1}% 11
-\BOOKMARK [0][-]{chapter.2}{2 Object Performance}{}% 12
-\BOOKMARK [1][-]{section.2.1}{2.1 Leading b-jets}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.2}{2.2 Leading Non b-jets}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.3}{2.3 Central Jets}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.4}{2.4 Forward Jets}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.5}{2.5 Extremal? Jets}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.6}{2.6 Jet Tagging Efficiency}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.7}{2.7 MV2 Discriminant Values - ???}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.8}{2.8 MV2 Input Variables - ???}{chapter.2}% 20
-\BOOKMARK [0][-]{chapter.3}{3 Kinematics}{}% 21
-\BOOKMARK [1][-]{section.3.1}{3.1 Specific Jet Feature Distributions}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{3.2 Specific Jet Feature Distributions}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.3}{3.3 BDT Input Variables}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.4}{3.4 Mbb Distribution}{chapter.3}% 25
-\BOOKMARK [0][-]{section*.6}{References}{}% 26
+\BOOKMARK [0][-]{chapter.1}{1 Detector}{}% 6
+\BOOKMARK [1][-]{section.1.1}{1.1 b-Tagging}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{2 Event Selection}{}% 8
+\BOOKMARK [1][-]{section.2.1}{2.1 Events}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{2.2 Offline Jets}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{2.3 Online Jets}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{2.4 Offline b-jets}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.5}{2.5 Online b-jets}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{3 Object Performance}{}% 14
+\BOOKMARK [1][-]{section.3.1}{3.1 Leading b-jets}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{3.2 Leading Non b-jets}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.3}{3.3 Central Jets}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.4}{3.4 Forward Jets}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.5}{3.5 Extremal? Jets}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.6}{3.6 Jet Tagging Efficiency}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.7}{3.7 MV2 Discriminant Values - ???}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.8}{3.8 MV2 Input Variables - ???}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{4 Kinematics}{}% 23
+\BOOKMARK [1][-]{section.4.1}{4.1 Specific Jet Feature Distributions}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{4.2 Specific Jet Feature Distributions}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.3}{4.3 BDT Input Variables}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.4}{4.4 Mbb Distribution}{chapter.4}% 27
+\BOOKMARK [0][-]{section*.6}{Bibliography}{}% 28
