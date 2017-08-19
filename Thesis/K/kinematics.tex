@@ -9,14 +9,100 @@
 
 	\subsection{Two Central Channel}
 	
-		\begin{itemize}
-			\item $b$-jet1
-			\item $b$-jet2
-			\item F-jet
-			\item jet
-		\end{itemize}
+		\subsubsection{\pt}
 		
-		For each of these jets, which we can define, plot standard kinematic variables, \pt, $\eta$, $\phi$, m. Torn as to the options here. could do more 2d jet to jet ratio plots, could do a more general distribution ratio for each one, and then there is s/b to consider. Could argue jet to jet comparisons moot as we already covered that.
+			\begin{figure}[h]
+				\centering
+				
+				\begin{minipage}[h]{0.33\linewidth}
+					\includegraphics[width=1\linewidth]{pt_bJet1}
+				\end{minipage}
+				\quad
+				\begin{minipage}[h]{0.33\linewidth}
+					\includegraphics[width=1\linewidth]{pt_bJet2}
+				\end{minipage}
+
+				\begin{minipage}[h]{0.33\linewidth}
+					\includegraphics[width=1\linewidth]{pt_lJet1}
+				\end{minipage}
+				\quad
+				\begin{minipage}[h]{0.33\linewidth}
+					\includegraphics[width=1\linewidth]{pt_lJet2}
+				\end{minipage}
+				\label{fig:kin:pt2c4j}
+			\end{figure}
+			
+	
+			\subsubsection{$\eta$}
+				
+				\begin{figure}[h]
+					\centering
+					
+					\begin{minipage}[h]{0.33\linewidth}
+						\includegraphics[width=1\linewidth]{eta_bJet1}
+					\end{minipage}
+					\quad
+					\begin{minipage}[h]{0.33\linewidth}
+						\includegraphics[width=1\linewidth]{eta_bJet2}
+					\end{minipage}
+					
+					\begin{minipage}[h]{0.33\linewidth}
+						\includegraphics[width=1\linewidth]{eta_lJet1}
+					\end{minipage}
+					\quad
+					\begin{minipage}[h]{0.33\linewidth}
+						\includegraphics[width=1\linewidth]{eta_lJet2}
+					\end{minipage}
+					\label{fig:kin:eta2c4j}
+				\end{figure}
+				
+		\subsubsection{$\phi$}
+		
+		\begin{figure}[h]
+			\centering
+			
+			\begin{minipage}[h]{0.33\linewidth}
+				\includegraphics[width=1\linewidth]{phi_bJet1}
+			\end{minipage}
+			\quad
+			\begin{minipage}[h]{0.33\linewidth}
+				\includegraphics[width=1\linewidth]{phi_bJet2}
+			\end{minipage}
+			
+			\begin{minipage}[h]{0.33\linewidth}
+				\includegraphics[width=1\linewidth]{phi_lJet1}
+			\end{minipage}
+			\quad
+			\begin{minipage}[h]{0.33\linewidth}
+				\includegraphics[width=1\linewidth]{phi_lJet2}
+			\end{minipage}
+			\label{fig:kin:phi2c4j}
+		\end{figure}
+		
+				\subsubsection{M}
+				
+				\begin{figure}[h]
+					\centering
+					
+					\begin{minipage}[h]{0.33\linewidth}
+						\includegraphics[width=1\linewidth]{m_bJet1}
+					\end{minipage}
+					\quad
+					\begin{minipage}[h]{0.33\linewidth}
+						\includegraphics[width=1\linewidth]{m_bJet2}
+					\end{minipage}
+					
+					\begin{minipage}[h]{0.33\linewidth}
+						\includegraphics[width=1\linewidth]{m_lJet1}
+					\end{minipage}
+					\quad
+					\begin{minipage}[h]{0.33\linewidth}
+						\includegraphics[width=1\linewidth]{m_lJet2}
+					\end{minipage}`
+					\label{fig:kin:m2c4j}
+				\end{figure}
+		
+
 
 \section{BDT Input Variables}
 
@@ -35,21 +121,67 @@
 	\end{itemize}
 	
 		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{placeholder}
+			\centering1
+			\begin{minipage}[h]{0.45\linewidth}
+				\includegraphics[width=1\linewidth]{mjj}
+				\caption{}
+				\label{fig:bdtmjj}
 			\end{minipage}
 			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{placeholder}
+			\begin{minipage}[h]{0.45\linewidth}
+				\includegraphics[width=1\linewidth]{ptjj}
+				\caption{}
+				\label{fig:bdtptjj}
 			\end{minipage}
-			\caption{For Each channel, a standard 2 hist ratio plot fo the values of the BDT variables mentioned above, i.e. offline hist and online hists with a ratio. Each plot would have 4 lines, background(data) on/off, signal(MC) on/off and two ratios: data on/off + Mc on/off}
-				\label{fig:bdtmjj}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\centering
+			\begin{minipage}[h]{0.45\linewidth}
+				\includegraphics[width=1\linewidth]{etastar}
+				\caption{}
+				\label{fig:bdtetastar}
+			\end{minipage}
+			\quad
+			\begin{minipage}[h]{0.45\linewidth}
+				\includegraphics[width=1\linewidth]{maxeta}
+				\caption{}
+				\label{fig:bdtmaxeta}
+			\end{minipage}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\centering
+			\begin{minipage}[h]{0.45\linewidth}
+				\includegraphics[width=1\linewidth]{costheta}
+				\caption{}
+				\label{fig:bdtcpostheta}
+			\end{minipage}
+			\quad
+			\begin{minipage}[h]{0.45\linewidth}
+				\includegraphics[width=1\linewidth]{ptbalance}
+				\caption{}
+				\label{fig:bdtptbalance}
+			\end{minipage}
 		\end{figure}
 
 
 \section{Mbb Distribution}
+
+		\begin{figure}[h]
+			\centering
+			\begin{minipage}[h]{0.45\linewidth}
+				\includegraphics[width=1\linewidth]{mbb}
+				\caption{}
+				\label{fig:bdtmbb}
+			\end{minipage}
+			\quad
+			\begin{minipage}[h]{0.45\linewidth}
+				\includegraphics[width=1\linewidth]{ptbb}
+				\caption{}
+				\label{fig:bdtptbb}
+			\end{minipage}
+		\end{figure}
 
 	Prior paper suggests this is the 'final' plot, a shape comparison between BDT influenced control and signal regions of the Mbb distribution. A little confused as to exactly what we need here.
 

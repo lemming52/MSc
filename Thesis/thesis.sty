@@ -248,20 +248,20 @@
 %
 %    a) use standard named colours, which are rather bright ...
 %
-%\hypersetup{colorlinks=true,
-%           linkcolor=purple,   % i.e. 0.75, 0.0, 0.25
-%            citecolor=teal,     % i.e. 0.0, 0.5, 0.5
-%            urlcolor=violet}    % i.e. 0.5, 0.0, 0.5
+\hypersetup{colorlinks=true,
+           linkcolor=,   % i.e. 0.75, 0.0, 0.25            
+           citecolor=,     % i.e. 0.0, 0.5, 0.5
+            urlcolor=blue}    % i.e. 0.5, 0.0, 0.5
 %
 % or b) uncomment below to use darker colours ...
 %
-\definecolor{mydarkpurple}{rgb}{0.3,0.0,0.2}
-\definecolor{mydarkteal}{rgb}{0.0,0.25,0.25}
-\definecolor{mydarkviolet}{rgb}{0.25,0.0,0.25}
-\hypersetup{colorlinks=true,
-            linkcolor=mydarkpurple,
-            citecolor=mydarkteal,
-            urlcolor=mydarkviolet}
+%\definecolor{mydarkpurple}{rgb}{0.3,0.0,0.2}
+%\definecolor{mydarkteal}{rgb}{0.0,0.25,0.25}
+%\definecolor{mydarkviolet}{rgb}{0.25,0.0,0.25}
+%\hypersetup{colorlinks=true,
+%            linkcolor=mydarkpurple,
+%           citecolor=mydarkteal,
+%           urlcolor=mydarkviolet}
 %
 % or c) uncomment below for a dark grey for all links (e.g. for printing) ...
 %
@@ -319,7 +319,7 @@
 % Define \note{...} command for marginal notes,
 % and use this to define \todo{...} and \tocheck{...} ...
 %
-\newcommand\note[1]{\mbox{}\marginpar{\normalfont\tiny\raggedright
+\newcommand\note[1]{\mbox{}\marginpar{\normalfont\tiny\raggedright	
 \hspace{0pt}#1\par}}
 %
 \definecolor{mydarkgreen}{rgb}{0.0,0.5,0.0}
@@ -343,12 +343,22 @@
 
 %    AJS MACROS    %
 \newcommand{\VBFHBB}{VBF $H\rightarrow b\bar{b}$ }
+\newcommand{\ggF}{$gg\rightarrow H$ }
+
+
 \newcommand{\REF}[1]{\textbf{\ref{#1}}}
 \newcommand{\pt}{$p_\text{T}$ }
-\newcommand{\bjet}{\textit{b}-jet}
-\newcommand{\btag}{\textit{b}-tagging}
-\newcommand{\bquark}{\textit{b}-quark}
-\newcommand{\bhadron}{\textit{b}-hadron}
+\newcommand{\bjet}{\textit{b}-jet }
+\newcommand{\bjets}{\textit{b}-jets }
+\newcommand{\btag}{\textit{b}-tagging }
+\newcommand{\bquark}{\textit{b}-quark }
+\newcommand{\bhadron}{\textit{b}-hadron }
+
+\newcommand{\cjet}{\textit{c}-jet }
+\newcommand{\cjets}{\textit{c}-jets }
+\newcommand{\ctag}{\textit{c}-tagging }
+\newcommand{\cquark}{\textit{c}-quark }
+\newcommand{\chadron}{\textit{c}-hadron }
 
 
 %    AJS VALUES    %
