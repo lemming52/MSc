@@ -1,0 +1,52 @@
+\chapter{Detector}\label{c:Det}
+
+\section{The Large Hadron Collider}
+
+\section{The ATLAS Detector}
+
+\section{Triggers}
+
+\section{Object Reconstruction}
+	
+	\subsection{Jets}
+	
+	\subsection{\bjets}
+
+\section{\textit{b}-Tagging}
+\label{det:btagging}
+
+	Identification of \bquark jets in ATLAS is based on combining the output of three separate \btag algorithms: Impact Parameter based (IP2D and IP3D, described in Section \ref{det:btag:ip}), Secondary Vertex based (SV, described in Section \ref{det:btag:sv}) and Decay Chain based (JetFitter, described in Section \ref{det:btag:jf})into a multivariate discriminant (MV2, covered in Section \ref{det:btag:mv}) which is used to distinguish the jet flavours. These algorithms have undergone continuous improvement over the Run-2 cycle of the LHC to improve the separation of jet flavours. 
+	
+	\subsubsection{IP2D and IP3D: Impact Parameter based Algorithms}
+		\label{det:btag:ip}
+		
+		The typical topology for a \bhadron of a secondary vertex displaced from the hard scatter interaction point as a results of the lifetime of \bquark is used as the basis of these algorithms. Impact parameters of tracks from the secondary vertex are computed with respect to the primary vertex of the interaction. The IP2D algorithm uses a transverse impact parameter ($d_0$) defined as the distance of closest approach of a track to the  primary vertex in $r$-$\phi$ plane around the vertex. The IP3D algorithm uses both the transverse and a correlated longitudinal impact parameter ($z_0\sin\theta$), defined as the distance between the point of closest approach in $r$-$\phi$ and the primary vertex in the longitudinal plane. \todo{I kind of want a diagram here, but that doesn't appear to be the norm}. These parameters typically have large values as a result of the lifetime of \bquark. The signs of the impact parameters are also defined to take account of if they lie infront or behind the primary vertex with respect to the jet direction, with secondary vertices occuring behind the primary vertex normally due to background.
+		
+		The significance of the impact parameter values ($\frac{d_0}{\sigma_{d_0}}$, $\frac{z_0}{\sigma_{z_0\sin\theta}}$) for each track are compared to probability density functions obtained from reference histograms derived from Monte Carlo simulation, with each track being compared to a selection of reference track categories. This results in weights which are combined using a log-likelihood ratio (LLR) discriminant to compute an overall jet weight separating the $b$, $c$, and light-jet flavours from each other. \cite{btagOptimisation, bTagPerformance}
+		
+	\subsubsection{SV1: Secondary Vertex Finding algorithm}
+	\label{det:btag:sv}
+	
+		The secondary vertex algorithm uses the decay products of the \bhadron to reconstruct a distinct secondary vertex. The algorithm uses all tracks that are significantly displaced from the primary vertex associated with the jet, forming vertex candidates for all pairs of track, while rejecting any vertices that would be associated with decay of long lived particles (e.g. $K_s$, $\Lambda$), photon conversions or interactions with the material in the detector. The tracks forming these vertex candidates are then iteratively combined and refined to remove outliers beyond a $\chi^2$ threshold leaving a single inclusive vertex.
+		
+		The properties of this secondary vertex are used to differentiate the flavour of the jet. The SV1 algorithm is based on a LLR formalism similar to the IP algorithms, and makes use ot the invariant mass of all charged tracks used to reconstruct the vertex, the number of two track vertices and the ratio of the invariant mass of the charged tracks to the invariant mass off all tracks. In addition the algorithm is signed in a similar fashion to the IP algorithms and uses the $\Delta R$ between the jet direction and secondary vertex displacement direction in the LLR calculation. The algorithm uses distributions of these variables to distinguish be      tween the jet flavours. \cite{btagOptimisation, bTagPerformance} \note{Might be worth mentioning the way these are trained}
+		
+	\subsubsection{JetFitter: Decay Chain Multi based Algorithm}
+	\label{det:btag:jf}
+	
+		The JetFitter algorithm exploits the topological structure of weak \bhadron and \chadron decays inside the jet to reconstruct a full \bhadron decay chain. A Kalman filter \todo{Either understand or just cite} is used to find a common line between the on which lie the $b$, $c$ and primary vertices to approximate the \bhadron flight path. A selection of variables relating to the primary vertex and the properties of the tracks associated with the jet are used as input nodes in a neural network. This neural network uses the input variables and \pt and $|\eta|$ variables from the jets, reweighted in the kinematic variables to ensure the spectra of the kinematics are not used in the training of the neural net. The neural network outputs a discriminating variable relating to each jet flavour which are used to tag the jets. \cite{btagIdentification}
+		
+	\subsection{Multivariate Algorithm}
+	\label{det:btag:mv}
+	
+	The output variables of the three basic algorithms described prior are combined as input into the Multivariate Algorithm MV2. MV2 is a Boosted Decision Tree (BDT) algorithm which has been trained on $t\bar{t}$\note{Why?} events to discriminate \bjets from light and \cjets. The algorithm makes use of the jet kinematics in addition to the tagger input variables to prevent the kinematic spectra of the training sample from being used as discriminating factor. \note{list all input variables?} The MV2 algorithm is an revised version of the MV1 algorithm used during Run-1 of the LHC, and has three sub-variants (MV2c00, MV2c10, and MV2c20) of the algorithm distinguished by the exact background composition of the training sample. The naming convention initially referred to the \cjet composition of the training sample, e.g. for MV2c20 the \bjets are designated as signal jets where a mixture of 80\% light jets and 2-\% \cjets was designated as background. 
+	
+	The MV2 algorithm has a set of working points, defined by a single value of the output distribution of the algorithm, which are configured to provide a specific \bjet selection efficiency on the training $t\bar{t}$ sample. Rather than being used independently, physics analyses will make use of several working points as an increase in \bjet efficiency (corresponding to \textit{looser} \bjet selection) will bring an increased mistag rate of light and \cjets.
+	
+	These algorithms were refined prior to the 2016 Run-2 data-taking session in response to \cjets limiting physics analyses more the light-jets. This change  to enhance the \cjet rejection meant that for the MV2c10, the \cjet fraction was set to 7\% in training and the fraction for MV2c20 was 15\%. There were a selection of other improvements to the algorithm made to the algorithm relating to the BDT training parameters and the use of the basic algorithms before the 2016 data taking. With these refinements, the MV2c10 algorithm was found to provide a comparable level of light-jet rejection to the original 2015 Mv2c20 algorithm with impoved \cjet rejection, so was chosen as the standard \btagging algorithm for 2016 analyses. \cite{btagOptimisation}
+	
+	
+	
+	
+	
+\endinput
