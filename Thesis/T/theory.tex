@@ -2,6 +2,116 @@
 
 \section{Standard Model}
 
+
+The Standard Model (SM) of particle physics is a collection of several theories that provides the most accurate theoretical framework for describing all known components of matter and their interactions to date. The model describes three fundamental forces that control interactions between the constituents, each force mediated by an integer spin particle called a \textit{gauge boson}, and the spin-$\frac{1}{2}$ \textit{quarks} and \textit{leptons} that compose all matter. The framework is comprised of quantum field theories where each particle is an excitation of a corresponding field, and the interactions of the fields govern the particle interactions. The mathematical structure is  based on the symmetry group $SU(3)_c\times SU(2)_L\times U(1)_\gamma$ and is required to be gauge-invariant. The SM does not include gravity as gravitational interactions are significantly weaker than the other fundamental forces, so are neglected in this thesis. \note{wording here? of neglected?}
+
+	\subsection{Fermions}
+	
+		The full set of spin-$\frac{1}{2}$ \textit{fermions}, described in Tables \ref{t:tab:quark} and \ref{t:tab:lepton}, is the combination of the quark and lepton families, which each have three generations of particle. Most observable matter is made up of solely the first generation of the  up and down quarks, the electron and the electron neutrino. For each distinct particle there is also an anti-particle which is identical aside from opposite charge and handedness. Both the leptons and the quarks obey Fermi-Dirac statistics, with quarks experiencing all three fundamental forces, charged leptons interacting via the electromagnetic and weak interactions and neutral leptons experiencing only the weak interaction. 
+		
+		\begin{table}[ht]
+			\caption{Spin-$\frac{1}{2}$ fermions: quarks $q$ \cite{pdg}}
+			\label{t:tab:quark}
+			\medskip
+			\centering
+			\begin{tabular}{clcl}\toprule
+				Generation & Flavour & Charge / $e$ & Mass / GeV \\\midrule
+				1    &     Up $u$      &    +2/3   & 0.002\\
+	    &     Down $d$    &    -1/3   & 0.005\\
+		    	2    &     Charm $c$      &    +2/3   & 1.28\\
+		    	&     Strange $s$    &    -1/3   & 0.096\\
+				3    &     Top $t$  &   +2/3   & 173.1\\
+	    &     Bottom $b$   &   -1/3   & 4.18\\\bottomrule
+			\end{tabular}\\[5pt]
+		\end{table}
+		\begin{table}[ht]
+			\caption{Spin-$\frac{1}{2}$ fermions: leptons $l$ \cite{pdg}}
+			\label{t:tab:lepton}
+			\medskip
+			\centering
+			\begin{tabular}{clcl}\toprule
+				Generation & Flavour & Charge / $e$ & Mass / MeV\\\midrule
+				1    &     Electron $e$      &    -1   & 0.511\\
+				&     Electron Neutrino $\nu_e$    &   0  & $\sim$0\\
+				2    &     Muon $\mu$      &    -1   & 105.658\\
+				&     Muon Neutrino $\nu_\mu$    &    0   & $\sim$0\\
+				3    &     Tau $\tau$  &   -1   & 1776.86\\
+				&     Tau Neutrino $\nu_\tau$   &   0   & $\sim$0\\\bottomrule
+			\end{tabular}\\[5pt]
+		\end{table}
+		\todo{Kinda want these side by side, also debating neutron mass}
+		
+		Quarks are always confined into colour singlet hadrons bound by the strong interaction, which are either \textit{baryons} ($qqq$) or \textit{mesons} ($q\bar{q}$), like the \textit{proton} ($uud$) and \textit{neutron} ($ddu$). 
+		
+	\subsection{Forces}
+		
+		All forces arise due the exchange of unobservable virtual particles, the gauge bosons. The three fundamental particle interactive forces for the SM are named the strong, weak and electromagnetic interactions, and are mediated by gluons, weak bosons and photons respectively. The gauge bosons are described in more detail in Table \ref{t:tab:boson}. In addition to the forces, particles acquire mass by coupling to the Higgs field via the spin-0 Higgs boson, which is covered in more detail in Section \ref{t:symbreak}. 
+		
+		\begin{table}[ht]
+			\caption{Spin-1 gauge bosons. The strength of the interaction is typical stated in terms of $\alpha$, a dimensionless constant proportional to the matrix element for the virtual particle exchange for each interaction. The weak interaction is intrinsically stronger than the EM interaction, but the mass of the weak bosons limits the range to extremely short distances before the EM interaction is stronger.  The strength of gravity is $\sim 10^{-39}$ hence it is neglected. \cite{pdg}}
+			\label{t:tab:boson}
+			\medskip
+			\centering
+			\begin{tabular}{clclc}\toprule
+				Interaction & Particle & Charge / $e$ & Mass / GeV & Strength ($\alpha$) \\\midrule
+				Strong    &     Gluon $g$      &    0   & 0& $\sim1$\\
+				Weak (Charged Current)&     $W^+$    &    1   & 80.4 & \\
+				&     $W^-$    &    -1   & 80.4 & $10^{-6}$ \\
+				Weak (Neutral Current)&     $Z$   &    0   & 91.2 & \\
+				Electromagnetic (EM)   &     Photon $\gamma$  &   0   & 0 & $\frac{1}{137}$\\\bottomrule
+			\end{tabular}\\[5pt]
+		\end{table}
+		
+		\subsubsection{Quantum Chromodynamics}
+		
+		Quantum Chromodynamics (QCD) is the theory of the strong interaction, mediated by the gluon which couples to colour charge. It corresponds to the $SU(3)_c$ symmetry group of the overall SM. The strong interaction conserves energy, momentum, angular momentum and colour charge. Only quarks and gluons themselves possess colour charge, so while quarks are the only fermion to feel the strong interaction, gluons can self-couple. This self-coupling of gluons is the reason quarks are always observed in bound states.
+		
+		\subsubsection{Electroweak Unification} 
+		
+		Electroweak Unification (EW) is the expression of the electromagnetic interaction described by Quantum Electrodynamics (QED) and the weak interaction as separate manifestations of a combined electroweak force in the Glashow-Weinberg-Salam model, which corresponds to the $SU(2)_L\times U(1)_\gamma$ symmetry group. QED describes the macroscopically observable $U(1)$ electromagnetic force  with the photon as the mediating boson, and any interactions conserves energy, momentum, parity and charge and additionally never changes particle type through the interaction. The $SU(2)$ weak interaction is mediated by the charged current vector bosons $W^+$, $W^-$ and the neutral current vector boson $Z$, which have large masses that limit the weak interaction to very short distances. The charged current interaction is capable of changing the flavour of a particle and also of violating parity in an interaction. 
+		
+		The weak interaction by itself was observed to diverge from observation at high energies, leading to the introduction of the unified theory. The combined  $SU(2)_L\times U(1)_\gamma$ group produces four gauge bosons which mix to produce the more recognisable $\gamma$, $W^+$, $W^-$  and $Z$ bosons. The unified force couples to weak isospin, which allows self-coupling between the massive vector bosons, but not the photon as it does not carry electric charge.
+		
+		While the weak interaction acts on both quarks and leptons, the quark sector is affected by the distinction between the mass eigenstates of quarks; the physically observed flavour sets, and the quark eigenstates of the weak interactions which are superpositions of the mass eigenstates. The effect of this quark mixing in the weak interaction is that different flavour changing interactions have different strengths. The mixing of the mass eigenstates ($q$) into weak eigenstates ($q^\prime$) is described by the Cabbibo-Kobayashi-Makasawa (CKM) matrix:
+		
+		\begin{equation}
+		\begin{pmatrix}
+		d^\prime \\
+		s^\prime\\
+		b^\prime \\
+		\end{pmatrix}
+		 = \begin{pmatrix}
+		V_{ud} & V_{us} & V_{ub} \\
+		V_{cd} & V_{cs} & V_{cb} \\
+		V_{td} & V_{ts} & V_{tb} \\
+		\end{pmatrix}
+	    \begin{pmatrix}
+	    d \\
+	    s\\
+	    b \\
+	    \end{pmatrix}
+		\end{equation}
+		
+		
+		
+	\subsection{Spontaneous Symmetry Breaking: The Higgs Boson}
+	\label{t:symbreak}
+	
+	The gauge field theories used for the QCD and EW models when unaltered require massless gauge bosons in order to preserve gauge invariance, which follows from the Klein-Gordon equation:
+	
+	\begin{equation}
+		\frac{\partial^2\psi}{\partial t^2} = (\nabla^2 - m^2)\psi
+	\end{equation}
+	
+	 This is satisfactory for the gluon and photon, but a separate theory is required to provide the mass for the $W^\pm$ and $Z$ bosons. The Higgs Mechanism \todo{cite} proposed introducing a scalar field that interacts with the $W^\pm$ and $Z$ fields. In the Lagrangian formulation this results in a term akin to a mass term ($\propto\psi^2$) which effectively links that mass of the bosons to their coupling with this scalar field. This addition to the Lagrangian is still required to preserve the symmetry of the system and respect the gauge invariance, but is also required to have a non-zero expectation value for the field in the vacuum or ground state of space. The Higgs mechanism introduces the scalar field $\phi$ which has a potential energy $V(\phi)$: 
+	 
+	 \begin{equation}
+		 V(\phi) = a\phi^2 - b\phi^2
+	 \end{equation} 
+		
+	This results in an equilibrium point ($\phi=0$)that respects the symmetry, but is inherently unstable, with an infinite set of degenerate non-zero minima at $|\phi^2|=\frac{b}{2a}$ where the symmetry is \textit{spontaneously} broken. This field in an analogous fashion to the other quantum fields of the SM can produce particles from excitations which form the physical Higgs Scalar Boson, $H$ a spin-0 boson with a mass of $125.09$ GeV \cite{pdg}.
+	-
+
 \section{Physics of \textit{pp} Collisions}
 
 \section{Theoretical Predictions}
@@ -21,7 +131,7 @@
 				\label{fig:higgsproductionCS}
 			\end{figure}
 		
-		\subsubsection{Gluon-gluon fusion}
+		\subsubsection{Gluon-gluon fusion}5555
 		
 		The dominant production mechanism for the Higgs boson in hadron colliders is the \ggF production via in intermediate quark loop. The dynamics of this mechanism are controlled by strong interactions, thus calculations of QCD corrections are necessary for any accurate predictions, and have been computed up from next-to-leading order (NLO) to N$^3$LO for the ggF process in recent years, along with the inclusion of Electro-Weak corrections in the cross section calculations \cite{LHCHiggsCS}. 
 		
@@ -54,7 +164,7 @@
 			\label{fig:higgsbrlm}
 		\end{figure}
 		
-		While observations consistent with the Standard Model Higgs boson have been made for the $H\rightarrow \gamma\gamma$, $H\rightarrow ZZ$, $H\rightarrow W^+W^-$ and $H\rightarrow \tau^+\tau^-$ channels, observation of th $H\rightarrow bb$ decay channel is significantly hindered owing to the large background from multijet production (Section \ref{T:multijer} maybe?) in hadron collisions. Despite this, the topology of the VBF production mechanism makes it a viable option for observation of the  $b\bar{b}$decay  channel.
+		While observations consistent with the Standard Model Higgs boson have been made for the $H\rightarrow \gamma\gamma$, $H\rightarrow ZZ$, $H\rightarrow W^+W^-$ and $H\rightarrow \tau^+\tau^-$ channels, observation of th $H\rightarrow bb$ decay channel is significantly hindered owing to the large background from multijet production (Section \ref{T:multijer} maybe?) in hadron collisions. Despite this, the topology of the VBF production mechanism makes it a viable option for observation of the  $b\bar{b}$ decay channel.
 
 	
 	\subsection{Vector Boson Fusion}

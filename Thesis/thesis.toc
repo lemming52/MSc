@@ -5,71 +5,76 @@
 \contentsline {chapter}{Acknowledgements}{vi}{chapter*.4}
 \contentsline {chapter}{\chapternumberline {1}Theory}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}Standard Model}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Physics of \textit {pp} Collisions}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Theoretical Predictions}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}The Higgs Boson}{2}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Higgs Production}{2}{subsection.1.4.1}
-\contentsline {subsubsection}{\numberline {1.4.1.1}Gluon-gluon fusion}{3}{subsubsection.1.4.1.1}
-\contentsline {subsubsection}{\numberline {1.4.1.2}Vector Boson Fusion}{3}{subsubsection.1.4.1.2}
-\contentsline {subsection}{\numberline {1.4.2}Higgs Decay}{4}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Vector Boson Fusion}{5}{subsection.1.4.3}
-\contentsline {chapter}{\chapternumberline {2}Detector}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}The ATLAS Detector}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Triggers}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Object Reconstruction}{6}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Jets}{6}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}\textit {b}-jets }{6}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}\textit {b}-Tagging}{6}{section.2.5}
-\contentsline {subsubsection}{\numberline {2.5.0.1}IP2D and IP3D: Impact Parameter based Algorithms}{7}{subsubsection.2.5.0.1}
-\contentsline {subsubsection}{\numberline {2.5.0.2}SV1: Secondary Vertex Finding algorithm}{7}{subsubsection.2.5.0.2}
-\contentsline {subsubsection}{\numberline {2.5.0.3}JetFitter: Decay Chain Multi based Algorithm}{8}{subsubsection.2.5.0.3}
-\contentsline {subsection}{\numberline {2.5.1}Multivariate Algorithm}{8}{subsection.2.5.1}
-\contentsline {chapter}{\chapternumberline {3}Event Selection}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Events}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Offline Jets}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Online Jets}{9}{section.3.3}
-\contentsline {section}{\numberline {3.4}Offline \textit {b}-jets}{10}{section.3.4}
-\contentsline {section}{\numberline {3.5}Online \textit {b}-jets}{10}{section.3.5}
-\contentsline {chapter}{\chapternumberline {4}Object Performance}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Leading \textit {b}-jets}{11}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Monte-Carlo}{12}{subsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Plots of \textit {b}-jet features}{12}{subsubsection.4.1.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Conclusions from MC jet features}{13}{subsubsection.4.1.1.2}
-\contentsline {subsection}{\numberline {4.1.2}Data}{14}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Leading Non \textit {b}-jets}{15}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Monte-Carlo}{16}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Data}{17}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Central Jets}{18}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Monte-Carlo}{18}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Data}{19}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Monte-Carlo}{19}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Data}{20}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Core}{21}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Monte-Carlo}{21}{subsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.1.1}Data}{22}{subsubsection.4.4.1.1}
-\contentsline {subsection}{\numberline {4.4.2}Non Bjets}{22}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Monte-Carlo}{22}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Forward Jets}{24}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Monte-Carlo}{24}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Non bjets}{25}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Monte-Carlo}{25}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Jet Tagging Efficiency}{26}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}\textit {b}-jet efficiency}{27}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}\textit {c}-jet efficiency}{27}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Light-jet efficiency}{28}{subsection.4.6.3}
-\contentsline {subsection}{\numberline {4.6.4}Tag Matching}{28}{subsection.4.6.4}
-\contentsline {subsection}{\numberline {4.6.5}Comparison of HLT and offline tagging efficiencies}{28}{subsection.4.6.5}
-\contentsline {section}{\numberline {4.7}MV2 Discriminant Values - ???}{28}{section.4.7}
-\contentsline {section}{\numberline {4.8}MV2 Input Variables - ???}{28}{section.4.8}
-\contentsline {chapter}{\chapternumberline {5}Kinematics}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Specific Jet Feature Distributions}{29}{section.5.1}
-\contentsline {section}{\numberline {5.2}Specific Jet Feature Distributions}{29}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Two Central Channel}{29}{subsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.1.1}$p_\text {T}$ }{29}{subsubsection.5.2.1.1}
-\contentsline {subsubsection}{\numberline {5.2.1.2}$\eta $}{29}{subsubsection.5.2.1.2}
-\contentsline {subsubsection}{\numberline {5.2.1.3}$\phi $}{29}{subsubsection.5.2.1.3}
-\contentsline {subsubsection}{\numberline {5.2.1.4}M}{29}{subsubsection.5.2.1.4}
-\contentsline {section}{\numberline {5.3}BDT Input Variables}{29}{section.5.3}
-\contentsline {section}{\numberline {5.4}Mbb Distribution}{30}{section.5.4}
-\contentsline {chapter}{Bibliography}{35}{section*.6}
+\contentsline {subsection}{\numberline {1.1.1}Fermions}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Forces}{3}{subsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.2.1}Quantum Chromodynamics}{3}{subsubsection.1.1.2.1}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Electroweak Unification}{4}{subsubsection.1.1.2.2}
+\contentsline {subsection}{\numberline {1.1.3}Spontaneous Symmetry Breaking: The Higgs Boson}{5}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Physics of \textit {pp} Collisions}{6}{section.1.2}
+\contentsline {section}{\numberline {1.3}Theoretical Predictions}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}The Higgs Boson}{6}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Higgs Production}{6}{subsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.1.1}Gluon-gluon fusion}{6}{subsubsection.1.4.1.1}
+\contentsline {subsubsection}{\numberline {1.4.1.2}Vector Boson Fusion}{7}{subsubsection.1.4.1.2}
+\contentsline {subsection}{\numberline {1.4.2}Higgs Decay}{8}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Vector Boson Fusion}{8}{subsection.1.4.3}
+\contentsline {chapter}{\chapternumberline {2}Detector}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}The ATLAS Detector}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Triggers}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Object Reconstruction}{9}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Jets}{9}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}\textit {b}-jets }{9}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}\textit {b}-Tagging}{9}{section.2.5}
+\contentsline {subsubsection}{\numberline {2.5.0.1}IP2D and IP3D: Impact Parameter based Algorithms}{10}{subsubsection.2.5.0.1}
+\contentsline {subsubsection}{\numberline {2.5.0.2}SV1: Secondary Vertex Finding algorithm}{10}{subsubsection.2.5.0.2}
+\contentsline {subsubsection}{\numberline {2.5.0.3}JetFitter: Decay Chain Multi based Algorithm}{11}{subsubsection.2.5.0.3}
+\contentsline {subsection}{\numberline {2.5.1}Multivariate Algorithm}{11}{subsection.2.5.1}
+\contentsline {chapter}{\chapternumberline {3}Event Selection}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Events}{12}{section.3.1}
+\contentsline {section}{\numberline {3.2}Offline Jets}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}Online Jets}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Offline \textit {b}-jets}{13}{section.3.4}
+\contentsline {section}{\numberline {3.5}Online \textit {b}-jets}{13}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Object Performance}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Leading \textit {b}-jets}{14}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Monte-Carlo}{15}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Plots of \textit {b}-jet features}{15}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}Conclusions from MC jet features}{16}{subsubsection.4.1.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Data}{17}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Leading Non \textit {b}-jets}{18}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Monte-Carlo}{19}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Data}{20}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Central Jets}{21}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Monte-Carlo}{21}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Data}{22}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Monte-Carlo}{22}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Data}{23}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Core}{24}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Monte-Carlo}{24}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}Data}{25}{subsubsection.4.4.1.1}
+\contentsline {subsection}{\numberline {4.4.2}Non Bjets}{25}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Monte-Carlo}{25}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Forward Jets}{27}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Monte-Carlo}{27}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Non bjets}{28}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Monte-Carlo}{28}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Jet Tagging Efficiency}{29}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}\textit {b}-jet efficiency}{30}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}\textit {c}-jet efficiency}{30}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Light-jet efficiency}{31}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Tag Matching}{31}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Comparison of HLT and offline tagging efficiencies}{31}{subsection.4.6.5}
+\contentsline {section}{\numberline {4.7}MV2 Discriminant Values - ???}{31}{section.4.7}
+\contentsline {section}{\numberline {4.8}MV2 Input Variables - ???}{31}{section.4.8}
+\contentsline {chapter}{\chapternumberline {5}Kinematics}{32}{chapter.5}
+\contentsline {section}{\numberline {5.1}Specific Jet Feature Distributions}{32}{section.5.1}
+\contentsline {section}{\numberline {5.2}Specific Jet Feature Distributions}{32}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Two Central Channel}{32}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}$p_\text {T}$ }{32}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}$\eta $}{32}{subsubsection.5.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.3}$\phi $}{32}{subsubsection.5.2.1.3}
+\contentsline {subsubsection}{\numberline {5.2.1.4}M}{32}{subsubsection.5.2.1.4}
+\contentsline {section}{\numberline {5.3}BDT Input Variables}{32}{section.5.3}
+\contentsline {section}{\numberline {5.4}Mbb Distribution}{33}{section.5.4}
+\contentsline {chapter}{Bibliography}{38}{section*.6}
