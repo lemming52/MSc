@@ -2,9 +2,89 @@
 
 \section{The Large Hadron Collider}
 
-\section{The ATLAS Detector}
+	The Large Hadron Collider (LHC) is a circular particle accelerator operated at European Organisation for Nuclear Research (CERN, Conseil Europ\'{e}en pour la Recherche nucle\'{e}aire). Currently the largest accelerator in the world, the LHC is designed to collide heavy ions or opposing proton beams for a peak design centre-of-mass energy $\sqrt{s}=14$TeV with a luminosity of $10^{34}$cm$^{-2}$s$^{-1}$ \cite{lhc}. The forst proton beams were circulated in the LHC in 2008, with Run 1 of LHC data taking being conducted until 2013, at which point the machine was shut down for maintenance. Following on from the initial operations, Run-2 of the LHC has been undergoing since 2015, operating at $\sqrt{s}=13$TeV. \todo{need to explain the concept of luminosity somewhere?}
+	
+	The principle LHC ring consists of eight pairs of alternating long arc sections and short straight insertion sections, situated within the underground tunnel excavated for the older Large Electron Positron Collider experiment \cite{lep1, lep2}. The arc sections contain the dipole magnets used to bend the particle beam around the ring, while the straight sections contain four interaction points, at each of which the large experiments are located. The remaining straight sections contain the operational systems of the LHC: beam acceleration, injection,  dumping and collimation. The proton beams are genereated outside the principle ring and inserted into the ring by the LHC injector chain, a syequence of smaller accelerators which are used to bring the proton beams up to a suitable energy for injection. The proton beams are arranged such that the protons move in bunches of $\mathcal{O}(10^{11})$ protons, with multiple byunches placed into trains. Once a beam is accelerated to the target energy interactions begin, at which point a steady stream of interactions is produced until the beam is replaced due to general decay of the interaction fate or beam instabilities.
+	
+	The large experiments at the LHC are ATLAS (A Toroidal LHC ApparatuS), CMS (Compact Muon Solenoid), LHCb (LHC beauty) and ALICE (A Large Ion Collider Experiment). LHCb is a forward spectrometer heavy flavour experiment, designed to study flavour physics with emphasis on the $b$ quark and on matter/anti-matter asymmetry. ALICE focuses on the collisions of heavy ions, while ATLAS and CMS are general purpose detectors to conduct experiments across a broad range of modern physics research areas.
+	
+	\subsection{Run Conditions in 2016}
+	
+	Over the course of 2016 the LHC beam was operated predominantly with two beams of energy 6.5TeV for $\sqrt{s}=13$TeV following beam commissioning runs. Over the course of the 2016 data-taking the ATLAS and CMS experiments achieved an integrated luminosity of $40$ fb$^{-1}$ with a peak instantaneous luminosity of $1.4\times10^{34}$cm$^{-2}$s$^{-1}$ with 2220 bunches per beam \cite{Run2016}. \todo{Definitely think something to do with lumi might be needed somewhere, and on byunchspacings}
+	
+
+\section{The ATLAS Detector} \todo{Detail level?}
+
+	The ATLAS detector \cite{ATLAS} is a multi-detector designed to manage with the experimental conditions of the LHC and study a broad selection of physics phenomena. The detector is cylindrical in structure with the axis alignewd to the beam path and nominally forward-backward symmetric in terms of the beam collision point at the centre of the detector. The detector provides approximately $4\pi$ solid angle coverage around the interaction point to detect as many collision products as possible. 
+
+	The structure of the ATLAS detector is composed of concentric subsystems around the interaction point.  The Inner Detector is the component closest to the interaction point, and is contained in a superconducting solenoid. This is surrounded by high-granularity calorimeters and an extensive muon spectrometer contained within and eight-fold azimuthally symmetric arrangement of three large toroidal magnets. A schematic representation of the ATLAS detector is shown in Figure \ref{fig:t:ATLAS}. 	The subsystems are arranged into three cryostats, two \textit{endcaps} located on the ends of the detector and the central \textit{barrel} section. Discussion of the coordinates and quantities used in the detector is found in Section \ref{t:geometry}. A summary of the operational paramaters of the principle detector components is given in Table \ref{tab:t:operational}.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.7\linewidth]{D/FIGS/ATLAS_SE_Corrected7}
+		\caption{Schematic cut-away of the ATLAS detector \cite{ATLASSchem}.}
+		\label{fig:t:ATLAS}
+	\end{figure}
+	
+
+	
+	\subsection{Inner Detector} 
+	
+		The Inner Detector (ID) provides pattern recognition, momentum measurements, electron identification and measurements of both primary and secondary vertices to efficiently identify jets containing \bhadron within a pseudorapidity range $|\eta|<2.5$. The ID itself is contained within a 2 T solenoidal field, and makes use of a combination of slilicon pixel and strip detectors at the core of the tracking volume wrapped with straw-tube tracking detectors in the Transition Radiation Tracker to perform particle identification and tracking.
+		
+	\subsection{Calorimeters}
+	
+		Calorimeters are used to measure the energy of any particle incident into the calorimeter. Incident particles cause the development of either Electromagnetic (EM) or hadronic showers within the calorimeter substrate, and the energy deposited in this shower can be used to calculate the incident energy. The ATLAS calorimetry system consists of a combination of EM and hadronic calorimeters arranged with full $\phi$-symmetry around the beam axis. The combination of all separate calorimeters provides pseudorapidity coverage in the range $|\eta| < 4.9$. Within the pseudorapidity region of the inner detector, the fine granularity of EM calorimeters is optimised for measurements of electron and photon tracks and momenta, while the coarser hadronic calorimeters contained in the remainder of the calorimeter system are sufficient for jet reconstruction and missing energy calculations. The structure and design of the calorimeter components has been optimised to provide complete azimuthal coverage, take into account the engineering requirements for assembling the detector for desired calorimitry performance and account for radiation considerations between the different detector components \cite{ATLAS}.
+		
+		The EM calorimeter is a lead-Liquid-Argon (LAr) detector, which is split into a barrel section (EMB, $|\eta|<1.475$) and two endcap sections (EMEC, $1.375<|\eta|<3.2$) with each section contained in a separate cryostat. The EMB consists of two identical half-barrels split by a small gap at $z=0$. Each of the EMEC sections is a pair of coaxial wheels, with the inner and outer sections covering regions $1.375<|\eta|<2.5$ and $2.5<|\eta|<3.2$ respectively.
+		
+		Hadronic calorimetry for particles undergoing the strong interaction is provided by the steel/scintillator tile calorimeter for pseudorapidity values of $|\eta|<1.7$, and by the LAr flat-plate Hadronic Endcap Calorimeter (HEC) for $1.5<|\eta|<3.2$. The tile calorimter directly surrounds teh EM calorimeter, and is split into a central barrel section for $|\eta| < 1.0$ and two extended barrel sections covering $0.8<|\eta|<1.7$. The HEC akin to the EMEC consists of two separate wheels per end-cap covering $1.5<|\eta|<3.2$, and is contained within the same cryostat as the EMEC. The detector consists of alternating copper plates with LAr gaps to act as the active medium. 
+		
+		In addition to the barrel and end-cap calorimeters, the LAr Forward Calorimeter is contained within the end-cap cryostat (The FCal is omitted from Figure \ref{fig:t:ATLAS}) and is designed to perform both EM and hadronic calorimetry across a pseudorapidity range of $3.1<|\eta|<4.9$ using a combination of copper/LAr (EM) and tungsten/LAr (hadronic) calorimeter components. 
+		
+	\subsection{Muon Spectrometer}
+	
+		The muon spectrometer is the outermost component of the ATLAS detector, measuring trajectory and momentum of muons from the interactions within a pseudorapidity range of $|\eta| < 2.7$. The muon system consists of three large superconducting coils that deflect the muon trajectories. The system is designed for high precision tracking of the minimally ionising muons and for use in the triggering system.
+	
+	
+	  	\begin{table}[ht]
+	  		\caption{Performance goals and operational ranges for principle components of the ATLAS detector. \cite{ATLAS}}
+	  		\label{t:tab:operational}
+	  		\medskip
+	  		\centering
+	  		\begin{tabular}{llll}\toprule
+	  			System & Component & $\eta$ Coverage & Resolution \\\midrule
+	  			Tracking &  & $0<|\eta|<2.5$ & $\sigma_{p_\text{T}}/\pt = 0.05\% \pt\oplus1\%$\\
+	  			EM Calorimetry & EMB & $0<|\eta|<1.475$ & $\sigma_{E}/E = 10\%/\sqrt{E} \oplus0.7\%$ \\
+	  			& EMEC (Inner) & $1.375<|\eta|<2.5$ &  \\
+	  			& EMEC (Outer) & $2.5<|\eta|<3.2$ &  \\
+	  			Hadronic Calorimetry & Tile (Barrel) & $0<|\eta|<1$ & $\sigma_{E}/E = 50\%/\sqrt{E} \oplus3\%$ \\
+	  			& Tile (Extended) & $0.8<|\eta|<1.7$ &  \\
+	  			 & HEC & $1.5<|\eta|<3.2$ &  \\
+	  			Forward Calorimetry & FCal & $3.1<|\eta|<4.9$ & $\sigma_{E}/E = 100\%/\sqrt{E} \oplus10\%$ \\
+	  			Muon Spectrometer &  &  $0<|\eta|<2.7$  & $\sigma_{p_\text{T}}/\pt = 10\% at\pt=1$ TeV  \\\bottomrule
+	  		\end{tabular}\\[5pt]
+	  	\end{table}
 
 \section{Triggers}
+
+	When operating at the design luminosity, the LHC produces a bunch-crossing rate of 40 MHz \cite{trigrun22017}. This extreme rate of interaction necessitates a trigger system to reduce the output rate to a suitable level for offline processing, which is predominantly limited by the rate at which data can be written to disk. The limit of the output rate is determined by the computational capabilities, specifically the average data rate of output. The trigger system selects events by quickly identifying distinguishing features of events (i.e. signatures of muons, electrons, jet and \bjet objects) and using combinations of these signatures to signify an event as relevant for further analysis. Overall usage of the trigger system brings the output rate down to 1 kHz with a maximum L1 rate of 100 kHz. 
+	
+	The ATLAS trigger system consists of a chain of selection stages of increasing severity and corresponding decrease in rate. A schematic outline of the trigger system is shown in Figure \ref{fig:d:trigger}. This outline covers both the logical process and the transfer of data between components of the trigger chain. The principle decision logic of the trigger system is however contained in two sections, the L1 trigger sytem and the High Level Trigger (HLT).
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{D/FIGS/trigschem}
+		\caption{Schematic plot of the ATLAS Trigger and Data acquisition system \cite{trig2015}.}
+		\label{fig:trigschem}
+		\end{figure}\todo{THis is not a suitable plot}
+		
+	The L1 trigger system \cite{L1} is a hardware based decision system, using fast custom electronics to minimise latency in any decision. The L! uses reduced-granularity data from the calorimetric and muon detectors, reconstructed objects and missing and total transverse energy. The high bunch-crossing rate means instantaneous\note{word choice} processing of the event is non-viable, so event readouts are stored in a buffer chain of events to be evaluated with a fixed permitted decision time per event. Along with this first selection, the L1 trigger defines \textit{Regions of Interest} (RoIs) in the phase space within the detector, which are labelled for investigation in the HLT. TALK ABOUT RATE
+	
+	In contrast to the hardware computation of the L1 system, the HLT consists of software algorithms running in a farm  of $\approx40000$ interconnected processors\cite{trigrun22017}. Following acceptance of an event by the L1 trigger, events are transferred from the initial data pipeline to dedecated readout buffers for the HLT. The HLT performs processing on the events using finer-granularity information from teh calorimeters and muon spectrometer, along with making use of information from the ID, which is unavailable to L1. This more precise data is the computed using object reconstruction algorithms similar to the offline reconstruction. A decision at HLT level is managed by a trigger chain, which is a sequence of specific criteria and algorithms evaluated on an event in sequence. The HLT provides $\mathcal{O}(1000)$ independent trigger chains for evalutating events. Along with the partial reconstruction of relevant objects, the HLT is capable of performing complete reconstruction of an event, and also capable of writing out these partial or complete reconstructions of an event into different data streams from the complete detector readout for use in analysis. 
+	
+
+
 
 \section{Object Reconstruction}
 	
@@ -46,7 +126,7 @@
 	These algorithms were refined prior to the 2016 Run-2 data-taking session in response to \cjets limiting physics analyses more the light-jets. This change  to enhance the \cjet rejection meant that for the MV2c10, the \cjet fraction was set to 7\% in training and the fraction for MV2c20 was 15\%. There were a selection of other improvements to the algorithm made to the algorithm relating to the BDT training parameters and the use of the basic algorithms before the 2016 data taking. With these refinements, the MV2c10 algorithm was found to provide a comparable level of light-jet rejection to the original 2015 Mv2c20 algorithm with impoved \cjet rejection, so was chosen as the standard \btagging algorithm for 2016 analyses. \cite{btagOptimisation}
 	
 	
-	
+\section{Trigger Level Analysis}
 	
 	
 \endinput
