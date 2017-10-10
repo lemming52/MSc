@@ -54,7 +54,7 @@
 	  		\centering
 	  		\begin{tabular}{llll}\toprule
 	  			System & Component & $\eta$ Coverage & Resolution \\\midrule
-	  			Tracking &  & $0<|\eta|<2.5$ & $\sigma_{p_\text{T}}/\pt = 0.05\% \pt\oplus1\%$\\
+	  			Tracking &  & $0<|\eta|<2.5$ & $\sigma_{p_\text{T}}/p_\text{T} = 0.05\% p_\text{T}\oplus1\%$\\
 	  			EM Calorimetry & EMB & $0<|\eta|<1.475$ & $\sigma_{E}/E = 10\%/\sqrt{E} \oplus0.7\%$ \\
 	  			& EMEC (Inner) & $1.375<|\eta|<2.5$ &  \\
 	  			& EMEC (Outer) & $2.5<|\eta|<3.2$ &  \\
@@ -62,7 +62,7 @@
 	  			& Tile (Extended) & $0.8<|\eta|<1.7$ &  \\
 	  			 & HEC & $1.5<|\eta|<3.2$ &  \\
 	  			Forward Calorimetry & FCal & $3.1<|\eta|<4.9$ & $\sigma_{E}/E = 100\%/\sqrt{E} \oplus10\%$ \\
-	  			Muon Spectrometer &  &  $0<|\eta|<2.7$  & $\sigma_{p_\text{T}}/\pt = 10\% at\pt=1$ TeV  \\\bottomrule
+	  			Muon Spectrometer &  &  $0<|\eta|<2.7$  & $\sigma_{p_\text{T}}/p_\text{T} = 10\%\,at\,p_\text{T}=1$ TeV  \\\bottomrule
 	  		\end{tabular}\\[5pt]
 	  	\end{table}
 
@@ -123,7 +123,7 @@
 	
 	The MV2 algorithm has a set of working points, defined by a single value of the output distribution of the algorithm, which are configured to provide a specific \bjet selection efficiency on the training $t\bar{t}$ sample. Rather than being used independently, physics analyses will make use of several working points as an increase in \bjet efficiency (corresponding to \textit{looser} \bjet selection) will bring an increased mistag rate of light and \cjets.
 	
-	These algorithms were refined prior to the 2016 Run-2 data-taking session in response to \cjets limiting physics analyses more the light-jets. This change  to enhance the \cjet rejection meant that for the MV2c10, the \cjet fraction was set to 7\% in training and the fraction for MV2c20 was 15\%. There were a selection of other improvements to the algorithm made to the algorithm relating to the BDT training parameters and the use of the basic algorithms before the 2016 data taking. With these refinements, the MV2c10 algorithm was found to provide a comparable level of light-jet rejection to the original 2015 Mv2c20 algorithm with impoved \cjet rejection, so was chosen as the standard \btagging algorithm for 2016 analyses. \cite{btagOptimisation}
+	These algorithms were refined prior to the 2016 Run-2 data-taking session in response to \cjets limiting physics analyses more the light-jets. This change  to enhance the \cjet rejection meant that for the MV2c10, the \cjet fraction was set to 7\% in training and the fraction for MV2c20 was 15\%. There were a selection of other improvements to the algorithm made to the algorithm relating to the BDT training parameters and the use of the basic algorithms before the 2016 data taking. With these refinements, the MV2c10 algorithm was found to provide a comparable level of light-jet rejection to the original 2015 Mv2c20 algorithm with impoved \cjet rejection, so was chosen as the standard \btag algorithm for 2016 analyses. \cite{btagOptimisation}
 	
 	
 \section{Trigger Level Analysis}
