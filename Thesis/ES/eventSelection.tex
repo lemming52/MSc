@@ -12,6 +12,17 @@ what do we need in this sectionL:
 	\section{Samples}
 		 Real event data was taken from the 2016 13 TeV run, with Data Period D used owing to limited storage space on analysis computing facilities. The analysis used the all year 25ns Good Runs List, \verb|data16_13TeV.periodAllYear_DetStatus-v88-pro20-21_DQDefects-00-02-04_PHYS_StandardGRL_All_Good_25ns.xml|, resulting a a data luminosity of ?????????? fb$^{-1}$. The simulated VBF sample used, \verb|mc15_13TeV.341566.PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_VBFH125_bb.merge.DAOD_HIGG5D3.e3988_s2726_r7772_r7676_p2719|, was produced during the MC15c production period. The sample uses the HIGG5D3 xAOD derivation as described in Ref. \cite{HIGG5D3}. The sample was produced using the NLO generator \textsc{powheg} configured using the CTEQ6L1 \cite{CTEQ} set of PDFs and interfaced with \textsc{pythia8} tuned to AZNLO \cite{AZNLO}.
 		 
+		 
+		 \subsection{Event weights}
+		 
+			 In order to accurately compare the simulated events from the Monte-Carlo samples with the 2016 dataset, it is necessary to normalise the Monte-Carlo samples to the total luminosity of the dataset, based on the theoretical cross-section for the interaction. The Monte-Carlo simulation assigns a weight $w_i$ to each event simulated, which are summed to give the total number of events in the Monte-Carlo. Each bin in results produced from the simulated data is reweighted using a scaling factor
+			 
+			 \begin{equation}
+			 w_{MC} = \frac{\sigma k L}{N}
+			 \end{equation}
+			 
+			 where $\sigma$ is the theoretical cross section, $L$ the integrated luminosity of the real dataset, $N$ the total number of simulated events ($\Sigma_N w_i$) and $k$ the Real $K$-Factor, which is a correction to the leading order cross section to reproduce the higher order calculation for the interaction.  
+		 
 	\section{\VBFHBB Analysis Strategy} 
 		As higgs bosons are colour singlets, there is no colour charge connection between the \bquarks produced in the interaction and the other final state particles, which leads to little hadronic activity and QCD radiation. This results in the two VBF jets being produced with a high rapidity gap, the pair of which along with the central \bjets form the characteristic final state for the interaction. With this in mind, the \VBFHBB events are separated from the high QCD multijet backgroud by requiring two central \bjets which form the higgs candidate and two high \pt non \btagged  VBF jets. The analysis is split into two separate channels, related two details of the topology and the trigger chains used \todo{cite 2017 vbfhbb paper}. The \textit{four-central} channel requires all four jets to be contained within the central region $|\eta| < 2.8$ and the \textit{two-central} channel requires two jets in the central region and one forward jet. In this study, the online trigger level jets could not be extracted for the \textit{four-central} trigger chains, so analysis focusses on the \textit{two-central} channel. 
 		

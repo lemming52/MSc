@@ -2,21 +2,20 @@
 
 Prior to conducting a full study of TLA on the \VBFHBB channel, the features of jet objects reconstructed offline and within the HLT were compared to identify any performance differences in the base components of an event reconstruction. The jet objects were compared on a one to one basis, by matching an online jet to an offline jet by requiring the $\Delta R$ value between the two jets to be below a threshold value of \DELTARTHRESHOLD\footnote{Determined from a plot of $\Delta R$ values between all pairs of jets}. \todo{Does this need a plot, or is this sufficient?}
 
-\section{Leading \textit{b}-jets}
-\label{OP:leadingb}
-
-	The leading \pt offline $b$-jet selected using the \textit{Tight} working point was matched to a corresponding $b$-jet using $\Delta R$ matching. The following figures show the ratio of the difference in value between the offline and online jet calculated using the following formula for jet feature $X$:
+To compare the online and offline jets, the ratio of the difference in value for (significant) jet properties between the matched jets were evaluated. These values were calculated for jet feature $X$ using:
 
 	\begin{equation}
 	\Delta X_{ratio} = \frac{X_{Offline} - X_{Online}}{X_{Offline}}
 	\end{equation}
+	
+	where $X_{Offline}$ is the value of the feature on the offline jet, and $X_{Online}$ is from the HLT jet. Specific categories of jets within the evvent were compared to ensure the most relevant jets for the \VBFH analysis were comparable.
+	
+	The performance of the online and offline jet features was tested bearing in mine the final state products of the \VBFHBB interaction, while considering the rapidity of the produced jets. 
 
-	where $X_{Offline}$ is the value of the feature on the offline jet, and $X_{Online}$ is from the HLT jet.
+\section{Leading \textit{b}-jets}
+\label{OP:leadingb}
 
-	\newpage
-	\subsection{Monte-Carlo}
-
-		\subsubsection{Plots of \textit{b}-jet features}
+	The leading \pt offline $b$-jet was selected from the event, requiring the jet to pass the \textit{Tight} \btagging working point. This jet was matched to a corresponding online jet using $\Delta R$ matching, and the properties of each of these jets compared in both Data and Monte-Carlo.
 
 		\begin{figure}[h]
 			\centering
@@ -26,963 +25,132 @@ Prior to conducting a full study of TLA on the \VBFHBB channel, the features of 
 			\end{minipage}
 			\quad
 			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt $b$-jet from MC events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:MC:leadingbpt}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_BJet}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt $b$-jet from MC events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:MC:leadingbeta}
-		\end{figure}
-
-			\begin{figure}[h]
-				\centering
-
-				\begin{minipage}[h]{0.33\linewidth}
-					\includegraphics[width=1\linewidth]{phiRatio_Leading_BJet}
-				\end{minipage}
-				\quad
-				\begin{minipage}[h]{0.33\linewidth}
-					\includegraphics[width=1\linewidth]{phiRatio_Leading_BJet_Slice}
-				\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt $b$-jet from MC events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:MC:leadingbphi}
-			\end{figure}
-
-			\begin{figure}[h]
-				\centering
-
-				\begin{minipage}[h]{0.33\linewidth}
-					\includegraphics[width=1\linewidth]{mRatio_Leading_BJet}
-				\end{minipage}
-				\quad
-				\begin{minipage}[h]{0.33\linewidth}
-					\includegraphics[width=1\linewidth]{mRatio_Leading_BJet_Slice}
-				\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt $b$-jet from MC events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:MC:leadingbm}
-			\end{figure}
-
-		\subsubsection{Conclusions from MC jet features}
-
-	\newpage
-	\subsection{Data}
-
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
 				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_BJet}
-				
 			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt $b$-jet from data events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:D:leadingbpt}
+			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt $b$-jet from against \pt of the offline $b$-jet, with Monte-Carlo results on the left and Data results on the right.}
+			\label{fig:O:leadingbpt}
 		\end{figure}
+		
+		The comparitive performance of the online and offline jets is \pt is broadly similar for events in both Data and Monte-Carlo. The bulk of the results occur with a $\Delta$\pt$_{ratio}\sim0$ and the two plots show a comparable drop off in \pt distribution. The distinctive curve present in the results from the Data is an artifact of the trigger used in real data, which is not required for the Monte-Carlo. As discussed in \todo{make this point}, the real Data was required to pass a trigger with at least one jet with a \pt$>80$GeV which results in the steep drop-off below this cut value. 
+		
+		The distribution of the $\Delta$\pt$_{ratio}$ about 0 can be shown by taking a slice across the distribution for a representative \pt value. 
 		
 		\begin{figure}[h]
 			\centering
-			
+
+			\begin{minipage}[h]{0.33\linewidth}
+				\includegraphics[width=1\linewidth]{Slices_ptRatio_Leading_BJet}
+			\end{minipage}
+			\quad
+			\begin{minipage}[h]{0.33\linewidth}
+				\includegraphics[width=1\linewidth]{Slices_Data_ptRatio_Leading_BJet}
+			\end{minipage}
+			\caption{ }
+			\label{fig:O:leadingbptslice}
+		\end{figure}
+		
+		The slices were also taken across plots consisting solely of jets within defined $\eta$ bands of the detector. The results show similar profiles between the Monte-Carlo and Data events for $\Delta$\pt$_{ratio}$. Both plots show the offline \pt values to be consitantly higher than the online, with a median shift of $4\%$ in Data and $2\%$ in Monte-Carlo. The performance between $\eta$ ranges was also consistent. The profiles broadly match the full shape and each other, but the Monte-Carlo showed a slight difference in  $\Delta$\pt$_{ratio}$ value as the central $\eta$ range peaked at $\sim0$. The breadth of these distributions is quite large, with both Data and Monte-Carlo showing $\pm10\%$ in $\Delta$\pt$_{ratio}$.
+		
+		These comparisons can be carried out for other jet properties (e.g. $\eta$, $\phi$) to confirm the offline and online jets are behaving in a similar fashion.
+		
+		\begin{figure}[h]
+			\centering
+			\begin{minipage}[h]{0.33\linewidth}
+				\includegraphics[width=1\linewidth]{etaRatio_Leading_BJet}
+				
+			\end{minipage}
+			\quad
 			\begin{minipage}[h]{0.33\linewidth}
 				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_BJet}
 			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt $b$-jet from  data events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:D:leadingbeta}
+			\caption{$\Delta \eta_{ratio}$ with Monte-Carlo results on the left and Data results on the right.}
+			\label{fig:O:leadingbeta}
 		\end{figure}
 		
 		\begin{figure}[h]
 			\centering
-			
+			\begin{minipage}[h]{0.33\linewidth}
+				\includegraphics[width=1\linewidth]{phiRatio_Leading_BJet}
+				
+			\end{minipage}
+			\quad
 			\begin{minipage}[h]{0.33\linewidth}
 				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_BJet}
 			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt $b$-jet from  data events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:D:leadingbphi}
+			\caption{$\Delta \phi_{ratio}$ with Monte-Carlo results on the left and Data results on the right.}
+			\label{fig:O:leadingbphi}
 		\end{figure}
 		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_BJet}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt $b$-jet from  data events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:D:leadingbm}
-		\end{figure}
+		The Data and Monte-Carlo distributions for these values are extermely similar to each other, and also show very close agreement between the values for offline and online jet objects. In both cases the median $\Delta X_{ratio}$ value is $\sim0$ and the breadth of the distribution is less than $1\%$ of the value. 
+		
 
-\newpage
-\section{Leading Non \textit{b}-jets}
-
-	The non $b$-jet category is defined as the jets exclusive to those tagged in Section \ref{OP:leadingb}. Again, the leading \pt offline jet from this list is matched with an online jet for the comparison.
-
-	\subsection{Monte-Carlo}
-
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet}
-
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt non $b$-jet from MC events against \pt of the offline $b$-jet. }
-			\label{fig:MC:nonleadingbpt}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_Non_BJet}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_Non_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt non $b$-jet from MC events against $\eta$ of the offline $b$-jet. }
-			\label{fig:MC:nonleadingbeta}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_Non_BJet}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_Non_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt non $b$-jet from MC events against $\phi$ of the offline $b$-jet. }
-			\label{fig:MC:nonleadingbphi}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_Non_BJet}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_Non_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt non $b$-jet from MC events against $M$ of the offline $b$-jet. }
-			\label{fig:MC:nonleadingbm}
-		\end{figure}
-
-	\newpage
-	\subsection{Data}
+\section{Leading Non-\textit{b}-jets}
+	\label{OP:leadingnonb}
 	
+	For \VBFHBB the pair of high \pt forward jets is the other significant feature, so the offline/online performance in the leading Non \bjet was studied.
 	
-
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet}
-				
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt non $b$-jet from Data events against \pt of the offline $b$-jet. }
-			\label{fig:D:nonleadingbpt}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_Non_BJet}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_Non_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt non $b$-jet from Data events against $\eta$ of the offline $b$-jet. }
-			\label{fig:D:nonleadingbeta}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_Non_BJet}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_Non_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt non $b$-jet from Data events against $\phi$ of the offline $b$-jet. }
-			\label{fig:D:nonleadingbphi}
-		\end{figure}
-		
-		\begin{figure}[htb]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_Non_BJet}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_Non_BJet_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt non $b$-jet from Data events against $M$ of the offline $b$-jet. }
-			\label{fig:MD:nonleadingbm}
-		\end{figure}
-		
-		spacing
-
-		\newpage\newpage
-\section{Central Jets}
-
-	\subsection{Monte-Carlo}
-
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_BJet_eta_lower}
-
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt $b$-jet with $0 < \eta < 1$ from MC events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:MC:leadingbptcentral}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_BJet_eta_lower}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt $b$-jet with $0 < \eta < 1$ from MC events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:MC:leadingbetacentral}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_BJet_eta_lower}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt $b$-jet with $0 < \eta < 1$ from MC events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:MC:leadingbphicentral}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_BJet_eta_lower}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt $b$-jet with $0 < \eta < 1$ from MC events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:MC:leadingbmcentral}
-		\end{figure}
-
-\newpage
-		\subsection{Data}
-		
-				\begin{figure}[h]
-					\centering
-					\begin{minipage}[h]{0.33\linewidth}
-						\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_BJet_eta_lower}
-						
-					\end{minipage}
-					\quad
-					\begin{minipage}[h]{0.33\linewidth}
-						\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_BJet_eta_lower_Slice}
-					\end{minipage}
-					\caption{$\Delta $\pt$_{ratio}$ for the leading \pt $b$-jet with $0 < \eta < 1$ from Data events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-					\label{fig:D:leadingbptcentral}
-				\end{figure}
-				
-				\begin{figure}[h]
-					\centering
-					
-					\begin{minipage}[h]{0.33\linewidth}
-						\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_BJet_eta_lower}
-					\end{minipage}
-					\quad
-					\begin{minipage}[h]{0.33\linewidth}
-						\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_BJet_eta_lower_Slice}
-					\end{minipage}
-					\caption{$\Delta \eta_{ratio}$ for the leading \pt $b$-jet with $0 < \eta < 1$ from Data events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-					\label{fig:D:leadingbetacentral}
-				\end{figure}
-				
-				\begin{figure}[h]
-					\centering
-					
-					\begin{minipage}[h]{0.33\linewidth}
-						\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_BJet_eta_lower}
-					\end{minipage}
-					\quad
-					\begin{minipage}[h]{0.33\linewidth}
-						\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_BJet_eta_lower_Slice}
-					\end{minipage}
-					\caption{$\Delta \phi_{ratio}$ for the leading \pt $b$-jet with $0 < \eta < 1$ from Data events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-					\label{fig:D:leadingbphicentral}
-				\end{figure}
-				
-				\begin{figure}[h]
-					\centering
-					
-					\begin{minipage}[h]{0.33\linewidth}
-						\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_BJet_eta_lower}
-					\end{minipage}
-					\quad
-					\begin{minipage}[h]{0.33\linewidth}
-						\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_BJet_eta_lower_Slice}
-					\end{minipage}
-					\caption{$\Delta M_{ratio}$ for the leading \pt $b$-jet with $0 < \eta < 1$ from Data events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-					\label{fig:D:leadingbmcentral}
-				\end{figure}
-
-\newpage
-\subsection{Non b Jets}
-		\subsection{Monte-Carlo}
-
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet_eta_lower}
-
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt non $b$-jet with $0 < \eta < 1$ from MC events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:MC:leadingnonbptcentral}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_Non_BJet_eta_lower}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_Non_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt non $b$-jet with $0 < \eta < 1$ from MC events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:MC:leadingnonbetacentral}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_Non_BJet_eta_lower}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_Non_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt non $b$-jet with $0 < \eta < 1$ from MC events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:MC:leadingnonbphicentral}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_Non_BJet_eta_lower}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_Non_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt non $b$-jet with $0 < \eta < 1$ from MC events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:MC:leadingnonbmcentral}
-		\end{figure}
-
-\newpage
-		\subsection{Data}
-		
-		
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_Non_BJet_eta_lower}
-				
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_Non_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt non $b$-jet with $0 < \eta < 1$ from Data events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:D:leadingnonbptcentral}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_Non_BJet_eta_lower}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_Non_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt non $b$-jet with $0 < \eta < 1$ from Data events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:D:leadingnonbetacentral}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_Non_BJet_eta_lower}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_Non_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt non $b$-jet with $0 < \eta < 1$ from Data events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:D:leadingnonbphicentral}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_Non_BJet_eta_lower}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_Non_BJet_eta_lower_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt non $b$-jet with $0 < \eta < 1$ from Data events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:D:leadingnonbmcentral}
-		\end{figure}
-
-\newpage\newpage
-\section{Core}
-
-	\subsection{Monte-Carlo}
-
-	\begin{figure}[h]
-		\centering
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{ptRatio_Leading_BJet_eta_signal}
-
-		\end{minipage}
-		\quad
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{ptRatio_Leading_BJet_eta_signal_Slice}
-		\end{minipage}
-		\caption{$\Delta $\pt$_{ratio}$ for the leading \pt $b$-jet with $1 < \eta < 2.4$ from MC events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-		\label{fig:MC:leadingbptcore}
-	\end{figure}
-
-	\begin{figure}[h]
-		\centering
-
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{etaRatio_Leading_BJet_eta_signal}
-		\end{minipage}
-		\quad
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{etaRatio_Leading_BJet_eta_signal_Slice}
-		\end{minipage}
-		\caption{$\Delta \eta_{ratio}$ for the leading \pt $b$-jet with $1 < \eta < 2.4$ from MC events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-		\label{fig:MC:leadingbetacore}
-	\end{figure}
-
-	\begin{figure}[h]
-		\centering
-
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{phiRatio_Leading_BJet_eta_signal}
-		\end{minipage}
-		\quad
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{phiRatio_Leading_BJet_eta_signal_Slice}
-		\end{minipage}
-		\caption{$\Delta \phi_{ratio}$ for the leading \pt $b$-jet with $1 < \eta < 2.4$ from MC events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-		\label{fig:MC:leadingbphicore}
-	\end{figure}
-
-	\begin{figure}[h]
-		\centering
-
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{mRatio_Leading_BJet_eta_signal}
-		\end{minipage}
-		\quad
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{mRatio_Leading_BJet_eta_signal_Slice}
-		\end{minipage}
-		\caption{$\Delta M_{ratio}$ for the leading \pt $b$-jet with $1 < \eta < 2.4$ from MC events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-		\label{fig:MC:leadingbmcore}
-	\end{figure}
-
-\newpage
-	\subsubsection{Data}
+	\todo{Do we require this to fail the btagging}
 	
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_BJet_eta_signal}
-				
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_BJet_eta_signal_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt $b$-jet with $1 < \eta < 2.4$ from Data events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:D:leadingbptcore}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
+	\begin{figure}[h]
+		\centering
+		\begin{minipage}[h]{0.33\linewidth}
+			\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet}
 			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_BJet_eta_signal}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_BJet_eta_signal_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt $b$-jet with $1 < \eta < 2.4$ from Data events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:D:leadingbetacore}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_BJet_eta_signal}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_BJet_eta_signal_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt $b$-jet with $1 < \eta < 2.4$ from Data events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:D:leadingbphicore}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_BJet_eta_signal}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_BJet_eta_signal_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt $b$-jet with $1 < \eta < 2.4$ from Data events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:D:leadingbmcore}
-		\end{figure}
-
-\newpage
-	\subsection{Non Bjets}
-
-	\subsection{Monte-Carlo}
-
-	\begin{figure}[h]
-		\centering
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet_eta_signal}
-
 		\end{minipage}
 		\quad
 		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet_eta_signal_Slice}
+			\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_Non_BJet}
 		\end{minipage}
-		\caption{$\Delta $\pt$_{ratio}$ for the leading \pt non $b$-jet with $1 < \eta < 2.4$ from MC events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-		\label{fig:MC:leadingnonbptcore}
-	\end{figure}
-
-	\begin{figure}[h]
-		\centering
-
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{etaRatio_Leading_Non_BJet_eta_signal}
-		\end{minipage}
-		\quad
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{etaRatio_Leading_Non_BJet_eta_signal_Slice}
-		\end{minipage}
-		\caption{$\Delta \eta_{ratio}$ for the leading \pt non $b$-jet with $1 < \eta < 2.4$ from MC events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-		\label{fig:MC:leadingnonbetacore}
-	\end{figure}
-
-	\begin{figure}[h]
-		\centering
-
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{phiRatio_Leading_Non_BJet_eta_signal}
-		\end{minipage}
-		\quad
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{phiRatio_Leading_Non_BJet_eta_signal_Slice}
-		\end{minipage}
-		\caption{$\Delta \phi_{ratio}$ for the leading \pt non $b$-jet with $1 < \eta < 2.4$\textbf{} from MC events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-		\label{fig:MC:leadingnonbphicore}
-	\end{figure}
-
-	\begin{figure}[h]
-		\centering
-
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{mRatio_Leading_Non_BJet_eta_signal}
-		\end{minipage}
-		\quad
-		\begin{minipage}[h]{0.33\linewidth}
-			\includegraphics[width=1\linewidth]{mRatio_Leading_Non_BJet_eta_signal_Slice}
-		\end{minipage}
-		\caption{$\Delta M_{ratio}$ for the leading \pt non $b$-jet with $1 < \eta < 2.4$ from MC events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-		\label{fig:MC:leadingnonbmcore}
+		\caption{}
+		\label{fig:O:leadingnonbpt}
 	\end{figure}
 	
-	\newpage
-	\subsection{Data}
+	\begin{figure}[h]
+		\centering
+		
+		\begin{minipage}[h]{0.33\linewidth}
+			\includegraphics[width=1\linewidth]{Slices_ptRatio_Leading_Non_BJet}
+		\end{minipage}
+		\quad
+		\begin{minipage}[h]{0.33\linewidth}
+			\includegraphics[width=1\linewidth]{Slices_Data_ptRatio_Leading_Non_BJet}
+		\end{minipage}
+		\caption{ }
+		\label{fig:O:leadingnonbptslice}
+	\end{figure}
 	
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_Non_BJet_eta_signal}
-				
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_Non_BJet_eta_signal_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt non $b$-jet with $1 < \eta < 2.4$ from Data events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:D:leadingnonbptcore}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
+	\begin{figure}[h]
+		\centering
+		\begin{minipage}[h]{0.33\linewidth}
+			\includegraphics[width=1\linewidth]{etaRatio_Leading_Non_BJet}
 			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_Non_BJet_eta_signal}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_Non_BJet_eta_signal_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt non $b$-jet with $1 < \eta < 2.4$ from Data events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:D:leadingnonbetacore}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
+		\end{minipage}
+		\quad
+		\begin{minipage}[h]{0.33\linewidth}
+			\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_Non_BJet}
+		\end{minipage}
+		\caption{$\Delta \eta_{ratio}$ with Monte-Carlo results on the left and Data results on the right.}
+		\label{fig:O:leadingnonbeta}
+	\end{figure}
+	
+	\begin{figure}[h]
+		\centering
+		\begin{minipage}[h]{0.33\linewidth}
+			\includegraphics[width=1\linewidth]{phiRatio_Leading_Non_BJet}
 			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_Non_BJet_eta_signal}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_Non_BJet_eta_signal_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt non $b$-jet with $1 < \eta < 2.4$\textbf{} from Data events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:D:leadingnonbphicore}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_Non_BJet_eta_signal}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_Non_BJet_eta_signal_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt non $b$-jet with $1 < \eta < 2.4$ from Data events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:D:leadingnonbmcore}
-		\end{figure}
-		
-		
+		\end{minipage}
+		\quad
+		\begin{minipage}[h]{0.33\linewidth}
+			\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_Non_BJet}
+		\end{minipage}
+		\caption{$\Delta \phi_{ratio}$ with Monte-Carlo results on the left and Data results on the right.}
+		\label{fig:O:leadingnonbphi}
+	\end{figure}
+	
+	As with the \bjets, for these other variables offline and online jets produce nearly identical results, with the distribution of $\Delta X_{ratio}$ firmly centred around 0 and a breadth of less than $1\%$.
 
-\newpage spacing\newpage spacing \newpage
-\section{Forward  Jets}
-
-		\subsection{Monte-Carlo}
-
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_BJet_eta_upper}
-
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt $b$-jet with $2.4 < |\eta|$ from MC events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:MC:leadingbptforward}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt $b$-jet $2.4 < |\eta|$ from MC events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:MC:leadingbetaforward}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt $b$-jet $2.4 < |\eta|$ from MC events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:MC:leadingbphiforward}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt $b$-jet $2.4 < |\eta|$ from MC events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:MC:leadingbmforward}
-		\end{figure}
-		
-		\newpage
-		\subsection{Data}
-		
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_BJet_eta_upper}
-				
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt $b$-jet with $2.4 < |\eta|$ from Data events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:D:leadingbptforward}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt $b$-jet $2.4 < |\eta|$ from Data events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:D:leadingbetaforward}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt $b$-jet $2.4 < |\eta|$ from Data events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:D:leadingbphiforward}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt $b$-jet $2.4 < |\eta|$ from Data events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:D:leadingbmforward}
-		\end{figure}
-
-\newpage
-		\subsection{Non bjets}
-
-		\subsection{Monte-Carlo}
-
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet_eta_upper}
-
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{ptRatio_Leading_Non_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt non $b$-jet $2.4 < |\eta|$ from MC events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:MC:leadingnonbptforward}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_Non_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{etaRatio_Leading_Non_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt non $b$-jet $2.4 < |\eta|$ from MC events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:MC:leadingnonbetaforward}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_Non_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{phiRatio_Leading_Non_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt non $b$-jet $2.4 < |\eta|$ from MC events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:MC:leadingnonbphiforward}
-		\end{figure}
-
-		\begin{figure}[h]
-			\centering
-
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_Non_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{mRatio_Leading_Non_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt non $b$-jet $2.4 < |\eta|$ from MC events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:MC:leadingnonbmforward}
-		\end{figure}
-		
-		\newpage
-		\subsection{Data}
-		
-		\begin{figure}[h]
-			\centering
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_Non_BJet_eta_upper}
-				
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_ptRatio_Leading_Non_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ for the leading \pt non $b$-jet $2.4 < |\eta|$ from Data events against \pt of the offline $b$-jet. A slice across the $y$-axis has been taken at \pt$=79$GeV. }
-			\label{fig:D:leadingnonbptforward}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_Non_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_etaRatio_Leading_Non_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta \eta_{ratio}$ for the leading \pt non $b$-jet $2.4 < |\eta|$ from Data events against $\eta$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\eta=-1.9$. }
-			\label{fig:D:leadingnonbetaforward}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_Non_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_phiRatio_Leading_Non_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta \phi_{ratio}$ for the leading \pt non $b$-jet $2.4 < |\eta|$ from Data events against $\phi$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $\phi=-1.64$. }
-			\label{fig:D:leadingnonbphiforward}
-		\end{figure}
-		
-		\begin{figure}[h]
-			\centering
-			
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_Non_BJet_eta_upper}
-			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.33\linewidth}
-				\includegraphics[width=1\linewidth]{Offline_2C_mRatio_Leading_Non_BJet_eta_upper_Slice}
-			\end{minipage}
-			\caption{$\Delta M_{ratio}$ for the leading \pt non $b$-jet $2.4 < |\eta|$ from Data events against $M$ of the offline $b$-jet. A slice across the $y$-axis has been taken at $M=7$GeV. }
-			\label{fig:D:leadingnonbmforward}
-		\end{figure}
-
+	
+	
 \newpage
 \section{Jet Tagging Efficiency}
 
