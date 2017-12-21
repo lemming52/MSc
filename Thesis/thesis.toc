@@ -53,9 +53,9 @@
 \contentsline {section}{\numberline {4.2}Leading Non \textit {b}-jets}{27}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Comparison of Jet Objects between Offline and Online}{28}{subsection.4.2.1}
 \contentsline {section}{\numberline {4.3}Jet Tagging Efficiency}{29}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}\textit {b}-jet efficiency}{30}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}\textit {b}-jet efficiency}{29}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}\textit {c}-jet efficiency}{30}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Light-jet efficiency}{31}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Light-jet efficiency}{30}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Tag Matching}{31}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}Comparison of HLT and offline tagging efficiencies}{31}{subsection.4.3.5}
 \contentsline {section}{\numberline {4.4}MV2 Discriminant Values - ???}{31}{section.4.4}

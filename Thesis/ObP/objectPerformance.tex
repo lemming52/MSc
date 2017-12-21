@@ -45,7 +45,7 @@ To compare the online and offline jets, the ratio of the difference in value for
 			\begin{minipage}[h]{0.33\linewidth}
 				\includegraphics[width=1\linewidth]{Slices_Data_ptRatio_Leading_BJet}
 			\end{minipage}
-			\caption{$\Delta $\pt$_{ratio}$ distribution for the leading \bjet with $89$ GeV$<$\pt$<90$ GeV. The distributions for all events and events split by $\eta$ region are shown.}
+			\caption{$\Delta $\pt$_{ratio}$ distribution for the leading \bjet with $89<$\pt$<91$ GeV. The distributions for all events and events split by $\eta$ region are shown.}
 			\label{fig:O:leadingbptslice}
 		\end{figure}
 		
@@ -120,7 +120,7 @@ To compare the online and offline jets, the ratio of the difference in value for
 		\begin{minipage}[h]{0.33\linewidth}
 			\includegraphics[width=1\linewidth]{Slices_Data_ptRatio_Leading_Non_BJet}
 		\end{minipage}
-		\caption{$\Delta $\pt$_{ratio}$ distribution for the leading non \bjet with $89$ GeV$<$\pt$<90$ GeV. The distributions for all events and events split by $\eta$ region are shown.}
+		\caption{$\Delta $\pt$_{ratio}$ distribution for the leading non \bjet with $89<$\pt$<91$ GeV. The distributions for all events and events split by $\eta$ region are shown.}
 		\label{fig:O:leadingnonbptslice}
 	\end{figure}
 	
@@ -168,68 +168,60 @@ To compare the online and offline jets, the ratio of the difference in value for
 	As covered in \ref{det:btag:mv}, the standard algorithm for 2016 physics analyses was chosen to be the 2016 MV2c10 algorithm. However, the HLT \btag algorithm uses the MV2c20 algorithm. \cite{trig2015} To perform a valid TLA the perfomance of the tagging algorithms between trigger level and offline must be similar. With the datasets used for this analysis (\ref{dataset}) the MC data produced in 2015 would make use of the older configurations compared to the newer configurations in the data. \note{not sure what effect this config changes had on the trigger}
 
 	Here the tagging efficiency of the HLT and offline taggers is studied for different jet flavours in the MC sample. An offline/HLT jet pair was formed using $\Delta R$ matching and truth label of the jet used to assign a flavour. The efficiency plots in figures \ref{fig:MC:bjetefficiency}, \ref{fig:MC:cjetefficiency} and \ref{fig:MC:lightjetefficiency} show the fraction of these jets that were identified as \bjets by the HLT and offline tagging algorithms.
+	
+	The jet objects reconstructed online and offline contain the \btagging decision for that object. In the Monte-Carlo xAOD data, the truth label of a jet could be used to determine the exact nature of the jet. The \btagging decision of jets truth labelled as \bjets, \cjets and light-jets was studied for both offline and online to compare the efficiency of the algorithms. 
 
-	\newpage
 	\subsection{\textit{b}-jet efficiency}
+	
+	For jets labelled as true \bjets, the tagging efficiency can be calculated and plotted with respect to topological variables of the jet objects.
 
 		\begin{figure}[h]
 			\centering
-			\begin{minipage}[h]{0.31\linewidth}
+			\begin{minipage}[h]{0.45\linewidth}
 				\includegraphics[width=1\linewidth]{ptBJET}
 
 			\end{minipage}
 			\quad
-			\begin{minipage}[h]{0.31\linewidth}
+			\begin{minipage}[h]{0.45\linewidth}
 				\includegraphics[width=1\linewidth]{etaBJET}
 			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.31\linewidth}
-				\includegraphics[width=1\linewidth]{phiBJET}
-			\end{minipage}
-			\caption{ }
+			\caption{\btagging efficiency for truth \bjets in Monte-Carlo data, plotted against jet \pt (left) and $\eta$ (right). Analysis is confined to the central region of the detector where \btagging is operational.}
 			\label{fig:MC:bjetefficiency}
 		\end{figure}
 
 			\todo{Options, could show more vars or alternatively the reference hists, or alternatively just reference the references}
 
 	\subsection{\textit{c}-jet efficiency}
+	
+	For \cjets and light-jets, plotting the same value gives the mistag rate for these jets in the detector. 
 
 		\begin{figure}[h]
 			\centering
-			\begin{minipage}[h]{0.31\linewidth}
+			\begin{minipage}[h]{0.45\linewidth}
 				\includegraphics[width=1\linewidth]{ptCJET}
 
 			\end{minipage}
 			\quad
-			\begin{minipage}[h]{0.31\linewidth}
+			\begin{minipage}[h]{0.45\linewidth}
 				\includegraphics[width=1\linewidth]{etaCJET}
 			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.31\linewidth}
-				\includegraphics[width=1\linewidth]{phiCJET}
-			\end{minipage}
-			\caption{ }
+			\caption{Mistag rate for truth \bjets in Monte-Carlo data, plotted against jet \pt (left) and $\eta$ (right). Analysis is confined to the central region of the detector where \btagging is operational.}
 			\label{fig:MC:cjetefficiency}
 		\end{figure}
 
-	\newpage
 	\subsection{Light-jet efficiency}
 
 		\begin{figure}[h]
 			\centering
-			\begin{minipage}[h]{0.31\linewidth}
+			\begin{minipage}[h]{0.45\linewidth}
 				\includegraphics[width=1\linewidth]{ptLIGHTJET}
 
 			\end{minipage}
 			\quad
-			\begin{minipage}[h]{0.31\linewidth}
+			\begin{minipage}[h]{0.45\linewidth}
 				\includegraphics[width=1\linewidth]{etaLIGHTJET}
 			\end{minipage}
-			\quad
-			\begin{minipage}[h]{0.31\linewidth}
-				\includegraphics[width=1\linewidth]{phiLIGHTJET}
-			\end{minipage}
-			\caption{ }
+			\caption{Mistag rate for truth light-jets in Monte-Carlo data, plotted against jet \pt (left) and $\eta$ (right). Analysis is confined to the central region of the detector where \btagging is operational.}
 			\label{fig:MC:lightjetefficiency}
 		\end{figure}
 
