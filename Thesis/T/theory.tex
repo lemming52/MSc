@@ -61,6 +61,7 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 			\end{tabular}\\[5pt]
 		\end{table}\todo{undecided on the strength column and numbers withinm which were pulled from undergrad notes}
 
+		\newpage
 		\subsubsection{Quantum Chromodynamics}
 
 		Quantum Chromodynamics (QCD) is the theory of the strong interaction, mediated by the gluon which couples to colour charge. It corresponds to the $SU(3)_c$ symmetry group of the overall SM. The strong interaction conserves energy, momentum, angular momentum and colour charge. Only quarks and gluons themselves possess colour charge, so while quarks are the only fermion to feel the strong interaction, gluons can self-couple. This self-coupling of gluons is the reason quarks are always observed in bound states.
@@ -135,7 +136,7 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 
 	\subsection{Collision simulation}
 
-	A $pp$ collision is a complex event which results if a significant number ($\mathcal{O}(1000)$) of final state particles, each of which interact and evolve over the timescale of an event. This progression of the collision event can be broken down into distinct stages of behaviour of the produced particles: the \textit{hard process}, \textit{parton shower}, \textit{hadronisation}, {\textit{underlying event}} and \textit{unstable particle decays}.
+	A $pp$ collision is a complex event which results if a significant number ($\mathcal{O}(1000)$) of final state particles, each of which interact and evolve over the timescale of an event. This progression of the collision event can be broken down into distinct stages of behaviour of the produced particles: the \textit{hard process}, \textit{parton shower}, \textit{hadronisation}, \textit{unstable particle decays} and \textit{underlying event}.
 
 	This breakdown is key to the simulation of $pp$ collisions using Monte-Carlo event generators, the use of which is critical in current high energy physics research. Monte-Carlo simulations of collisions are used to predict and prepare for real data-taking experiments, obtain control datasets of particular particle interactions and act as controls to optimise analysis tools. The breakdown of the interaction into distinct stages has allowed specialised software to be produced for each step, which makes use of a characteristic scale and certain safe approximations for the step to provide reliable predictions, while reducing the computational demands of the simulation \cite{monte-carlo}.
 
@@ -151,30 +152,30 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 			The evolution of these parton showers is evaluated in Monte-Carlo simulations using a step-by-step iterative process, on the scale of momentum transfer in the interaction. This process is started at the hard scatter and evolved through the interaction with decreasing momentum scale until the point at which perturbation theory breaks down, necessitating a different evaluation method.
 
 		\subsubsection{Hadronisation}
+		\label{t:hadronisation}
 
 			With the breakdown of perturbation theory at low momentum scales,  observable colourless hadrons are constructed from the coloured partons using hadronisation models in order to extend the simulation. These hadrons are the physical final state particles observed in the detector, which exist due to the colour confinement of the quarks and gluons. Within a particle detector, rather than individual hadrons \textit{jets} of hadrons are observed. As a coloured fragment produced in the interaction moves away from the interaction, it will create other coloured fragments around itself in order to produce a confined hadron while moving away from the collision. This occurs repeatedly for each hadron ejected from the collision as it moves away, producing a collimated stream of the created hadron which makes up a jet.
 
 			In simulation this step involves collecting the partons produced in the parton shower into hadrons, and is typically evaluated using either a String model \cite{stringmodel} or a Cluster model \cite{clustermodel}. These steps are models, and not calculations as to how the partons combine, as to calculations being prohibited by the breakdown of perturbation theory.
 
-		\subsubsection{Underlying Event}
-
 		\subsubsection{Unstable Particle Decays}
 
-				\item Underlying event: Accounts for secondary parton interactions between remnants of the proton from the initial hard scatter to produce soft hadrons that overlap with the simulation of the hard process.
-				\item Unstable particle decays: Account for the fact produced hadrons may be resonances not stable particles which go on to decay.
-			\end{itemize}
-			\todo{Is a list suitable here?}
+			The final stage of the evolution of the parton shower considers the hadrons produced during the shower. These hadrons may not be stable particles but could be resonances that go on to decay within the detector to produce the more stable hadrons observed in the data. Most modern simulation software models these decays, but the exact specification of the decay tables and channels has a significant impact on the final state of the simulation.
 
-		Most leading generators like \textsc{Pythia} or \textsc{Herwig} make use of this chain of generation, and modern analyses will make use of multiple generators interfaced together to compute different steps with additional accuracy.
+		\subsubsection{Underlying Event}
+
+			While the hard scatter and subsequent parton shower results from the highest momentum interaction of the $pp$ collision, the remnants of the proton not involved in this will continue to interact with each other. This produces additional soft hadrons that fill the interaction environment, overlapping with the products of the hard scatter interaction.
+
+			The dominant model for simulation of the underlying event is a perturbative model where the other components undergo additional discrete hard scatter interactions and corresponding parton showers which are simulated in an corresponding fashion to the core scattering.
+
+	\subsection{Monte-Carlo Software}
+
+		There is a broad selection of software tools for evaluating $pp$ collisions, from general purpose simulations like \textsc{Pythia}\cite{pythia} or \textsc{Sherpa}\cite{sherpa} which are used to evaluate the complete process, to more specific tools like \textsc{Powheg}\cite{powheg} which is used to produce hard scatter events with NLO matrix elements. Most software packages make use of this chain of generation for an event, and modern analyses will make use of multiple generators interfaced together to compute different steps with improved accuracy.
 
 \section{The Higgs Boson}
 \label{t:higgs}
 
-	Detecting the SM Higgs boson is strongly dependent on the predominant production and decay channels for the Higgs boson, which in turn depend on the specifications(?) of the collider used for the search. In this section the relevant production and decay channels at the Large Hadron Collider (LHC) will be discussed.
-
-	\subsection{Higgs Production}
-
-		While there are many various methods for production of a Higgs boson, at the LHC the cross section is dominated by gluon-gluon fusion ($ggF$) as shown in figure \ref{fig:higgsproductionCS}, with the second largest cross-section arising from vector boson fusion (VBF, Section \ref{t:VBF}). Other significant production processes are the WH/ZH or Higgs-strahlung production modes and associated production with top quarks ($ttH$) \cite{LHCHiggsCS}.
+	Detecting the SM Higgs boson is strongly dependent on the predominant production and decay channels for the Higgs boson, which in turn depend on the specifications[] of the collider used for the search. In this section the relevant production and decay channels at the Large Hadron Collider (LHC) will be discussed.
 
 			\begin{figure}[h]
 				\centering
@@ -183,17 +184,43 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 				\label{fig:higgsproductionCS}
 			\end{figure}
 
-		\subsubsection{Gluon-gluon fusion}
+	\subsection{Higgs Production}
 
-		The dominant production mechanism for the Higgs boson in hadron colliders is the \ggF production via in intermediate quark loop. The dynamics of this mechanism are controlled by strong interactions, thus calculations of QCD corrections are necessary for any accurate predictions, and have been computed up from next-to-leading order (NLO) to N$^3$LO for the ggF process in recent years, along with the inclusion of Electro-Weak corrections in the cross section calculations \cite{LHCHiggsCS}.
+		While there are many various methods for production of a Higgs boson, at the LHC the cross section is dominated by gluon-gluon fusion ($ggF$) as shown in Figure \ref{fig:higgsproductionCS}, with the second largest cross-section arising from vector boson fusion (VBF, Section \ref{t:VBF}). Other significant production processes are the associated production with a weak boson ($WH\ZH$, Higgs-strahlung) production modes and associated production with top quarks ($ttH$) \cite{LHCHiggsCS}. The lowest order Feynmann diagrams for these processes are shown in Figure \ref{fig:higgsproddiag}.
 
 			\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.4\linewidth]{T/FIGS/ggF}
-			\caption{Lowest order Feynmann diagram contributing to \ggF.}
-			\label{fig:ggf}
+				\centering
+				\includegraphics[width=0.5\linewidth]{T/FIGS/ggf}
+			\end{figure}
+			\begin{figure}[h]
+				\centering
+					\begin{minipage}[h]{0.4\linewidth}
+						\includegraphics[width=1\linewidth]{T/FIGS/whzh}
+					\end{minipage}
+					\quad\quad
+					\begin{minipage}[h]{0.4\linewidth}
+						\includegraphics[width=1\linewidth]{T/FIGS/tth}
+					\end{minipage}
+				\caption{Lowest order Feynmann diagrams for gluon-gluon fusion (\ggF), $W/Z$ associated production ($WH/ZH$) and top anti-top associated production ($t\bar{t}H$).}
+				\label{fig:higgsproddiag}
 			\end{figure}
 
+
+		\subsubsection{Gluon-gluon fusion}
+
+		The dominant production mechanism for the Higgs boson in hadron colliders is the \ggF\, production via in intermediate quark loop. The dynamics of this mechanism are controlled by strong interactions, thus calculations of QCD corrections are necessary for any accurate predictions, and have been computed up from next-to-leading order (NLO) to N$^3$LO for the ggF process in recent years, along with the inclusion of Electro-Weak corrections in the cross section calculations \cite{LHCHiggsCS}.
+
+	\subsection{Vector Boson Fusion}
+	\label{t:VBF}
+
+		Production of a Higgs boson from the fusion of vector bosons radiated from initial-state quarks is the second largest cross-section at the LHC, and is useful as a production mode due to topological characteristics which can distinguish the event from \ggF. In \VBFHBB, the characteristic topology is a pair central \bjets forming the higgs candidate, and two forward, close to the beam line VBF jets formed of remnants of the initially colliding protons as displayed in Figure \ref{fig:T:vbf}. In addition central jet activity is suppressed due to the lack of colour exchange between the colour single Higgs boson and the decay \bquarks \cite{VBF2004}.  These distinct features mean that while the cross section for VBF at a Higgs mass of $< 200$ GeV is dominated by ggF, the easy to detect signature means the channel is a cornerstone of searches for the Higgs boson.
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.4\linewidth]{T/FIGS/vbf}
+			\caption{Feynmann diagram for the production of a Higgs boson via Vector Boson Fusion, where $q$ denotes any quark or antiquark}
+			\label{fig:T:vbf}
+		\end{figure}
 
 
 	\subsection{Higgs Decay}
@@ -207,22 +234,13 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 			\label{fig:higgsbrlm}
 		\end{figure}
 
-		While observations consistent with the Standard Model Higgs boson have been made for the $H\rightarrow \gamma\gamma$, $H\rightarrow ZZ$, $H\rightarrow W^+W^-$ and $H\rightarrow \tau^+\tau^-$ channels, observation of th $H\rightarrow bb$ decay channel is significantly hindered owing to the large background from multijet production (Section \ref{T:multijet} maybe?) in hadron collisions. Despite this, the topology of the VBF production mechanism makes it a viable option for observation of the  $b\bar{b}$ decay channel.
+		\newpage
+		While observations consistent with the Standard Model Higgs boson have been made for the $H\rightarrow \gamma\gamma$, $H\rightarrow ZZ$, $H\rightarrow W^+W^-$ and $H\rightarrow \tau^+\tau^-$ channels, observation of th $H\rightarrow bb$ decay channel is significantly hindered owing to the large background from multijet production in hadron collisions. Despite this, the topology of the VBF production mechanism makes it a viable option for observation of the  $b\bar{b}$ decay channel.
 
+	\subsection{VBF Searches}
 
-	\subsection{Vector Boson Fusion}
-	\label{t:VBF}
+		Searches fo the \VBFHBB interaction look for a resonance in the invariant mass of a pair of jets containing \bquarks ($m_{bb}$) in events with the characteristic topology. This characteristic topology distinguishes the signal events from the multijet events that form the dominant background with a non-resonant $m_{bb}$ spectrum. An additional resonant background contribution to the \mbb spectrum is due to decay of a $Z$ boson to two jets in association with two jets.
 
-		Production of a Higgs boson from the fusion of vector bosons radiated from initial-state quarks is the second largest cross-section at the LHC, and is useful as a production mode due to topological characteristics which can distinguish the event from \ggF. In \VBFHBB, the characteristic topology is a pair central \bjets forming the higgs candidate, and two forward VBF jets formed of remnants of the initially colliding protons as displayed in Figure \ref{fig:T:vbf}. In addition central jet activity is suppressed due to the lack of colour exchange between quarks \cite{VBF2004}.  These distinct features mean that while the cross section for VBF at a Higgs mass of $< 200$ GeV is dominated by ggF, the easy to detect signature means the channel is a cornerstone of searches for the Higgs boson.
-
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.4\linewidth]{T/FIGS/vbf}
-			\caption{Feynmann diagram for the production of a Higgs boson via vector boson ($V$) fusion, where q denotes any quark or antiquark}
-			\label{fig:T:vbf}
-		\end{figure}
-
-
-
+		In the most recent searches for the Higgs boson produced via VBF, which this analysis emulates, the \VBFHBB events are separated from the \ggf using a multivariate boosted decision tree (BDT) analysis to refine the phase space to the most VBF sensitive BDT regions.
 
 \endinput
