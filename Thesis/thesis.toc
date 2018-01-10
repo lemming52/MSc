@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {1.2.3}Monte-Carlo Software}{8}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}The Higgs Boson}{8}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Higgs Production}{8}{subsection.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.1.1}Gluon-gluon fusion}{9}{subsubsection.1.3.1.1}
+\contentsline {subsubsection}{\numberline {1.3.1.1}Gluon-gluon Fusion}{9}{subsubsection.1.3.1.1}
 \contentsline {subsection}{\numberline {1.3.2}Vector Boson Fusion}{9}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Higgs Decay}{10}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}VBF Searches}{11}{subsection.1.3.4}
@@ -30,41 +30,43 @@
 \contentsline {section}{\numberline {2.2}The ATLAS Detector}{13}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Inner Detector}{14}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Calorimeters}{15}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Muon Spectrometer}{15}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Muon Spectrometer}{16}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Triggers}{16}{section.2.3}
-\contentsline {section}{\numberline {2.4}Object Reconstruction}{18}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Jets}{18}{subsection.2.4.1}
-\contentsline {section}{\numberline {2.5}\textit {b}-Tagging}{19}{section.2.5}
-\contentsline {subsubsection}{\numberline {2.5.0.1}IP2D and IP3D: Impact Parameter based Algorithms}{19}{subsubsection.2.5.0.1}
-\contentsline {subsubsection}{\numberline {2.5.0.2}SV1: Secondary Vertex Finding algorithm}{19}{subsubsection.2.5.0.2}
-\contentsline {subsubsection}{\numberline {2.5.0.3}JetFitter: Decay Chain Multi based Algorithm}{20}{subsubsection.2.5.0.3}
-\contentsline {subsection}{\numberline {2.5.1}Multivariate Algorithm}{20}{subsection.2.5.1}
-\contentsline {section}{\numberline {2.6}Trigger-object Level Analysis}{21}{section.2.6}
-\contentsline {chapter}{\chapternumberline {3}Event Selection}{22}{chapter.3}
-\contentsline {section}{\numberline {3.1}Samples}{22}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Event weights}{22}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$Analysis Strategy}{23}{section.3.2}
-\contentsline {section}{\numberline {3.3}Jet Extraction}{23}{section.3.3}
-\contentsline {section}{\numberline {3.4}Jet Assignment}{24}{section.3.4}
-\contentsline {section}{\numberline {3.5}Events}{24}{section.3.5}
-\contentsline {section}{\numberline {3.6}Offline Jets}{24}{section.3.6}
-\contentsline {section}{\numberline {3.7}Online Jets}{24}{section.3.7}
-\contentsline {section}{\numberline {3.8}Offline \textit {b}-jets}{24}{section.3.8}
-\contentsline {section}{\numberline {3.9}Online \textit {b}-jets}{25}{section.3.9}
-\contentsline {chapter}{\chapternumberline {4}Object Performance}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Leading \textit {b}-jets}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Leading Non \textit {b}-jets}{29}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Comparison of Jet Objects between Offline and Online}{30}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Jet Tagging Efficiency}{31}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}\textit {b}-jet efficiency}{31}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}\textit {c}-jet efficiency}{32}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Light-jet efficiency}{32}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Tag Matching}{33}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Comparison of HLT and offline tagging efficiencies}{33}{subsection.4.3.5}
-\contentsline {chapter}{\chapternumberline {5}Kinematics}{34}{chapter.5}
-\contentsline {section}{\numberline {5.1}Specific Jet Feature Distributions}{34}{section.5.1}
-\contentsline {subsubsection}{\numberline {5.1.0.1}$p_\text {T}$ }{34}{subsubsection.5.1.0.1}
-\contentsline {subsubsection}{\numberline {5.1.0.2}$\eta $}{34}{subsubsection.5.1.0.2}
-\contentsline {section}{\numberline {5.2}BDT Input Variables}{34}{section.5.2}
-\contentsline {section}{\numberline {5.3}Mbb Distribution}{35}{section.5.3}
-\contentsline {chapter}{Bibliography}{39}{section*.5}
+\contentsline {section}{\numberline {2.4}Event Selection}{18}{section.2.4}
+\contentsline {section}{\numberline {2.5}Object Reconstruction}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Jets}{18}{subsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.1.1}Pileup}{19}{subsubsection.2.5.1.1}
+\contentsline {subsection}{\numberline {2.5.2}\textit {b}-Tagging}{20}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}IP2D and IP3D: Impact Parameter based Algorithms}{20}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}SV1: Secondary Vertex Finding algorithm}{20}{subsubsection.2.5.2.2}
+\contentsline {subsubsection}{\numberline {2.5.2.3}JetFitter: Decay Chain Multi based Algorithm}{21}{subsubsection.2.5.2.3}
+\contentsline {subsection}{\numberline {2.5.3}Multivariate Algorithm}{21}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Trigger-Object Level Analysis}{22}{section.2.6}
+\contentsline {chapter}{\chapternumberline {3}Event Selection}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Samples}{23}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Event weights}{23}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$Analysis Strategy}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Jet Extraction}{24}{section.3.3}
+\contentsline {section}{\numberline {3.4}Jet Assignment}{25}{section.3.4}
+\contentsline {section}{\numberline {3.5}Events}{25}{section.3.5}
+\contentsline {section}{\numberline {3.6}Offline Jets}{25}{section.3.6}
+\contentsline {section}{\numberline {3.7}Online Jets}{25}{section.3.7}
+\contentsline {section}{\numberline {3.8}Offline \textit {b}-jets}{25}{section.3.8}
+\contentsline {section}{\numberline {3.9}Online \textit {b}-jets}{26}{section.3.9}
+\contentsline {chapter}{\chapternumberline {4}Object Performance}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Leading \textit {b}-jets}{28}{section.4.1}
+\contentsline {section}{\numberline {4.2}Leading Non \textit {b}-jets}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Comparison of Jet Objects between Offline and Online}{31}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Jet Tagging Efficiency}{32}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\textit {b}-jet efficiency}{32}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}\textit {c}-jet efficiency}{33}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Light-jet efficiency}{33}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Tag Matching}{34}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Comparison of HLT and offline tagging efficiencies}{34}{subsection.4.3.5}
+\contentsline {chapter}{\chapternumberline {5}Kinematics}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}Specific Jet Feature Distributions}{35}{section.5.1}
+\contentsline {subsubsection}{\numberline {5.1.0.1}$p_\text {T}$ }{35}{subsubsection.5.1.0.1}
+\contentsline {subsubsection}{\numberline {5.1.0.2}$\eta $}{35}{subsubsection.5.1.0.2}
+\contentsline {section}{\numberline {5.2}BDT Input Variables}{35}{section.5.2}
+\contentsline {section}{\numberline {5.3}Mbb Distribution}{36}{section.5.3}
+\contentsline {chapter}{Bibliography}{40}{section*.5}
