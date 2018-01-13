@@ -14,21 +14,25 @@
 \BOOKMARK [1][-]{section.2.5}{2.5 Object Reconstruction}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.6}{2.6 Trigger-Object Level Analysis}{chapter.2}% 15
 \BOOKMARK [0][-]{chapter.3}{3 Event Selection}{}% 16
-\BOOKMARK [1][-]{section.3.1}{3.1 Samples}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.2}{3.2 VBF HbAnalysis Strategy}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.3}{3.3 Jet Extraction}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.4}{3.4 Jet Assignment}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.5}{3.5 Events}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.6}{3.6 Offline Jets}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.7}{3.7 Online Jets}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.8}{3.8 Offline b-jets}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.9}{3.9 Online b-jets}{chapter.3}% 25
-\BOOKMARK [0][-]{chapter.4}{4 Object Performance}{}% 26
-\BOOKMARK [1][-]{section.4.1}{4.1 Leading b-jets}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.2}{4.2 Leading Non b-jets}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.3}{4.3 Jet Tagging Efficiency}{chapter.4}% 29
-\BOOKMARK [0][-]{chapter.5}{5 Kinematics}{}% 30
-\BOOKMARK [1][-]{section.5.1}{5.1 Specific Jet Feature Distributions}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.2}{5.2 BDT Input Variables}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.3}{5.3 Mbb Distribution}{chapter.5}% 33
-\BOOKMARK [0][-]{section*.5}{Bibliography}{}% 34
+\BOOKMARK [1][-]{section.3.1}{3.1 ATLAS Event Data}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{3.2 Event weights}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.3}{3.3 Samples}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{3.4 VBF Hb Analysis Strategy}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.5}{3.5 Jet Extraction}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.6}{3.6 Jet Assignment}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.7}{3.7 Events}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.8}{3.8 Offline Jets}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.9}{3.9 Online Jets}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.10}{3.10 Offline b-jets}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.11}{3.11 Online b-jets}{chapter.3}% 27
+\BOOKMARK [0][-]{chapter.4}{4 Object Performance}{}% 28
+\BOOKMARK [1][-]{section.4.1}{4.1 Leading b-jets}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.2}{4.2 Leading Non b-jets}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.3}{4.3 Jet Tagging Efficiency}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{5 Kinematics}{}% 32
+\BOOKMARK [1][-]{section.5.1}{5.1 Specific Jet Feature Distributions}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{5.2 BDT Input Variables}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.3}{5.3 Mbb Distribution}{chapter.5}% 35
+\BOOKMARK [0][-]{appendix.A}{A Configuration}{}% 36
+\BOOKMARK [1][-]{section.A.1}{A.1 Files}{appendix.A}% 37
+\BOOKMARK [0][-]{section*.5}{Bibliography}{}% 38

@@ -340,6 +340,7 @@
 %    AJS PACKAGES   %
 \usepackage{verbatim}
 \usepackage{cite}
+\usepackage{tabularx}
 
 \newcolumntype{d}[1]{D{.}{.}{#1}}
 \newcommand{\dhead}[1]{\multicolumn{1}{c}{#1}}
@@ -351,20 +352,22 @@
 
 \newcommand{\REF}[1]{\textbf{\ref{#1}}}
 \newcommand{\pt}{$p_\text{T}$ }
-\newcommand{\bjet}{\textit{b}-jet }
-\newcommand{\bjets}{\textit{b}-jets }
-\newcommand{\btag}{\textit{b}-tagging }
-\newcommand{\btagging}{\textit{b}-tagging }
-\newcommand{\btagged}{\textit{b}-tagged }
-\newcommand{\bquark}{\textit{b}-quark }
-\newcommand{\bquarks}{\textit{b}-quarks }
-\newcommand{\bhadron}{\textit{b}-hadron }
+\newcommand{\bjet}{\textit{b}-jet}
+\newcommand{\bjets}{\textit{b}-jets}
+\newcommand{\btag}{\textit{b}-tagging}
+\newcommand{\btagging}{\textit{b}-tagging}
+\newcommand{\btagged}{\textit{b}-tagged}
+\newcommand{\bquark}{\textit{b}-quark}
+\newcommand{\bquarks}{\textit{b}-quarks}
+\newcommand{\bhadron}{\textit{b}-hadron}
 
-\newcommand{\cjet}{\textit{c}-jet }
-\newcommand{\cjets}{\textit{c}-jets }
-\newcommand{\ctag}{\textit{c}-tagging }
-\newcommand{\cquark}{\textit{c}-quark }
-\newcommand{\chadron}{\textit{c}-hadron }
+\newcommand{\cjet}{\textit{c}-jet}
+\newcommand{\cjets}{\textit{c}-jets}
+\newcommand{\ctag}{\textit{c}-tagging}
+\newcommand{\cquark}{\textit{c}-quark}
+\newcommand{\chadron}{\textit{c}-hadron}
+
+\newcommand*\ttvar[1]{\texttt{\expandafter\dottvar\detokenize{#1}\relax}}
 
 
 %    AJS VALUES    %

@@ -21,10 +21,17 @@
 
 		 where $\sigma$ is the theoretical cross section, $L$ the integrated luminosity of the real dataset, $N$ the total number of simulated events ($\Sigma_N w_i$) and $k$ the Real $K$-Factor, which is a correction to the leading order cross section to reproduce the higher order calculation for the interaction.
 
-	\section{\VBFHBB Analysis Strategy}
-		 Following from the description of the \VBFHBB events in \section{t:VBF}, target events are selected by requiring two central \bjets which form the higgs candidate and two high \pt VBF jets. Searches using \VBFHBB consider two exclusive analysis channels of interesting events:, the \textit{four-central} channel requires all four jets to be contained within the central region $|\eta| < 2.8$ and the \textit{two-central} channel requires two jets in the central region and one forward jet. In this study, the online trigger level jets could not be extracted for the specific trigger chains used previously for the \textit{four-central} channel, so analysis focuses on the \textit{two-central} channel.
 
-		For the \textit{two-central} channel, the event was required to pass the \verb|HLT_j80_bmv2c2070_split_j60_bmv2c2085_split_j45_320eta490| trigger. The event was required to contain one jet with \pt$>95$GeV which was \btagged at the \textit{tight} working point and one additional jet with \pt$>70$GeV that passed the \textit{loose} \btag working point. One forward jet with $3.2 < |\eta| < 4.4$ and \pt$>60$GeV was required along with a final VBF jet with \pt$>20$GeV and $|\eta| < 4.4$. Finally the \pt of the $bb$ pair was required to exceed 160 GeV. (This is to remove sculpting EXPLAINNNN)
+	\section{Samples}
+		 Real event data was taken from the 2016 13 TeV run, with Data Period D used owing to limited storage space on analysis computing facilities. The \texttt{HIGG5D3} derivation was used for the data and Monte-Carlo sample, a full list of tags and files is given in Appendix \ref{a:config}. This analysis used the all year 25ns Good Runs List (Table \ref{t:files}), resulting a a data luminosity of $4.6312$b$^{-1}$. The simulated VBF sample (Table \ref{t:files}) was produced during the MC15c production period. The sample was produced using the NLO generator \textsc{powheg} configured using the CTEQ6L1 \cite{CTEQ} set of PDFs and interfaced with \textsc{pythia8} tuned to AZNLO \cite{AZNLO}.
+
+	\section{\VBFHBB\, Analysis Strategy}
+		 Following from the description of the \VBFHBB\, events in Section \ref{t:VBF}, target events are selected by requiring two central \bjets which form the Higgs candidate and two high \pt VBF jets. Searches using \VBFHBB consider two exclusive analysis channels of interesting events:, the \textit{four-central} channel requires all four jets to be contained within the central region $|\eta| < 2.8$ and the \textit{two-central} channel requires two jets in the central region and one forward jet. In this study, the online trigger level jets could not be extracted for the specific trigger chains used previously for the \textit{four-central} channel, so analysis focuses on the \textit{two-central} channel.
+
+		For the \textit{two-central} channel, the event was required to pass the \texttt{HLT\_j80\_bmv2c2070\_split\_\-j60\_bmv2c2085\_split\_j45\_320eta490} trigger. This trigger requires a single L1 jet ROI of $E_\text{T} > 40$GeV and $|\eta| < 2.5$. In addition, a second central jet ROI with $E_\text{T} > 25$ and a forward jet ROI with $E_\text{T} > 20$GeV and $3.1 < |\eta| < 4.9$ are both required.
+		At the HLT level, one central jet \btagged\, at the \textit{tight} working point with \pt $>80$GeV, and a jet with \pt$>60$GeV tagged at the \textit{loose} working point. finally a HLT forward jet with $E_\text{t}>45$ between $3.2 < |\eta| < 4.9$.
+
+		Once the trigger was passed, the event was required to contain one jet with \pt$>95$GeV which was \btagged at the \textit{tight} working point and one additional jet with \pt$>70$GeV that passed the \textit{loose} \btag working point. One forward jet with $3.2 < |\eta| < 4.4$ and \pt$>60$GeV was required along with a final VBF jet with \pt$>20$GeV and $|\eta| < 4.4$. Finally the \pt of the $bb$ pair was required to exceed 160 GeV. (This is to remove sculpting EXPLAINNNN)
 
 
 NOTES:
@@ -36,8 +43,6 @@ what do we need in this sectionL:
 	triggers used
 
 
-	\section{Samples}
-		 Real event data was taken from the 2016 13 TeV run, with Data Period D used owing to limited storage space on analysis computing facilities. The analysis used the all year 25ns Good Runs List, \verb|data16_13TeV.periodAllYear_DetStatus-v88-pro20-21_DQDefects-00-02-04_PHYS_StandardGRL_All_Good_25ns.xml|, resulting a a data luminosity of ?????????? fb$^{-1}$. The simulated VBF sample used, \verb|mc15_13TeV.341566.PowhegPythia8EvtGen_CT10_AZNLOCTEQ6L1_VBFH125_bb.merge.DAOD_HIGG5D3.e3988_s2726_r7772_r7676_p2719|, was produced during the MC15c production period. The sample uses the HIGG5D3 xAOD derivation as described in Ref. \cite{HIGG5D3}. The sample was produced using the NLO generator \textsc{powheg} configured using the CTEQ6L1 \cite{CTEQ} set of PDFs and interfaced with \textsc{pythia8} tuned to AZNLO \cite{AZNLO}.
 
 
 
