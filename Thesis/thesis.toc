@@ -51,24 +51,25 @@
 \contentsline {section}{\numberline {3.5}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} Analysis Strategy}{26}{section.3.5}
 \contentsline {chapter}{\chapternumberline {4}Object Performance}{28}{chapter.4}
 \contentsline {section}{\numberline {4.1}Leading \textit {b}-jets}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Leading Non \textit {b}-jets}{31}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Comparison of Jet Objects between Offline and Online}{32}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Jet Tagging Efficiency}{33}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}\textit {b}-jet efficiency}{33}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}\textit {c}-jet efficiency}{34}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Light-jet efficiency}{34}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Tag Matching}{35}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Comparison of HLT and offline tagging efficiencies}{35}{subsection.4.3.5}
-\contentsline {chapter}{\chapternumberline {5}Kinematics}{36}{chapter.5}
-\contentsline {section}{\numberline {5.1}Specific Jet Feature Distributions}{36}{section.5.1}
-\contentsline {subsubsection}{\numberline {5.1.0.1}$p_\text {T}$ }{36}{subsubsection.5.1.0.1}
-\contentsline {subsubsection}{\numberline {5.1.0.2}$\eta $}{36}{subsubsection.5.1.0.2}
-\contentsline {section}{\numberline {5.2}BDT Input Variables}{36}{section.5.2}
-\contentsline {section}{\numberline {5.3}Mbb Distribution}{37}{section.5.3}
-\contentsline {appendix}{\chapternumberline {A}Configuration}{41}{appendix.A}
-\contentsline {section}{\numberline {A.1}Files}{41}{section.A.1}
-\contentsline {section}{\numberline {A.2}Configurations}{42}{section.A.2}
-\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{43}{appendix.B}
-\contentsline {section}{\numberline {B.1}Machine Learning}{43}{section.B.1}
-\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{44}{section.B.2}
-\contentsline {chapter}{Bibliography}{45}{section*.5}
+\contentsline {section}{\numberline {4.2}Leading Non \textit {b}-jets}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Comparison of Jet Objects between Offline and Online}{34}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Jet Tagging Efficiency}{34}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\textit {b}-jet efficiency}{35}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}\textit {c}-jet efficiency}{35}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Light-jet efficiency}{36}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Tag Matching}{36}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Comparison of HLT and offline tagging efficiencies}{36}{subsection.4.3.5}
+\contentsline {chapter}{\chapternumberline {5}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} Analysis}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Cutflow}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}Specific Jet Feature Distributions}{37}{section.5.2}
+\contentsline {subsubsection}{\numberline {5.2.0.1}$p_\text {T}$ }{38}{subsubsection.5.2.0.1}
+\contentsline {subsubsection}{\numberline {5.2.0.2}$\eta $}{38}{subsubsection.5.2.0.2}
+\contentsline {section}{\numberline {5.3}BDT Input Variables}{38}{section.5.3}
+\contentsline {section}{\numberline {5.4}Mbb Distribution}{39}{section.5.4}
+\contentsline {appendix}{\chapternumberline {A}Configuration}{43}{appendix.A}
+\contentsline {section}{\numberline {A.1}Files}{43}{section.A.1}
+\contentsline {section}{\numberline {A.2}Configurations}{44}{section.A.2}
+\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{45}{appendix.B}
+\contentsline {section}{\numberline {B.1}Machine Learning}{45}{section.B.1}
+\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{46}{section.B.2}
+\contentsline {chapter}{Bibliography}{47}{section*.5}

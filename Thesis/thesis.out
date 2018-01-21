@@ -23,14 +23,15 @@
 \BOOKMARK [1][-]{section.4.1}{4.1 Leading b-jets}{chapter.4}% 23
 \BOOKMARK [1][-]{section.4.2}{4.2 Leading Non b-jets}{chapter.4}% 24
 \BOOKMARK [1][-]{section.4.3}{4.3 Jet Tagging Efficiency}{chapter.4}% 25
-\BOOKMARK [0][-]{chapter.5}{5 Kinematics}{}% 26
-\BOOKMARK [1][-]{section.5.1}{5.1 Specific Jet Feature Distributions}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.2}{5.2 BDT Input Variables}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.3}{5.3 Mbb Distribution}{chapter.5}% 29
-\BOOKMARK [0][-]{appendix.A}{A Configuration}{}% 30
-\BOOKMARK [1][-]{section.A.1}{A.1 Files}{appendix.A}% 31
-\BOOKMARK [1][-]{section.A.2}{A.2 Configurations}{appendix.A}% 32
-\BOOKMARK [0][-]{appendix.B}{B Boosted Decision Trees}{}% 33
-\BOOKMARK [1][-]{section.B.1}{B.1 Machine Learning}{appendix.B}% 34
-\BOOKMARK [1][-]{section.B.2}{B.2 VBF Hb BDT Training}{appendix.B}% 35
-\BOOKMARK [0][-]{section*.5}{Bibliography}{}% 36
+\BOOKMARK [0][-]{chapter.5}{5 VBF Hb Analysis}{}% 26
+\BOOKMARK [1][-]{section.5.1}{5.1 Cutflow}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.2}{5.2 Specific Jet Feature Distributions}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.3}{5.3 BDT Input Variables}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.4}{5.4 Mbb Distribution}{chapter.5}% 30
+\BOOKMARK [0][-]{appendix.A}{A Configuration}{}% 31
+\BOOKMARK [1][-]{section.A.1}{A.1 Files}{appendix.A}% 32
+\BOOKMARK [1][-]{section.A.2}{A.2 Configurations}{appendix.A}% 33
+\BOOKMARK [0][-]{appendix.B}{B Boosted Decision Trees}{}% 34
+\BOOKMARK [1][-]{section.B.1}{B.1 Machine Learning}{appendix.B}% 35
+\BOOKMARK [1][-]{section.B.2}{B.2 VBF Hb BDT Training}{appendix.B}% 36
+\BOOKMARK [0][-]{section*.5}{Bibliography}{}% 37
