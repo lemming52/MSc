@@ -5,7 +5,7 @@
 
 \section{Cutflow}
 
-	Prior to investigating the core kinematic variables and the more complex kinematic variables used for the Boosted Decision Tree training (Appendix \ref{a:bdt}), the event cutflow for both the Monte-Carlo and real data should be studied to highlight any differences between the event counts. The event counts are given in Table \ref{t:cutflow}, and the ratio of the events is shown in Figure \ref{f:cutflow}.
+	Prior to investigating the core kinematic variables and the more complex kinematic variables used for the Boosted Decision Tree training (Appendix \ref{a:bdt}), the event cutflow for both the Monte-Carlo and real data should be studied to highlight any differences between the event counts. The event counts are given in Table \ref{t:cutflow}, and the ratio of the events is shown in Figures \ref{f:cutflowD} and \ref{f:cutflowMC}.
 
 	\begin{table}[h]
 		\caption{Cutflow for the \textit{two-central} \VBFHBB\, events as described in Section \ref{es:as}. The cutflows are given for the online and offline channels in both data and Monte-Carlo along with the percentage of original events.}
@@ -25,13 +25,40 @@
 		\end{tabular}
 	\end{table}
 
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.75\linewidth]{D_cutflow}
-		\includegraphics[width=0.75\linewidth]{MC_cutflow}
-		\caption{Ratio of the online event count over the offline event count for the real data (top) and Monte-Carlo (bottom) cutflows.}
-		\label{f:cutflow}
-	\end{figure}
+	\subsection{Monte-Carlo}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.75\linewidth]{MC_cutflow}
+			\caption{Ratio of the online event count over the offline event count for the Monte-Carlo}
+			\label{f:cutflowD}
+		\end{figure}
+
+	Overall, the online performance has fewer events than the offline for all points in the cutflow, and overall produces $\sim80\%$ of the total signal events. There are three distinct jumps in the cutflow ratio, at the cuts on the \textit{loose} \bjets\,, light-jets and the forward jet requirement, of $\sim7\%$ each. As shown in Figure \ref{fig:MC:bjetefficiency}, online \btag\, is $\sim93\%$ as efficient as the offline \btag. When considering tagging two distinct \bjets\,, any difference in efficiency is squared. Given the difference in tagging rates, this would result in $\sim86\%$ tagging efficiency for two \bjets\,, which is lower than shown in the cutflow. As shown for the leading \bjet in Section \ref{OP:leadingb}, the offline jet is typically higher in \pt than the online jets. However the difference is small , $\sim2\%$, so any effect on the cutflow should not be as pronounced.
+
+	The $\sim7\%$ drop on the light jet requirement is unexpected, the requirement was solely for 2 jets with \pt$>20$GeV. Given the points above with respect to the \pt difference between online and offline, this drop should not be so sever. The fact the \pt cuts on the light jets were so low also suggests an anomalous result here as such a cut should not contribute a significant reduction in either online or offline.
+
+	Following the drop for the light-jet cut, there is an unexpected increase in the online ratio following the \textit{tight} \btagging\, cut. As highlighted, the tagging efficiency was worse for online than offline, so any requirement for a tagged \bjet\, would be expected to produce a decrease in the online event count relative to the offline count. Perhaps spuriously, the cutflow at this point corresponds to the $86\%$ figure expected given the relative tagging efficiency for two \bjets.
+
+	The final drop occurs following the requirement for a high \pt forward jet. Figure \ref{fig:O:leadingnonbptslice} shows that for non \bjets\, in the forward region of the detector, the \pt of the offline jet is consistently higher than the online \pt. This difference would result in a drop in the online events, with fewer jets passing the threshold \pt cut compared to the offline events.
+
+	Overall for the Monte-Carlo events, there was a 20\% reduction in the number of events that passed the \VBFHBB\, cuts.
+
+
+
+
+
+
+
+
+
+
+	\subsection{Data}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.75\linewidth]{D_cutflow}
+			\caption{Ratio of the online event count over the offline event count for the real data}
+			\label{f:cutflowMC}
+		\end{figure}
 
 
 
