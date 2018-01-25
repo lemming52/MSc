@@ -205,11 +205,12 @@ To compare the online and offline jets, the ratio of the difference in value for
 
 	To study this, the \btag\, efficiency at trigger level and offline is studied for different jet flavours using the MC sample. The Monte-Carlo sample was used as the \textit{truth} nature of the jet object is known, and the result of the \btag\, algorithm can be comparedfor \bjets\, \cjets\, and light-jets.
 
-	In the analysis, an offline/HLT jet pair was formed using $\Delta R$ matching and truth label of the offline jet used to assign a flavour to the pair. Light-jets, \bjets\, and \cjets\, were all studied separately to view the \btag\, efficiency and the mistag rate of both algorithms operating at the \textit{tight} working point. The efficiency plots in Figures \ref{fig:MC:bjetefficiency}, \ref{fig:MC:cjetefficiency} and \ref{fig:MC:lightjetefficiency} show the fraction of these jets that were identified as \bjets\, by the HLT and offline tagging algorithms.
+	In the analysis, an offline/HLT jet pair was formed using $\Delta R$ matching and truth label of the offline jet used to assign a flavour to the pair. Light-jets, \bjets\, and \cjets\, were all studied separately to view the \btag\, efficiency and the mistag rate of both algorithms operating at the \textit{tight} for an expected \btag\ efficiency of $70\%$. The efficiency plots in Figures \ref{fig:MC:bjetefficiency}, \ref{fig:MC:cjetefficiency} and \ref{fig:MC:lightjetefficiency} show the fraction of these jets that were identified as \bjets\, by the HLT and offline tagging algorithms. These plots were created from events following the same cuts as for the leading \bjet\ and non \bjet\ as discussed at the beginning of the chapter.
 
 	\subsection{\textit{b}-jet efficiency}
+	\label{obp:beff}
 
-	For jets labeled as true \bjets, the tagging efficiency can be calculated and plotted with respect to topological variables of the jet objects.
+	For jets labeled as true \bjets, the tagging efficiency of can be calculated and plotted against kinematic quantities of the \bjets. Figure \ref{fig:MC:bjetefficiency} shows the \btag\ efficiency $\epsilon$ plotted against the \pt and $\eta$ of the offline \bjet.
 
 		\begin{figure}[h]
 			\centering
@@ -221,16 +222,18 @@ To compare the online and offline jets, the ratio of the difference in value for
 			\begin{minipage}[h]{0.48\linewidth}
 				\includegraphics[width=1\linewidth]{etaBJET}
 			\end{minipage}
-			\caption{\btag\, efficiency for truth \bjets\, in Monte-Carlo data, plotted against jet \pt (left) and $\eta$ (right).}
+			\caption{\btag\, efficiency for truth \bjets\, in Monte-Carlo simulation, evaluated for offline jets with the 2016 MV2c10 algorithm and for online jets with the 2015 MV2c20 algorithm, plotted against offline jet \pt in the left panel and offline jet $\eta$ in the right panel.}
 			\label{fig:MC:bjetefficiency}
 		\end{figure}
 
-		FIX
-		 the HLT \btag\, is found to be around 5\% less efficient than the offline \btag\, for jets with \pt$>50$GeV. This is a consistent direction of efficiency shift as found when comparing the 2016 MV2c10 and 2015 MV2c20 algorithms on the training $t\bar{t}$ sample \cite{bTagOptimisation}, but of a larger magnitude.
+		The overall distribution shape in \pt and $\eta$ for the \btag\ efficiency is consistent for both the online and offline \bjet\. The shape of the distribution in \pt shown in the left panel of Figure \ref{fig:MC:bjetefficiency} is consistent with the efficiency curves expected for the MV2 \btag\ algorithm with respect to \pt \cite{btagOptimisation}, and the efficiency is consistent the $70\%$ value expected for the \textit{tight} working point for the offline jets, shown clearly by the flat peak of the $\eta$ distribution in the right panel for the central $\eta$ regions where the \pt distribution of jets should be unbiased.
+
+		However, the HLT \btag\, is shown to be around 5\% less efficient than the offline \btag\, for jets with \pt$>50$GeV. This value is consistent across the \pt distribution shown by the flat line at $\sim0.95$ in the ratio plot in the left panel of Figure \ref{fig:MC:bjetefficiency}. The improvement in efficiency between the 2016 MV2c10 and 2015 MV2c20 algorithms is consistent with the comparative behaviour shown for a training $t\bar{t}$ sample \cite{btagOptimisation}, but of a larger magnitude.
+
+		This change in efficiency, consistent with the differences in the two algorithms, could be rectified by applying the newer algorithm to the online jet objects. However, the trigger-level jet objects in the xAOD sample data only contained the discriminant values from the applied 2015 MV2c20 algorithm which could be extracted using standard \btag\ tools in AnalysisBase. The input variables used for the training and evaluation of the component algorithms of the MV2 algorithms (Section \ref{det:btagging}) were discarded from the HLT level jet objects. Retaining this quantities on the online jets would allow future trigger-level analyses to make use of the newer \btag\ algorithms or retrain one algorithm to increase the performance to offline levels. This would result in an increased detector readout size in bytes, which could reduce the permitted rate increase for a TLA. An estimate of such a resultant decrease in rate is not made in this thesis.
 
 	\subsection{\textit{c}-jet efficiency}
-	For \cjets\, and light-jets, plotting the same value gives the mistag rate for these jets in the detector.
-
+	The same efficiency plot could be produced for \cjets\, against the kinematic jet quantities. Any result marked as a \bjet\ for a truth \cjet\ is a mistagged jet, and plots of the efficiency show measurements of the mistag rate of the algorithm. The mistag rate is plotted in Figure \ref{fig:MC:cjetefficiency} for the online and offline jets against offline \pt and $\eta$.
 		\begin{figure}[h]
 			\centering
 			\begin{minipage}[h]{0.48\linewidth}
@@ -241,15 +244,17 @@ To compare the online and offline jets, the ratio of the difference in value for
 			\begin{minipage}[h]{0.48\linewidth}
 				\includegraphics[width=1\linewidth]{etaCJET}
 			\end{minipage}
-			\caption{Mistag rate for truth \bjets\, in Monte-Carlo data, plotted against jet \pt (left) and $\eta$ (right).}
+			\caption{Mistag rate for truth \cjets\, in Monte-Carlo simulation, evaluated for offline jets with the 2016 MV2c10 algorithm and for online jets with the 2015 MV2c20 algorithm, plotted against offline jet \pt in the left panel and offline jet $\eta$ in the right panel.}
 			\label{fig:MC:cjetefficiency}
 		\end{figure}
 
-		 The increase in the rate of \cjet\, mistagging is absolutely consistent with the refinements to the algorithm between the 2016 MV2c10 and 2015 MV2c20, with increased levels of \cjet\, rejection in the offline 2016 MV2c10, and the $\sim40$\% increase is consistent with the expected shift from the optimised algorithm \cite{btagOptimisation}.
+		The shape of the mistag rate distribution is more noisy than the \bjet\ efficiency plots in Figure \ref{fig:MC:bjetefficiency}, but across the \pt distribution in the left panel of Figure \ref{fig:MC:cjetefficiency} the online mistag rate is $\sim50\%$ higher than the offline rate.
 
+		The increase in the rate of \cjet\, mistagging is absolutely consistent with the refinements to the algorithm between the 2016 MV2c10 and 2015 MV2c20, with increased levels of \cjet\, rejection in the offline 2016 MV2c10, and the increase is consistent with the expected shift from the optimised algorithm \cite{btagOptimisation}. Similar to the solution for changes in \btag\ efficiency in Section \ref{obp:beff}, retaining the inputs to the \btag\ algorithms would allow improved versions of the \btag\ algorithms to be applied to the HLT jets.
 
-\newpage
 	\subsection{Light-jet efficiency}
+
+		Plots of the mistag rate for truth light-jets for online and offline \btag\ against the offline jet \pt and $\eta$ are shown in Figure \ref{fig:MC:lightjetefficiency}
 
 		\begin{figure}[h]
 			\centering
@@ -261,9 +266,11 @@ To compare the online and offline jets, the ratio of the difference in value for
 			\begin{minipage}[h]{0.48\linewidth}
 				\includegraphics[width=1\linewidth]{etaLIGHTJET}
 			\end{minipage}
-			\caption{Mistag rate for truth light-jets in Monte-Carlo data, plotted against jet \pt (left) and $\eta$ (right). Analysis is confined to the central region of the detector where \btag\, is operational.}
+			\caption{Mistag rate for truth light-jets in Monte-Carlo simulation, evaluated for offline jets with the 2016 MV2c10 algorithm and for online jets with the 2015 MV2c20 algorithm, plotted against offline jet \pt in the left panel and offline jet $\eta$ in the right panel}
 			\label{fig:MC:lightjetefficiency}
 		\end{figure}
+
+		The light-jet efficiency plots are noisier than the plots for truth \bjets\ and \cjets\, owing the the low mistag rate of $\sim0.3\%$ shown in the left panel of Figure \ref{fig:MC:lightjetefficiency}. For these light-jets, the online algorithm performs better than the offline algorithm overall, with a mistag rate of $\sim80\%$ the offline rate for jets with \pt$<150$. The change in the performance for the light-jet rejection, with the 2015 MV2c20 algorithm performing better for higher \pt values and worse for lower \pt values is consistent with the expected change in behaviour between the two algorithms \cite{btagOptimisation}.
 
 
 	\subsection{Tag Matching}
@@ -272,5 +279,10 @@ To compare the online and offline jets, the ratio of the difference in value for
 
 	\section{Summary}
 
+	The aim of this section of the analysis was to show that using online reconstructions of the constituent jet objects used in a \VBFHBB\ analysis was comparable to using offline objects by showing the properties of the jets and the \btag\ of the jets to be similar. The overall performance using the HLT objects as constructed during the data-taking and in the Monte-Carlo simulations is similar to the offline behaviour. The topological jet quantities ($\eta$, $\phi$) are directly comparable between the two types of jet objects. However there are differences between the \pt values of the HLT and offline jet objects and differences between the performances of the \btag\ algorithms.
+
+	These differences are readily rectifiable however. The energy scale calibration differences can be accounted for using standard jet calibration tools to bring the \pt values of the online and offline jets into agreement with one another \cite{JES}, while the \btag\ performance can be made similar if the input variables to the MV2 algorithm are preserved on the trigger-level jet object, such that more developed \btag\ algorithms can be applied to the jet instead to the algorithm used during data collection.
+
+	With these corrections, there are no differences between the trigger level objects making up a \VBFHBB\ event and the offline objects that would prohibit a TLA analysis of the \VBFHBB\ channel.
 
 \endinput
