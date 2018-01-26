@@ -32,29 +32,34 @@
 %
 \begin{document}
 %==============================================================================%
-\frontmatter
+
 %------------------------------------------------------------------------------%
+\mainmatter
 \pagestyle{empty}
 %
 % titlepage ...
-% 
+%
 \include{OTHER/titlepage}
 %
 \pagestyle{plain}
 %
 % contents ...
 %
+\setcounter{page}{2}
 \include{OTHER/contents}
+\include{OTHER/figures}
+\include{OTHER/tables}
 %
 % declaration ...
 %
+\include{OTHER/abstract}
 \include{OTHER/declaration}
+\include{OTHER/copyright}
 %
 % thanks ...
 %
 \include{OTHER/thanks}
 %------------------------------------------------------------------------------%
-\mainmatter
 %------------------------------------------------------------------------------%
 % Note: \graphicspaths is set to point to appropriate places to find
 % figures for each Chapter or Appendix ...
