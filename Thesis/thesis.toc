@@ -72,10 +72,12 @@
 \contentsline {subsection}{\numberline {5.2.1}Summary of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ jet objects}{57}{subsection.5.2.1}
 \contentsline {section}{\numberline {5.3}Kinematic quantities of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}{57}{section.5.3}
 \contentsline {section}{\numberline {5.4}BDT Input Variables}{58}{section.5.4}
-\contentsline {appendix}{\chapternumberline {A}Configuration}{61}{appendix.A}
-\contentsline {section}{\numberline {A.1}Files}{61}{section.A.1}
-\contentsline {section}{\numberline {A.2}Configurations}{62}{section.A.2}
-\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{63}{appendix.B}
-\contentsline {section}{\numberline {B.1}Machine Learning}{63}{section.B.1}
-\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{64}{section.B.2}
-\contentsline {chapter}{Bibliography}{65}{section*.9}
+\contentsline {section}{\numberline {5.5}Summary}{60}{section.5.5}
+\contentsline {chapter}{\chapternumberline {6}Conclusions}{62}{chapter.6}
+\contentsline {appendix}{\chapternumberline {A}Configuration}{65}{appendix.A}
+\contentsline {section}{\numberline {A.1}Files}{65}{section.A.1}
+\contentsline {section}{\numberline {A.2}Configurations}{66}{section.A.2}
+\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{67}{appendix.B}
+\contentsline {section}{\numberline {B.1}Machine Learning}{67}{section.B.1}
+\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{68}{section.B.2}
+\contentsline {chapter}{Bibliography}{69}{section*.9}
