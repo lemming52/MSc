@@ -4,6 +4,7 @@
 
 
 \section{Cutflow}
+\label{k:cutflow}
 
 	Prior to investigating the core kinematic variables and the more complex kinematic variables used for the Boosted Decision Tree training (Appendix \ref{a:bdt}), the event cutflow for both the Monte-Carlo and real data should be studied to highlight any differences between the event counts. The event counts are given in Table \ref{t:cutflow}, and the ratio of the events is shown in Figures \ref{f:cutflowD} and \ref{f:cutflowMC}.
 
@@ -73,6 +74,7 @@
 
 
 \section{Specific Jet Feature Distributions}
+\label{k:jets}
 
 	While the previous chapter showed that the \bjets\ and non-\bjets\ had slight differences that could be rectified for future analyses, the behaviour is sufficiently similar that plots of the kinematic quantities of the \VBFHBB\ jets can be made to ensure behaviour is consistent for the specific jets that make up the final state from Table \ref{t:cutflow}.
 
@@ -222,17 +224,21 @@
 
 \section{BDT Input Variables}
 
-	As discussed in Section \ref{es:as}, the full BDT analysis of the \VBFHBB\ search described in Appendix \ref{a:bdt} was not performed for this dissertation. Given this is a critical component of the full Higgs search \cite{VBFHbb8tev} in \VBFHBB, the performance of select BDT variables is explored for the signal and background regions described in Table \ref{t:signalback}. The variables \mjj and \ptjj covered in the previous section are both BDT training variables. This section covers $\eta^*$, given by
+	As discussed in Section \ref{es:as}, the full BDT analysis of the \VBFHBB\ search described in Appendix \ref{a:bdt} was not performed for this dissertation. Given this is a critical component of the full Higgs search \cite{VBFHbb8tev} in \VBFHBB, the performance of select BDT variables is explored for the signal and background regions described in Table \ref{t:signalback}. The variables \mjj and \ptjj covered in the previous section are both BDT training variables.
+
+	This section covers $\eta^*$, given by
 
 	\begin{equation}
 	\eta^* = \frac{1}{2}(|\eta_{j1}| + |\eta_{j2}| - |\eta_{b1}| - |\eta_{b2}|)
 	\end{equation}
 
-	which is plotted in Figure \ref{f:etastar} for the online and offline events, and the \pt \textit{balance}, which is given by
+	which is plotted in Figure \ref{f:etastar} for the online and offline events, and the \pt \textit{balance}, given by
 
 	\begin{equation}
 		p_{\text{T} balance} = \frac{\vec{p_{\text{T}j1}} + \vec{p_{\text{T}j2}} + \vec{p_{\text{T}b1}} + \vec{p_{\text{T}b2}}}{p_{\text{T}j1} + p_{\text{T}j2} + p_{\text{T}b1} + p_{\text{T}b2}}
 	\end{equation}
+
+	which is shown in Figure \ref{f:ptbalance}
 
 	\begin{figure}[h]
 		\centering
@@ -260,4 +266,17 @@
 		\caption[Comparison of the $p_{\text{T} balance}$ distribution of the \VBFHBB\ events for HLT and offline objects]{$p_{\text{T} balance}$ distribution for the online and offline \VBFHBB\ events, with background events from data shown in the left panel and Monte-Carlo signal events in the right.}
 	\end{figure}
 
+	As for the \VBFHBB\ jet kinematic quantities in Section \ref{k:jets}, these variables behave in the same fashion. For the lower background, upper background and signal sectors the shapes of the online and offline curves are comparable. The relative ratio of the online to the offline events is $\0.8$, as covered in Section \ref{k:cutflow} and shown clearly by the ratio plots in the left panels of Figures \ref{f:etastar} and \ref{f:ptbalance}. The plots for the Monte-Carlo signal are noisier, but show a rough $20\%$ decrease in online events compared to offline, and in general the upper background region performs better than the lower region.
+
+	Given this consistent behaviour for the BDT quantities derived from the \VBFHBB\ event, the trigger-level objects should perform comparably to the offline objects, and as such can be used to train a BDT to refine the analysis into a \VBFHBB\ phase space using solely trigger-level objects.
+
+	\section{Summary}
+
+	This chapter presents analysis and comparison of the \VBFHBB\ events attained using trigger-level objects and offline reconstructions in data and Monte-Carlo simulation. The cutflows of the analysis for Monte-Carlo online, Monte-Carlo offline, data online and data offline were studied, and found to show online analysis produced $\sim82\%$ of the results of offline analysis for Monte-Carlo simulations, and $\sim84\%$ for data.
+
+	While this is a reduction of event yield for a given analysis sample, the increased trigger rates permitted when applying TLA will result in an increased final event count even given the decrease in efficiency. For current rate increases in TLA analyses \cite{tla}, this would amount to an increase of $\sim66\%$ in the final number of events. This estimate of the possible increase does not take into account any limitations on the rate that may result from increased computational demands on either processing or TLA object byte size.
+
+	To confirm that the TLA analysis would be possible with the trigger-level objects, the component jets, kinematic properties of the \VBFHBB\ event and select BDT training variables were investigated. These cases showed consistent behaviour between the online and offline objects in both background data and signal Monte-Carlo simulation, while showing the online rate decrease calculated from the cutflows.
+
+	These suggests a full study of \VBFHBB\ analysis is a feasable proposal. Use of TLA could increase the output rate of the tirggers to statistically significant levels and the objects produced will behave during analysis in a consistent fashion to the offline objects.
 \endinput
