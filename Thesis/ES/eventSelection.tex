@@ -43,6 +43,8 @@
 
 
 	\section{\VBFHBB\, Analysis Strategy}
+
+
 	\label{es:as}
 		Candidate \VBFHBB\, events are selected by requiring two \textit{central} \bjets\, which form the Higgs candidate and two high \pt VBF-tagging jets. The analysis presented in this disseration follows the selection criteria outlined in the 2016 Search for \VBFHBB\ at ATLAS \cite{VBFHbb8tev}. Searches using \VBFHBB\, consider two exclusive analysis channels of interesting events: the \textit{four-central} channel, which requires all four jets to be contained within the central region $|\eta| < 2.8$, and the \textit{two-central} channel which requires two jets in the central region and at least one forward jet.
 		The analysis presented in this dissertation focuses on the \textit{two-central} channel as this is a more standard VBF topology.
@@ -50,11 +52,28 @@
 		For the \textit{two-central} channel, the event was required to pass the \texttt{HLT\_j80\_bmv2c2070\_split\_\-j60\_bmv2c2085\_split\_j45\_320eta490} trigger. This trigger requires a single L1 jet ROI of $E_\text{T} > 40$GeV and $|\eta| < 2.5$, a second central jet ROI with $E_\text{T} > 25$, and a forward jet ROI with $E_\text{T} > 20$GeV and $3.1 < |\eta| < 4.9$.
 		At the HLT, one central jet \btagged\, at the \textit{tight} working point with \pt $>80$GeV, and a jet with \pt$>60$GeV tagged at the \textit{loose} working point were both required. Finally a HLT forward jet with $E_\text{t}>45$ between $3.2 < |\eta| < 4.9$ was needed.
 
-		Once the trigger was passed, the event was required to contain one jet with \pt$>95$GeV which was \btagged\, at the \textit{tight} working point and one additional jet with \pt$>70$GeV that passed the \textit{loose} \btag\, working point. One forward jet with $3.2 < |\eta| < 4.4$ and $p_{\text{T}}>60$GeV was required along with a final VBF jet with \pt$>20$GeV and $|\eta| < 4.4$. Finally the \pt of the $b\bar{b}$ pair was required to exceed 160 GeV. This cut is to remove kinematic sculpting of the $M_{bb}$ distribution, which for absent or lower \ptbb cuts has a pronounced bump in the $200$-$300$GeV $M_{bb}$ region. This bump is a result of the correlation between \mbb and \ptbb. By requiring the \ptbb cut the \mbb distribution forms a regular falling distribution.
+		Once the trigger was passed, the event was required to contain one jet with \pt$>95$GeV which was \btagged\, at the \textit{tight} working point and one additional jet with \pt$>70$GeV that passed the \textit{loose} \btag\, working point. One forward jet with $3.2 < |\eta| < 4.4$ and $p_{\text{T}}>60$GeV was required along with a final VBF jet with \pt$>20$GeV and $|\eta| < 4.4$. Finally the \pt of the $b\bar{b}$ pair was required to exceed 160 GeV. This cut is to remove kinematic sculpting of the $M_{bb}$ distribution, which for absent or lower \ptbb cuts has a pronounced bump in the $200$-$300$GeV $M_{bb}$ region. This bump is a result of the correlation between \mbb and \ptbb. By requiring the \ptbb cut the \mbb distribution forms a regular falling distribution. The cuts as applied in the analysis code are summarised in Table \ref{tab:cuts}
+
+		\begin{table}[h]
+		\caption[\textit{two-central} channel event cuts]{Cutflow for the \textit{two-central} \VBFHBB\. channel.}
+		\label{tab:cuts}
+		\medskip
+		\centering
+		\begin{tabularx}{\textwidth}{p{2.5cm} X}\toprule
+			Cut & Description \\\midrule
+			Good Runs List & Event required to pass GRL.\\
+			Clean Events & Event required to be unaffected by detector issues.\\
+			Trigger & Event required to have passed the \texttt{HLT\_j80\_bmv2c2070\_split\_\-j60\_bmv2c2085\_split\_j45\_320eta490} trigger.\\
+			$\geq2$ \textit{loose} & Event was required to contain at least two \bjets\ with \pt$>70$GeV tagged at the \textit{loose} working point.\\
+			$\geq2$ light-jets & Event was required to contain at least two non-\bjets\ with \pt$>20$GeV.\\
+			\textit{Tight} \bjet & Event was required to contain one \bjet\ with \pt$>95$GeV tagged at the \textit{tight} working point.\\
+			Forward jet requirement & Event was required to contain at one non-\bjet\ with \pt$>60$GeV and $3.2 < |\eta| < 4.4$.\\
+			\ptbb$>160$GeV & The chosen $b\bar{b}$ pair was required to have a combined \pt$>160$GeV \\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
 
 		The events were required to be clean events, unaffected by any small detector issues, and the jets were assigned to components of the \VBFHBB\, event as described in the following procedure. All pairs of jets that passed the \textit{loose} working point (where either of the jet pair passed the \textit{tight} working point) were considered; the pair with the highest \ptbb was selected as the Higgs candidate. An identical iterative procedure was carried out to assign the VBF pair, using jets not marked for consideration as the Higgs candidate. One of the VBF jet pair was required to satisfy the forward jet selection criterion, and the highest invariant mass pair was selected.
-
-		CUT TABLE
 
 		These conditions were identical for both the Monte-Carlo simulation and data, with the exception of the trigger requirements which were not required for the simulated samples.
 

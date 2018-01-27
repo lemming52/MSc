@@ -189,8 +189,6 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 
 	Detecting the SM Higgs boson is strongly dependent on the predominant production and decay channels for the Higgs boson.. In this section the relevant production and decay channels at the Large Hadron Collider (LHC) will be discussed.
 
-
-
 	\subsection{Higgs Production}
 
 		While there are many various methods for production of a Higgs boson, at the LHC the cross section is dominated by gluon-gluon fusion (\ggF) as shown in Figure \ref{fig:higgsproductionCS}, with the second largest cross-section arising from Vector Boson Fusion (VBF, Section \ref{t:VBF}). Other significant production processes are the associated production with a weak boson ($WH/ZH$, Higgs-strahlung) production modes and associated production with top quarks ($ttH$) \cite{LHCHiggsCS}. The lowest order Feynmann diagrams for these processes are shown in Figure \ref{fig:higgsproddiag}.
@@ -211,31 +209,25 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 					\begin{minipage}[h]{0.4\linewidth}
 						\includegraphics[width=1\linewidth]{T/FIGS/tth}
 					\end{minipage}
-				\caption[Feynmann diagrams of lowest order Higgs production processes]{Lowest order Feynmann diagrams for gluon-gluon fusion (\ggF), $W/Z$ associated production ($WH/ZH$) and top anti-top associated production ($t\bar{t}H$) \cite{higgsproduction}.}
+				\caption[Feynmann diagrams of lowest order Higgs production processes]{Lowest order Feynmann diagrams for gluon-gluon fusion (\ggF), vector boson fusion (VBF), $W/Z$ associated production ($WH/ZH$ or $VH$) and top anti-top associated production ($t\bar{t}H$) \cite{higgsproduction}.}
 				\label{fig:higgsproddiag}
 			\end{figure}
 
 			\begin{figure}[h]
 				\centering
 				\includegraphics[width=0.7\linewidth]{T/FIGS/YRHXS_Summary_fig3}
-				\caption[Higgs production cross section as a function of Higgs mass at a $\sqrt{s}=14$TeV]{SM Higgs Production cross section for $\sqrt{s}=14$ TeV. $\,pp\rightarrow H$ corresponds to gluon-gluon fusion production and $pp\rightarrow qqH$ vector boson fusion. \cite{LHCHiggsCS}}
+				\caption[Higgs production cross section as a function of Higgs mass at a $\sqrt{s}=14$TeV]{SM Higgs Production cross section for $\sqrt{s}=14$ TeV. $\,pp\rightarrow H$ corresponds to gluon-gluon fusion production , $pp\rightarrow qqH$ vector boson fusion, $pp\rightarrow WH$ and $pp\rightarrow ZH$ yo $W/Z$ associated production and  $pp\rightarrow ttH$ refers to top anti-top associated production.  \cite{LHCHiggsCS}}
 				\label{fig:higgsproductionCS}
 			\end{figure}
 
 
+		The dominant production mechanism for the Higgs boson in hadron colliders is the \ggF\, production via in intermediate quark loop \cite{higgsproduction}. The dynamics of this mechanism are controlled by strong interactions, thus calculations of QCD corrections are necessary for any accurate predictions, and have been computed up from next-to-leading order (NLO) to N$^3$LO for the \ggF\ process in recent years, along with the inclusion of Electro-Weak corrections in the cross section calculations \cite{LHCHiggsCS}. The \ggf\ production has a cross section that is between one and two orders of magnitude larger than the other production channels as shown in Figure \ref{fig:higgsproductionCS}. The second largest cross section is that for vector boson fusion, which has a well defined experimental signature due to the two remnant jets produced along with the Higgs boson, and has a well defined NLO cross-section with small QCD corrections \cite{higgssearch}.
 
-		The dominant production mechanism for the Higgs boson in hadron colliders is the \ggF\, production via in intermediate quark loop. The dynamics of this mechanism are controlled by strong interactions, thus calculations of QCD corrections are necessary for any accurate predictions, and have been computed up from next-to-leading order (NLO) to N$^3$LO for the \ggF\ process in recent years, along with the inclusion of Electro-Weak corrections in the cross section calculations \cite{LHCHiggsCS}.
-
-	\subsection{Vector Boson Fusion}
-	\label{t:VBF}
-
-		Production of a Higgs boson from the fusion of vector bosons radiated from initial-state quarks is the second largest cross-section at the LHC, and is useful as a production mode due to topological characteristics which can distinguish the event from \ggF. In \VBFHBB, the characteristic topology is a pair of
-		central \bjets forming the Higgs candidate, and two forward, close to the beam line VBF jets formed from remnants of the initially colliding protons as displayed in Figure \ref{fig:T:vbf}. In addition central jet activity is suppressed due to the lack of colour exchange between the colour single Higgs boson and the decay \bquarks \cite{VBF2004}.  These distinct features mean that while the cross section for VBF at a Higgs mass of $< 200$ GeV is dominated by \ggF, the easy to detect signature means the channel is a cornerstone of searches for the Higgs boson.
-
+		The two other principal production modes at the LHC, the Higgs-strahlung associated $W/Z$ production and associated production with a top quark pair, have very small cross-sections compared to the \ggF\ and VBF production modes. While Higgs searches for these channels must work around the small event rate by using final states with a clear signature, analysis of these channels is possible \cite{higgssearch, tth}.
 
 	\subsection{Higgs Decay}
 
-		The branching ratios for decays of the Higgs boson in the Standard Model have been extensively determined using Monte-Carlo event generators. As is to be expected, the relative cross-sections of the decay modes are strongly dependent on the mass of the Higgs boson, as highlighted in Figure \ref{fig:higgsbrlm}.
+		The branching ratios for decays of the Higgs boson in the Standard Model have been calculated according to the theoretical framework of the Standard Model \cite{HDECAY}. As is to be expected, the relative cross-sections of the decay modes are strongly dependent on the mass of the Higgs boson, as highlighted in Figure \ref{fig:higgsbrlm}.
 
 		\begin{figure}[h]
 			\centering
@@ -244,16 +236,22 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 			\label{fig:higgsbrlm}
 		\end{figure}
 
-		\newpage
-		While observations consistent with the Standard Model Higgs boson have been made for the $H\rightarrow \gamma\gamma$, $H\rightarrow ZZ$, $H\rightarrow W^+W^-$ and $H\rightarrow \tau^+\tau^-$ channels, observation of th $H\rightarrow bb$ decay channel is significantly hindered owing to the large background from multijet production in hadron collisions. Despite this, the topology of the VBF production mechanism makes it a viable option for observation of the  $b\bar{b}$ decay channel.
+		At a Higgs mass of $\sim125$GeV the dominant decay mode is shown in Figure \ref{fig:higgsbrlm} to be the $H\rightarrow b\bar{b}$ mode. While this is the dominant decay mode at this Higgs mass, Higgs searches will make use of other decay channels where the final state signature is clearer and easier to trigger events on, such as the leptonic decays $H\rightarrow\tau\tau$ and $H\rightarrow\gamma\gamma$. Higgs decays to gauge bosons also offer clear final states as they will subsequently decay to leptons \cite{higgssearch}.
+
+		At the LHC, the two main search channels for the Higgs boson are the \ggF\ Higgs production decaying to a $WW$ pair leading to a $l\nu l\nu$ final state \cite{hprod, searchggf} and the Higgs-strahlung VH production with subsequent $H\rightarrow b\bar{b}$ and the vector boson $V$ ($V = W, Z$) decaying $V\rightarrow l+X$ \cite{hprod, searchvh}. The other principle production modes and alternative decay channels are also used in searches for the Higgs boson however. Searches in the $t\bar{t}H$ channel make use of the $t$ quarks decaying into one or zero leptons \cite{tth}, and vector boson fusion can exploit the distinctive final state signature. Discussion of VBF searches, specifically \VBFHBB\ are given in Section \ref{t:VBF}
 
 	\subsection{Summary of Current Higgs Measurements}
 
+		At the current point in time, the LHC has delivered more than $40$fb$^{-1}$ of $13$TeV $pp$ collisions to the ATLAS and CMS detectors, and Higgs searches have been carried out in wide variety of decay channels ($WW$, $BB$, $\gamma\gamma$) and production modes(\ggf\ VH, VBF) \cite{pdg, VBFHbb8tev, vbfsearchggf, searchvh, tth}. Currently, the consensus of these analyses is that the CMS and ATLAS experiments have observed the Standard Model Higgs boson with a mass of $125.09\pm0.24$GeV\cite{pdg}.
+
 	\subsection{Searches for \VBFHBB\}
+		\label{t:VBF}
 
-		Searches for the \VBFHBB\, interaction look for a resonance in the invariant mass of a pair of jets containing \bquarks ($m_{bb}$) in events with the characteristic topology. This characteristic topology distinguishes the signal events from the multijet events that form the dominant background with a non-resonant $m_{bb}$ spectrum. An additional resonant background contribution to the \mbb spectrum is due to decay of a $Z$ boson to two jets in association with two jets.
+		Production of a Higgs boson from the fusion of vector bosons radiated from initial-state quarks is the second largest cross-section at the LHC, and is useful as a production mode due to topological characteristics which can distinguish the event from \ggF. In \VBFHBB, the characteristic topology is a pair of central \bjets\ forming the Higgs candidate, and two forward, close to the beam line VBF jets formed from remnants of the initially colliding protons as displayed in Figure \ref{fig:higgsproddiag}. In addition central jet activity is suppressed due to the lack of colour exchange between the colour singlet Higgs boson and the decay \bquarks\cite{VBF2004}.  These distinct features mean that VBF can be distinguished from the other production mechanisms.
 
-		In the most recent searches for the Higgs boson produced via VBF, which this analysis emulates, the \VBFHBB\, events are indistinguishable from the \ggF\, events, and are separated using a multivariate boosted decision tree (BDT) analysis to refine the phase space to the most VBF sensitive BDT regions.
+		Searches for the \VBFHBB\, interaction look for a resonance in the invariant mass of a pair of jets containing \bquarks ($m_{bb}$) in events with the characteristic topology. This characteristic topology distinguishes the signal events from the multijet events that form the dominant background with a non-resonant $m_{bb}$ spectrum. An additional resonant background contribution to the \mbb spectrum is due to decay of a $Z$ boson to two jets in association with two jets \cite{VBFHbb8tev}. With the application of specific cuts to take advantage of this topology, the VBF channel provides a clean environment for analysis.
+
+		In the most recent searches for the Higgs boson produced via VBF, which this analysis emulates \cite{VBFHbb8tev}, the \VBFHBB\, events are separated from non-Higgs backgrounds using a multivariate boosted decision tree (BDT) analysis (Appendix \ref{a:bdt}) to refine the phase space to the most VBF sensitive BDT regions.
 
 
 \endinput

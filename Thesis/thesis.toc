@@ -24,9 +24,8 @@
 \contentsline {subsubsection}{\numberline {1.2.3.5}Underlying Event}{19}{subsubsection.1.2.3.5}
 \contentsline {section}{\numberline {1.3}The Higgs Boson}{19}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Higgs Production}{20}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Vector Boson Fusion}{20}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Higgs Decay}{21}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Summary of Current Higgs Measurements}{22}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.2}Higgs Decay}{21}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Summary of Current Higgs Measurements}{22}{subsection.1.3.3}
 \contentsline {chapter}{\chapternumberline {2}Detector}{23}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{23}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}LHC Run Conditions in 2016}{24}{subsection.2.1.1}
