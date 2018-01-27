@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  27 JAN 2018 19:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  27 JAN 2018 21:01
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1048,8 +1048,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 33.
  (thesis.aux (OTHER/titlepage.aux) (OTHER/contents.aux) (OTHER/figures.aux)
 (OTHER/tables.aux) (OTHER/abstract.aux) (OTHER/declaration.aux)
-(OTHER/copyright.aux) (OTHER/thanks.aux) (C/conclusions.aux) (APP/files.aux)
-(APP/bdt.aux) (OTHER/references.aux))
+(OTHER/copyright.aux) (OTHER/thanks.aux) (T/theory.aux) (D/detector.aux)
+(ES/eventSelection.aux) (ObP/objectPerformance.aux) (K/kinematics.aux)
+(C/conclusions.aux) (APP/files.aux) (APP/bdt.aux) (OTHER/references.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 33.
@@ -1180,7 +1181,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 19.
 
-<UniOfManchesterLogo.png, id=67, 513.92pt x 216.81pt>
+<UniOfManchesterLogo.png, id=179, 513.92pt x 216.81pt>
 File: UniOfManchesterLogo.png Graphic file (type png)
 
 <use UniOfManchesterLogo.png>
@@ -1240,29 +1241,37 @@ File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 2.
 ("C:\Users\andre\AppData\Local\Programs\MiKTeX 2.9\tex\latex\newtx\untxsyc.fd"
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)) [2
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 16.
+[2
 
 
 
-])
+]) [3])
 \openout2 = `OTHER/figures.aux'.
 
- (OTHER/figures.tex (thesis.lof) [3
+ (OTHER/figures.tex (thesis.lof
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 12.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 12.
+ [4
 
 
 
-])
+]) [5])
 \openout2 = `OTHER/tables.aux'.
 
- (OTHER/tables.tex (thesis.lot)
-[4
+ (OTHER/tables.tex
+(thesis.lot) [6
 
 
 
 ])
 \openout2 = `OTHER/abstract.aux'.
 
- (OTHER/abstract.tex [5
+ (OTHER/abstract.tex [7
 
 
 
@@ -1270,7 +1279,7 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 ])
 \openout2 = `OTHER/declaration.aux'.
 
- (OTHER/declaration.tex [6
+ (OTHER/declaration.tex [8
 
 
 
@@ -1278,8 +1287,8 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 ])
 \openout2 = `OTHER/copyright.aux'.
 
- (OTHER/copyright.tex
-[7
+
+(OTHER/copyright.tex [9
 
 
 
@@ -1287,7 +1296,7 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 ])
 \openout2 = `OTHER/thanks.aux'.
 
- (OTHER/thanks.tex [8
+ (OTHER/thanks.tex [10
 
 
 
@@ -1311,26 +1320,11 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 3.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 6.
-
-
-LaTeX Warning: Reference `t:tab:boson' on page 9 undefined on input line 6.
-
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 8.
-
-LaTeX Warning: Reference `t:tab:quark' on page 9 undefined on input line 10.
-
-
-LaTeX Warning: Reference `t:tab:lepton' on page 9 undefined on input line 10.
-
-
-LaTeX Warning: Citation `martinshaw' on page 9 undefined on input line 12.
-
-[9
+ [11
 
 
 
@@ -1348,31 +1342,9 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 17.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 17.
-
-
-LaTeX Warning: Reference `t:tab:boson' on page 10 undefined on input line 52.
-
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sl' will be
 (Font)              scaled to size 10.95pt on input line 53.
-[10]
-
-LaTeX Warning: Citation `martinshaw' on page 11 undefined on input line 69.
-
-[11]
-
-LaTeX Warning: Citation `martinshaw' on page 12 undefined on input line 74.
-
-
-LaTeX Warning: Citation `parityviolation' on page 12 undefined on input line 80
-.
-
-
-LaTeX Warning: Citation `martinshaw' on page 12 undefined on input line 80.
-
-
-LaTeX Warning: Citation `martinshaw' on page 12 undefined on input line 82.
-
-[12]
+ [12] [13] [14]
 ! Undefined control sequence.
 l.102 .... The CKM matrix elements $V_{\alpha\Beta
                                                   }$ of $V_{CKM}$ describe t...
@@ -1383,77 +1355,59 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `ckm-param' on page 13 undefined on input line 102.
+LaTeX Warning: Citation `ckm-param' on page 15 undefined on input line 102.
 
-
-LaTeX Warning: Reference `t:higgs' on page 13 undefined on input line 117.
-
-[13]
+[15]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 120
+(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 119
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 14.4pt on input line 120.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 134.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 134.
- [14] [15] [16]
-Package epstopdf Info: Source file: <T/FIGS/YRHXS_Summary_fig3.eps>
-(epstopdf)                    date: 2017-08-19 01:12:57
-(epstopdf)                    size: 18196 bytes
-(epstopdf)             Output file: <T/FIGS/YRHXS_Summary_fig3-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2017-08-19 01:23:15
-(epstopdf)                    size: 11661 bytes
-(epstopdf)             Command: <epstopdf --outfile=T/FIGS/YRHXS_Summary_fig3-e
-ps-converted-to.pdf T/FIGS/YRHXS_Summary_fig3.eps>
-(epstopdf)             \includegraphics on input line 192.
+(Font)              scaled to size 14.4pt on input line 119.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 121.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 121.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 121.
+ [16]
+! Too many }'s.
+l.148 	\subsection{$pp$ Event Simulations}}
+                                           
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[17] [18] [19]
+
+! LaTeX Error: File `T/FIGS/ggh' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 ...degraphics[width=1\linewidth]{T/FIGS/ggh}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <T/FIGS/vbf.eps>
+(epstopdf)                    date: 2017-08-19 02:26:26
+(epstopdf)                    size: 19803 bytes
+(epstopdf)             Output file: <T/FIGS/vbf-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-08-19 02:37:37
+(epstopdf)                    size: 10555 bytes
+(epstopdf)             Command: <epstopdf --outfile=T/FIGS/vbf-eps-converted-to
+.pdf T/FIGS/vbf.eps>
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
+<T/FIGS/vbf-eps-converted-to.pdf, id=528, 361.35pt x 281.05pt>
+File: T/FIGS/vbf-eps-converted-to.pdf Graphic file (type pdf)
 
-<T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf, id=234, 569.12625pt x 408.5262
-5pt>
-File: T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf Graphic file (type pdf)
- <use T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf>
-Package pdftex.def Info: T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf used on
- input line 192.
-(pdftex.def)             Requested size: 278.59879pt x 199.9926pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:higgsproductionCS' on page 17 undefined on input 
-line 199.
-
-
-LaTeX Warning: Reference `t:VBF' on page 17 undefined on input line 199.
-
-
-LaTeX Warning: Reference `fig:higgsproddiag' on page 17 undefined on input line
- 199.
-
-Package epstopdf Info: Source file: <T/FIGS/ggf.eps>
-(epstopdf)                    date: 2017-08-19 02:01:24
-(epstopdf)                    size: 18002 bytes
-(epstopdf)             Output file: <T/FIGS/ggf-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-08-19 02:03:29
-(epstopdf)                    size: 8172 bytes
-(epstopdf)             Command: <epstopdf --outfile=T/FIGS/ggf-eps-converted-to
-.pdf T/FIGS/ggf.eps>
-(epstopdf)             \includegraphics on input line 203.
-Package epstopdf Info: Output file is already uptodate.
-<T/FIGS/ggf-eps-converted-to.pdf, id=238, 359.3425pt x 153.57375pt>
-File: T/FIGS/ggf-eps-converted-to.pdf Graphic file (type pdf)
-
-<use T/FIGS/ggf-eps-converted-to.pdf>
-Package pdftex.def Info: T/FIGS/ggf-eps-converted-to.pdf used on input line 203
+<use T/FIGS/vbf-eps-converted-to.pdf>
+Package pdftex.def Info: T/FIGS/vbf-eps-converted-to.pdf used on input line 205
 .
-(pdftex.def)             Requested size: 199.0pt x 85.0493pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+(pdftex.def)             Requested size: 159.19757pt x 123.82104pt.
 Package epstopdf Info: Source file: <T/FIGS/whzh.eps>
 (epstopdf)                    date: 2018-01-08 20:37:11
 (epstopdf)                    size: 20406 bytes
@@ -1464,7 +1418,8 @@ Package epstopdf Info: Source file: <T/FIGS/whzh.eps>
 o.pdf T/FIGS/whzh.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
-<T/FIGS/whzh-eps-converted-to.pdf, id=239, 309.155pt x 153.57375pt>
+
+<T/FIGS/whzh-eps-converted-to.pdf, id=529, 309.155pt x 153.57375pt>
 File: T/FIGS/whzh-eps-converted-to.pdf Graphic file (type pdf)
 
 <use T/FIGS/whzh-eps-converted-to.pdf>
@@ -1482,45 +1437,41 @@ Package epstopdf Info: Source file: <T/FIGS/tth.eps>
 (epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 
-<T/FIGS/tth-eps-converted-to.pdf, id=240, 323.2075pt x 279.0425pt>
+<T/FIGS/tth-eps-converted-to.pdf, id=530, 323.2075pt x 279.0425pt>
 File: T/FIGS/tth-eps-converted-to.pdf Graphic file (type pdf)
 
 <use T/FIGS/tth-eps-converted-to.pdf>
 Package pdftex.def Info: T/FIGS/tth-eps-converted-to.pdf used on input line 212
 .
 (pdftex.def)             Requested size: 159.19757pt x 137.44307pt.
+Package epstopdf Info: Source file: <T/FIGS/YRHXS_Summary_fig3.eps>
+(epstopdf)                    date: 2017-08-19 01:12:57
+(epstopdf)                    size: 18196 bytes
+(epstopdf)             Output file: <T/FIGS/YRHXS_Summary_fig3-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-08-19 01:23:15
+(epstopdf)                    size: 11661 bytes
+(epstopdf)             Command: <epstopdf --outfile=T/FIGS/YRHXS_Summary_fig3-e
+ps-converted-to.pdf T/FIGS/YRHXS_Summary_fig3.eps>
+(epstopdf)             \includegraphics on input line 220.
+Package epstopdf Info: Output file is already uptodate.
+
+<T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf, id=533, 569.12625pt x 408.5262
+5pt>
+File: T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf Graphic file (type pdf)
+ <use T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf>
+Package pdftex.def Info: T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf used on
+ input line 220.
+(pdftex.def)             Requested size: 278.59879pt x 199.9926pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] [18 <./T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf> <./T/FIGS/ggf-eps-c
-onverted-to.pdf> <./T/FIGS/whzh-eps-converted-to.pdf> <./T/FIGS/tth-eps-convert
-ed-to.pdf>]
 
-LaTeX Warning: Reference `fig:T:vbf' on page 19 undefined on input line 227.
+LaTeX Warning: Reference `fig:T:vbf' on page 20 undefined on input line 233.
 
-Package epstopdf Info: Source file: <T/FIGS/vbf.eps>
-(epstopdf)                    date: 2017-08-19 02:26:26
-(epstopdf)                    size: 19803 bytes
-(epstopdf)             Output file: <T/FIGS/vbf-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-08-19 02:37:37
-(epstopdf)                    size: 10555 bytes
-(epstopdf)             Command: <epstopdf --outfile=T/FIGS/vbf-eps-converted-to
-.pdf T/FIGS/vbf.eps>
-(epstopdf)             \includegraphics on input line 231.
-Package epstopdf Info: Output file is already uptodate.
-<T/FIGS/vbf-eps-converted-to.pdf, id=287, 361.35pt x 281.05pt>
-File: T/FIGS/vbf-eps-converted-to.pdf Graphic file (type pdf)
-
-<use T/FIGS/vbf-eps-converted-to.pdf>
-Package pdftex.def Info: T/FIGS/vbf-eps-converted-to.pdf used on input line 231
-.
-(pdftex.def)             Requested size: 159.19757pt x 123.82104pt.
-
-
-LaTeX Warning: Reference `fig:higgsbrlm' on page 19 undefined on input line 239
-.
-
+[20 <./T/FIGS/vbf-eps-converted-to.pdf> <./T/FIGS/whzh-eps-converted-to.pdf> <.
+/T/FIGS/tth-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <T/FIGS/Higgs_BR_LM.eps>
 (epstopdf)                    date: 2017-08-19 02:56:14
 (epstopdf)                    size: 57433 bytes
@@ -1529,90 +1480,66 @@ Package epstopdf Info: Source file: <T/FIGS/Higgs_BR_LM.eps>
 (epstopdf)                    size: 29817 bytes
 (epstopdf)             Command: <epstopdf --outfile=T/FIGS/Higgs_BR_LM-eps-conv
 erted-to.pdf T/FIGS/Higgs_BR_LM.eps>
-(epstopdf)             \includegraphics on input line 243.
+(epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<T/FIGS/Higgs_BR_LM-eps-converted-to.pdf, id=288, 569.12625pt x 546.04pt>
+
+<T/FIGS/Higgs_BR_LM-eps-converted-to.pdf, id=565, 569.12625pt x 546.04pt>
 File: T/FIGS/Higgs_BR_LM-eps-converted-to.pdf Graphic file (type pdf)
 
 <use T/FIGS/Higgs_BR_LM-eps-converted-to.pdf>
 Package pdftex.def Info: T/FIGS/Higgs_BR_LM-eps-converted-to.pdf used on input 
-line 243.
+line 242.
 (pdftex.def)             Requested size: 199.0pt x 190.92523pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19 <./T/FIGS/vbf-eps-converted-to.pdf>]) [20 <./T/FIGS/Higgs_BR_LM-eps-convert
-ed-to.pdf>]
+[21 <./T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf>])
+Runaway argument?
+{Searches for \VBFHBB \} \par Searches for the \VBFHBB \, interaction\ETC.
+! File ended while scanning use of \@xxtrplarg.
+<inserted text> 
+                \par 
+l.74 \include{T/theory}
+                       
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+[22 <./T/FIGS/Higgs_BR_LM-eps-converted-to.pdf>]
 \openout2 = `D/detector.aux'.
 
- (D/detector.tex [21
+ (D/detector.tex [23
 
 
 
-] [22]
-
-LaTeX Warning: Reference `fig:t:ATLAS' on page 23 undefined on input line 32.
-
-
-LaTeX Warning: Reference `tab:d:operational' on page 23 undefined on input line
- 32.
-
-<D/FIGS/ATLAS_SE_Corrected7.pdf, id=346, 4265.9375pt x 2556.55125pt>
+] [24]
+<D/FIGS/ATLAS_SE_Corrected7.pdf, id=621, 4265.9375pt x 2556.55125pt>
 File: D/FIGS/ATLAS_SE_Corrected7.pdf Graphic file (type pdf)
 
 <use D/FIGS/ATLAS_SE_Corrected7.pdf>
 Package pdftex.def Info: D/FIGS/ATLAS_SE_Corrected7.pdf used on input line 36.
 (pdftex.def)             Requested size: 278.59879pt x 166.96185pt.
-
-
-LaTeX Warning: Reference `tab:d:operational' on page 23 undefined on input line
- 47.
-
-[23 <./D/FIGS/ATLAS_SE_Corrected7.pdf>] [24]
-
-LaTeX Warning: Reference `fig:t:ATLAS' on page 25 undefined on input line 57.
-
-
+ [25 <./D/FIGS/ATLAS_SE_Corrected7.pdf>]
+[26]
 Overfull \hbox (22.98697pt too wide) in paragraph at lines 69--80
  [][] 
  []
 
-[25]
-
-LaTeX Warning: Reference `fig:trigschem' on page 26 undefined on input line 87.
-
-
-<D/FIGS/trigschem.png, id=387, 580.1675pt x 459.7175pt>
+[27] <D/FIGS/trigschem.png, id=660, 580.1675pt x 459.7175pt>
 File: D/FIGS/trigschem.png Graphic file (type png)
 
 <use D/FIGS/trigschem.png>
 Package pdftex.def Info: D/FIGS/trigschem.png used on input line 91.
 (pdftex.def)             Requested size: 318.40121pt x 252.29825pt.
- [26 <./D/FIGS/trigschem.png>] [27]
-
-LaTeX Warning: Reference `c:ES' on page 28 undefined on input line 108.
-
-
-LaTeX Warning: Reference `c:OP' on page 28 undefined on input line 108.
-
-
-LaTeX Warning: Reference `c:K' on page 28 undefined on input line 108.
-
-
-LaTeX Warning: Reference `t:hadronisation' on page 28 undefined on input line 1
-15.
-
-[28]
-
-LaTeX Warning: Reference `t:underlying' on page 29 undefined on input line 135.
-
-
+ [28 <./D/FIGS/trigschem.png>] [29] [30]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <12> not available
 (Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 137
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 (Font)              scaled to size 12.0pt on input line 137.
+
 ! Undefined control sequence.
 l.142 	Identification of jets containing \bhadrons
                                                   \, in ATLAS is based on co...
@@ -1622,32 +1549,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Reference `det:btag:ip' on page 29 undefined on input line 142.
-
-
-LaTeX Warning: Reference `det:btag:sv' on page 29 undefined on input line 142.
-
-
-LaTeX Warning: Reference `det:btag:jf' on page 29 undefined on input line 142.
-
-
-LaTeX Warning: Reference `det:btag:mv' on page 29 undefined on input line 142.
-
-[29]
-
-LaTeX Warning: Reference `d:id' on page 30 undefined on input line 144.
-
-[30] [31]) [32]
+[31] [32] [33]) [34]
 \openout2 = `ES/eventSelection.aux'.
 
  (ES/eventSelection.tex
-
-LaTeX Warning: Reference `t:VBF' on page 33 undefined on input line 3.
-
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 9.
-[33
+ [35
 
 
 
@@ -1661,26 +1569,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Citation `geant4' on page 34 undefined on input line 21.
-
-
-LaTeX Warning: Citation `geant4atlas' on page 34 undefined on input line 21.
-
-[34]
-
-LaTeX Warning: Reference `d:jetreco' on page 35 undefined on input line 34.
-
-[35]
-
-LaTeX Warning: Reference `det:btagging' on page 36 undefined on input line 42.
-
+[36] [37]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 45.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.5pt on input line 45.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.9pt on input line 45.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 45.
@@ -1705,44 +1601,27 @@ Overfull \hbox (11.86163pt too wide) in paragraph at lines 50--52
 0_bmv2c2070_split_-
  []
 
-[36]) [37]
+[38]) [39]
 \openout2 = `ObP/objectPerformance.aux'.
 
  (ObP/objectPerformance.tex
-
-LaTeX Warning: Reference `t:geometry' on page 38 undefined on input line 3.
-
-
-LaTeX Warning: Reference `f:deltaR' on page 38 undefined on input line 3.
-
-<ObP/FIGS/deltaR.pdf, id=533, 569.12625pt x 558.085pt>
+<ObP/FIGS/deltaR.pdf, id=813, 569.12625pt x 558.085pt>
 File: ObP/FIGS/deltaR.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/deltaR.pdf>
 Package pdftex.def Info: ObP/FIGS/deltaR.pdf used on input line 7.
 (pdftex.def)             Requested size: 199.0pt x 195.13681pt.
- [38
+ [40
 
 
 
  <./ObP/FIGS/deltaR.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `tab:etabands' on page 39 undefined on input line 19.
-
-
-LaTeX Warning: Reference `es:as' on page 39 undefined on input line 34.
-
-
 Overfull \hbox (19.82133pt too wide) in paragraph at lines 34--35
 \T1/ntxtlf/m/n/10.95 all real data events where the \T1/ntxtt/m/n/10.95 HLT_j80
 _bmv2c2070_split_-j60_bmv2c2085_split_j45_320eta490
  []
 
-
-LaTeX Warning: Reference `fig:O:leadingbpt' on page 39 undefined on input line 
-39.
-
-<ObP/FIGS/ptRatio_Leading_BJet.pdf, id=583, 569.12625pt x 558.085pt>
+<ObP/FIGS/ptRatio_Leading_BJet.pdf, id=864, 569.12625pt x 558.085pt>
 File: ObP/FIGS/ptRatio_Leading_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptRatio_Leading_BJet.pdf>
@@ -1750,7 +1629,7 @@ Package pdftex.def Info: ObP/FIGS/ptRatio_Leading_BJet.pdf used on input line 4
 4.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<ObP/FIGS/Offline_2C_ptRatio_Leading_BJet.pdf, id=584, 569.12625pt x 558.085pt>
+<ObP/FIGS/Offline_2C_ptRatio_Leading_BJet.pdf, id=865, 569.12625pt x 558.085pt>
 File: ObP/FIGS/Offline_2C_ptRatio_Leading_BJet.pdf Graphic file (type pdf)
 <use ObP/FIGS/Offline_2C_ptRatio_Leading_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Offline_2C_ptRatio_Leading_BJet.pdf used on i
@@ -1764,23 +1643,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39]
-
-LaTeX Warning: Reference `fig:O:leadingbpt' on page 40 undefined on input line 
-58.
-
-
-LaTeX Warning: Reference `fig:O:leadingbpt' on page 40 undefined on input line 
-58.
-
-
-LaTeX Warning: Reference `fig:O:leadingbptslice' on page 40 undefined on input 
-line 60.
-
-
-LaTeX Warning: Reference `tab:etabands' on page 40 undefined on input line 60.
-
-<ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf, id=592, 569.12625pt x 558.085pt>
+[41]
+<ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf, id=875, 569.12625pt x 558.085pt>
 File: ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf>
@@ -1788,7 +1652,7 @@ Package pdftex.def Info: ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf used on input
  line 66.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<ObP/FIGS/Slices_Data_ptRatio_Leading_BJet.pdf, id=593, 569.12625pt x 558.085pt
+<ObP/FIGS/Slices_Data_ptRatio_Leading_BJet.pdf, id=876, 569.12625pt x 558.085pt
 >
 File: ObP/FIGS/Slices_Data_ptRatio_Leading_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Slices_Data_ptRatio_Leading_BJet.pdf>
@@ -1801,25 +1665,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40 <./ObP/FIGS/ptRatio_Leading_BJet.pdf, page is rotated 90 degrees> <./ObP/FI
+[42 <./ObP/FIGS/ptRatio_Leading_BJet.pdf, page is rotated 90 degrees> <./ObP/FI
 GS/Offline_2C_ptRatio_Leading_BJet.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:O:leadingbptslice' on page 41 undefined on input 
-line 77.
-
-
-LaTeX Warning: Reference `fig:O:leadingbptslice' on page 41 undefined on input 
-line 79.
-
-
-LaTeX Warning: Reference `fig:O:leadingbeta' on page 41 undefined on input line
- 81.
-
-
-LaTeX Warning: Reference `fig:O:leadingbphi' on page 41 undefined on input line
- 81.
-
-<ObP/FIGS/etaRatio_Leading_BJet.pdf, id=688, 569.12625pt x 558.085pt>
+<ObP/FIGS/etaRatio_Leading_BJet.pdf, id=974, 569.12625pt x 558.085pt>
 File: ObP/FIGS/etaRatio_Leading_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaRatio_Leading_BJet.pdf>
@@ -1827,7 +1675,7 @@ Package pdftex.def Info: ObP/FIGS/etaRatio_Leading_BJet.pdf used on input line
 86.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<ObP/FIGS/Offline_2C_etaRatio_Leading_BJet.pdf, id=689, 569.12625pt x 558.085pt
+<ObP/FIGS/Offline_2C_etaRatio_Leading_BJet.pdf, id=975, 569.12625pt x 558.085pt
 >
 File: ObP/FIGS/Offline_2C_etaRatio_Leading_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Offline_2C_etaRatio_Leading_BJet.pdf>
@@ -1838,7 +1686,7 @@ input line 91.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<ObP/FIGS/phiRatio_Leading_BJet.pdf, id=690, 569.12625pt x 558.085pt>
+<ObP/FIGS/phiRatio_Leading_BJet.pdf, id=976, 569.12625pt x 558.085pt>
 File: ObP/FIGS/phiRatio_Leading_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/phiRatio_Leading_BJet.pdf>
@@ -1846,7 +1694,7 @@ Package pdftex.def Info: ObP/FIGS/phiRatio_Leading_BJet.pdf used on input line
 100.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<ObP/FIGS/Offline_2C_phiRatio_Leading_BJet.pdf, id=691, 569.12625pt x 558.085pt
+<ObP/FIGS/Offline_2C_phiRatio_Leading_BJet.pdf, id=977, 569.12625pt x 558.085pt
 >
 File: ObP/FIGS/Offline_2C_phiRatio_Leading_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Offline_2C_phiRatio_Leading_BJet.pdf>
@@ -1857,24 +1705,13 @@ input line 105.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41 <./ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf, page is rotated 90 degrees> <.
+[43 <./ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf, page is rotated 90 degrees> <.
 /ObP/FIGS/Slices_Data_ptRatio_Leading_BJet.pdf, page is rotated 90 degrees>]
-[42 <./ObP/FIGS/etaRatio_Leading_BJet.pdf, page is rotated 90 degrees> <./ObP/F
+[44 <./ObP/FIGS/etaRatio_Leading_BJet.pdf, page is rotated 90 degrees> <./ObP/F
 IGS/Offline_2C_etaRatio_Leading_BJet.pdf, page is rotated 90 degrees> <./ObP/FI
 GS/phiRatio_Leading_BJet.pdf, page is rotated 90 degrees> <./ObP/FIGS/Offline_2
 C_phiRatio_Leading_BJet.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `OP:leadingb' on page 43 undefined on input line 119.
-
-
-LaTeX Warning: Reference `tab:etabands' on page 43 undefined on input line 119.
-
-
-
-LaTeX Warning: Reference `fig:O:leadingnonbpt' on page 43 undefined on input li
-ne 119.
-
-<ObP/FIGS/ptRatio_Leading_Non_BJet.pdf, id=963, 569.12625pt x 558.085pt>
+<ObP/FIGS/ptRatio_Leading_Non_BJet.pdf, id=1250, 569.12625pt x 558.085pt>
 File: ObP/FIGS/ptRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptRatio_Leading_Non_BJet.pdf>
@@ -1882,42 +1719,16 @@ Package pdftex.def Info: ObP/FIGS/ptRatio_Leading_Non_BJet.pdf used on input li
 ne 124.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<ObP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf, id=964, 569.12625pt x 558.08
-5pt>
+<ObP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf, id=1251, 569.12625pt x 558.0
+85pt>
 File: ObP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf used 
 on input line 129.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
-
-
-LaTeX Warning: Reference `fig:O:leadingbpt' on page 43 undefined on input line 
-135.
-
-
-LaTeX Warning: Reference `fig:O:leadingnonbpt' on page 43 undefined on input li
-ne 135.
-
-
-LaTeX Warning: Reference `fig:O:leadingbpt' on page 43 undefined on input line 
-135.
-
-[43 <./ObP/FIGS/ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees> <./Ob
-P/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:O:leadingnonbpt' on page 44 undefined on input li
-ne 138.
-
-
-LaTeX Warning: Reference `fig:O:leadingnonbptslice' on page 44 undefined on inp
-ut line 140.
-
-
-LaTeX Warning: Reference `tab:etabands' on page 44 undefined on input line 140.
-
-
-
-<ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf, id=1058, 569.12625pt x 558.085pt
+ [45 <./ObP/FIGS/ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees> <./O
+bP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees>]
+<ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf, id=1348, 569.12625pt x 558.085pt
 >
 File: ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf>
@@ -1925,7 +1736,7 @@ Package pdftex.def Info: ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf used on i
 nput line 146.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf, id=1059, 569.12625pt x 558.
+<ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf, id=1349, 569.12625pt x 558.
 085pt>
 File: ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
@@ -1933,15 +1744,10 @@ File: ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 Package pdftex.def Info: ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf used
  on input line 150.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
-
-
-LaTeX Warning: Reference `fig:O:leadingnonbptslice' on page 44 undefined on inp
-ut line 158.
-
-[44 <./ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees
-> <./ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degr
-ees>]
-<ObP/FIGS/etaRatio_Leading_Non_BJet.pdf, id=1153, 569.12625pt x 558.085pt>
+ [46 <./ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degree
+s> <./ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 deg
+rees>]
+<ObP/FIGS/etaRatio_Leading_Non_BJet.pdf, id=1443, 569.12625pt x 558.085pt>
 File: ObP/FIGS/etaRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaRatio_Leading_Non_BJet.pdf>
@@ -1949,7 +1755,7 @@ Package pdftex.def Info: ObP/FIGS/etaRatio_Leading_Non_BJet.pdf used on input l
 ine 168.
 (pdftex.def)             Requested size: 187.06049pt x 183.43626pt.
 
-<ObP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf, id=1154, 569.12625pt x 558.
+<ObP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf, id=1444, 569.12625pt x 558.
 085pt>
 File: ObP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
@@ -1958,7 +1764,7 @@ Package pdftex.def Info: ObP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf used
  on input line 172.
 (pdftex.def)             Requested size: 187.06049pt x 183.43626pt.
 
-<ObP/FIGS/phiRatio_Leading_Non_BJet.pdf, id=1155, 569.12625pt x 558.085pt>
+<ObP/FIGS/phiRatio_Leading_Non_BJet.pdf, id=1445, 569.12625pt x 558.085pt>
 File: ObP/FIGS/phiRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/phiRatio_Leading_Non_BJet.pdf>
@@ -1966,7 +1772,7 @@ Package pdftex.def Info: ObP/FIGS/phiRatio_Leading_Non_BJet.pdf used on input l
 ine 181.
 (pdftex.def)             Requested size: 187.06049pt x 183.43626pt.
 
-<ObP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf, id=1156, 569.12625pt x 558.
+<ObP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf, id=1446, 569.12625pt x 558.
 085pt>
 File: ObP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
@@ -1974,125 +1780,60 @@ File: ObP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 Package pdftex.def Info: ObP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf used
  on input line 185.
 (pdftex.def)             Requested size: 187.06049pt x 183.43626pt.
+ [47 <./ObP/FIGS/etaRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees> <./
+ObP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees> 
+<./ObP/FIGS/phiRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees> <./ObP/F
+IGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees>] [48]
 
-
-LaTeX Warning: Reference `fig:O:leadingnonbeta' on page 45 undefined on input l
-ine 191.
-
-
-LaTeX Warning: Reference `fig:O:leadingnonbphi' on page 45 undefined on input l
-ine 191.
-
-[45 <./ObP/FIGS/etaRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees> <./O
-bP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees> <
-./ObP/FIGS/phiRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees> <./ObP/FI
-GS/Offline_2C_phiRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `det:btag:mv' on page 46 undefined on input line 204.
-
-
-LaTeX Warning: Reference `fig:MC:bjetefficiency' on page 46 undefined on input 
-line 208.
-
-
-LaTeX Warning: Reference `fig:MC:cjetefficiency' on page 46 undefined on input 
-line 208.
-
-
-LaTeX Warning: Reference `fig:MC:lightjetefficiency' on page 46 undefined on in
-put line 208.
-
-[46]
-
-LaTeX Warning: Reference `fig:MC:bjetefficiency' on page 47 undefined on input 
-line 213.
-
-<ObP/FIGS/ptBJET.pdf, id=1344, 569.12625pt x 558.085pt>
+<ObP/FIGS/ptBJET.pdf, id=1638, 569.12625pt x 558.085pt>
 File: ObP/FIGS/ptBJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptBJET.pdf>
 Package pdftex.def Info: ObP/FIGS/ptBJET.pdf used on input line 218.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<ObP/FIGS/etaBJET.pdf, id=1345, 569.12625pt x 558.085pt>
+<ObP/FIGS/etaBJET.pdf, id=1639, 569.12625pt x 558.085pt>
 File: ObP/FIGS/etaBJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaBJET.pdf>
 Package pdftex.def Info: ObP/FIGS/etaBJET.pdf used on input line 223.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
-
-
-LaTeX Warning: Reference `fig:MC:bjetefficiency' on page 47 undefined on input 
-line 229.
-
-
-LaTeX Warning: Reference `fig:MC:bjetefficiency' on page 47 undefined on input 
-line 231.
-
-[47 <./ObP/FIGS/ptBJET.pdf, page is rotated 90 degrees> <./ObP/FIGS/etaBJET.pdf
-, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `det:btagging' on page 48 undefined on input line 233.
-
-
-
-LaTeX Warning: Reference `fig:MC:cjetefficiency' on page 48 undefined on input 
-line 236.
-
-<ObP/FIGS/ptCJET.pdf, id=1440, 569.12625pt x 558.085pt>
+ [49 <./ObP/FIGS/ptBJET.pdf, page is rotated 90 degrees> <./ObP/FIGS/etaBJET.pd
+f, page is rotated 90 degrees>]
+<ObP/FIGS/ptCJET.pdf, id=1738, 569.12625pt x 558.085pt>
 File: ObP/FIGS/ptCJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptCJET.pdf>
 Package pdftex.def Info: ObP/FIGS/ptCJET.pdf used on input line 240.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<ObP/FIGS/etaCJET.pdf, id=1441, 569.12625pt x 558.085pt>
+<ObP/FIGS/etaCJET.pdf, id=1739, 569.12625pt x 558.085pt>
 File: ObP/FIGS/etaCJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaCJET.pdf>
 Package pdftex.def Info: ObP/FIGS/etaCJET.pdf used on input line 245.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
-
-
-LaTeX Warning: Reference `fig:MC:bjetefficiency' on page 48 undefined on input 
-line 251.
-
-
-LaTeX Warning: Reference `fig:MC:cjetefficiency' on page 48 undefined on input 
-line 251.
-
-[48 <./ObP/FIGS/ptCJET.pdf, page is rotated 90 degrees> <./ObP/FIGS/etaCJET.pdf
-, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `obp:beff' on page 49 undefined on input line 253.
-
-
-LaTeX Warning: Reference `fig:MC:lightjetefficiency' on page 49 undefined on in
-put line 257.
-
-<ObP/FIGS/ptLIGHTJET.pdf, id=1535, 569.12625pt x 558.085pt>
+ [50 <./ObP/FIGS/ptCJET.pdf, page is rotated 90 degrees> <./ObP/FIGS/etaCJET.pd
+f, page is rotated 90 degrees>]
+<ObP/FIGS/ptLIGHTJET.pdf, id=1836, 569.12625pt x 558.085pt>
 File: ObP/FIGS/ptLIGHTJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptLIGHTJET.pdf>
 Package pdftex.def Info: ObP/FIGS/ptLIGHTJET.pdf used on input line 262.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<ObP/FIGS/etaLIGHTJET.pdf, id=1536, 569.12625pt x 558.085pt>
+<ObP/FIGS/etaLIGHTJET.pdf, id=1837, 569.12625pt x 558.085pt>
 File: ObP/FIGS/etaLIGHTJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaLIGHTJET.pdf>
 Package pdftex.def Info: ObP/FIGS/etaLIGHTJET.pdf used on input line 267.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
-
-
-LaTeX Warning: Reference `fig:MC:lightjetefficiency' on page 49 undefined on in
-put line 273.
-
-[49 <./ObP/FIGS/ptLIGHTJET.pdf, page is rotated 90 degrees> <./ObP/FIGS/etaLIGH
-TJET.pdf, page is rotated 90 degrees>]) [50]
+ [51 <./ObP/FIGS/ptLIGHTJET.pdf, page is rotated 90 degrees> <./ObP/FIGS/etaLIG
+HTJET.pdf, page is rotated 90 degrees>]) [52]
 \openout2 = `K/kinematics.aux'.
 
- (K/kinematics.tex
+
+(K/kinematics.tex
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -2118,27 +1859,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removed on input line 1.
 
 
-LaTeX Warning: Reference `es:as' on page 51 undefined on input line 3.
-
-
-LaTeX Warning: Reference `t:cutflow' on page 51 undefined on input line 9.
-
-
-LaTeX Warning: Reference `f:cutflowD' on page 51 undefined on input line 9.
-
-
-LaTeX Warning: Reference `f:cutflowMC' on page 51 undefined on input line 9.
-
-
-LaTeX Warning: Reference `es:as' on page 51 undefined on input line 12.
-
-
-LaTeX Warning: Reference `es:as' on page 51 undefined on input line 12.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<K/FIGS/MC_cutflow.pdf, id=1639, 569.12625pt x 272.01625pt>
+<K/FIGS/MC_cutflow.pdf, id=1944, 569.12625pt x 272.01625pt>
 File: K/FIGS/MC_cutflow.pdf Graphic file (type pdf)
 
 <use K/FIGS/MC_cutflow.pdf>
@@ -2148,81 +1871,30 @@ Package pdftex.def Info: K/FIGS/MC_cutflow.pdf used on input line 32.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:MC:bjetefficiency' on page 51 undefined on input 
-line 37.
-
-
-LaTeX Warning: Reference `OP:leadingb' on page 51 undefined on input line 37.
-
-[51
+[53
 
 
 
-]
-
-LaTeX Warning: Reference `fig:O:leadingnonbptslice' on page 52 undefined on inp
-ut line 43.
-
-[52 <./K/FIGS/MC_cutflow.pdf, page is rotated 90 degrees>]
-<K/FIGS/D_cutflow.pdf, id=1696, 569.12625pt x 272.01625pt>
+] [54 <./K/FIGS/MC_cutflow.pdf, page is rotated 90 degrees>]
+<K/FIGS/D_cutflow.pdf, id=2000, 569.12625pt x 272.01625pt>
 File: K/FIGS/D_cutflow.pdf Graphic file (type pdf)
 
 <use K/FIGS/D_cutflow.pdf>
 Package pdftex.def Info: K/FIGS/D_cutflow.pdf used on input line 53.
 (pdftex.def)             Requested size: 298.5pt x 142.67369pt.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 59.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 59.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 59.
 
 
-LaTeX Warning: Reference `f:cutflowMC' on page 53 undefined on input line 63.
+LaTeX Warning: Citation `TLA' on page 55 undefined on input line 65.
 
-
-LaTeX Warning: Reference `f:cutflowD' on page 53 undefined on input line 63.
-
-
-LaTeX Warning: Citation `TLA' on page 53 undefined on input line 65.
-
-
-LaTeX Warning: Reference `t:tla' on page 53 undefined on input line 65.
-
-
-LaTeX Warning: Reference `obp:beff' on page 53 undefined on input line 67.
-
-[53 <./K/FIGS/D_cutflow.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `t:cutflow' on page 54 undefined on input line 73.
-
-
-LaTeX Warning: Reference `t:signalback' on page 54 undefined on input line 89.
-
-
-LaTeX Warning: Reference `es:as' on page 54 undefined on input line 89.
-
-
-LaTeX Warning: Reference `f:ptb1' on page 54 undefined on input line 89.
-
-
-LaTeX Warning: Reference `f:ptj1' on page 54 undefined on input line 89.
-
-
-LaTeX Warning: Reference `f:etab1' on page 54 undefined on input line 89.
-
-
-LaTeX Warning: Reference `f:etaj1' on page 54 undefined on input line 89.
-
-<K/FIGS/pt_bJet1_data_.pdf, id=1747, 569.12625pt x 558.085pt>
+[55 <./K/FIGS/D_cutflow.pdf, page is rotated 90 degrees>]
+<K/FIGS/pt_bJet1_data_.pdf, id=2062, 569.12625pt x 558.085pt>
 File: K/FIGS/pt_bJet1_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/pt_bJet1_data_.pdf>
 Package pdftex.def Info: K/FIGS/pt_bJet1_data_.pdf used on input line 95.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/pt_bJet1_mc_.pdf, id=1748, 569.12625pt x 558.085pt>
+<K/FIGS/pt_bJet1_mc_.pdf, id=2063, 569.12625pt x 558.085pt>
 File: K/FIGS/pt_bJet1_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/pt_bJet1_mc_.pdf>
@@ -2232,23 +1904,14 @@ Package pdftex.def Info: K/FIGS/pt_bJet1_mc_.pdf used on input line 99.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `f:ptb1' on page 54 undefined on input line 105.
-
-
-LaTeX Warning: Reference `f:cutflowD' on page 54 undefined on input line 105.
-
-
-LaTeX Warning: Reference `f:cutflowMC' on page 54 undefined on input line 105.
-
-<K/FIGS/pt_lJet1_data_.pdf, id=1749, 569.12625pt x 558.085pt>
+<K/FIGS/pt_lJet1_data_.pdf, id=2067, 569.12625pt x 558.085pt>
 File: K/FIGS/pt_lJet1_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/pt_lJet1_data_.pdf>
 Package pdftex.def Info: K/FIGS/pt_lJet1_data_.pdf used on input line 111.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/pt_lJet1_mc_.pdf, id=1750, 569.12625pt x 558.085pt>
+<K/FIGS/pt_lJet1_mc_.pdf, id=2068, 569.12625pt x 558.085pt>
 File: K/FIGS/pt_lJet1_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/pt_lJet1_mc_.pdf>
@@ -2258,17 +1921,14 @@ Package pdftex.def Info: K/FIGS/pt_lJet1_mc_.pdf used on input line 115.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `f:ptj1' on page 54 undefined on input line 121.
-
-[54] <K/FIGS/eta_bJet1_data_.pdf, id=1757, 569.12625pt x 558.085pt>
+[56] <K/FIGS/eta_bJet1_data_.pdf, id=2074, 569.12625pt x 558.085pt>
 File: K/FIGS/eta_bJet1_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/eta_bJet1_data_.pdf>
 Package pdftex.def Info: K/FIGS/eta_bJet1_data_.pdf used on input line 127.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/eta_bJet1_mc_.pdf, id=1758, 569.12625pt x 558.085pt>
+<K/FIGS/eta_bJet1_mc_.pdf, id=2075, 569.12625pt x 558.085pt>
 File: K/FIGS/eta_bJet1_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/eta_bJet1_mc_.pdf>
@@ -2278,55 +1938,25 @@ Package pdftex.def Info: K/FIGS/eta_bJet1_mc_.pdf used on input line 131.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `f:etab1' on page 55 undefined on input line 137.
-
-
-LaTeX Warning: Reference `f:etaj1' on page 55 undefined on input line 137.
-
-
-LaTeX Warning: Reference `f:etab1' on page 55 undefined on input line 137.
-
-[55 <./K/FIGS/pt_bJet1_data_.pdf, page is rotated 90 degrees> <./K/FIGS/pt_bJet
+[57 <./K/FIGS/pt_bJet1_data_.pdf, page is rotated 90 degrees> <./K/FIGS/pt_bJet
 1_mc_.pdf, page is rotated 90 degrees> <./K/FIGS/pt_lJet1_data_.pdf, page is ro
 tated 90 degrees> <./K/FIGS/pt_lJet1_mc_.pdf, page is rotated 90 degrees>]
-<K/FIGS/eta_lJet1_data_.pdf, id=1938, 569.12625pt x 558.085pt>
+<K/FIGS/eta_lJet1_data_.pdf, id=2255, 569.12625pt x 558.085pt>
 File: K/FIGS/eta_lJet1_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/eta_lJet1_data_.pdf>
 Package pdftex.def Info: K/FIGS/eta_lJet1_data_.pdf used on input line 142.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/eta_lJet1_mc_.pdf, id=1939, 569.12625pt x 558.085pt>
+<K/FIGS/eta_lJet1_mc_.pdf, id=2256, 569.12625pt x 558.085pt>
 File: K/FIGS/eta_lJet1_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/eta_lJet1_mc_.pdf>
 Package pdftex.def Info: K/FIGS/eta_lJet1_mc_.pdf used on input line 146.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
-
-
-LaTeX Warning: Reference `f:etaj1' on page 56 undefined on input line 152.
-
-[56 <./K/FIGS/eta_bJet1_data_.pdf, page is rotated 90 degrees> <./K/FIGS/eta_bJ
-et1_mc_.pdf, page is rotated 90 degrees> <./K/FIGS/eta_lJet1_data_.pdf, page is
- rotated 90 degrees> <./K/FIGS/eta_lJet1_mc_.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `f:etaj1' on page 57 undefined on input line 156.
-
-
-LaTeX Warning: Reference `f:ptb1' on page 57 undefined on input line 156.
-
-
-LaTeX Warning: Reference `f:ptj1' on page 57 undefined on input line 158.
-
-
-LaTeX Warning: Reference `f:etaj1' on page 57 undefined on input line 158.
-
-
-LaTeX Warning: Reference `f:ptb1' on page 57 undefined on input line 160.
-
-
-LaTeX Warning: Reference `f:ptj1' on page 57 undefined on input line 160.
+ [58 <./K/FIGS/eta_bJet1_data_.pdf, page is rotated 90 degrees> <./K/FIGS/eta_b
+Jet1_mc_.pdf, page is rotated 90 degrees> <./K/FIGS/eta_lJet1_data_.pdf, page i
+s rotated 90 degrees> <./K/FIGS/eta_lJet1_mc_.pdf, page is rotated 90 degrees>]
 
 ! Too many }'s.
 l.161 }
@@ -2346,28 +1976,28 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 163.
 
-<K/FIGS/ptjj_data_.pdf, id=2118, 569.12625pt x 558.085pt>
+<K/FIGS/ptjj_data_.pdf, id=2440, 569.12625pt x 558.085pt>
 File: K/FIGS/ptjj_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/ptjj_data_.pdf>
 Package pdftex.def Info: K/FIGS/ptjj_data_.pdf used on input line 168.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/ptjj_mc_.pdf, id=2119, 569.12625pt x 558.085pt>
+<K/FIGS/ptjj_mc_.pdf, id=2441, 569.12625pt x 558.085pt>
 File: K/FIGS/ptjj_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/ptjj_mc_.pdf>
 Package pdftex.def Info: K/FIGS/ptjj_mc_.pdf used on input line 172.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/mjj_data_.pdf, id=2120, 569.12625pt x 558.085pt>
+<K/FIGS/mjj_data_.pdf, id=2442, 569.12625pt x 558.085pt>
 File: K/FIGS/mjj_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/mjj_data_.pdf>
 Package pdftex.def Info: K/FIGS/mjj_data_.pdf used on input line 181.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/mjj_mc_.pdf, id=2121, 569.12625pt x 558.085pt>
+<K/FIGS/mjj_mc_.pdf, id=2443, 569.12625pt x 558.085pt>
 File: K/FIGS/mjj_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/mjj_mc_.pdf>
@@ -2377,14 +2007,14 @@ Package pdftex.def Info: K/FIGS/mjj_mc_.pdf used on input line 185.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<K/FIGS/ptbb_data_.pdf, id=2122, 569.12625pt x 558.085pt>
+<K/FIGS/ptbb_data_.pdf, id=2444, 569.12625pt x 558.085pt>
 File: K/FIGS/ptbb_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/ptbb_data_.pdf>
 Package pdftex.def Info: K/FIGS/ptbb_data_.pdf used on input line 195.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/ptbb_mc_.pdf, id=2123, 569.12625pt x 558.085pt>
+<K/FIGS/ptbb_mc_.pdf, id=2445, 569.12625pt x 558.085pt>
 File: K/FIGS/ptbb_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/ptbb_mc_.pdf>
@@ -2394,14 +2024,14 @@ Package pdftex.def Info: K/FIGS/ptbb_mc_.pdf used on input line 199.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<K/FIGS/mbb_data_.pdf, id=2124, 569.12625pt x 558.085pt>
+<K/FIGS/mbb_data_.pdf, id=2446, 569.12625pt x 558.085pt>
 File: K/FIGS/mbb_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/mbb_data_.pdf>
 Package pdftex.def Info: K/FIGS/mbb_data_.pdf used on input line 208.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/mbb_mc_.pdf, id=2125, 569.12625pt x 558.085pt>
+<K/FIGS/mbb_mc_.pdf, id=2447, 569.12625pt x 558.085pt>
 File: K/FIGS/mbb_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/mbb_mc_.pdf>
@@ -2411,21 +2041,11 @@ Package pdftex.def Info: K/FIGS/mbb_mc_.pdf used on input line 212.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `es:as' on page 57 undefined on input line 221.
-
-
-LaTeX Warning: Reference `t:signalback' on page 57 undefined on input line 221.
-
-
-[57 <./K/FIGS/ptjj_data_.pdf, page is rotated 90 degrees> <./K/FIGS/ptjj_mc_.pd
-f, page is rotated 90 degrees>] [58 <./K/FIGS/mjj_data_.pdf, page is rotated 90
+[59 <./K/FIGS/ptjj_data_.pdf, page is rotated 90 degrees> <./K/FIGS/ptjj_mc_.pd
+f, page is rotated 90 degrees>] [60 <./K/FIGS/mjj_data_.pdf, page is rotated 90
  degrees> <./K/FIGS/mjj_mc_.pdf, page is rotated 90 degrees> <./K/FIGS/ptbb_dat
 a_.pdf, page is rotated 90 degrees> <./K/FIGS/ptbb_mc_.pdf, page is rotated 90 
 degrees>]
-
-LaTeX Warning: Reference `f:etastar' on page 59 undefined on input line 229.
-
 LaTeX Font Info:    Font shape `OML/ntxmi/bx/it' in size <10.95> not available
 (Font)              Font shape `OML/ntxmi/b/it' tried instead on input line 232
 .
@@ -2435,17 +2055,14 @@ LaTeX Font Info:    Font shape `OML/ntxmi/bx/it' in size <8> not available
 LaTeX Font Info:    Font shape `OML/ntxmi/bx/it' in size <6.1> not available
 (Font)              Font shape `OML/ntxmi/b/it' tried instead on input line 232
 .
-
-LaTeX Warning: Reference `f:ptbalance' on page 59 undefined on input line 235.
-
-<K/FIGS/etastar_data_.pdf, id=2400, 569.12625pt x 558.085pt>
+ <K/FIGS/etastar_data_.pdf, id=2721, 569.12625pt x 558.085pt>
 File: K/FIGS/etastar_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/etastar_data_.pdf>
 Package pdftex.def Info: K/FIGS/etastar_data_.pdf used on input line 240.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/etastar_mc_.pdf, id=2401, 569.12625pt x 558.085pt>
+<K/FIGS/etastar_mc_.pdf, id=2722, 569.12625pt x 558.085pt>
 File: K/FIGS/etastar_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/etastar_mc_.pdf>
@@ -2464,14 +2081,14 @@ LaTeX Font Info:    Font shape `OML/ntxmi/bx/it' in size <5.5> not available
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<K/FIGS/ptbalance_data_.pdf, id=2402, 569.12625pt x 558.085pt>
+<K/FIGS/ptbalance_data_.pdf, id=2723, 569.12625pt x 558.085pt>
 File: K/FIGS/ptbalance_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/ptbalance_data_.pdf>
 Package pdftex.def Info: K/FIGS/ptbalance_data_.pdf used on input line 253.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/ptbalance_mc_.pdf, id=2403, 569.12625pt x 558.085pt>
+<K/FIGS/ptbalance_mc_.pdf, id=2724, 569.12625pt x 558.085pt>
 File: K/FIGS/ptbalance_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/ptbalance_mc_.pdf>
@@ -2480,9 +2097,6 @@ Package pdftex.def Info: K/FIGS/ptbalance_mc_.pdf used on input line 257.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `k:jets' on page 59 undefined on input line 263.
 
 ! Undefined control sequence.
 <recently read> \0
@@ -2495,27 +2109,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Reference `k:cutflow' on page 59 undefined on input line 263.
-
-
-LaTeX Warning: Reference `f:etastar' on page 59 undefined on input line 263.
-
-
-LaTeX Warning: Reference `f:ptbalance' on page 59 undefined on input line 263.
-
-[59 <./K/FIGS/mbb_data_.pdf, page is rotated 90 degrees> <./K/FIGS/mbb_mc_.pdf,
- page is rotated 90 degrees>] [60 <./K/FIGS/etastar_data_.pdf, page is rotated 
+[61 <./K/FIGS/mbb_data_.pdf, page is rotated 90 degrees> <./K/FIGS/mbb_mc_.pdf,
+ page is rotated 90 degrees>] [62 <./K/FIGS/etastar_data_.pdf, page is rotated 
 90 degrees> <./K/FIGS/etastar_mc_.pdf, page is rotated 90 degrees> <./K/FIGS/pt
 balance_data_.pdf, page is rotated 90 degrees> <./K/FIGS/ptbalance_mc_.pdf, pag
-e is rotated 90 degrees>]) [61]
+e is rotated 90 degrees>]) [63]
 \openout2 = `C/conclusions.aux'.
 
- (C/conclusions.tex [62
+ (C/conclusions.tex [64
 
 
 
-] [63]) [64]
+] [65]) [66]
 \openout2 = `APP/files.aux'.
 
 
@@ -2544,7 +2149,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
 \T1/ntxtt/m/n/10.95 _CT10_AZNLOCTEQ6L1_VBFH125_bb.merge.
  []
 
-[65
+[67
 
 
 
@@ -2565,7 +2170,7 @@ Underfull \hbox (badness 3482) in paragraph at lines 32--32
 /10.95 -
  []
 
-) [66]
+) [68]
 \openout2 = `APP/bdt.aux'.
 
  (APP/bdt.tex
@@ -2596,21 +2201,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern 1.82538pt
 (hyperref)                removed on input line 13.
 
-[67
-
-
-
-]) [68]
-\openout2 = `OTHER/references.aux'.
-
- (OTHER/references.tex (thesis.bbl
-bibitemlist
 [69
 
 
 
+]) [70]
+\openout2 = `OTHER/references.aux'.
 
-] [70] [71] [72] [73])) [74]
+ (OTHER/references.tex (thesis.bbl
+bibitemlist
+[71
+
+
+
+
+] [72] [73] [74] [75] [76])) [77]
 **************************************************************
 * This is Version 1.12 of Dave Green's thesis template 
 * (see http://www.mrao.cam.ac.uk/~dag/THESIS/ for any updates)
@@ -2633,30 +2238,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 (C/conclusions.aux) (APP/files.aux) (APP/bdt.aux) (OTHER/references.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 45EA33F3FC141A97D46FAD1DAE5AD130;2772.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: D4FD8FB351BA8D8E1393F9F83BFC73CF;873
-(rerunfilecheck)             After:  82C92091E3EBEDA615E15BC838D180F2;2825.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 14875 strings out of 493335
- 215042 string characters out of 3130230
- 331255 words of memory out of 3000000
- 17570 multiletter control sequences out of 15000+200000
+ 14926 strings out of 493335
+ 215658 string characters out of 3130230
+ 352831 words of memory out of 3000000
+ 17604 multiletter control sequences out of 15000+200000
  172644 words of font info for 280 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,17n,39p,1429b,545s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,17n,39p,1429b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-e
 c-tlf.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/new
 tx/ntx-ecth-tlf.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
@@ -2688,9 +2284,9 @@ s/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/andre/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/andre/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/andre/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (74 pages, 2154597 bytes).
+Output written on thesis.pdf (77 pages, 2210598 bytes).
 PDF statistics:
- 2994 PDF objects out of 3580 (max. 8388607)
- 273 named destinations out of 1000 (max. 500000)
- 399 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3335 PDF objects out of 3580 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 618 words of extra memory for PDF output out of 10000 (max. 10000000)
 
