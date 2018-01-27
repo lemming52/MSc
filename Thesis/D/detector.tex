@@ -173,11 +173,12 @@
 
 
 \section{Trigger-Object Level Analysis}
+\label{t:tla}
 
 	In physics analyses at the LHC, the $1$kHz event readout rate to storage is significantly below the $40$MHz bunch crossing rate. This bottleneck is caused by the limited bandwidth (event rate $\times$ event size in bytes) available to analysis channels. In searches with large backgrounds or those with low rates, the prescaling introduced in the trigger system critically affects the amount of significant events output to storage, limiting the statistical power of any search in these hard to isolate channels as a large number of events are discarded to keep output within bandwidth limitations.
 
 	This constraint can be alleviated by recording only a fraction of the detector readout for any given event, specifically the jet information reconstructed by the triggering system. This partial event corresponds to a reduction in the event size in bytes which allows for present bandwidth limitations to be upheld with an increased event rate. This process of using the objects produced in the trigger as substitutes for the offline objects is referred to as Trigger-Object Level Analysis (TLA) \cite{tla}.
 
-	In these analyses, partially built events are collected using an additional TLA stream of the output data, which records the jet four-momentum along with a selection of additional identifying variables for jet objects in the HLT, triggered by jet objects from the L1 trigger. The readout does not include individual calorimeter cells nor information from the muon or tracking detectors, and in prior application of a TLA approach to a search for light dijet resonances \cite{tla} a partial TLA event was $~5\%$ of the size of a full detector readout.
+	In these analyses, partially built events are collected using an additional TLA stream of the output data, which records the jet four-momentum along with a selection of additional identifying variables for jet objects in the HLT, triggered by jet objects from the L1 trigger. The readout does not include individual calorimeter cells nor information from the muon or tracking detectors, and in prior application of a TLA approach to a search for light dijet resonances \cite{tla} a partial TLA event was $~5\%$ of the size of a full detector readout, and TLA events were read out frmo the detector at a rate of $2$kHz.
 
 \endinput
