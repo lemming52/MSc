@@ -1,15 +1,15 @@
 \chapter{\VBFHBB\, Analysis}\label{c:K}
 
-    After comparing the base constituents of the \VBFHBB\, event between the offline and HLT level and finding them to be similar in behaviour, the specific objects that make up a \VBFHBB\, event can be studied and compared. In this section, the events were required to pass all cuts discussed in Section \ref{es:as} and the designation of the jets as $b_i$, $j_i$ is highlighted in that section. \ref{f:ptb1}
+    After finding the base constituents of the \VBFHBB\, event at the offline and HLT levels to be similar in behaviour, the specific objects that make up a \VBFHBB\, event can be studied and compared. In this Section, the events were required to pass all cuts discussed in Section \ref{es:as}.
 
 
 \section{Cutflow}
 \label{k:cutflow}
 
-    Prior to investigating the core kinematic variables and the more complex kinematic variables used for the Boosted Decision Tree training (Appendix \ref{a:bdt}), the event cutflow for both the Monte-Carlo and real data should be studied to highlight any differences between the event counts. The event counts are given in Table \ref{t:cutflow}, and the ratio of the events is shown in Figures \ref{f:cutflowD} and \ref{f:cutflowMC}.
+    Prior to investigating the kinematic variables of teh \VBFHBB\ event and the variables used for the BDT training (Appendix \ref{a:bdt}), the event cutflow for both the Monte-Carlo simulations and data should be studied to highlight any differences between the event counts. These counts are given in Table \ref{t:cutflow}, and the ratio of the events is shown in Figures \ref{f:cutflowMC} and \ref{f:cutflowD}.
 
     \begin{table}[h]
-        \caption[Results cutflow for the \textit{two-central} \VBFHBB\, events]{Cutflow for the \textit{two-central} \VBFHBB\, events as described in Section \ref{es:as}. The cutflows are given for the online and offline channels in both data and Monte-Carlo along with the percentage of original events.}
+        \caption[Results cutflow for the \textit{two-central} \VBFHBB\, events]{Cutflow for the \textit{two-central} \VBFHBB\, events as described in Section \ref{es:as}. The cutflows are given for the online and offline channels in both data and Monte-Carlo.}
         \label{t:cutflow}
         \medskip
         \centering
@@ -34,15 +34,15 @@
             \label{f:cutflowMC}
         \end{figure}
 
-    The online performance has fewer events than the offline for all points in the cutflow, and overall produces $\sim80\%$ of the total signal events. There are three distinct jumps in the cutflow ratio, at the cuts on the \textit{loose} \bjets\,, light-jets and the forward jet requirement, of $\sim7\%$ each. As shown in Figure \ref{fig:MC:bjetefficiency}, online \btag\, is $\sim93\%$ as efficient as the offline \btag. When considering tagging two distinct \bjets\,, any difference in efficiency is squared. Given the difference in tagging rates, this would result in $\sim86\%$ tagging efficiency for two \bjets\,, which is lower than shown in the cutflow. As shown for the leading \bjet in Section \ref{OP:leadingb}, the offline jet is typically higher in \pt than the online jets. However the difference is small , $\sim2\%$, so any effect on the cutflow should not be as pronounced.
+    The online performance has fewer events than the offline for all points in the cutflow, and overall produces $\sim82\%$ of the total signal events. There are three distinct jumps in the cutflow ratio: at the cuts on the \textit{loose} \bjets, light-jets and the forward jet requirement, of $\sim7\%$ each. As shown in Figure \ref{fig:MC:bjetefficiency}, online \btag\, is $\sim93\%$ as efficient as the offline \btag\ in Monte-Carlo simulations. When considering tagging two distinct \bjets, any difference in efficiency is squared. Given the difference in tagging rates, this would result in $\sim86\%$ tagging efficiency for two \bjets\,, which is lower than shown in the cutflow. As shown for the leading \bjet\ in Section \ref{OP:leadingb}, the offline jet is typically higher in \pt than the corresponding online jet. However the difference is small , $\sim2\%$, so any effect on the cutflow should not be very pronounced.
 
-    The $\sim7\%$ drop on the light jet requirement is unexpected, the requirement was solely for 2 jets with \pt$>20$GeV. Given the points above with respect to the \pt difference between online and offline, this drop should not be so sever. The fact the \pt cuts on the light jets were so low also suggests an anomalous result here as such a cut should not contribute a significant reduction in either online or offline.
+    The $\sim7\%$ drop on the light jet requirement is unexpected, as the requirement was solely for 2 jets with \pt$>20$GeV. Given the points above with respect to the \pt difference between online and offline, this drop should not be so severe. The fact the \pt cuts on the light jets were so low also suggests an anomalous result, as such a cut should not contribute a significant reduction in either online or offline events.
 
-    Following the drop for the light-jet cut, there is an unexpected increase in the online ratio following the \textit{tight} \btagging\, cut. As highlighted, the tagging efficiency was worse for online than offline, so any requirement for a tagged \bjet\, would be expected to produce a decrease in the online event count relative to the offline count. Perhaps spuriously, the cutflow at this point corresponds to the $86\%$ figure expected given the relative tagging efficiency for two \bjets.
+    Following the drop for the light-jet cut, there is an unexpected increase in the online ratio following the \textit{tight} \btagging\, cut. As highlighted, the tagging efficiency was worse for online than offline, so any requirement for a tagged \bjet\, would be expected to produce a decrease in the online event count, relative to the offline count. Perhaps spuriously, the cutflow at this point corresponds to the $86\%$ figure expected given the relative tagging efficiency for two \bjets.
 
-    The final drop occurs following the requirement for a high \pt forward jet. Figure \ref{fig:O:leadingnonbptslice} shows that for non-\bjets\, in the forward region of the detector, the \pt of the offline jet is consistently higher than the online \pt. This difference would result in a drop in the online events, with fewer jets passing the threshold \pt cut compared to the offline events.
+    The final drop occurs following the requirement for a high \pt forward jet. Figure \ref{fig:O:leadingnonbptslice} shows that for non-\bjets\ in the forward region of the detector, the \pt of the offline jet is consistently higher than the online \pt. This difference would result in a drop in the online events, with fewer jets passing the threshold \pt cut compared to the offline events.
 
-    Overall for the Monte-Carlo events, while the individual steps of the cutflow show some unusual results, the overall effect was an 18\% reduction in the number of events that passed the \VBFHBB\, cuts.
+    For the Monte-Carlo events, while the individual steps of the cutflow show some unusual results, the overall effect was an 18\% reduction in the number of events that passed the \VBFHBB\, cuts.
 
     \subsection{Data}
         \begin{figure}[h]
@@ -52,19 +52,25 @@
             \label{f:cutflowD}
         \end{figure}
 
-    The fist step shows a 25\% increase in the number of loosely tagged \bjets\ in the data events. This is wholly unexpected, if the \btag\ differences between the MV2c10 and MV2c20 algorithms shown for the Monte-Carlo simulations (Figure \ref{fig:MC:bjetefficiency}) are present in the data, a decrease would be expected after this cut, rather than an increase. Another signifcant feature of Figure \ref{f:cutflowD} is the sharp decrease on the forward jet requirement of $\sim30$. These results could suggest than in the online events in the data, the jet collection is partitioned differently to the offline jet collection: if the online jet collection contained more \bjets\ proportionally to non-\bjets\ than the offline jet collection, the increase at the $\geq2$ loose \bjet cut could be explained by having more jet objects marked as candidates than the offline, which in turn, assuming there is a consistent jet population in both online and offline, would leave fewer jet candidates for the forward jet requirement. The likely source of this discrepancy arises in the process of building the jet collection discussed in Section \ref{es:jetextract}, which in future TLA applications should be formalised.
+    The cutflow performance in data shown in Figure \ref{f:cutflowD} does not show the online event count being consistently lower that the offline as demonstrated for the Monte-Carlo simulations in Figure \ref{f:cutflowMC}. The overall effect of the cutflow for data described by Table \ref{t:cutflow} is a reduction in online events compared to offline events of $\sim84\%$.
+
+    The first step shows a 25\% increase in the number of events passing the loose \bjets\ cut online compared to online. This result is not expected if the \btag\ differences between the MV2c10 and MV2c20 algorithms shown for the Monte-Carlo simulations (Figure \ref{fig:MC:bjetefficiency}) are consistent in the data. Assuming the \btag\ performs in the same way for data as for Monte-Carlo simulations, a decrease would be expected after this cut, rather than an increase.
+
+    After this increase, there is a drop in ratio of $\sim 7\%$, which is consistent with the drop shown in the Monte-Carlo Figure \ref{f:cutflowMC}, but as discussed in the previous Section this drop is not expected from the Chapter \ref{c:OP} results regarding non-\bjet\ performance. Following this drop, there are two more drops in the ratio value, for the tight \bjet\ requirement and forward \bjet\ requirement. While these drops are expected, the magnitude of them (15\% and 30\% respectively) is much higher than could be expected.
+
+    This sharp drop on the forward jet requirement could suggest that in the online events in the data, the jet collection is partitioned differently to the offline jet collection. If the online jet collection contained more \bjets\ proportionally to non-\bjets\ than the offline jet collection, the increase at the $\geq2$ loose \bjet cut could be explained by having more jet objects marked as \bjet\ candidates than the offline, which in turn, assuming there is a consistent jet population in both online and offline, would leave fewer jet candidates for the forward jet requirement. The likely source of this discrepancy arises in the process of building the jet collection discussed in Section \ref{es:jetextract}, which in future TLA applications should be formalised.
 
     The individual steps of the data cutflow are not in agreement with the expected comparative behaviour of the online and offline jet objects. However, the end result of the applied cuts to the data was a $16\%$ reduction in the number of online events compared to offline.
 
     \subsection{Summary of Cutflow Comparison for the Online and Offline \VBFHBB\ events}
 
-    The final relative reduction in online event count relative to the offline event count is shown for the Monte-Carlo simulations in Figure \ref{f:cutflowMC} to be to $\sim82\%$ of the offline event count. Similarly the ratio plot for the data events in Figure \ref{f:cutflowD} results in $\sim84\%$ final state events for the data events. The consistent values for the rate reduction of a trigger-object based analysis suggest that future analyses may be able to apply TLA to the \VBFHBB\ channel to increase the event yield in these analyses and improve the statistical significance of any results.
+    The final reduction in online event count relative to the offline event count for the Monte-Carlo simulations was $\sim82\%$ of the offline event count, and $\sim84\%$  for the data. The results from individual steps in the cutflow are not supported by the results of Chapter \ref{c:OP}, but these overall results, which are broadly consistent for both data and Monte-Carlo, are supported by the expected decrease in efficiency as a result of the diffent \btag\ algorithms. Looking only at the overall reduction at the final states suggests that future analyses may be able to apply TLA to the \VBFHBB\ channel to increase the final event yield.
 
-    With an average $\sim83\%$ reduction in event rate for the channel, usage of TLA at a rate of $2$kHz as described in Ref. \cite{tla} and Section \ref{t:tla} would result in an increase in output events of $\sim66\%$ compared to a standard offline analysis.
+    With an average $\sim83\%$ reduction in event rate for the channel, usage of TLA at a rate of $2$kHz as described in Ref. \cite{tla} and Section \ref{t:tla}, would result in an increase in output events of $\sim66\%$ compared to a standard offline analysis.
 
-    This statement is an estimate, there is additional computational cost involved with storing and computing the quantities required for the \VBFHBB\ analysis, such as the increased event size mentioned in Section \ref{obp:beff} as a result of storing the \btag\ training quantities to apply the updated algorithms. A rate analysis to ensure the TLA can be applied in the \VBFHBB\ channel without decreasing the rate increase down to the point the final TLA event count is no longer an improvement is a necessary step before approving TLA, but is beyond the scope of this dissertation.
+    This value is an estimate, there is additional computational cost involved with storing and computing the quantities required for TLA \VBFHBB\ analysis, such as the increased event size mentioned in Section \ref{obp:beff} as a result of storing the \btag\ training quantities. A rate analysis, to ensure the TLA can be applied in the \VBFHBB\ channel without decreasing the rate increase down to the point the final TLA event count is no longer an improvement, is a necessary step before approving TLA, but is beyond the scope of this dissertation.
 
-
+\newpage
 \section{Specific Jet Feature Distributions}
 \label{k:jets}
 
