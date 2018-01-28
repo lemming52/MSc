@@ -1,0 +1,37 @@
+\chapter{Boosted Decision Trees}\label{a:bdt}
+
+This appendix gives a brief description of the definition and use of Boosted Decision Trees (BDT), and provides specific details as to the training of a BDT for a \VBFHBB\, analysis.
+
+\section{Machine Learning}
+
+A BDT is a machine learning technique that is applied in analyses to separate signal events from background events. The tree is trained on a particular training sample to build the decision logic and then applied to real data as required.
+
+A decision tree as a structure operates by taking variables from the event and creating nodes with child nodes split on ranges of the variables. By assessing the relative signal/background proportions of the child nodes of this split node, the tree can create a split where one side is mostly signal and one mostly background. This process can be applied repeatedly to generate a multiple level tree of decision nodes, iteratively splitting sections of the event dataset. At a final terminating leaf node of the tree, the proportions of the signal and background events in the node will label it as a signal node or a background node.
+
+This structure once trained, can be used to label a measured event by moving down the tree and evaluating each decision before a leaf node is reached in order to categorise the event. The boosting of a decision tree refers to the process of applying weights to the events. The tree will be iteratively produced, reweighting any misclassified events at each iterative stage to produce a more refined final tree \cite{bdt}. Such structures are used throughout modern physics analyses at ATLAS \cite{mlbtag}.
+
+\section{\VBFHBB\, BDT Training}
+
+A detailed description of the BDT training that should be carried out for a \VBFHBB\, search is given in Ref. \cite{VBFHbb8tev}. The event variables used for training the BDT on the \VBFHBB\, events are summarised here.
+
+    \begin{table}[h]
+        \caption{BDT Variables used in training for the \VBFHBB\, analysis.}
+        \label{t:BDTvars}
+        \medskip
+        \centering
+        \begin{tabularx}{\textwidth}{p{4.5cm} X}\toprule
+            Variable & Description \\\midrule
+            $M_{jj}$ & Invariant mass of the VBF jet pair. \\
+            \ptjj & Transverse momentum of the VBF jet pair \\
+            $\cos\theta$ & Cosine of the polar angle of the cross product of the VBF jet momenta in the Higgs rest frame. \\
+            $Max(\eta)$ & $max(|\eta_{j1}|, |\eta_{j2}|)$ Maximum of the two absolute pseudorapidity values for the VBf jets. \\
+            $\eta *$ & $\frac{1}{2}(|\eta_{j1}| + |\eta_{j2}| - |\eta_{b1}| - |\eta_{b2}|)$ Average pseudorapidity difference between the VBF and signal jets. \\\
+            $min\Delta R_{j1}$ & Minimum ($\eta, \phi$) separation between the leading VBF jet and the closest other jet.\\
+            $min\Delta R_{j2}$ & Minimum ($\eta, \phi$) separation between the sub-leading VBF jet and the closest other jet.\\
+            QuarkGluonTagger($j_1$) & Number of tracks associated with the leading VBF jet \cite{QGTagger}. \\
+            QuarkGluonTagger($j_2$) & Number of tracks associated with the sub-leading VBF jet. \\
+            \pt Balance & Ratio of vectorial and scalar sum of signal and VBF jets: $\frac{\vec{p_{\text{T}j1}} + \vec{p_{\text{T}j2}} + \vec{p_{\text{T}b1}} + \vec{p_{\text{T}b2}}}{p_{\text{T}j1} + p_{\text{T}j2} + p_{\text{T}b1} + p_{\text{T}b2}}$.\\
+            $\Delta M_{jj}$ & Difference in the largest invariant mass from all jet pairs and the invariant mass of the VBF jet pair\\
+            \bottomrule
+        \end{tabularx}\\[5pt]
+    \end{table}

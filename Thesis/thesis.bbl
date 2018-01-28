@@ -1,0 +1,574 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{gauge-boson-mass}
+F.~Englert and R.~Brout, {\em {Broken Symmetry and the Mass of Gauge Vector
+  Mesons}},
+\href{http://dx.doi.org/10.1103/PhysRevLett.13.321}{Phys. Rev. Lett. {\bfseries
+  13} (1964) 321--323}.
+%%CITATION = PRLTA,13,321;%%.
+
+\bibitem{higgs-1}
+P.~W. Higgs, {\em {Broken Symmetries and the Masses of Gauge Bosons}},
+\href{http://dx.doi.org/10.1103/PhysRevLett.13.508}{Phys. Rev. Lett. {\bfseries
+  13} (1964) 508--509}.
+%%CITATION = PRLTA,13,508;%%.
+
+\bibitem{higgs-2}
+P.~W. Higgs, {\em {Broken symmetries, massless particles and gauge fields}},
+\href{http://dx.doi.org/10.1016/0031-9163(64)91136-9}{Phys. Lett. {\bfseries
+  12} (1964) 132--133}.
+%%CITATION = PHLTA,12,132;%%.
+
+\bibitem{lhc}
+L.~Evans and P.~Bryant, {\em {LHC Machine}},
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08001}{JINST {\bfseries 3}
+  (2008) S08001}.
+%%CITATION = JINST,3,S08001;%%.
+
+\bibitem{cmshiggs}
+{CMS} Collaboration, S.~Chatrchyan {et~al.}, {\em {Observation of a new boson
+  at a mass of 125 GeV with the CMS experiment at the LHC}},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{Phys. Lett.
+  {\bfseries B716} (2012) 30--61},
+\href{http://arxiv.org/abs/1207.7235}{{\ttfamily arXiv:1207.7235 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{atlashiggs}
+{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {Observation of a new particle in
+  the search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}}, \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{Phys. Lett.
+  {\bfseries B716} (2012) 1--29},
+\href{http://arxiv.org/abs/1207.7214}{{\ttfamily arXiv:1207.7214 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7214;%%.
+
+\bibitem{pdg}
+{Particle Data Group} Collaboration, C.~Patrignani {et~al.}, {\em {Review of
+  Particle Physics}},
+\href{http://dx.doi.org/10.1088/1674-1137/40/10/100001}{Chin. Phys. {\bfseries
+  C40} no.~10, (2017) 100001}.
+%%CITATION = CHPHD,C40,100001;%%.
+
+\bibitem{LHCHiggsCS}
+{LHC Higgs Cross Section Working Group} Collaboration, S.~Dittmaier {et~al.},
+  {\em {Handbook of LHC Higgs Cross Sections: 1. Inclusive Observables}},
+\href{http://arxiv.org/abs/1101.0593}{{\ttfamily arXiv:1101.0593 [hep-ph]}}.
+%%CITATION = ARXIV:1101.0593;%%.
+
+\bibitem{HDECAY}
+A.~Djouadi, J.~Kalinowski, and M.~Spira, {\em {HDECAY: A Program for Higgs
+  boson decays in the standard model and its supersymmetric extension}},
+  \href{http://dx.doi.org/10.1016/S0010-4655(97)00123-9}{Comput. Phys. Commun.
+  {\bfseries 108} (1998) 56--74},
+\href{http://arxiv.org/abs/hep-ph/9704448}{{\ttfamily arXiv:hep-ph/9704448
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9704448;%%.
+
+\bibitem{VBFHbb8tev}
+{ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Search for the Standard Model
+  Higgs boson produced by vector-boson fusion and decaying to bottom quarks in
+  $ \sqrt{s}=8 $ TeV pp collisions with the ATLAS detector}},
+  \href{http://dx.doi.org/10.1007/JHEP11(2016)112}{JHEP {\bfseries 11} (2016)
+  112},
+\href{http://arxiv.org/abs/1606.02181}{{\ttfamily arXiv:1606.02181 [hep-ex]}}.
+%%CITATION = ARXIV:1606.02181;%%.
+
+\bibitem{tla}
+{ATLAS} Collaboration, T.~A. collaboration,
+{\em {Search for light dijet resonances with the ATLAS detector using a
+  Trigger-Level Analysis in LHC pp collisions at $\sqrt{s}=13$~TeV}},.
+%%CITATION = ATLAS-CONF-2016-030;%%.
+
+\bibitem{martinshaw}
+G.~S. Brian R.~Martin, {\em Particle Physics}.
+\newblock Wiley, Geneva, 2008.
+
+\bibitem{gws-g}
+S.~L. Glashow, {\em {Partial Symmetries of Weak Interactions}},
+\href{http://dx.doi.org/10.1016/0029-5582(61)90469-2}{Nucl. Phys. {\bfseries
+  22} (1961) 579--588}.
+%%CITATION = NUPHA,22,579;%%.
+
+\bibitem{gws-w}
+S.~Weinberg, {\em {A Model of Leptons}},
+\href{http://dx.doi.org/10.1103/PhysRevLett.19.1264}{Phys. Rev. Lett.
+  {\bfseries 19} (1967) 1264--1266}.
+%%CITATION = PRLTA,19,1264;%%.
+
+\bibitem{gws-s}
+A.~Salam, {\em {Weak and Electromagnetic Interactions}},
+Conf. Proc. {\bfseries C680519} (1968) 367--377.
+%%CITATION = CONFP,C680519,367;%%.
+
+\bibitem{parityviolation}
+T.~D. Lee and C.~N. Yang, {\em Question of Parity Conservation in Weak
+  Interactions}, \href{http://dx.doi.org/10.1103/PhysRev.104.254}{Phys. Rev.
+  {\bfseries 104} (1956) 254--258}.
+  \url{https://link.aps.org/doi/10.1103/PhysRev.104.254}.
+
+\bibitem{ckm-c}
+N.~Cabibbo, {\em {Unitary Symmetry and Leptonic Decays}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.10.531}{Phys. Rev. Lett.
+  {\bfseries 10} (1963) 531--533}.
+[,648(1963)].
+%%CITATION = PRLTA,10,531;%%.
+
+\bibitem{ckm-km}
+M.~Kobayashi and T.~Maskawa, {\em {CP Violation in the Renormalizable Theory of
+  Weak Interaction}},
+\href{http://dx.doi.org/10.1143/PTP.49.652}{Prog. Theor. Phys. {\bfseries 49}
+  (1973) 652--657}.
+%%CITATION = PTPKA,49,652;%%.
+
+\bibitem{ckmparam}
+L.-L. Chau and W.-Y. Keung, {\em {Comments on the Parametrization of the
+  Kobayashi-Maskawa Matrix}},
+\href{http://dx.doi.org/10.1103/PhysRevLett.53.1802}{Phys. Rev. Lett.
+  {\bfseries 53} (1984) 1802}.
+%%CITATION = PRLTA,53,1802;%%.
+
+\bibitem{higgs-atlas}
+{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {Observation of a new particle in
+  the search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}}, \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{Phys. Lett.
+  {\bfseries B716} (2012) 1--29},
+\href{http://arxiv.org/abs/1207.7214}{{\ttfamily arXiv:1207.7214 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7214;%%.
+
+\bibitem{higgs-cms}
+{CMS} Collaboration, S.~Chatrchyan {et~al.}, {\em {Observation of a new boson
+  at a mass of 125 GeV with the CMS experiment at the LHC}},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{Phys. Lett.
+  {\bfseries B716} (2012) 30--61},
+\href{http://arxiv.org/abs/1207.7235}{{\ttfamily arXiv:1207.7235 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{hardinteractions}
+J.~M. Campbell, J.~W. Huston, and W.~J. Stirling, {\em {Hard Interactions of
+  Quarks and Gluons: A Primer for LHC Physics}},
+  \href{http://dx.doi.org/10.1088/0034-4885/70/1/R02}{Rept. Prog. Phys.
+  {\bfseries 70} (2007) 89},
+\href{http://arxiv.org/abs/hep-ph/0611148}{{\ttfamily arXiv:hep-ph/0611148
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0611148;%%.
+
+\bibitem{pdfs}
+{NNPDF} Collaboration, R.~D. Ball {et~al.}, {\em {Parton distributions for the
+  LHC Run II}}, \href{http://dx.doi.org/10.1007/JHEP04(2015)040}{JHEP
+  {\bfseries 04} (2015) 040},
+\href{http://arxiv.org/abs/1410.8849}{{\ttfamily arXiv:1410.8849 [hep-ph]}}.
+%%CITATION = ARXIV:1410.8849;%%.
+
+\bibitem{lightcone-all-that}
+J.~C. Collins, {\em {Light cone variables, rapidity and all that}},
+\href{http://arxiv.org/abs/hep-ph/9705393}{{\ttfamily arXiv:hep-ph/9705393
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9705393;%%.
+
+\bibitem{monte-carlo}
+M.~H. Seymour and M.~Marx,
+  \href{http://dx.doi.org/10.1007/978-3-319-05362-2_8}{{\em {Monte Carlo Event
+  Generators}},} pp.~,  287--319.
+\newblock 2013.
+\newblock \href{http://arxiv.org/abs/1304.6677}{{\ttfamily arXiv:1304.6677
+  [hep-ph]}}.
+\newblock
+\url{https://inspirehep.net/record/1229804/files/arXiv:1304.6677.pdf}.
+\newblock
+%%CITATION = ARXIV:1304.6677;%%.
+
+\bibitem{pythia}
+T.~Sjostrand, S.~Ask, J.~R. Christiansen, R.~Corke, N.~Desai, P.~Ilten,
+  S.~Mrenna, S.~Prestel, C.~O. Rasmussen, and P.~Z. Skands, {\em {An
+  Introduction to PYTHIA 8.2}},
+  \href{http://dx.doi.org/10.1016/j.cpc.2015.01.024}{Comput. Phys. Commun.
+  {\bfseries 191} (2015) 159--177},
+\href{http://arxiv.org/abs/1410.3012}{{\ttfamily arXiv:1410.3012 [hep-ph]}}.
+%%CITATION = ARXIV:1410.3012;%%.
+
+\bibitem{sherpa}
+T.~Gleisberg, S.~Hoeche, F.~Krauss, M.~Schonherr, S.~Schumann, F.~Siegert, and
+  J.~Winter, {\em {Event generation with SHERPA 1.1}},
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/02/007}{JHEP {\bfseries 02}
+  (2009) 007},
+\href{http://arxiv.org/abs/0811.4622}{{\ttfamily arXiv:0811.4622 [hep-ph]}}.
+%%CITATION = ARXIV:0811.4622;%%.
+
+\bibitem{powheg}
+C.~Oleari, {\em {The POWHEG-BOX}},
+  \href{http://dx.doi.org/10.1016/j.nuclphysbps.2010.08.016}{Nucl. Phys. Proc.
+  Suppl. {\bfseries 205-206} (2010) 36--41},
+\href{http://arxiv.org/abs/1007.3893}{{\ttfamily arXiv:1007.3893 [hep-ph]}}.
+%%CITATION = ARXIV:1007.3893;%%.
+
+\bibitem{stringmodel}
+B.~Andersson, G.~Gustafson, G.~Ingelman, and T.~Sjostrand, {\em Parton
+  fragmentation and string dynamics},
+  \href{http://dx.doi.org/https://doi.org/10.1016/0370-1573(83)90080-7}{Physics
+  Reports {\bfseries 97} no.~2, (1983) 31 -- 145}.
+  \url{http://www.sciencedirect.com/science/article/pii/0370157383900807}.
+
+\bibitem{clustermodel}
+B.~R. Webber, {\em {A QCD Model for Jet Fragmentation Including Soft Gluon
+  Interference}},
+\href{http://dx.doi.org/10.1016/0550-3213(84)90333-X}{Nucl. Phys. {\bfseries
+  B238} (1984) 492--528}.
+%%CITATION = NUPHA,B238,492;%%.
+
+\bibitem{tunes}
+P.~Z. Skands, {\em {Tuning Monte Carlo Generators: The Perugia Tunes}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.82.074018}{Phys. Rev. {\bfseries
+  D82} (2010) 074018},
+\href{http://arxiv.org/abs/1005.3457}{{\ttfamily arXiv:1005.3457 [hep-ph]}}.
+%%CITATION = ARXIV:1005.3457;%%.
+
+\bibitem{higgsproduction}
+M.~Y. Hussein, {\em {Higgs Boson Production at the LHC}},
+\href{http://arxiv.org/abs/1703.03952}{{\ttfamily arXiv:1703.03952 [hep-ph]}}.
+%%CITATION = ARXIV:1703.03952;%%.
+
+\bibitem{higgssearch}
+{ATLAS, CMS} Collaboration, G.~Mila, {\em {Higgs searches at LHC}},
+eConf {\bfseries C080625} (2008) 0031.
+%%CITATION = ECONF,C080625,0031;%%.
+
+\bibitem{tth}
+{ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Search for the Standard Model
+  Higgs boson produced in association with top quarks and decaying into a
+  $b\bar{b}$ pair in $pp$ collisions at $\sqrt{s}$ = 13 TeV with the ATLAS
+  detector}},
+\href{http://arxiv.org/abs/1712.08895}{{\ttfamily arXiv:1712.08895 [hep-ex]}}.
+%%CITATION = ARXIV:1712.08895;%%.
+
+\bibitem{LHCHiggsXS2013}
+{LHC Higgs Cross Section Working Group} Collaboration, J.~R. Andersen {et~al.},
+  {\em {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}},
+\href{http://arxiv.org/abs/1307.1347}{{\ttfamily arXiv:1307.1347 [hep-ph]}}.
+%%CITATION = ARXIV:1307.1347;%%.
+
+\bibitem{hprod}
+J.~Baglio and A.~Djouadi, {\em Higgs production at the lHC},
+  \href{http://dx.doi.org/10.1007/JHEP03(2011)055}{Journal of High Energy
+  Physics {\bfseries 2011} no.~3, (2011) 55}.
+  \url{https://doi.org/10.1007/JHEP03(2011)055}.
+
+\bibitem{searchggf}
+M.~Dittmar and H.~K. Dreiner, {\em {How to find a Higgs boson with a mass
+  between 155-GeV - 180-GeV at the LHC}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.55.167}{Phys. Rev. {\bfseries D55}
+  (1997) 167--172},
+\href{http://arxiv.org/abs/hep-ph/9608317}{{\ttfamily arXiv:hep-ph/9608317
+  [hep-ph]}}.
+%%CITATION = HEP-PH/9608317;%%.
+
+\bibitem{searchvh}
+S.~L. Glashow, D.~V. Nanopoulos, and A.~Yildiz, {\em {Associated Production of
+  Higgs Bosons and Z Particles}},
+\href{http://dx.doi.org/10.1103/PhysRevD.18.1724}{Phys. Rev. {\bfseries D18}
+  (1978) 1724--1727}.
+%%CITATION = PHRVA,D18,1724;%%.
+
+\bibitem{pdghiggs}
+{Particle Data Group} Collaboration, C.~Patrignani {et~al.}, {\em {Review of
+  Particle Physics - Status of the Higgs Boson}},.
+
+\bibitem{VBF2004}
+S.~Asai {et~al.}, {\em {Prospects for the search for a standard model Higgs
+  boson in ATLAS using vector boson fusion}},
+  \href{http://dx.doi.org/10.1140/epjcd/s2003-01-010-8}{Eur. Phys. J.
+  {\bfseries C32S2} (2004) 19--54},
+\href{http://arxiv.org/abs/hep-ph/0402254}{{\ttfamily arXiv:hep-ph/0402254
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0402254;%%.
+
+\bibitem{lep1}
+{\em {LEP design report}}.
+\newblock CERN, Geneva, 1983.
+\newblock \url{https://cds.cern.ch/record/98881}.
+\newblock By the LEP Injector Study Group.
+
+\bibitem{lep2}
+{\em {LEP design report}}.
+\newblock CERN, Geneva, 1984.
+\newblock \url{https://cds.cern.ch/record/102083}.
+\newblock Copies shelved as reports in LEP, PS and SPS libraries.
+
+\bibitem{Run2016}
+Y.~Koshiba {et~al.},
+  \href{http://dx.doi.org/https://doi.org/10.18429/JACoW-IPAC2017-MOPVA023}{{\em
+  {L}uminosity {I}ncrease in {L}aser{-C}ompton {S}cattering by {C}rab
+  {C}rossing {M}ethod},} in {\em Proc. of International Particle Accelerator
+  Conference (IPAC'17), Copenhagen, Denmark, 14-19 May, 2017}, pp.~,  902--904.
+\newblock JACoW, Geneva, Switzerland, May, 2017.
+\newblock \url{http://jacow.org/ipac2017/papers/mopva023.pdf}.
+\newblock https://doi.org/10.18429/JACoW-IPAC2017-MOPVA023.
+
+\bibitem{ATLAS}
+{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {The ATLAS Experiment at the CERN
+  Large Hadron Collider}},
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{JINST {\bfseries 3}
+  (2008) S08003}.
+%%CITATION = JINST,3,S08003;%%.
+
+\bibitem{ATLASSchem}
+J.~Pequenao, ``{Computer generated image of the whole ATLAS detector}.''
+  \url{https://cds.cern.ch/record/1095924}. Accessed 03/09/2017.
+
+\bibitem{innerdetector}
+{ATLAS} Collaboration,
+{\em {ATLAS inner detector: Technical design report. Vol. 1}},.
+%%CITATION = CERN-LHCC-97-16;%%.
+
+\bibitem{larcalo}
+H.~Wilkens and the ATLAS LArg~Collaboration, {\em The ATLAS Liquid Argon
+  calorimeter: An overview}, Journal of Physics: Conference Series {\bfseries
+  160} no.~1, (2009) 012043.
+  \url{http://stacks.iop.org/1742-6596/160/i=1/a=012043}.
+
+\bibitem{atlastile}
+{for the ATLAS collaboration} Collaboration, A.~M. Henriques~Correia, {\em {The
+  ATLAS Tile Calorimeter}}, Tech. Rep. ATL-TILECAL-PROC-2015-002, CERN, Geneva,
+  Mar, 2015.
+\newblock \url{https://cds.cern.ch/record/2004868}.
+
+\bibitem{forwardcal}
+A.~Artamonov, D.~Bailey, G.~Belanger, M.~Cadabeschi, T.~Y. Chen, V.~Epshteyn,
+  P.~Gorbounov, K.~K. Joo, M.~Khakzad, V.~Khovanskiy, P.~Krieger, P.~Loch,
+  J.~Mayer, E.~Neuheimer, F.~G. Oakham, M.~O'Neill, R.~S. Orr, M.~Qi,
+  J.~Rutherfoord, A.~Savine, M.~Schram, P.~Shatalov, L.~Shaver, M.~Shupe,
+  G.~Stairs, V.~Strickland, D.~Tompkins, I.~Tsukerman, and K.~Vincent, {\em The
+  ATLAS Forward Calorimeter}, Journal of Instrumentation {\bfseries 3} no.~02,
+  (2008) P02010. \url{http://stacks.iop.org/1748-0221/3/i=02/a=P02010}.
+
+\bibitem{trigrun2017}
+{ATLAS Collaboration} Collaboration, M.~zur Nedden, {\em {The Run-2 ATLAS
+  Trigger System: Design, Performance and Plan}}, Tech. Rep.
+  ATL-DAQ-PROC-2016-039, CERN, Geneva, Dec, 2016.
+\newblock \url{https://cds.cern.ch/record/2238679}.
+
+\bibitem{trig2015}
+{ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Performance of the ATLAS
+  Trigger System in 2015}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-017-4852-3}{Eur. Phys. J.
+  {\bfseries C77} no.~5, (2017) 317},
+\href{http://arxiv.org/abs/1611.09661}{{\ttfamily arXiv:1611.09661 [hep-ex]}}.
+%%CITATION = ARXIV:1611.09661;%%.
+
+\bibitem{L1}
+R.~Achenbach {et~al.}, {\em {The ATLAS level-1 calorimeter trigger}},
+\href{http://dx.doi.org/10.1088/1748-0221/3/03/P03001}{JINST {\bfseries 3}
+  (2008) P03001}.
+%%CITATION = JINST,3,P03001;%%.
+
+\bibitem{triggermenu}
+{ATLAS Collaboration} Collaboration, {\em {Trigger Menu in 2016}}, Tech. Rep.
+  ATL-DAQ-PUB-2017-001, CERN, Geneva, Jan, 2017.
+\newblock \url{https://cds.cern.ch/record/2242069}.
+
+\bibitem{cone-type}
+G.~P. Salam, {\em {Towards Jetography}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-010-1314-6}{Eur. Phys. J.
+  {\bfseries C67} (2010) 637--686},
+\href{http://arxiv.org/abs/0906.1833}{{\ttfamily arXiv:0906.1833 [hep-ph]}}.
+%%CITATION = ARXIV:0906.1833;%%.
+
+\bibitem{jetreco}
+R.~Atkin, {\em {Review of jet reconstruction algorithms}},
+\href{http://dx.doi.org/10.1088/1742-6596/645/1/012008}{J. Phys. Conf. Ser.
+  {\bfseries 645} no.~1, (2015) 012008}.
+%%CITATION = 00462,645,012008;%%.
+
+\bibitem{antikt}
+M.~Cacciari, G.~P. Salam, and G.~Soyez, {\em {The Anti-k(t) jet clustering
+  algorithm}}, \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{JHEP
+  {\bfseries 04} (2008) 063},
+\href{http://arxiv.org/abs/0802.1189}{{\ttfamily arXiv:0802.1189 [hep-ph]}}.
+%%CITATION = ARXIV:0802.1189;%%.
+
+\bibitem{tilecalib}
+O.~Lundberg, {\em {Calibration Systems of the ATLAS Tile Calorimeter}}, pp.~,
+  399--402.
+\newblock 2012.
+\newblock \href{http://arxiv.org/abs/1212.3676}{{\ttfamily arXiv:1212.3676
+  [physics.ins-det]}}.
+\newblock
+\url{https://inspirehep.net/record/1207575/files/arXiv:1212.3676.pdf}.
+\newblock
+%%CITATION = ARXIV:1212.3676;%%.
+
+\bibitem{localcell}
+G.~Pospelov and the Atlas Hadronic Calibration~Group, {\em The overview of the
+  ATLAS local hadronic calibration}, Journal of Physics: Conference Series
+  {\bfseries 160} no.~1, (2009) 012079.
+  \url{http://stacks.iop.org/1742-6596/160/i=1/a=012079}.
+
+\bibitem{simpileup}
+Z.~Marshall and the Atlas~Collaboration, {\em Simulation of Pile-up in the
+  ATLAS Experiment}, Journal of Physics: Conference Series {\bfseries 513}
+  no.~2, (2014) 022024. \url{http://stacks.iop.org/1742-6596/513/i=2/a=022024}.
+
+\bibitem{pileup}
+{\em {Tagging and suppression of pileup jets with the ATLAS detector}}, Tech.
+  Rep. ATLAS-CONF-2014-018, CERN, Geneva, May, 2014.
+\newblock \url{https://cds.cern.ch/record/1700870}.
+
+\bibitem{bTagPerformance}
+{ATLAS} Collaboration, {\em {Performance of $b$-Jet Identification in the ATLAS
+  Experiment}}, \href{http://dx.doi.org/10.1088/1748-0221/11/04/P04008}{JINST
+  {\bfseries 11} no.~04, (2016) P04008},
+\href{http://arxiv.org/abs/1512.01094}{{\ttfamily arXiv:1512.01094 [hep-ex]}}.
+%%CITATION = ARXIV:1512.01094;%%.
+
+\bibitem{bTagExpPerf}
+{\em {Expected performance of the ATLAS $b$-tagging algorithms in Run-2}},
+  Tech. Rep. ATL-PHYS-PUB-2015-022, CERN, Geneva, Jul, 2015.
+\newblock \url{https://cds.cern.ch/record/2037697}.
+
+\bibitem{btagOptimisation}
+{ATLAS Collaboration}, {\em Optimisation of the {ATLAS} \btag performance for
+  the 2016 {LHC} {R}un}, ATL-PHYS-PUB-2016-012 (2016).
+  \url{https://cds.cern.ch/record/2160731}.
+
+\bibitem{IP3D}
+{ATLAS Collaboration} Collaboration, {\em {Commissioning of the ATLAS
+  high-performance b-tagging algorithms in the 7 TeV collision data}}, Tech.
+  Rep. ATLAS-CONF-2011-102, CERN, Geneva, Jul, 2011.
+\newblock \url{http://cds.cern.ch/record/1369219}.
+
+\bibitem{jetfitter}
+R.~Fruhwirth, {\em {Application of Kalman filtering to track and vertex
+  fitting}},
+\href{http://dx.doi.org/10.1016/0168-9002(87)90887-4}{Nucl. Instrum. Meth.
+  {\bfseries A262} (1987) 444--450}.
+%%CITATION = NUIMA,A262,444;%%.
+
+\bibitem{ROOT}
+I.~Antcheva, M.~Ballintijn, B.~Bellenot, M.~Biskup, R.~Brun, N.~Buncic,
+  P.~Canal, D.~Casadei, O.~Couet, V.~Fine, L.~Franco, G.~Ganis, A.~Gheata,
+  D.~G. Maline, M.~Goto, J.~Iwaszkiewicz, A.~Kreshuk, D.~M. Segura, R.~Maunder,
+  L.~Moneta, A.~Naumann, E.~Offermann, V.~Onuchin, S.~Panacek, F.~Rademakers,
+  P.~Russo, and M.~Tadel, {\em ROOTA C++ framework for petabyte data storage,
+  statistical analysis and visualization},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.cpc.2009.08.005}{Computer
+  Physics Communications {\bfseries 180} no.~12, (2009) 2499 -- 2512}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0010465509002550}. 40
+  YEARS OF CPC: A celebratory issue focused on quality software for high
+  performance, grid and novel computing architectures.
+
+\bibitem{xAOD}
+J.~Catmore, J.~Cranshaw, T.~Gillam, E.~Gramstad, P.~Laycock, N.~Ozturk, and
+  G.~A. Stewart, {\em A new petabyte-scale data derivation framework for
+  ATLAS}, Journal of Physics: Conference Series {\bfseries 664} no.~7, (2015)
+  072007. \url{http://stacks.iop.org/1742-6596/664/i=7/a=072007}.
+
+\bibitem{athena}
+R.~Seuster, M.~Elsing, G.~A. Stewart, and V.~Tsulaia, {\em Status and Future
+  Evolution of the ATLAS Offline Software}, Journal of Physics: Conference
+  Series {\bfseries 664} no.~7, (2015) 072044.
+  \url{http://stacks.iop.org/1742-6596/664/i=7/a=072044}.
+
+\bibitem{grid}
+``Worldwide lhc computing grid website.'' Http://wlcg.web.cern.ch/.
+\newblock Accessed: 2018-01-09.
+
+\bibitem{CTEQ}
+J.~Pumplin, D.~R. Stump, J.~Huston, H.~L. Lai, P.~M. Nadolsky, and W.~K. Tung,
+  {\em {New generation of parton distributions with uncertainties from global
+  QCD analysis}}, \href{http://dx.doi.org/10.1088/1126-6708/2002/07/012}{JHEP
+  {\bfseries 07} (2002) 012},
+\href{http://arxiv.org/abs/hep-ph/0201195}{{\ttfamily arXiv:hep-ph/0201195
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0201195;%%.
+
+\bibitem{AZNLO}
+{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {Measurement of the $Z/\gamma^*$
+  boson transverse momentum distribution in $pp$ collisions at $\sqrt{s}$ = 7
+  TeV with the ATLAS detector}},
+  \href{http://dx.doi.org/10.1007/JHEP09(2014)145}{JHEP {\bfseries 09} (2014)
+  145},
+\href{http://arxiv.org/abs/1406.3660}{{\ttfamily arXiv:1406.3660 [hep-ex]}}.
+%%CITATION = ARXIV:1406.3660;%%.
+
+\bibitem{geant4}
+S.~Agostinelli, J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~Arce,
+  M.~Asai, D.~Axen, S.~Banerjee, G.~Barrand, F.~Behner, L.~Bellagamba,
+  J.~Boudreau, L.~Broglia, A.~Brunengo, H.~Burkhardt, S.~Chauvie, J.~Chuma,
+  R.~Chytracek, G.~Cooperman, G.~Cosmo, P.~Degtyarenko, A.~Dell'Acqua,
+  G.~Depaola, D.~Dietrich, R.~Enami, A.~Feliciello, C.~Ferguson, H.~Fesefeldt,
+  G.~Folger, F.~Foppiano, A.~Forti, S.~Garelli, S.~Giani, R.~Giannitrapani,
+  D.~Gibin, J.~G. Cadenas, I.~González, G.~G. Abril, G.~Greeniaus, W.~Greiner,
+  V.~Grichine, A.~Grossheim, S.~Guatelli, P.~Gumplinger, R.~Hamatsu,
+  K.~Hashimoto, H.~Hasui, A.~Heikkinen, A.~Howard, V.~Ivanchenko, A.~Johnson,
+  F.~Jones, J.~Kallenbach, N.~Kanaya, M.~Kawabata, Y.~Kawabata, M.~Kawaguti,
+  S.~Kelner, P.~Kent, A.~Kimura, T.~Kodama, R.~Kokoulin, M.~Kossov,
+  H.~Kurashige, E.~Lamanna, T.~Lampén, V.~Lara, V.~Lefebure, F.~Lei,
+  M.~Liendl, W.~Lockman, F.~Longo, S.~Magni, M.~Maire, E.~Medernach,
+  K.~Minamimoto, P.~M. de~Freitas, Y.~Morita, K.~Murakami, M.~Nagamatu,
+  R.~Nartallo, P.~Nieminen, T.~Nishimura, K.~Ohtsubo, M.~Okamura, S.~O'Neale,
+  Y.~Oohata, K.~Paech, J.~Perl, A.~Pfeiffer, M.~Pia, F.~Ranjard, A.~Rybin,
+  S.~Sadilov, E.~D. Salvo, G.~Santin, T.~Sasaki, N.~Savvas, Y.~Sawada,
+  S.~Scherer, S.~Sei, V.~Sirotenko, D.~Smith, N.~Starkov, H.~Stoecker,
+  J.~Sulkimo, M.~Takahata, S.~Tanaka, E.~Tcherniaev, E.~S. Tehrani,
+  M.~Tropeano, P.~Truscott, H.~Uno, L.~Urban, P.~Urban, M.~Verderi, A.~Walkden,
+  W.~Wander, H.~Weber, J.~Wellisch, T.~Wenaus, D.~Williams, D.~Wright,
+  T.~Yamada, H.~Yoshida, and D.~Zschiesche, {\em Geant4a simulation toolkit},
+  \href{http://dx.doi.org/https://doi.org/10.1016/S0168-9002(03)01368-8}{Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment {\bfseries 506} no.~3,
+  (2003) 250 -- 303}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900203013688}.
+
+\bibitem{geant4atlas}
+{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {The ATLAS Simulation
+  Infrastructure}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-010-1429-9}{Eur. Phys. J.
+  {\bfseries C70} (2010) 823--874},
+\href{http://arxiv.org/abs/1005.4568}{{\ttfamily arXiv:1005.4568
+  [physics.ins-det]}}.
+%%CITATION = ARXIV:1005.4568;%%.
+
+\bibitem{JES}
+{ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Jet energy scale measurements
+  and their systematic uncertainties in proton-proton collisions at $\sqrt{s} =
+  13$ TeV with the ATLAS detector}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.96.072002}{Phys. Rev. {\bfseries
+  D96} no.~7, (2017) 072002},
+\href{http://arxiv.org/abs/1703.09665}{{\ttfamily arXiv:1703.09665 [hep-ex]}}.
+%%CITATION = ARXIV:1703.09665;%%.
+
+\bibitem{jetcalib}
+A.~Schwartzman, {\em {Jet energy calibration at the LHC}},
+  \href{http://dx.doi.org/10.1142/S0217751X15460021}{Int. J. Mod. Phys.
+  {\bfseries A30} no.~31, (2015) 1546002},
+\href{http://arxiv.org/abs/1509.05459}{{\ttfamily arXiv:1509.05459 [hep-ex]}}.
+%%CITATION = ARXIV:1509.05459;%%.
+
+\bibitem{bdt}
+B.~P. Roe, H.-J. Yang, J.~Zhu, Y.~Liu, I.~Stancu, and G.~McGregor, {\em
+  {Boosted decision trees, an alternative to artificial neural networks}},
+  \href{http://dx.doi.org/10.1016/j.nima.2004.12.018}{Nucl. Instrum. Meth.
+  {\bfseries A543} no.~2-3, (2005) 577--584},
+\href{http://arxiv.org/abs/physics/0408124}{{\ttfamily arXiv:physics/0408124
+  [physics]}}.
+%%CITATION = PHYSICS/0408124;%%.
+
+\bibitem{mlbtag}
+M.~Paganini, {\em {Machine Learning Algorithms for $b$-Jet Tagging at the ATLAS
+  Experiment}}, in {\em {18th International Workshop on Advanced Computing and
+  Analysis Techniques in Physics Research (ACAT 2017) Seattle, WA, USA, August
+  21-25, 2017}}.
+\newblock 2017.
+\newblock \href{http://arxiv.org/abs/1711.08811}{{\ttfamily arXiv:1711.08811
+  [hep-ex]}}.
+\newblock
+\url{https://inspirehep.net/record/1638366/files/arXiv:1711.08811.pdf}.
+\newblock
+%%CITATION = ARXIV:1711.08811;%%.
+
+\bibitem{QGTagger}
+J.~Gallicchio and M.~D. Schwartz, {\em {Quark and Gluon Tagging at the LHC}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.107.172001}{Phys. Rev. Lett.
+  {\bfseries 107} (2011) 172001},
+\href{http://arxiv.org/abs/1106.3076}{{\ttfamily arXiv:1106.3076 [hep-ph]}}.
+%%CITATION = ARXIV:1106.3076;%%.
+
+\end{thebibliography}\endgroup
