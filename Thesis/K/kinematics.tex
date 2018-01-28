@@ -30,11 +30,11 @@
         \begin{figure}[h]
             \centering
             \includegraphics[width=0.75\linewidth]{MC_cutflow}
-            \caption[\VBFHBB\ Cutflow ratio for Monte-Carlo simulation]{Ratio of the online event count over the offline event count for the Monte-Carlo}
+            \caption[\VBFHBB\ Cutflow ratio for Monte-Carlo simulation]{Ratio of the online event count over the offline event count for the Monte-Carlo simulations.}
             \label{f:cutflowMC}
         \end{figure}
 
-    Overall, the online performance has fewer events than the offline for all points in the cutflow, and overall produces $\sim80\%$ of the total signal events. There are three distinct jumps in the cutflow ratio, at the cuts on the \textit{loose} \bjets\,, light-jets and the forward jet requirement, of $\sim7\%$ each. As shown in Figure \ref{fig:MC:bjetefficiency}, online \btag\, is $\sim93\%$ as efficient as the offline \btag. When considering tagging two distinct \bjets\,, any difference in efficiency is squared. Given the difference in tagging rates, this would result in $\sim86\%$ tagging efficiency for two \bjets\,, which is lower than shown in the cutflow. As shown for the leading \bjet in Section \ref{OP:leadingb}, the offline jet is typically higher in \pt than the online jets. However the difference is small , $\sim2\%$, so any effect on the cutflow should not be as pronounced.
+    The online performance has fewer events than the offline for all points in the cutflow, and overall produces $\sim80\%$ of the total signal events. There are three distinct jumps in the cutflow ratio, at the cuts on the \textit{loose} \bjets\,, light-jets and the forward jet requirement, of $\sim7\%$ each. As shown in Figure \ref{fig:MC:bjetefficiency}, online \btag\, is $\sim93\%$ as efficient as the offline \btag. When considering tagging two distinct \bjets\,, any difference in efficiency is squared. Given the difference in tagging rates, this would result in $\sim86\%$ tagging efficiency for two \bjets\,, which is lower than shown in the cutflow. As shown for the leading \bjet in Section \ref{OP:leadingb}, the offline jet is typically higher in \pt than the online jets. However the difference is small , $\sim2\%$, so any effect on the cutflow should not be as pronounced.
 
     The $\sim7\%$ drop on the light jet requirement is unexpected, the requirement was solely for 2 jets with \pt$>20$GeV. Given the points above with respect to the \pt difference between online and offline, this drop should not be so sever. The fact the \pt cuts on the light jets were so low also suggests an anomalous result here as such a cut should not contribute a significant reduction in either online or offline.
 
@@ -42,23 +42,21 @@
 
     The final drop occurs following the requirement for a high \pt forward jet. Figure \ref{fig:O:leadingnonbptslice} shows that for non-\bjets\, in the forward region of the detector, the \pt of the offline jet is consistently higher than the online \pt. This difference would result in a drop in the online events, with fewer jets passing the threshold \pt cut compared to the offline events.
 
-    Overall for the Monte-Carlo events, there was a 20\% reduction in the number of events that passed the \VBFHBB\, cuts.
-
-
-
+    Overall for the Monte-Carlo events, while the individual steps of the cutflow show some unusual results, the overall effect was an 18\% reduction in the number of events that passed the \VBFHBB\, cuts.
 
     \subsection{Data}
         \begin{figure}[h]
             \centering
             \includegraphics[width=0.75\linewidth]{D_cutflow}
-            \caption[\VBFHBB\ Cutflow ratio for data]{Ratio of the online event count over the offline event count for the data}
+            \caption[\VBFHBB\ Cutflow ratio for data]{Ratio of the online event count over the offline event count for the data.}
             \label{f:cutflowD}
         \end{figure}
 
+    The fist step shows a 25\% increase in the number of loosely tagged \bjets\ in the data events. This is wholly unexpected, if the \btag\ differences between the MV2c10 and MV2c20 algorithms shown for the Monte-Carlo simulations (Figure \ref{fig:MC:bjetefficiency}) are present in the data, a decrease would be expected after this cut, rather than an increase. Another signifcant feature of Figure \ref{f:cutflowD} is the sharp decrease on the forward jet requirement of $\sim30$. These results could suggest than in the online events in the data, the jet collection is partitioned differently to the offline jet collection: if the online jet collection contained more \bjets\ proportionally to non-\bjets\ than the offline jet collection, the increase at the $\geq2$ loose \bjet cut could be explained by having more jet objects marked as candidates than the offline, which in turn, assuming there is a consistent jet population in both online and offline, would leave fewer jet candidates for the forward jet requirement. The likely source of this discrepancy arises in the process of building the jet collection discussed in Section \ref{es:jetextract}, which in future TLA applications should be formalised.
+
+    The individual steps of the data cutflow are not in agreement with the expected comparative behaviour of the online and offline jet objects. However, the end result of the applied cuts to the data was a $16\%$ reduction in the number of online events compared to offline.
 
     \subsection{Summary of Cutflow Comparison for the Online and Offline \VBFHBB\ events}
-
-    While the granular details of the cutflow (LEAVE A LOT TO BE DESIRED), the overall effect on the reduction of events to the final \VBFHBB\ event state is consistent between both the Monte-Carlo simulations and data.
 
     The final relative reduction in online event count relative to the offline event count is shown for the Monte-Carlo simulations in Figure \ref{f:cutflowMC} to be to $\sim82\%$ of the offline event count. Similarly the ratio plot for the data events in Figure \ref{f:cutflowD} results in $\sim84\%$ final state events for the data events. The consistent values for the rate reduction of a trigger-object based analysis suggest that future analyses may be able to apply TLA to the \VBFHBB\ channel to increase the event yield in these analyses and improve the statistical significance of any results.
 
@@ -86,7 +84,7 @@
         \end{tabular}
     \end{table}
 
-    These plots were presented in signal and background regions, as defined by the \mbb value as shown in Table \ref{t:signalback}. The signal was plotted only using the Monte-Carlo simulation while the background regions were taken from data events. The kinematic quantities for leading \bjet\ and leading non-\bjet\ of the \VBFHBB event are plotted for both the online and offline objects. The \pt distributions are shown in Figures \ref{f:ptb1} and \ref{f:ptj1} respectively, while the pseudorapidity of $b_1$ is shown in Figure \ref{f:etab1} and for $j_1$ in \ref{f:etaj1}.
+    These plots were presented in signal and background regions, as defined by the \mbb value as shown in Table \ref{t:signalback}. The signal was plotted only using the Monte-Carlo simulation while the background regions were taken from data events. The kinematic quantities for leading \bjet\ and leading non-\bjet\ of the \VBFHBB event are plotted for both the online and offline objects. The \pt distributions are shown in Figures \ref{f:ptb1} and \ref{f:ptj1} respectively, while the pseudorapidity plots are shown in Figure \ref{f:etab1} and \ref{f:etaj1}.
 
         \begin{figure}[h]
             \centering
@@ -102,8 +100,6 @@
             \label{f:ptb1}
         \end{figure}
 
-    The ratio plot in the left panel of Figure \ref{f:ptb1} shows a flat line in both the upper and lower regions just above $0.8$ for the ratio of the number of online jets with respect to the offline jets, consistent with the decrease in final event count shown in Figure \ref{f:cutflowD}. The Monte-Carlo signal plot in the right panel is noisy but shows the ratio to be $\sim0.8$ across the \pt range, consistent with Figure \ref{f:cutflowMC}. As expected based on the higher \mbb requirement the background events for the Upper region are biased towards higher \pt compared to the lower background region.
-
         \begin{figure}[h]
             \centering
 
@@ -118,49 +114,49 @@
             \label{f:ptj1}
         \end{figure}
 
-    The relative online and offline behaviour of $j_1$ is slightly more complicated that jet $b_1$. Both the data and Monte-Carlo simulation show a consistent curve in behaviour, with online events being more numerous at low \pt than offline, before the ratio tails off below unity at $\sim90$GeV in both the plots in Figure \ref{f:ptj1} to $\sim 0.7$ in the data. The Monte-Carlo plot jumps around, but the comparitive online/offline performance trends in the same fashion as the background plot.
+    The distribution of the \pt values for the leading \bjet\ shown in Figure \ref{ptb1} peaks at a higher value for the upper background region than the lower background region. This is a result of the \mbb scuplting the background distributions, as higher \mbb values will correlate with higher \bjet\ \pt. For the background \pt plot of the leading non-\bjet\, this sculpting is not seen as the \pt of the forward jet is not directly linked to the \mbb of the event. For both the leading \bjet\ and the leading non-\bjet\, the online and offline distributions are similarly shaped for each of the defined \mbb regions.
 
-        \begin{figure}[h]
-            \centering
+    For the leading \bjet, the ratio of the online to the offline events shown in Figure \ref{f:ptb1} is flat for both the upper and lower background regions in the left panel around $\sim0.8$ and, while the line is noisier, also around $\sim0.8$ for the signal plot in the right panel. This value is consistent with the expected decrease in the online event count shown in Figures \ref{f:cutflowMC} and \ref{f:cutflowD}. For the leading non-\bjet, the behaviour of the online/offline ratio is more complex, as shown by the distinct curve in the left panel of Figure \ref{ptj1}. The online jets show a bias towards low \pt compared to the offline jets in both the upper and lower background regions, along with in the signal region. The relative ratio of the online and offline jets is affected by this, flattening out at a lower value of $\sim0.7$ than the expected $0.8$ in both the signal and background. This bias towards lower \pt events was seen in Figure \ref{fig:O:leadingnonbp} in the previous chapter showing the \dptpt distribution for the leading non-\bjet. Figure \ref{fig:O:leadingnonbp} showed a large number of data jets with offline $50<$ \pt$90$GeV which had a $\dptpt$ value between 0.1 and 0.2, indicating that for this region the offline \pt was significantly larger than the online. This observation is consistent with the left panel of Figure \ref{f:ptj1}, as it suggests there will be increased numbers of online jets with $50<$ \pt$80$GeV than offline jets in the data, accounting for the shift in the distribution peaks. For the signal plot, Figure \ref{fig:O:leadingnonbp} did not show such a pronounced discrepancy for the Monte-Carlo jets, only a slight increase of \dptpt values around 0.1 for this low \pt region, so such a shift is not absolutely expected for the signal region.
 
-            \begin{minipage}[h]{0.48\linewidth}
-                \includegraphics[width=1\linewidth]{eta_bJet1_data_}
-            \end{minipage}
-            \quad
-            \begin{minipage}[h]{0.48\linewidth}
-                \includegraphics[width=1\linewidth]{eta_bJet1_mc_}
-            \end{minipage}
-            \caption[$\eta$ distribution of the leading \bjet\ of the \VBFHBB\ event]{$\eta$ distribution of the leading \bjet\ of the \VBFHBB\ event, plotted for both the backgroud data regions in the left panel and Monte-Carlo signal events in the right panel.}
-            \label{f:etab1}
-        \end{figure}
+    While there are differences between the signal and background regions and the small effects at low \pt in the leading non-\bjets, for the complete \pt distributions of leading \bjet\ and most of the distribution for the leading non-\bjet\, the offline jets performed the same as the online jets. This suggests that the online jet objects could be used in a TLA without any major effects on the outcome.
 
-    Figure \ref{f:etab1} shows shared distribution shapes between the online and offline objects for both signal and background, and the consistency of the online distribution against the offline is also shown for the leading non-\bjet\ in Figure \ref{f:etaj1}. The data distribution for $b_1$ in the left panel of Figure \ref{f:etab1} shows a pronounced curve in the online and offline ratio, with more online events surviving the cuts in the central regions, and the overall efficiency being roughly consistent with the expected $\sim0.8$ value. The signal distribution in the right panel shows a flatter ratio distribution, also around this value.
+    The plots for the same leading jet objects against $\eta$ show the expected features for a \VBFHBB\ \bjet\ and leading non-\bjet. Figure \ref{f:etab1} shows the pseudorapidity ranges for the \bjet\ confined to the central region of the detector where \btag\ is operational. The $\eta$ plot for the leading non-\bjet\ displays spikes of events with $|\eta|\sim3$, which is expected given the requirements for a forward jet passing a \pt cut covered in Section \ref{es:as}. These features are present in both the signal and background regions.
 
-        \begin{figure}[h]
-            \centering
-            \begin{minipage}[h]{0.48\linewidth}
-                \includegraphics[width=1\linewidth]{eta_lJet1_data_}
-            \end{minipage}
-            \quad
-            \begin{minipage}[h]{0.48\linewidth}
-                \includegraphics[width=1\linewidth]{eta_lJet1_mc_}
-            \end{minipage}
-            \caption[$\eta$ distribution of the leading non-\bjet\ of the \VBFHBB\ event]{$\eta$ distribution of the leading non-\bjet\ of the \VBFHBB\ event, plotted for both the backgroud data regions in the left panel and Monte-Carlo signal events in the right panel.}
-            \label{f:etaj1}
-        \end{figure}
+    \begin{figure}[h]
+        \centering
 
-        The $\eta$ distribution for the leading non-\bjet\ shows spikes in  forward region  both the background and signal plots in Figure \ref{f:etaj1}, which is expected given the jet criteria required for a \VBFHBB\ event. Both plots show the decrease in the online events relative to the offline events expected in each of these.
+        \begin{minipage}[h]{0.48\linewidth}
+            \includegraphics[width=1\linewidth]{eta_bJet1_data_}
+        \end{minipage}
+        \quad
+        \begin{minipage}[h]{0.48\linewidth}
+            \includegraphics[width=1\linewidth]{eta_bJet1_mc_}
+        \end{minipage}
+        \caption[$\eta$ distribution of the leading \bjet\ of the \VBFHBB\ event]{$\eta$ distribution of the leading \bjet\ of the \VBFHBB\ event, plotted for both the background data regions in the left panel and Monte-Carlo signal events in the right panel.}
+        \label{f:etab1}
+    \end{figure}
 
-    \subsection{Summary of the \VBFHBB\ jet objects}
+    \begin{figure}[h]
+        \centering
+        \begin{minipage}[h]{0.48\linewidth}
+            \includegraphics[width=1\linewidth]{eta_lJet1_data_}
+        \end{minipage}
+        \quad
+        \begin{minipage}[h]{0.48\linewidth}
+            \includegraphics[width=1\linewidth]{eta_lJet1_mc_}
+        \end{minipage}
+        \caption[$\eta$ distribution of the leading non-\bjet\ of the \VBFHBB\ event]{$\eta$ distribution of the leading non-\bjet\ of the \VBFHBB\ event, plotted for both the background data regions in the left panel and Monte-Carlo signal events in the right panel.}
+        \label{f:etaj1}
+    \end{figure}
 
-    The plots for the \VBFHBB\ final state mostly show agreement, with respect to the overall decrease in the event rate for online events, between the online and offline distributions of the kinematic quantities of the jets for signal and background. The shapes if the distributions are consistent between the background and signal events, and the specific features like the forward jet spikes in Figure \ref{f:etaj1} and the increase \pt of the upper background sector in Figure \ref{f:ptb1} are explainable by considering the topology of a \VBFHBB\ event.
+    The relative performance of online to offline shows some slight differences with respect to $\eta$. For the leading \bjet\ there is a noticeable peak in the ratio at $\eta=0$ for the lower signal region shown in Figure \ref{f:etab1}, however the upper signal region shows moderately consistent distribution around the expected $0.8$ value. The signal $\eta$ distribution has a larger degree of variation but is consistently around $\sim0.8$. For the leading non-\bjet\ shown in Figure \ref{f:etaj1} the ratio for the upper and lower background ratios is lower than expected in the central region of the detector, but increases in the forward regions. For the signal sector, the distribution suggests a slight increase of the ratio at the outer $\eta$ regions, but the difference is less pronounced than in the background regions. The cause of this discrepancy is unknown.
 
-    There are two sections of these plots where the online/offline comparison significantly deviates from the demonstrated efficiency of $\sim80\%$, in Figure \ref{f:ptj1} for low \pt non-\bjets and in Figure \ref{f:etaj1} for the high $\eta$ non-\bjets. Both these artifacts could be a result of additional forward jets in the online events. A forward jet compared to a jet with identical momentum jet at a central eta will have a lower \pt given the geometry of the jet and the definition of \pt.
+    Overall, the behaviour of the leading jets of the \VBFHBB\ event was fairly consistent for online and offline in most phase space regions. The plots showed the distribution features expected for the variables and the differences associated with the \mbb bins, along with showing agreement with the $20\%$ reduction in event number for online events. The discrepancy in online behaviour relative to the offline for the low \pt leading non-\bjets\ can be explained by the observed differences in the non-\bjet\ objects explored in the previous chapter, however the cause of the improved relative performance of the online objects in the forward regions for the leading non-\bjet\ are unknown. the upper background sector frequently had a higher ratio than the lower background sector, as shown across the entire \pt range in Figures \ref{f:ptb1} and \ref{f:ptj1}. These observations suggest a TLA using these objects would show little change in the overall behaviour, and if the calibration steps suggested in Section \ref{obp:jetsum} were applied the differences in the online and offline behaviour may be removed.
 
-    An additional difference was the upper background sector frequently had a higher ratio than the lower background sector, as shown across the entire \pt range in Figures \ref{f:ptb1} and \ref{f:ptj1}.
-}
 
 \section{Kinematic quantities of the \VBFHBB\ event}
+
+	Along with studying the kinematic quantities associated with single \VBFHBB\ jets, the kinematic properties of the jet pairs were compared for online and offline. For the non-\bjet\ pair, \ptjj and \mjj are plotted in Figures \ref{f:ptjj} and \ref{f:mjj}. Both of these variables are also used as training variables to the BDT used to refine the produced results (Appendix \ref{a:bdt}). For the $b\bar{b}$ pair. Figure \ref{f:ptbb} shows the \ptbb distribution and Figure \ref{f:mbb} shows the \mbb distribution.
 
         \begin{figure}[h]
             \centering
@@ -188,6 +184,7 @@
             \label{f:mjj}
         \end{figure}
 
+        The \ptjj distributions shown in Figure \ref{f:ptjj} are similar to the plots of the leading non-\bjet\ shown in Figure \ref{f:ptj1}. The peak of the online distribution in the upper and lower background regions along with the signal region is shifted down in \ptjj in relation to the offline region. The overall shape of the distribution is consistent between the Monte-Carlo simulations and the data background regions, and the ratio plot shows similar characteristics to that in Figure \ref{f:ptj1}, flattening off at $\sim0.7$. These features are replicated in the \mjj plot in Figure \ref{f:mjj}: similar distributions shapes for upper background, lower background and signal, increased numbers of online events compared to offline events at low \mjj ( corresponding to low non-\bjet\ \pt), the online/offline ratio flattening off to a value of $\sim0.7$. These features, as described in Section \ref{k:jets} could be explained by the differences observed at low \pt regions for non-\bjets\ in Section \label{OP:leadingnonb}. Overall the performance of online is comparable to offline, so these variables may be used to train a BDT and perform any further analysis using TLA methodologies.
 
         \begin{figure}[h]
             \centering
@@ -202,6 +199,8 @@
             \label{f:ptbb}
         \end{figure}
 
+        The plots of \ptbb showing in Figure \ref{f:ptbb} show excellent agreement between the online and offline objects. The ratio in the left panel of the Figure shows a flat line around $\sim0.8$, in strong agreement with the reduction in event count shown in Figure \ref{f:cutflowD}. This agreement with the expected decrease is also shown in the signal events, which agree with Figure \ref{f:cutflowMC}. For \ptbb, the same behaviour is seen for online and offline jets, indicating there is no additional problems for applying a TLA beyond the rate reduction.
+
         \begin{figure}[h]
             \centering
             \begin{minipage}[h]{0.48\linewidth}
@@ -215,7 +214,7 @@
             \label{f:mbb}
         \end{figure}
 
-
+        The \mbb plot for the background data events shows the online and offline analysis to be strongly in agreement. The online/offline ratio is a flat line at $\sim0.8$ as expected from the ratio plot in Figure \ref{f:cutflowD}. The behaviour of the upper and lower background region suggests a consistently decreasing function for \mbb beyond the peak at \pt$\sim80$GeV, and look to link up across the signal region. The signal region has more noise than the background data, but suggest a ratio value of $\sim0.8$ and shows comparable behaviour for the online and offline jets. As for the other kinematic quantities in this Section, the variables derived from the $b\bar{b}$ pair look to behave consistently for online and offline and so could be used in a TLA.
 \section{BDT Input Variables}
 
     As discussed in Section \ref{es:as}, the full BDT analysis of the \VBFHBB\ search described in Appendix \ref{a:bdt} was not performed for this dissertation. Given this is a critical component of the full Higgs search \cite{VBFHbb8tev} in \VBFHBB, the performance of select BDT variables is explored for the signal and background regions described in Table \ref{t:signalback}. The variables \mjj and \ptjj covered in the previous section are both BDT training variables.
@@ -226,7 +225,7 @@
     \eta^* = \frac{1}{2}(|\eta_{j1}| + |\eta_{j2}| - |\eta_{b1}| - |\eta_{b2}|)
     \end{equation}
 
-    which is plotted in Figure \ref{f:etastar} for the online and offline events, and the \pt \textit{balance}, given by
+    which is plotted in Figure \ref{f:etastar} for the online and offline events, and the \pt\textit{balance}, given by
 
     \begin{equation}
         p_{\text{T} balance} = \frac{\vec{p_{\text{T}j1}} + \vec{p_{\text{T}j2}} + \vec{p_{\text{T}b1}} + \vec{p_{\text{T}b2}}}{p_{\text{T}j1} + p_{\text{T}j2} + p_{\text{T}b1} + p_{\text{T}b2}}
