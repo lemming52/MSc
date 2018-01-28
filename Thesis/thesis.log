@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  28 JAN 2018 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  28 JAN 2018 23:27
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1544,17 +1544,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <12> not available
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 (Font)              scaled to size 12.0pt on input line 138.
-
-! Undefined control sequence.
-l.143 	Identification of jets containing \bhadrons
-                                                  \, in ATLAS is based on co...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[34] [35] [36]) [37]
+ [34]
+[35] [36]) [37]
 \openout2 = `ES/eventSelection.aux'.
 
  (ES/eventSelection.tex
@@ -2264,7 +2255,7 @@ s/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/andre/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/andre/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/andre/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (83 pages, 2255196 bytes).
+Output written on thesis.pdf (83 pages, 2255227 bytes).
 PDF statistics:
  3445 PDF objects out of 3580 (max. 8388607)
  297 named destinations out of 1000 (max. 500000)
