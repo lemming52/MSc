@@ -67,17 +67,16 @@
 \contentsline {section}{\numberline {6.1}Cutflow}{56}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Monte-Carlo}{56}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Data}{58}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Summary of Cutflow Comparison for the Online and Offline VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events}{58}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.3}Summary of Cutflow Comparison for the Online and Offline VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events}{59}{subsection.6.1.3}
 \contentsline {section}{\numberline {6.2}Specific Jet Feature Distributions}{59}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Summary of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ jet objects}{62}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Kinematic quantities of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}{62}{section.6.3}
-\contentsline {section}{\numberline {6.4}BDT Input Variables}{63}{section.6.4}
-\contentsline {section}{\numberline {6.5}Summary}{65}{section.6.5}
-\contentsline {chapter}{\chapternumberline {7}Conclusions}{67}{chapter.7}
-\contentsline {appendix}{\chapternumberline {A}Configuration}{70}{appendix.A}
-\contentsline {section}{\numberline {A.1}Files}{70}{section.A.1}
-\contentsline {section}{\numberline {A.2}Configurations}{71}{section.A.2}
-\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{72}{appendix.B}
-\contentsline {section}{\numberline {B.1}Machine Learning}{72}{section.B.1}
-\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{73}{section.B.2}
-\contentsline {chapter}{Bibliography}{74}{section*.9}
+\contentsline {section}{\numberline {6.3}Kinematic quantities of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}{63}{section.6.3}
+\contentsline {section}{\numberline {6.4}BDT Input Variables}{66}{section.6.4}
+\contentsline {section}{\numberline {6.5}Summary}{67}{section.6.5}
+\contentsline {chapter}{\chapternumberline {7}Conclusions}{69}{chapter.7}
+\contentsline {appendix}{\chapternumberline {A}Configuration}{72}{appendix.A}
+\contentsline {section}{\numberline {A.1}Files}{72}{section.A.1}
+\contentsline {section}{\numberline {A.2}Configurations}{73}{section.A.2}
+\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{74}{appendix.B}
+\contentsline {section}{\numberline {B.1}Machine Learning}{74}{section.B.1}
+\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{75}{section.B.2}
+\contentsline {chapter}{Bibliography}{76}{section*.9}
