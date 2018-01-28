@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  28 JAN 2018 09:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  28 JAN 2018 09:15
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1357,7 +1357,6 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Citation `ckm-param' on page 15 undefined on input line 102.
 
-[15]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 119
 .
@@ -1369,7 +1368,7 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 121.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.6pt on input line 121.
- [16]
+[15] [16]
 ! Too many }'s.
 l.148 	\subsection{$pp$ Event Simulations}}
                                            
@@ -1388,7 +1387,7 @@ Package epstopdf Info: Source file: <T/FIGS/ggF.eps>
 (epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
 
-<T/FIGS/ggF-eps-converted-to.pdf, id=530, 359.3425pt x 153.57375pt>
+<T/FIGS/ggF-eps-converted-to.pdf, id=532, 359.3425pt x 153.57375pt>
 File: T/FIGS/ggF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use T/FIGS/ggF-eps-converted-to.pdf>
@@ -1406,7 +1405,7 @@ Package epstopdf Info: Source file: <T/FIGS/vbf.eps>
 (epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<T/FIGS/vbf-eps-converted-to.pdf, id=531, 361.35pt x 281.05pt>
+<T/FIGS/vbf-eps-converted-to.pdf, id=533, 361.35pt x 281.05pt>
 File: T/FIGS/vbf-eps-converted-to.pdf Graphic file (type pdf)
 
 <use T/FIGS/vbf-eps-converted-to.pdf>
@@ -1424,7 +1423,7 @@ o.pdf T/FIGS/whzh.eps>
 (epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
 
-<T/FIGS/whzh-eps-converted-to.pdf, id=532, 309.155pt x 153.57375pt>
+<T/FIGS/whzh-eps-converted-to.pdf, id=534, 309.155pt x 153.57375pt>
 File: T/FIGS/whzh-eps-converted-to.pdf Graphic file (type pdf)
 
 <use T/FIGS/whzh-eps-converted-to.pdf>
@@ -1442,7 +1441,7 @@ Package epstopdf Info: Source file: <T/FIGS/tth.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<T/FIGS/tth-eps-converted-to.pdf, id=533, 323.2075pt x 279.0425pt>
+<T/FIGS/tth-eps-converted-to.pdf, id=535, 323.2075pt x 279.0425pt>
 File: T/FIGS/tth-eps-converted-to.pdf Graphic file (type pdf)
 
 <use T/FIGS/tth-eps-converted-to.pdf>
@@ -1461,7 +1460,7 @@ ps-converted-to.pdf T/FIGS/YRHXS_Summary_fig3.eps>
 (epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf, id=536, 569.12625pt x 408.5262
+<T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf, id=538, 569.12625pt x 408.5262
 5pt>
 File: T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf Graphic file (type pdf)
  <use T/FIGS/YRHXS_Summary_fig3-eps-converted-to.pdf>
@@ -2244,6 +2243,9 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  14946 strings out of 493335
@@ -2284,9 +2286,9 @@ s/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/andre/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/andre/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/andre/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (78 pages, 2233040 bytes).
+Output written on thesis.pdf (78 pages, 2232560 bytes).
 PDF statistics:
- 3393 PDF objects out of 3580 (max. 8388607)
+ 3390 PDF objects out of 3580 (max. 8388607)
  289 named destinations out of 1000 (max. 500000)
  623 words of extra memory for PDF output out of 10000 (max. 10000000)
 

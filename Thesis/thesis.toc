@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {1.1.3}Spontaneous Symmetry Breaking: The Higgs Boson}{15}{subsection.1.1.3}
 \contentsline {section}{\numberline {1.2}Physics of \textit {pp} Collisions}{16}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}$pp$ Collisions}{16}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Geometry}{17}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Geometry}{16}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}$pp$ Event Simulations}{17}{subsection.1.2.3}
 \contentsline {subsubsection}{\numberline {1.2.3.1}Hard Process}{18}{subsubsection.1.2.3.1}
 \contentsline {subsubsection}{\numberline {1.2.3.2}Parton Shower}{18}{subsubsection.1.2.3.2}
@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{\numberline {1.2.3.4}Unstable Particle Decays}{19}{subsubsection.1.2.3.4}
 \contentsline {subsubsection}{\numberline {1.2.3.5}Underlying Event}{19}{subsubsection.1.2.3.5}
 \contentsline {section}{\numberline {1.3}The Higgs Boson}{19}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Higgs Production}{20}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Higgs Production}{19}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Higgs Decay}{21}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Summary of Current Higgs Measurements}{22}{subsection.1.3.3}
 \contentsline {subsection}{\numberline {1.3.4}Searches for VBF $H\rightarrow b\mathaccentV {bar}016{b}$}{22}{subsection.1.3.4}
