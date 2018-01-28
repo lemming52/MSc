@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {3.2.1}Inner Detector}{28}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Calorimeters}{29}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Muon Spectrometer}{30}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Trigger and data acquisition}{31}{section.3.3}
+\contentsline {section}{\numberline {3.3}Trigger and Data Acquisition}{31}{section.3.3}
 \contentsline {section}{\numberline {3.4}Event Cleaning}{32}{section.3.4}
 \contentsline {section}{\numberline {3.5}Object Reconstruction}{33}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Jets}{33}{subsection.3.5.1}
