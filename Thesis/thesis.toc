@@ -26,56 +26,57 @@
 \contentsline {subsection}{\numberline {1.3.1}Higgs Production}{20}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Higgs Decay}{21}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Summary of Current Higgs Measurements}{22}{subsection.1.3.3}
-\contentsline {chapter}{\chapternumberline {2}Detector}{23}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{23}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}LHC Run Conditions in 2016}{24}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}The ATLAS Detector}{25}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Inner Detector}{25}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Calorimeters}{26}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Muon Spectrometer}{27}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Trigger and data acquisition}{28}{section.2.3}
-\contentsline {section}{\numberline {2.4}Event Cleaning}{29}{section.2.4}
-\contentsline {section}{\numberline {2.5}Object Reconstruction}{30}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Jets}{30}{subsection.2.5.1}
-\contentsline {subsubsection}{\numberline {2.5.1.1}Pileup}{31}{subsubsection.2.5.1.1}
-\contentsline {subsection}{\numberline {2.5.2}\textit {b}-Tagging}{31}{subsection.2.5.2}
-\contentsline {subsubsection}{\numberline {2.5.2.1}IP2D and IP3D: Impact Parameter based Algorithms}{32}{subsubsection.2.5.2.1}
-\contentsline {subsubsection}{\numberline {2.5.2.2}SV1: Secondary Vertex Finding algorithm}{32}{subsubsection.2.5.2.2}
-\contentsline {subsubsection}{\numberline {2.5.2.3}JetFitter: Decay Chain Multi based Algorithm}{33}{subsubsection.2.5.2.3}
-\contentsline {subsection}{\numberline {2.5.3}Multivariate Algorithm}{33}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Trigger-Object Level Analysis}{34}{section.2.6}
-\contentsline {chapter}{\chapternumberline {3}Event Selection}{35}{chapter.3}
-\contentsline {section}{\numberline {3.1}ATLAS Event Data}{35}{section.3.1}
-\contentsline {section}{\numberline {3.2}Datasets}{36}{section.3.2}
-\contentsline {section}{\numberline {3.3}Monte-Carlo simulated events}{36}{section.3.3}
-\contentsline {section}{\numberline {3.4}Jet Extraction}{37}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}\textit {b}-jets}{38}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} Analysis Strategy}{38}{section.3.5}
-\contentsline {chapter}{\chapternumberline {4}Object Performance}{40}{chapter.4}
-\contentsline {section}{\numberline {4.1}Leading \textit {b}-jets}{41}{section.4.1}
-\contentsline {section}{\numberline {4.2}Leading Non \textit {b}-jets}{45}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Summary of Comparison of Jet Objects between Offline and Online}{48}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Jet Tagging Efficiency}{48}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}\textit {b}-jet efficiency}{49}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}\textit {c}-jet efficiency}{50}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Light-jet efficiency}{51}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Tag Matching}{52}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Summary}{52}{section.4.4}
-\contentsline {chapter}{\chapternumberline {5}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} Analysis}{53}{chapter.5}
-\contentsline {section}{\numberline {5.1}Cutflow}{53}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Monte-Carlo}{53}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Data}{55}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Summary of Cutflow Comparison for the Online and Offline VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events}{55}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Specific Jet Feature Distributions}{56}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Summary of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ jet objects}{59}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Kinematic quantities of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}{59}{section.5.3}
-\contentsline {section}{\numberline {5.4}BDT Input Variables}{60}{section.5.4}
-\contentsline {section}{\numberline {5.5}Summary}{62}{section.5.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusions}{64}{chapter.6}
-\contentsline {appendix}{\chapternumberline {A}Configuration}{67}{appendix.A}
-\contentsline {section}{\numberline {A.1}Files}{67}{section.A.1}
-\contentsline {section}{\numberline {A.2}Configurations}{68}{section.A.2}
-\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{69}{appendix.B}
-\contentsline {section}{\numberline {B.1}Machine Learning}{69}{section.B.1}
-\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{70}{section.B.2}
-\contentsline {chapter}{Bibliography}{71}{section*.9}
+\contentsline {subsection}{\numberline {1.3.4}Searches for VBF $H\rightarrow b\mathaccentV {bar}016{b}$}{22}{subsection.1.3.4}
+\contentsline {chapter}{\chapternumberline {2}Detector}{24}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{24}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}LHC Run Conditions in 2016}{25}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}The ATLAS Detector}{26}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Inner Detector}{26}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Calorimeters}{27}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Muon Spectrometer}{28}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Trigger and data acquisition}{29}{section.2.3}
+\contentsline {section}{\numberline {2.4}Event Cleaning}{30}{section.2.4}
+\contentsline {section}{\numberline {2.5}Object Reconstruction}{31}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Jets}{31}{subsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.1.1}Pileup}{32}{subsubsection.2.5.1.1}
+\contentsline {subsection}{\numberline {2.5.2}\textit {b}-Tagging}{32}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}IP2D and IP3D: Impact Parameter based Algorithms}{33}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}SV1: Secondary Vertex Finding algorithm}{33}{subsubsection.2.5.2.2}
+\contentsline {subsubsection}{\numberline {2.5.2.3}JetFitter: Decay Chain Multi based Algorithm}{34}{subsubsection.2.5.2.3}
+\contentsline {subsection}{\numberline {2.5.3}Multivariate Algorithm}{34}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Trigger-Object Level Analysis}{35}{section.2.6}
+\contentsline {chapter}{\chapternumberline {3}Event Selection}{36}{chapter.3}
+\contentsline {section}{\numberline {3.1}ATLAS Event Data}{36}{section.3.1}
+\contentsline {section}{\numberline {3.2}Datasets}{37}{section.3.2}
+\contentsline {section}{\numberline {3.3}Monte-Carlo simulated events}{37}{section.3.3}
+\contentsline {section}{\numberline {3.4}Jet Extraction}{38}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}\textit {b}-jets}{39}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} Analysis Strategy}{39}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Object Performance}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Leading \textit {b}-jets}{42}{section.4.1}
+\contentsline {section}{\numberline {4.2}Leading Non \textit {b}-jets}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Summary of Comparison of Jet Objects between Offline and Online}{49}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Jet Tagging Efficiency}{49}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\textit {b}-jet efficiency}{50}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}\textit {c}-jet efficiency}{51}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Light-jet efficiency}{52}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Tag Matching}{53}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Summary}{53}{section.4.4}
+\contentsline {chapter}{\chapternumberline {5}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} Analysis}{54}{chapter.5}
+\contentsline {section}{\numberline {5.1}Cutflow}{54}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Monte-Carlo}{54}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Data}{56}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Summary of Cutflow Comparison for the Online and Offline VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events}{56}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Specific Jet Feature Distributions}{57}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Summary of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ jet objects}{60}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Kinematic quantities of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}{60}{section.5.3}
+\contentsline {section}{\numberline {5.4}BDT Input Variables}{61}{section.5.4}
+\contentsline {section}{\numberline {5.5}Summary}{63}{section.5.5}
+\contentsline {chapter}{\chapternumberline {6}Conclusions}{65}{chapter.6}
+\contentsline {appendix}{\chapternumberline {A}Configuration}{68}{appendix.A}
+\contentsline {section}{\numberline {A.1}Files}{68}{section.A.1}
+\contentsline {section}{\numberline {A.2}Configurations}{69}{section.A.2}
+\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{70}{appendix.B}
+\contentsline {section}{\numberline {B.1}Machine Learning}{70}{section.B.1}
+\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{71}{section.B.2}
+\contentsline {chapter}{Bibliography}{72}{section*.9}
