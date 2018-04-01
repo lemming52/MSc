@@ -1,0 +1,68 @@
+%==============================================================================%
+% Keep track of all citations text, and then for each \bibitem, check if the   %
+% citation has been used in the text, and write a warning if not.              %
+%                                                                              %
+% Limitations: does not work if the \cite... commands are after \bibitem       %
+% entries (e.g. which might be the case for Appendices in some paper styles).  %
+%                                                                              %
+% Note: this should be loaded *after* the natbib package.                      %
+%                                                                              %
+% Dave Green -- MRAO -- 2014 October 3rd                                       %
+%------------------------------------------------------------------------------%
+\RequirePackage{etoolbox}
+\RequirePackage{trimspaces}
+%
+\AfterEndPreamble{%
+%
+% New way:
+% --------
+% Hack a natbib internal, so works for all forms of \citep, \citet etc.
+% (this adapted from natbib.sty version 2010/09/13 8.31b), trimming
+% any leading space ...
+%
+\renewcommand\NAT@sort@cites[1]{%
+  \let\NAT@cite@list\@empty%
+  \@for\@citeb:=#1\do{%
+%
+% added here
+%
+  \listxadd{\CiteList}{\trim@pre@space{\@citeb}}%
+  \immediate\write16{+++++ citation "\trim@pre@space{\@citeb}"}%
+%
+  \expandafter\NAT@star@cite\@citeb\@@}%
+  \if@filesw
+    \expandafter\immediate\expandafter\write\expandafter\@auxout
+      \expandafter{\expandafter\string\expandafter\citation\expandafter{\NAT@cite@list}}%
+  \fi
+  \@ifnum{\NAT@sort>\z@}{%
+    \expandafter\NAT@sort@cites@\expandafter{\NAT@cite@list}%
+  }{}%
+}%
+%
+% Ammend \bibitem to check against saved list...
+%
+\let\oldbibitem=\bibitem
+\def\bibitem[#1]#2{\ifinlist{#2}{\CiteList}{}{\immediate\write16{*****
+  bibitem: "#2" is NOT cited in text? *****}}\oldbibitem[#1]{#2}}
+}
+%------------------------------------------------------------------------------%
+\endinput
+%
+% Old way:
+% --------
+% Redefine \cite commands explicitly ...
+%
+%\DeclareListParser{\CiteLister}{,}
+%\renewcommand*{\do}[1]{\listxadd{\CiteList}{#1}%
+%  \immediate\write16{+++++ citation "#1"}}
+%\def\AddCite#1{\CiteLister{#1}}
+%
+%\let\oldcite=\cite
+%\let\oldcitep=\citep
+%\let\oldcitet=\citet
+%\let\oldcitealt=\citealt
+%\def\cite#1{\AddCite{#1}\oldcite{#1}}
+%\def\citep#1{\AddCite{#1}\oldcitep{#1}}
+%\def\citet#1{\AddCite{#1}\oldcitet{#1}}
+%\def\citealt#1{\AddCite{#1}\oldcitealt{#1}}
+%

@@ -1,0 +1,229 @@
+\chapter{Basic use of the template}\label{c:first}
+
+\section{Introduction}\label{s:firstfirst}
+
+Starting from the (unpacked) template, you need to edit the
+\verb|thesis.tex| file to point to: (i) all the `frontmatter' you want
+(titlepage, summary, etc); (ii) your particular chapters and appendices;
+(iii) the `backmatter' (i.e.\ references). Note that when drafting, if
+you want to process one or a few chapters only, edit the
+`\verb|\includeonly{...}|' line in \verb|thesis.tex| as needed. (Further
+commands that may be useful when writing your draft thesis are discussed
+in Chapter~\ref{c:drafting}.)
+
+\section{Style options}
+
+Many aspects of the style of the thesis are set in \verb|thesis.sty|,
+which you can change as you want, and some of the possibilities are
+explained in the comments in the file. These include:
+%
+\begin{enumerate}
+%
+\item chapter/section styles (see Chapter 6 of the
+\href{http://www.ctan.org/pkg/memoir}{memoir} user manual, or the
+\href{http://www.ctan.org/pkg/memoirchapterstyles}{memoirchapterstyles}
+\LaTeX\ package for other styles) or specify a custom chapter style;
+%
+\item page header style (e.g.\ uppercase or not, underlined or not);
+%
+\item the default fonts use the `newtxtext' and `newtxmath' packages,
+which provide a full range of Times based fonts for text and mathematics
+-- see Section~\ref{s:mathsfonts} for examples -- or you can choose
+other font packages;
+%
+\item the colours used for different types of hyperlinks (which are
+defined in \verb|thesis.sty| using the \verb|\hypersetup{...}| command;
+you can change to use darker colours or dark grey -- e.g.\ for
+printing -- be uncommenting the appropriate lines in \verb|thesis.sty|).
+%
+\end{enumerate}
+%
+There are various other settings in \verb|thesis.sty|, which you can
+also adjust if you want, but I expect you are likely to stick with the
+defaults (e.g.\ the vertical spacing and label style of lists; the page
+size; the default figure/table captions font size/width; whether to list
+the bibliography in table of contents; what level of
+sections/subsections to list -- numbered or not -- in the table of
+contents; use lowercase letters for footnote labels; line spacing;
+vertical page formatting; settings controlling the display of
+figures/tables on a page).
+
+\section{References}
+
+The `natbib' package\footnote{e.g.\ see
+\url{http://merkel.zoneo.net/Latex/natbib.php} for a reference list of
+the commands.} is loaded by \verb|thesis.sty| and various settings
+`natbib' are made -- which are conventional for astronomical references.
+Here are some example references, \citet{1971QJRAS..12...10S,
+2002ISAA....5.....S, 2003JAHH....6...46S}, and here are some more in
+parentheses \citep{2005JHA....36..217S, 2009JHA....40...31S}.
+
+\section{URLs}
+
+This illustrates how to give a url \url{http://www.google.com/}, using
+the \verb|\url{...}| command. (Or you can provide a link using some
+\href{http://www.google.com/}{text}, which does not show the URL --
+which is probably not a good idea for a thesis -- using the
+\verb|\href{...}{...}| command.)
+
+\section{Mathematical fonts}\label{s:mathsfonts}
+
+The following illustrate some equations and the mathematical fonts
+available.
+%
+\begin{enumerate}
+%
+\item Mathematical symbols, as sloping font, including greek letters:
+$$
+  a^2 + b^2 = c^2, \qquad
+  A^2 + B^2 = C^2, \qquad
+  \alpha + \beta = \gamma, \qquad
+  \Gamma + \Delta = \Omega.
+$$
+\item Vectors, as a bold sloping font (using \verb|$\vec{...}$|):
+$$
+  a = \vec{b} \cdot \vec{c}, \qquad
+  A = \vec{B} \cdot \vec{C}, \qquad
+  \vec{\alpha} + \vec{\beta} = \vec{\gamma}, \qquad
+  \vec{\Gamma} + \vec{\Delta} = \vec{\Omega}.
+$$
+(Note: the default letter \verb|$v$| looks
+very similar to the greek \verb|$\nu$| -- $v$ compared with $\nu$ -- so
+instead you can use \verb|$\varv$|, which looks like $\varv$.)
+%
+\item An integral:
+$$
+ a^2 + b^2 = \int_0^\infty x^2 \, \text{d}x.
+$$
+\item Upright greek letters are available. For example, with the `newtx'
+fonts, use \verb|\upmu| (inside maths mode), for units (such as
+$\upmu$m, or $\upmu$Jy~beam$^{-1}$); use \verb|\updelta| or
+\verb|\upDelta| for increments (such as $\updelta x$, $\upDelta y$).
+Also available is \verb|\uppartial| for an upright partial derivative,
+such as $\uppartial y/\uppartial x$.
+%
+\end{enumerate}
+
+\section{Astronomical abbreviations}
+
+\subsection{Coordinates}
+
+This illustrates several astronomical abbreviations that are defined in
+\verb|thesis.sty| (as per journals), for use in maths mode only:
+%
+\begin{itemize}
+%
+\item \verb|$12\degr 34\arcmin 56\arcsec$| gives $12\degr 34\arcmin
+56\arcsec$;
+%
+\item \verb|$12\fdg3, 45\farcm7, 78\farcs9$| gives $12\fdg3, 45\farcm7,
+78\farcs9$;
+%
+\item \verb|$12\fh3, 45\fm7, 78\fs9$| gives $12\fh3, 45\fm7, 78\fs9$;
+%
+\item \verb|$12\fp3$| gives $12\fp3$.
+%
+\end{itemize}
+
+\subsection{Ions}
+
+Also defined is \verb|\ion{...}{...}| which can be used to specify
+ionised states of atoms. For example, \verb|\ion{H}{II}| (or
+\verb|\ion{H}{ii}|) gives `\ion{H}{II}'.
+
+\newcommand\HII{\ion{H}{II}}
+
+If you frequently use particular ions, you may want to define macros for
+them in the preamble of your thesis (i.e.\ before the
+\verb|\begin{document}| command). For example, including
+\verb|\newcommand\HII{\ion{H}{II}}| defines the \verb|\HII| command,
+which produces `\HII'. (Note: if you use `\verb|... \HII ...|' in a
+sentence -- i.e.\ with a space after the \verb|\HII| -- then the space
+will be swallowed by \LaTeX; instead use `\verb|... {\HII} ...|' to
+preserve the following space.)
+
+\section{Section/list formatting}
+
+The rest of this chapter illustrates the formatting for sections,
+sub-sections, sub-sub-sections, and lists (both enumerated or not).
+
+\subsection{A subsection}
+
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is some
+sample text. Here is some sample text. Here is some sample text. Here is
+some sample text. Here is some sample text. Here is some sample text.
+Here is some sample text.
+
+\subsubsection{Here is a sub-subsection}
+
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is some
+sample text. Here is some sample text. Here is some sample text. Here is
+some sample text. Here is some sample text. Here is some sample text.
+Here is some sample text.
+
+\subsubsection{Here is another sub-subsection}
+
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is some
+sample text. Here is some sample text. Here is some sample text. Here is
+some sample text. Here is some sample text. Here is some sample text.
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text.
+
+\subsection{Another subsection -- lists}
+
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is some
+sample text. Here is some sample text. Here is some sample text. Here is
+some sample text. Here is some sample text. Here is some sample text.
+Here is some sample text.
+%
+\begin{enumerate}
+%
+\item Here is an example enumerated list. Here is an example enumerated
+list. Here is an example enumerated list. Here is an example enumerated
+list. Here is an example enumerated list. Here is an example enumerated
+list.
+%
+\begin{enumerate}
+%
+\item Here is a second level list.
+%
+\item Here is an example enumerated list. Here is an example enumerated
+list. Here is an example enumerated list.
+%
+\end{enumerate}
+%
+\item Here is an example enumerated list. Here is an example enumerated
+list.
+%
+\item Here is an example enumerated list. Here is an example enumerated
+list. Here is an example enumerated list. Here is an example enumerated
+list.
+%
+\end{enumerate}
+%
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is some
+sample text.
+%
+\begin{itemize}
+%
+\item Here is an example  list. Here is an example list. Here is an
+example  list. Here is an example list. Here is an example  list. Here
+is an example list.
+%
+\item Here is an example  list. Here is an example list.
+%
+\item Here is an example  list. Here is an example list. Here is an
+example  list. Here is an example list.
+%
+\end{itemize}
+%
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is some
+sample text.
+
+\endinput

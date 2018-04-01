@@ -1,0 +1,101 @@
+\chapter{Useful commands for drafting}\label{c:drafting}
+
+\section{Introduction}
+
+This Chapter discusses various commands -- some built into the memoir
+class, others defined in \verb|thesis.sty|, and some requiring
+additional packages to be loaded -- which may be useful when drafting.
+These include:
+%
+\begin{enumerate}
+%
+\item marginal notes (see Section~\ref{s:notes});
+%
+\item marginal marks to indicate changes/deletions/additions (see
+Section~\ref{s:changes});
+%
+\item the addition of line numbers (see Section~\ref{s:lineno});
+%
+\item adding a `watermark' on each page, to timestamp a particular
+version (see Section~\ref{s:watermark}).
+%
+\end{enumerate}
+
+\section{Marginal notes}\label{s:notes}
+
+The \verb|thesis.sty| file defines the \verb|\note{...}| command for
+marginal notes\note{this is an example marginal note} (in a small font,
+black). In addition \verb|\todo{...}| and \verb|\tocheck{...}| are
+defined for specific notes/reminders on items still to do or check,
+which are shown as marginal notes in red and blue respectively, which
+are illustrated below.
+
+Here is some sample text.
+%
+\todo{here is a note of something still to do}
+%
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is some
+sample text. Here is some sample text. Here is some sample text. Here is
+some sample text.
+%
+\tocheck{here is a note about something to check}
+%
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is some
+sample text. Here is some sample text. Here is some sample text. Here is
+some sample text. Here is some sample text.
+
+\section{Changes/deletions/additions}\label{s:changes}
+
+The memoir class provides commands to mark changes, deletions or
+additions made, i.e.\ \verb|\changed{...}|, \verb|\deleted{...}| and
+\verb|\added{...}| (see Chapter~18 of the 
+\href{http://www.ctan.org/pkg/memoir}{memoir} user manual for
+details). These add symbols with a text label to the margin to indicate
+revisions have been made (that is provided \verb|\changemarks| rather
+than \verb|\nochangemarks| is used, and that the \verb|draft| option is
+used, or \verb|\draftdoctrue| is set -- otherwise these change marks are
+not shown).
+
+Here is some sample text.\deleted{label} Here is some sample text. Here
+is some sample text. Here is some sample text. Here is some sample text.
+Here is some sample text. Here is some sample text.
+Here is some sample text.\added{text} Here is some sample text.
+Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is some
+sample text.\changed{label text} Here is some sample text. Here is some
+sample text.
+
+In addition, \verb|thesis.sty| defines a command \verb|\fixed{...}|
+which can be used to mark changed text, in green (along with `***' 
+added in the
+margin).
+
+Here is some sample text. Here is some sample
+text. \fixed{Here is some `fixed' text. Here is some `fixed' text. Here
+is some `fixed' text.} Here is some sample text.
+
+\section{Additional packages for drafting}
+
+\subsection{Add line numbers}\label{s:lineno}
+
+If you want to number the lines when drafting, then you can use the
+`lineno' package. This is included towards the end of \verb|thesis.sty|,
+but is commented out. If you want to use this package, the uncomment it
+in \verb|thesis.sty|. Then you can switch linenumbers on or off with
+\verb|\linenumbers| or \verb|\nolinenumbers|. You can reset the line
+numbers -- for example if you want to number the lines in each chapter
+from one -- using \verb|\resetlinenumbers|.
+
+\subsection{Add a `watermark'}\label{s:watermark}
+
+If you want to add a `watermark' to each page, to indicate the time/date
+of the draft version, you can use the `draftwatermark' package. This is
+included towards the end of \verb|thesis.sty| -- along with commands to
+setup a faint grey `watermark' in the left margin of each page saying
+`draft' with the date and time -- but is commented out. Uncomment and
+edit as needed the relevant lines in \verb|thesis.sty| if you want to
+use a watermark when drafting.
+
+\endinput

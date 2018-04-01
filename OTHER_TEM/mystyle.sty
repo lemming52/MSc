@@ -1,0 +1,38 @@
+%------------------------------------------------------------------------------%
+% Defines a chapterstyle for memoir.cls (for which the box and title colours,  %
+% bcolour and tcolour, can be changed as needed).                              %
+%                                                                              %
+% Dave Green -- MRAO -- 2012 April 18th                                        %
+%------------------------------------------------------------------------------%
+\usepackage{calc}
+\usepackage{xcolor}
+%
+\definecolor{mybcolour}{rgb}{0.427,0.0,0.682}
+\definecolor{mytcolour}{rgb}{0.427,0.0,0.682}
+%
+\newlength\mo@normtxtw
+\setlength\mo@normtxtw{\textwidth}
+\newsavebox{\mystyle@chapter}
+%
+\newcommand\mystyle@chapter@marker[1][4cm]{\sbox\mystyle@chapter{%
+ \resizebox{!}{#1}{\fboxsep=1pt%
+ \colorbox{mybcolour}{\color{white}\bfseries\sffamily\thechapter}}}%
+ \rotatebox{90}{\resizebox{%
+ \heightof{\usebox{\mystyle@chapter}}+\depthof{\usebox{\mystyle@chapter}}}%
+ {!}{\scshape\@chapapp}}\quad%
+ \raisebox{\depthof{\usebox{\mystyle@chapter}}}{\usebox{\mystyle@chapter}}}
+%
+\newcommand\mystyle@chm[1][4cm]{%
+ \sbox\mystyle@chapter{\mystyle@chapter@marker[#1]}%
+ \makebox[0pt][l]{\makebox[1cm][r]{\usebox\mystyle@chapter}}}
+%
+\makechapterstyle{mystyle}{
+ \renewcommand\chapnamefont{\normalfont\Large\scshape\raggedleft}
+ \renewcommand\chaptitlefont{\normalfont\huge\bfseries\scshape\color{mytcolour}}
+ \renewcommand\chapternamenum{}
+ \renewcommand\printchaptername{}
+ \renewcommand\printchapternum{\null\hfill\mystyle@chm[2.5cm]\par}
+ \renewcommand\afterchapternum{\par\vskip\midchapskip}
+ \renewcommand\printchaptertitle[1]{\chaptitlefont\raggedleft ##1\par}}
+%------------------------------------------------------------------------------%
+\endinput

@@ -1,0 +1,61 @@
+%==============================================================================%
+% fixads.sty (note: to be loaded *after* natbib.sty)                           %
+% ----------                                                                   %
+% Hacks to natbib to fix a couple of issues with \bibitem text downloaded      %
+% from ADS:                                                                    %
+%                                                                              %
+%  1) remove serial comma from three author papers (as ADS produces these      %
+%     as "One, Two, \& Three");                                                %
+%  2) for some journals, the cite key contains "&", which means these          %
+%     cannot be cited within tabular environments, so redefine \bibitem        %
+%     so that any such keys also define a similar key with a "+" instead,      %
+%     which *can* be used in tabular environments.                             %
+%                                                                              %
+% Dave Green -- 2011 June 15th                                                 %
+%==============================================================================%
+\def\Split@Into@Two[#1, \& #2]{\gdef\One@Of@Two{#1}\gdef\Two@Of@Two{#2}}
+\def\End@Test{EndAuthorList}
+%
+\def\Check@If@Three#1{\Split@Into@Two[#1, \& EndAuthorList]
+  \ifx\Two@Of@Two\End@Test
+    \gdef\Author@Name{#1}
+  \else
+%    \immediate\write16{**Removing serial comma for three author paper**}
+    \Split@Into@Two[#1]
+    \gdef\Author@Name{\One@Of@Two\ \& \Two@Of@Two}
+  \fi}
+%
+\renewcommand\NAT@wrout[5]{\Check@If@Three{#3}\xdef\First@Name{\Author@Name}
+  \Check@If@Three{#4}\xdef\Second@Name{\Author@Name}
+  \if@filesw{\let\protect\noexpand\let~\relax\immediate
+  \write\@auxout{\string\bibcite{#5}{{#1}{#2}{{\First@Name}}{{\Second@Name}}}}}
+\fi\ignorespaces}
+%
+\def\Split@Ampersand[#1&#2]{\gdef\Before@Ampersand{#1}\gdef\After@Ampersand{#2}}
+\def\End@Ampersand@Test{EndAmpersand}
+%
+\renewcommand\bibitem{%
+  \@ifnextchar[{\@extra@lbibitem}{%
+    \global\NAT@stdbsttrue
+    \stepcounter{NAT@ctr}\@lbibitem[\arabic{NAT@ctr}]}}
+%
+\def\@extra@lbibitem[#1]#2{%
+  \@lbibitem[#1]{#2}
+  \Split@Ampersand[#2&EndAmpersand]
+  \ifx\After@Ampersand\End@Ampersand@Test
+  \else
+    \Split@Ampersand[#2]
+    \gdef\New@Bibcode@Key{\Before@Ampersand+\After@Ampersand}
+%    \immediate\write16{***bibcode does have ampersand!**}
+%    \immediate\write16{++++++new bibcode: \New@Bibcode@Key}
+    \@plus@lbibitem[#1]{\New@Bibcode@Key}
+  \fi}
+%
+\def\@plus@lbibitem[#1]#2{%
+  \if\relax\@extra@b@citeb\relax\else
+    \@ifundefined{br@#2\@extra@b@citeb}{}{%
+    \@namedef{br@#2}{\@nameuse{br@#2\@extra@b@citeb}}}\fi
+    \@ifundefined{b@#2\@extra@b@citeb}{\def\NAT@num{}}{\NAT@parse{#2}}%
+    \NAT@ifcmd#1(@)(@)\@nil{#2}}
+%==============================================================================%
+\endinput

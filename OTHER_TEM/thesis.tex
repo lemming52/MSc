@@ -1,0 +1,121 @@
+\typeout{***********************************************************}
+\typeout{* Dave Green's thesis template, based on the memoir class *}
+\typeout{***********************************************************}
+%==============================================================================%
+% A PhD thesis template, based on LaTeX memoir class rather than the standard  %
+% book class, as memoir offers many additional configuration options.          %
+%                                                                              %
+% For documentation on the memoir class, and other packages, see:              %
+%                                                                              %
+%   http://www.ctan.org/search/                                                %
+%                                                                              %
+% Dave Green --- MRAO --- 2016 September (Version 1.12)                        %
+%==============================================================================%
+% load the memoir class with basic options ...
+%
+\documentclass[a4paper,11pt,twoside,extrafontsizes,oldfontcommands]{memoir}
+%
+% load the thesis package, which sets various options for the memoir
+% package, loads other packages (e.g. setting up fonts), and sets up
+% various commands ...
+%
+% note: you will have to edit thesis.sty if you want to change things ...
+%
+\usepackage{thesis}
+%
+% other settings...
+%
+%\listfiles     % uncomment if needed for debugging ...
+%------------------------------------------------------------------------------%
+% For limited processing, list (with commas) selected files to process...
+%
+%\includeonly{CHAP-1/chapter1,APP-A/appendixa}
+%
+\begin{document}
+%==============================================================================%
+\frontmatter
+%------------------------------------------------------------------------------%
+\pagestyle{empty}
+%
+% titlepage ...
+%
+\include{OTHER/titlepage}
+%
+\pagestyle{plain}
+%
+% summary ...
+%
+\include{OTHER/summary}
+%
+% contents ...
+%
+\include{OTHER/contents}
+%
+% declaration ...
+%
+\include{OTHER/declaration}
+%
+% thanks ...
+%
+\include{OTHER/thanks}
+%------------------------------------------------------------------------------%
+\mainmatter
+%------------------------------------------------------------------------------%
+% Note: \graphicspaths is set to point to appropriate places to find
+% figures for each Chapter or Appendix ...
+%
+\pagestyle{headings}
+%
+% chapters ...
+%
+\graphicspath{{CHAP-1/FIGS/}{.}}
+\include{CHAP-1/chapter1}
+%
+\graphicspath{{CHAP-2/FIGS/}{.}}
+\include{CHAP-2/chapter2}
+%
+\graphicspath{{CHAP-3/FIGS/}{.}}
+\include{CHAP-3/chapter3}
+
+
+%
+% appendices...
+%
+\appendix
+%
+\graphicspath{{APP-A/FIGS/}{.}}
+\include{APP-A/appendixa}
+%
+\graphicspath{{APP-B/FIGS/}{.}}
+\include{APP-B/appendixb}
+%------------------------------------------------------------------------------%
+\backmatter
+%------------------------------------------------------------------------------%
+% references...
+%
+% 1) For an easy way to construct \bibitem entries for use by natbib, see
+% Section 5 of basisample available from:
+%
+%    http://astron-soc.in/bulletin/instructions.php
+%
+% If ADS *is* use to construct \bibitem text from a private library, then
+% also load the fixads.sty package (from DAG), which will
+%  a) remove the `Oxford comma' in three author papers;
+%  b) for an bibcode containing an "&", will set up an alias using
+%     a "+" instead, which can be used in the tabular environment.
+%
+% 2) LaTeX will give a warning if you cite a paper for which there is no
+%    \bibitem entry, but not the other way around. To check to see if
+%    you have \bibitem entry that is not cited, use the check-cites.sty
+%    package (from DAG).
+%
+%------------------------------------------------------------------------------%
+\include{OTHER/references}
+%
+% or, if you are using BibTeX, and you .bib file is in your main thesis
+% directory, then edit/uncomment these lines
+%
+%\bibliographystyle{...}    % your .bst bibliography style
+%\bibliography{...}         % your bibliography
+%==============================================================================%
+\end{document}

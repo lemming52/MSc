@@ -1,0 +1,169 @@
+\chapter[Example tables and figures]{Second Chapter -- example tables
+and figures -- which has a long title (too long for the
+headline/contents)}\label{c:tables+figures}
+
+\epigraph{`To err is human, but to really foul things up you
+need a computer'}{\textit{anonymous}}
+
+\section{Introduction}
+
+This Chapter illustrates the addition of a quotation on the first page
+of a Chapter (using the command \verb|\epigraph{...}{...}|). Also, this
+Chapter has a long title -- which is too long for the page
+headline/contents -- but a shorter alternative was specified for the
+page headline/contents entry (using
+%
+\verb|\chapter[short title]{full title}|). Similarly shorter versions of
+Section headings etc.\ can be specified, if needed..
+
+The rest of this chapter illustrates various styles for tables and
+figures.
+
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\newcommand{\dhead}[1]{\multicolumn{1}{c}{#1}}
+%
+\begin{table}
+  \caption{This is a simple example table.}\label{t:simple}
+  \medskip
+  \centering
+    \begin{tabular}{cd{1.3}d{2.0}}\hline
+      number & \dhead{reciprocal} & \dhead{cube} \\\hline
+        1    &     1      &    1   \\
+        2    &     0.5    &    8   \\
+        3    &     0.333  &   27   \\
+        4    &     0.25   &   64   \\\hline
+    \end{tabular}\\[5pt]
+    Note: here is a note to the table.
+\end{table}
+
+\begin{table}
+  \caption{This is a better example table.}\label{t:rules}
+  \medskip
+  \centering
+    \begin{tabular}{cd{1.3}d{2.0}}\toprule
+      number & \dhead{reciprocal} & \dhead{cube} \\\midrule
+        1    &     1      &    1   \\
+        2    &     0.5    &    8   \\
+        3    &     0.333  &   27   \\
+        4    &     0.25   &   64   \\\bottomrule
+    \end{tabular}\\[5pt]
+    Note: here is a note to the table.
+\end{table}
+
+\enlargethispage{\baselineskip} % to avoid `orphan' line
+
+\section{Example tables}
+
+Table~\ref{t:simple} and Table~\ref{t:rules} are example tables that
+illustrate the use of the `\verb|d|' column specifier -- which is
+defined in the \verb|.tex| source -- to align numbers by decimal places
+(as the `memoir' class emulates the `dcolumn' package).
+
+The difference between them is that Table~\ref{t:simple} uses the
+default horizontal rules (i.e.\ \verb|\hline|), whereas
+Table~\ref{t:rules} uses alternate rules with better vertical spacing
+(i.e.\ \verb|\toprule|, \verb|\midrule| and \verb|\bottomrule|), from
+the `booktabs' package, which are emulated by the memoir class.
+
+If you have a long table that spans more that one page, then use the
+\href{http://www.ctan.org/pkg/longtable}{longtable} package. You will
+need to process the table through (pdf)\LaTeX\ several times for the
+`longtable' algorithm that decides on the column widths to converge.
+Landscape multiple-page tables can also be produced using `longtable',
+provided you also load the `pdflscape' package and place the table
+within \verb|\begin{landscape}| and \verb|\end{landscape}|. In both
+cases you will probably want to specifiy the caption width. Specify
+either \verb|\setlength{\LTcapwidth}{\linewidth}| or
+\verb|\narrowcaptionwidth| and
+\verb|\setlength{\LTcapwidth}{\thesiscaptionwidth}|. If using the
+\verb|landscape| environment, place these commands just after
+\verb|\begin{landscape}|.
+
+\section{Example figures}
+
+This section illustrates various figure styles. Figure~\ref{f:fullwidth}
+shows a figure with a full width caption (using
+\verb|\normalcaptionwidth|), whereas Figure~\ref{f:narrow} shows the
+slightly narrower caption width (\verb|\narrowcaptionwidth|, which is
+the default). Figure~\ref{f:labels} shows how to add `a)', `b)' $\dots$
+labels to a figure with contains several sub-figures.
+Figure~\ref{f:landscape} shows a landscape figure (also using
+\verb|\normalcaptionwidth|). Finally Figure~\ref{f:2x2} shows an
+$2\times2$ array of sub-figures, with the caption in one corner (which
+needs \verb|\normalcaptionwidth|).
+
+\begin{figure}
+%
+\centerline{\includegraphics[width=3cm]{testfig}}
+%
+\medskip
+%
+\normalcaptionwidth\caption{This shows a figure with a full width
+caption. Here is some sample text. Here is some sample text. Here is
+some sample text. Here is some sample text. Here is some sample text.
+Here is some sample text. Here is some sample text. Here is some sample
+text. Here is some sample text.\label{f:fullwidth}}
+%
+\end{figure}
+
+\begin{figure}
+%
+\centerline{\includegraphics[width=3cm]{testfig}}
+%
+\medskip
+%
+\caption{This shows a figure with a narrow width caption. Here is
+some sample text. Here is some sample text. Here is some sample text.
+Here is some sample text. Here is some sample text. Here is some
+sample text.\label{f:narrow}}
+%
+\end{figure}
+
+\begin{figure}
+%
+\centerline{\hbox to 8cm{\large a)\hfill}}
+\centerline{\includegraphics[angle=90,width=8cm]{testfig}}
+\medskip
+\centerline{\hbox to 8cm{\large b)\hfill}}
+\centerline{\includegraphics[angle=-90,width=8cm]{testfig}}
+\medskip
+%
+\caption{This shows a figure with including `a)' and `b)' labels
+for the sub-figures. Here is some sample text. Here is some sample text.
+Here is some sample text. Here is some sample text. Here is some
+sample text. Here is some sample text.\label{f:labels}}
+%
+\end{figure}
+
+\begin{sidewaysfigure}
+%
+\centerline{\includegraphics[width=5cm]{testfig}}
+\medskip
+%
+\normalcaptionwidth\caption{This shows a sideways figure (with
+full width caption). Here is some sample text. Here is some sample
+text. Here is some sample text. Here is some sample text. Here is
+some sample text. Here is some sample text.\label{f:landscape}}
+%
+\end{sidewaysfigure}
+
+\begin{figure}
+%
+\begin{tabular}{p{6cm}cp{6cm}}
+%
+\includegraphics[width=2cm,angle=45]{testfig} & &
+  \includegraphics[width=2cm,angle=315,origin=c]{testfig} \\[15pt]
+%
+\raisebox{-\height}{\includegraphics[width=2cm,angle=315,origin=c]{testfig}}
+  & &
+%
+\normalcaptionwidth\caption{This shows an array of sub-figures
+(with a caption in the array). Here is some sample text. Here is some
+sample text. Here is some sample text. Here is some sample text. Here is
+some sample text. Here is some sample text.\label{f:2x2}}
+%
+\end{tabular}
+%
+\end{figure}
+
+\endinput
