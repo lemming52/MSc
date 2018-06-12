@@ -41,12 +41,14 @@ L.~Evans and P.~Bryant, {\em {LHC Machine}},
 \href{http://arxiv.org/abs/1207.7214}{{\ttfamily arXiv:1207.7214 [hep-ex]}}.
 %%CITATION = ARXIV:1207.7214;%%.
 
-\bibitem{pdg}
-{Particle Data Group} Collaboration, C.~Patrignani {et~al.}, {\em {Review of
-  Particle Physics}},
-\href{http://dx.doi.org/10.1088/1674-1137/40/10/100001}{Chin. Phys. {\bfseries
-  C40} no.~10, (2017) 100001}.
-%%CITATION = CHPHD,C40,100001;%%.
+\bibitem{higgsmeasure}
+{ATLAS, CMS} Collaboration, G.~Aad {et~al.}, {\em {Combined Measurement of the
+  Higgs Boson Mass in $pp$ Collisions at $\sqrt{s}=7$ and 8 TeV with the ATLAS
+  and CMS Experiments}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.114.191803}{Phys. Rev. Lett.
+  {\bfseries 114} (2015) 191803},
+\href{http://arxiv.org/abs/1503.07589}{{\ttfamily arXiv:1503.07589 [hep-ex]}}.
+%%CITATION = ARXIV:1503.07589;%%.
 
 \bibitem{LHCHiggsCS}
 {LHC Higgs Cross Section Working Group} Collaboration, S.~Dittmaier {et~al.},
@@ -62,6 +64,14 @@ A.~Djouadi, J.~Kalinowski, and M.~Spira, {\em {HDECAY: A Program for Higgs
 \href{http://arxiv.org/abs/hep-ph/9704448}{{\ttfamily arXiv:hep-ph/9704448
   [hep-ph]}}.
 %%CITATION = HEP-PH/9704448;%%.
+
+\bibitem{cmsvbfhbb}
+{CMS} Collaboration, V.~Khachatryan {et~al.}, {\em {Search for the standard
+  model Higgs boson produced through vector boson fusion and decaying to $b
+  \overline{b}$}}, \href{http://dx.doi.org/10.1103/PhysRevD.92.032008}{Phys.
+  Rev. {\bfseries D92} no.~3, (2015) 032008},
+\href{http://arxiv.org/abs/1506.01010}{{\ttfamily arXiv:1506.01010 [hep-ex]}}.
+%%CITATION = ARXIV:1506.01010;%%.
 
 \bibitem{VBFHbb8tev}
 {ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Search for the Standard Model
@@ -81,6 +91,13 @@ A.~Djouadi, J.~Kalinowski, and M.~Spira, {\em {HDECAY: A Program for Higgs
 \bibitem{martinshaw}
 G.~S. Brian R.~Martin, {\em Particle Physics}.
 \newblock Wiley, Geneva, 2008.
+
+\bibitem{pdg}
+{Particle Data Group} Collaboration, C.~Patrignani {et~al.}, {\em {Review of
+  Particle Physics}},
+\href{http://dx.doi.org/10.1088/1674-1137/40/10/100001}{Chin. Phys. {\bfseries
+  C40} no.~10, (2017) 100001}.
+%%CITATION = CHPHD,C40,100001;%%.
 
 \bibitem{gws-g}
 S.~L. Glashow, {\em {Partial Symmetries of Weak Interactions}},
