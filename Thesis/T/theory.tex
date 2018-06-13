@@ -14,7 +14,7 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 		{
 		\setlength{\extrarowheight}{5pt}
 		\begin{table}[ht]
-			\caption[Properties of Spin-$\frac{1}{2}$ quarks]{Spin-$\frac{1}{2}$ fermions: quarks $q$ \cite{pdg}. The top quark mass is taken from direct measurements.}
+			\caption[Properties of Spin-$\frac{1}{2}$ quarks]{Spin-$\frac{1}{2}$ fermions: quarks $q$ \cite{pdg}.}
 			\label{t:tab:quark}
 			\medskip
 			\centering
@@ -50,7 +50,7 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 	\newpage
 	\subsection{Forces}
 
-		All forces arise due the exchange of unobservable virtual particles, gauge bosons, which obey Bose-Einstein statistics. The three fundamental particle interactive forces for the Standard Model are named the strong, weak and electromagnetic interactions, and are mediated by \textit{gluons}, \textit{weak bosons} and \textit{photons} respectively. The gauge bosons are described in more detail in Table \ref{t:tab:boson}.
+		All forces arise due to the exchange of integer spin particles, gauge bosons, which obey Bose-Einstein statistics. The three fundamental particle interactive forces for the Standard Model are named the strong, weak and electromagnetic interactions, and are mediated by \textit{gluons}, \textit{weak bosons} and \textit{photons} respectively. The gauge bosons are described in more detail in Table \ref{t:tab:boson}.
 
 		\begin{table}[ht]
 			\caption[Properties of Spin-$1$ gauge bosons]{Spin-1 gauge bosons. The strength of the interaction is typically stated in terms of $\alpha$, a dimensionless constant proportional to the matrix element for the virtual particle exchange for each interaction. The weak interaction is intrinsically stronger than the EM interaction, but the mass of the weak bosons limits the range to extremely short distances.  The strength of gravity is $\sim10^{-39}$ hence it is neglected. \cite{pdg}}
@@ -137,16 +137,16 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 	\subsection{Geometry}
 	\label{t:geometry}
 
-	The high energy protons used in collisions are relativistic in nature, and as the momenta of the colliding partons are not guaranteed to be equal and opposing there is always an unknown element of longitudinal boosting in $pp$ collisions. As a consequence, use of light-cone coordinates and some definitions of convenient quanties can be of benefit to $pp$ collision analyses \cite{lightcone-all-that}.
+	The high energy protons used in collisions are relativistic in nature, and as the momenta of the colliding partons are not in general equal and opposing there is always an unknown longitudinal boosting in $pp$ collisions. As a consequence, use of light-cone coordinates and some definitions of convenient quanties can be of benefit to $pp$ collision analyses \cite{lightcone-all-that}.
 
 	Typically the  particle kinematics are defined by transverse momentum \pt and rapidity~$y$. Rapidity is defined by
 	\begin{equation}
-	y = \frac{1}{2}\ln\frac{E+p_z}{E- p_z}
+	y = \frac{1}{2}\ln\frac{E+p_z}{E- p_z},
 	\end{equation}
 
-	where $E$ is the energy of a particle and $p_z$ is the momentum component along the beam axis $z$. This rapidity $y$ transforms additively to boosts along the $z$ axis, so any rapidity difference between two objects is invariant to such boosts. For cases where the mass of a particle is negligible (highly relativistic particles) the rapidity can be related to the  pseudo-rapidity $\eta$, defined as
+	where $E$ is the energy of a particle and $p_z$ is the momentum component along the beam axis $z$. This rapidity $y$ transforms additively to boosts along the $z$ axis, so any rapidity difference between two objects is invariant to such boosts. For cases where the mass of a particle is negligible (highly relativistic particles) the rapidity can be approximated by the pseudo-rapidity $\eta$, defined as
 	\begin{equation}
-	\eta = -\ln\tan\frac{\theta}{2}
+	\eta = -\ln\tan\frac{\theta}{2},
 	\end{equation}
 	where $\theta$ is the polar angle. The distance between two objects within the detector is commonly expressed in the ($\eta$, $\phi$) space rather than absolute, with this separation being given by $\Delta R = \sqrt{(\Delta\eta)^2 + (\Delta\phi)^2}$.
 
@@ -165,7 +165,7 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 		\subsubsection{Parton Shower}
 
 			While the hard scatter interaction in a collision is relatively straightforward, the overall behaviour of the partons is much more complex as they progress through the event. The incoming and outgoing partons from the hard scatter radiate additional  particles during the event \cite{martinshaw, monte-carlo}.
-			The Bremsstrahlung  radiation of photons by scattered electric charges is well described by QED, and the analogous radiation of gluons by scattered colour charges as explained by QCD produces additional partons within the interaction. However, as the gluons produced by QCD scattering themselves carry colour charge, there is extending showering of gluons producing gluons, resulting in the phase space of the interaction being filled with a sea of soft gluons. In addition to the self interactions, quark and gluon processes, $g\rightarrow q\bar{q}$ and $q\rightarrow g\bar{g}$, occur. These radiative processes make up the parton shower stage of the event simulation \cite{monte-carlo}.
+			The Bremsstrahlung  radiation of photons by scattered electric charges is well described by QED, and the analogous radiation of gluons by scattered colour charges as explained by QCD produces additional partons within the interaction. However, as the gluons produced by QCD scattering themselves carry colour charge, there is extensive showering of gluons producing gluons, resulting in the phase space of the interaction being filled with a sea of soft gluons. In addition to the self interactions, quark and gluon processes, $g\rightarrow q\bar{q}$ and $q\rightarrow g\bar{g}$, occur. These radiative processes make up the parton shower stage of the event simulation \cite{monte-carlo}.
 
 			The evolution of these parton showers is evaluated in Monte-Carlo simulations using a step-by-step iterative process, on the scale of momentum transfer in the interaction. This process is started at the hard scatter and evolved through the interaction with decreasing momentum scale until the point at which perturbation theory breaks down, necessitating a different evaluation method \cite{monte-carlo}.
 
@@ -174,7 +174,7 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 
 			The breakdown of perturbation theory at low momentum scales implies the strong force coupling is very large, and observable colourless hadrons are formed from the coloured partons using hadronisation models in order to extend the simulation. These hadrons are the physical final state particles observed in the detector, which exist due to the colour confinement of the quarks and gluons. Within a particle detector collimated \textit{jets} of hadrons are observed rather than individual hadrons. The parton shower process produces large numbers of gluons and quarks moving out in a collimated stream from the interaction. Partons and gluons are not the final state particles and cannot propagate freely, so at this point hadronisation occurs to collect the partons into the final state particles \cite{monte-carlo}.
 
-			In simulation this step involves collecting the partons produced in the parton shower into hadrons, and is typically evaluated using either a String model \cite{stringmodel} or a Cluster model \cite{clustermodel, monte-carlo}. These steps are models, and not calculations as to how the partons combine, as such calculations are prohibited by the breakdown of perturbation theory. The models themselves were produced by tuning the simulations to data from past experiments like the Large Electron-Positron collider previously operational at the Conseil Europ\'{e}en pour la Recherche Nucl\'{e}aire, and current data from the LHC \cite{tunes, lhctunes}.
+			In simulation this step involves collecting the partons produced in the parton shower into hadrons, and is typically evaluated using either a String model \cite{stringmodel} or a Cluster model \cite{clustermodel, monte-carlo}. These steps are models, and not calculations as to how the partons combine, as such calculations are prohibited by the breakdown of perturbation theory. The models themselves were produced by tuning the simulations to data from past experiments like the Large Electron-Positron collider previously operational atCERN, and current data from the LHC \cite{tunes, lhctunes}.
 
 		\subsubsection{Unstable Particle Decays}
 
@@ -247,7 +247,7 @@ The Standard Model (SM) of particle physics is a collection of several theories 
 
 	\subsection{Summary of Current Higgs Measurements}
 
-		At the current point in time, the LHC has delivered more than $40$fb$^{-1}$ of $13$TeV $pp$ collisions to the ATLAS and CMS detectors (Section \ref{d:lhc}), and Higgs searches have been carried out in wide variety of decay channels ($WW$, $BB$, $\gamma\gamma$) and production modes (\ggF, VH, VBF) \cite{pdghiggs, VBFHbb8tev, searchvh, tth}. Currently, the consensus of these analyses is that the CMS and ATLAS experiments have observed the Standard Model Higgs boson with a mass of $125.09\pm0.24$GeV\cite{pdg}.
+		As of early 2018, the LHC has delivered more than $40$fb$^{-1}$ of $13$TeV $pp$ collisions to the ATLAS and CMS detectors (Section \ref{d:lhc}), and Higgs searches have been carried out in wide variety of decay channels ($WW$, $BB$, $\gamma\gamma$) and production modes (\ggF, VH, VBF) \cite{pdghiggs, VBFHbb8tev, searchvh, tth}. The consensus of these analyses is that the CMS and ATLAS experiments have observed the Standard Model Higgs boson with a mass of $125.09\pm0.24$GeV\cite{pdg}.
 
 	\subsection{Searches for \VBFHBB}
 		\label{t:VBF}
