@@ -3,21 +3,21 @@
 \section{The Large Hadron Collider}
 \label{d:lhc}
 
-	The Large Hadron Collider (LHC) is a circular particle accelerator operated at European Organisation for Nuclear Research (CERN, Conseil Europ\'{e}an pour la Recherche Nucl\'{e}aire). Currently the largest accelerator in the world, the LHC is designed to collide opposing beams of protons at a \textit{centre-of-mass} energy $\sqrt{s}=14$TeV and a peak \textit{luminosity} of $10^{34}$cm$^{-2}$s$^{-1}$ \cite{lhc}. The first proton beams were circulated in the LHC in 2008, with Run-1 of LHC data taking being conducted from 2010 to 2012 at increasing $\sqrt{s}$ of $0.9$, $7$, and $8$TeV, after which the machine was shut down for scheduled maintenance. Following on from the long shut down period, Run-2 of the LHC has been ongoing since 2015, operating at $\sqrt{s}=13$TeV.
+	The LHC is a circular particle accelerator operated at CERN. Currently the largest accelerator in the world, the LHC is designed to collide opposing beams of protons at a \textit{centre-of-mass} energy $\sqrt{s}=14$TeV and a peak \textit{luminosity} of $10^{34}$cm$^{-2}$s$^{-1}$ \cite{lhc}. The first proton beams were circulated in the LHC in 2008, with Run-1 of LHC data taking being conducted from 2010 to 2012 at increasing $\sqrt{s}$ of $7$ and $8$TeV, after which the machine was shut down for scheduled maintenance. Following on from the long shut down period, Run-2 of the LHC has been ongoing since 2015, operating at $\sqrt{s}=13$TeV.
 
 	The principal LHC ring consists of eight pairs of alternating long arc sections and short straight insertion sections, situated within the underground tunnel excavated for the older Large Electron Positron Collider experiment \cite{lep1, lep2}. The arc sections contain the dipole magnets used to bend the particle beam around the ring, while the straight sections contain four interaction points, at each of which the large experiments are located. The remaining straight sections contain the operational systems of the LHC: beam acceleration, injection,  dumping and collimation. The proton beams are generated outside the principal ring and inserted into the ring by the LHC injector chain, a sequence of smaller accelerators which are used to bring the proton beams up to a suitable energy for injection. The proton beams injected into the accelerator are obtained from a cloud of hydrogen gas, which is passed through an electric field to strip the electrons before the protons are inserted into the beam acceleration components. The proton beams are arranged such that the protons move in bunches of $\mathcal{O}(10^{11})$ protons, with multiple bunches placed into trains. During Run-2 the LHC operated with bunch spacings of $50$ns and $25$ns.
 
-	The principle measure of the operation of the LHC is the instantaneous beam luminosity $L$. This parameter is a measure of the rate of collisions within the accelerator, given by
+	A key operational parameter of any accelerator is the instantaneous beam luminosity $L$. This parameter is a measure of the rate of collisions within the accelerator, given by
 
 	\begin{equation}
-		L = \frac{1}{\sigma}\frac{dN}{dt} = \frac{n_bn_1n_2f}{2\pi\Sigma_x\Sigma_y}
+		L = \frac{1}{\sigma}\frac{dN}{dt} = \frac{n_bn_1n_2f}{2\pi\Sigma_x\Sigma_y},
 	\end{equation}
 
 	where in the general case $\sigma$ is the interaction cross section, $\frac{dN}{dt}$ is the event rate, $n_b$, $n_1$ and $n_2$ are the number of bunches, and the number of particles per bunch in both of the colliding beams, $f$ the machine revolution frequency, and $\Sigma_{x, y}$ are parameters relating to the beam width. This instantaneous luminosity is integrated across a time period, such as an LHC Run or a specific data period, to produce the integrated luminosity $\int L dt$ which is a measure of the total recorded data.
 
-	Once a beam is accelerated to the target energy, collisions begin at the interaction points. Interactions are ongoing for periods of several hours, and will go on until the the beam is replaced due to general decay of the interaction rate or beam instabilities.
+	Once a beam is accelerated to the target energy, collisions begin at the interaction points. Interactions are ongoing for periods of several hours, and will continue until the the beam is replaced due to general decay of the interaction rate or beam instabilities occur.
 
-	At the LHC, the four large experiments at the interaction points are ATLAS \cite{ATLAS}(A Toroidal LHC ApparatuS), CMS \cite{CMS}(Compact Muon Solenoid), LHCb \cite{LHCB}(LHC beauty) and ALICE \cite{ALICE}(A Large Ion Collider Experiment). LHCb is a forward spectrometer heavy flavour experiment, designed to study flavour physics with emphasis on the \bquark\, and on matter/anti-matter asymmetry. ALICE focuses on the collisions of heavy ions, while ATLAS and CMS are general purpose detectors to conduct experiments across a broad range of modern physics research areas.
+	At the LHC, the four large experiments at the interaction points are ATLAS \cite{ATLAS}(A Toroidal LHC ApparatuS), CMS \cite{CMS}(Compact Muon Solenoid), LHCb \cite{LHCB}(LHC beauty) and ALICE \cite{ALICE}(A Large Ion Collider Experiment). LHCb is a forward spectrometer heavy flavour experiment, designed to study flavour physics with emphasis on \textit{b}-quarks, \textit{c}-quarks and on matter/anti-matter asymmetry. ALICE focuses on the collisions of heavy ions, while ATLAS and CMS are general purpose detectors to conduct experiments across a broad range of modern physics research areas.
 
 	\subsection{LHC Run Conditions in 2016}
 
@@ -45,7 +45,7 @@
 	\subsection{Inner Detector}
 	\label{d:id}
 
-		The Inner Detector \cite{innerdetector} (ID) provides pattern recognition, momentum measurements, electron identification and measurements of both primary and secondary vertices to efficiently identify \bhadron\, decays within a pseudorapidity range $|\eta|<2.5$. The ID itself is contained within a $2$T solenoidal field, which is used to bend the paths of charged particles within the ID. The ID is specifically designed to have a high momentum resolution (Table \ref{tab:d:operational}), and consists of three separate detector sections: the silicon pixel detector provides fine granularity track and vertex reconstruction, the silicon strip semiconductor tracker measures the trajectory of transiting charged particles and the outer transition radiation tracker used for particle identification is comprised of layers of straw tubes containing mixtures of xenon, oxygen and carbon dioxide \cite{ATLAS}.
+		The Inner Detector \cite{innerdetector} (ID) provides pattern recognition, momentum measurements, electron identification and measurements of both primary and secondary vertices to efficiently identify \bhadron\, decays within a pseudorapidity range $|\eta|<2.5$. The ID itself is contained within a $2$T solenoidal field, which is used to bend the paths of charged particles within the ID. The ID is specifically designed to have a good momentum resolution (Table \ref{tab:d:operational}), and consists of three separate detector sections: the silicon pixel detector provides fine granularity track and vertex reconstruction, the silicon strip semiconductor tracker measures the trajectory of transiting charged particles and the outer transition radiation tracker used for particle identification is comprised of layers of straw tubes containing mixtures of xenon, oxygen and carbon dioxide \cite{ATLAS}.
 
 	\subsection{Calorimeters}
 	\label{d:cal}
@@ -119,13 +119,13 @@
 	Modern jet algorithms are broadly split into two types: cone-type and sequential clustering algorithms. Cone-type algorithms take the hardest (highest momentum) object in an event as a seed of an iterative process of looking for a stable cone rooted at this seed \cite{cone-type}. Once a cone is defined, any constituents contained within the cone are removed from consideration and the process repeats. The alternative sequential clustering algorithms assume that particles within jets will have small differences in transverse momentum and groups particles based on the momentum space to reconstruct the jets. Sequential clustering algorithms function using iterative steps with two distance parameters. The first distance is the separation between two particles $d_{ij}$, defined as
 
 	\begin{equation}
-		d_{ij} = min(p_{\text{T}i}^a, p_{\text{T}j}^a)\frac{\Delta R_{ij}^2}{R}
+		d_{ij} = min(p_{\text{T}i}^a, p_{\text{T}j}^a)\frac{\Delta R_{ij}^2}{R},
 	\end{equation}
 
 	where $a$ is a particular exponent for a given algorithm, $R$ is the radius parameter of the final reconstructed jet size and $\Delta R_{ij}$ is the ($\eta, \phi$) space distance between the two objects. The second parameter $d_{iB}$, is the momentum space distance between the beam axis and an object \cite{jetreco} and is given by
 
 	\begin{equation}
-	d_{iB} = p_{\text{T}i}^a
+	d_{iB} = p_{\text{T}i}^a,
 	\end{equation}
 
 	The principal algorithm used for jet reconstruction at ATLAS is the anti-$k_t$ algorithm \cite{antikt}, which is a sequential clustering algorithm with $a=-2$. The algorithm is seeded with the highest \pt topological clusters from the calorimeter cells in the event, and iteratively computes the distance parameters. At each step, the two are compared: if $d_{ij}$ is smaller, particles $i$ and $j$ are combined whereas if $d_{iB}$ is smaller particle $j$ is labeled as a jet. The fact this algorithm tends to result in approximately circular reconstructed jet objects makes it favourable for experimental analyses as they are easily calibrated. The anti-$k_t$ algorithm is IRC safe and typical used with $R=0.4$ in the ATLAS experiment, and can be readily applied to clustering partons and calorimeter deposits in addition to hadrons.
@@ -139,7 +139,7 @@
 \subsection{\textit{b}-Tagging}
 \label{det:btagging}
 
-	Hadrons containing a \bquark\, tend to feature a signature topology as a result of the long lifetime of \textit{b}-hadrons. The extended lifetime results in a significant mean flight path of the \bhadron\ between its production and decay, forming a displaced secondary vertex from the primary hard scatter interaction point. This distinctive structure can be used to identify \bjets, and algorithms that exploit this are known as lifetime-based tagging algorithms \cite{bTagPerformance}.
+	Hadrons containing a \bquark\, tend to feature a signature topology as a result of the long lifetime of \textit{b}-hadrons. The extended lifetime results in a significant mean flight path of the \bhadron between its production and decay, typically around 3 mm transverse to the beam line, forming a displaced secondary vertex from the primary hard scatter interaction point. This distinctive structure can be used to identify \bjets, and algorithms that exploit this are known as lifetime-based tagging algorithms \cite{bTagPerformance}.
 
 	Identification of jets containing $b$-hadrons in ATLAS is based on combining the output of three separate lifetime-based \btag\, algorithms \cite{bTagExpPerf}: Impact Parameter based algorithms (IP2D and IP3D, Section \ref{det:btag:ip}), Secondary Vertex based (SV, Section \ref{det:btag:sv}) and Decay Chain based (JetFitter, Section \ref{det:btag:jf}) into a multivariate discriminant (MV2, Section \ref{det:btag:mv}) which is used to distinguish the jet flavours. These algorithms have undergone continuous improvement over the Run-2 cycle of the LHC to improve the separation of jet flavours.
 

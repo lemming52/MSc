@@ -1,6 +1,6 @@
 \chapter{Event Selection}\label{c:ES}
 
-	This chapter describes the selection criteria for data and simulated Monte-Carlo events, along with the specific calibrations and configurations used in the extraction and reconstruction of the objects making up the analysis. The event selections described here were chosen to target the typical \VBFHBB\, final state topology described in Section \ref{t:VBF}.
+	This chapter describes the selection criteria for data and simulated events, along with the specific calibrations and configurations used in the extraction and reconstruction of the objects making up the analysis. The event selections described here were chosen to target the typical \VBFHBB\, final state topology described in Section \ref{t:VBF}.
 
 	\section{ATLAS Event Data}
 
@@ -12,7 +12,7 @@
 
 	\section{Datasets}
 
-	The proton-proton collision data was recorded at a centre-of-mass energy of $\sqrt{s}=13$TeV in 2016. In this dissertation, Data Period D was used owing to limited storage space on analysis computing facilities. For events from the ATLAS detector to be considered usable for analysis, there are certain quality criteria that need to be passed by the event. Events are subdivided into luminosity \textit{blocks}, which are marked as \textit{good} if there are no flaws in the data integrity or missing information from the detector readout. The events were marked as \textit{clean} if there were no errors reported for the tracker or calorimiter components of the detector, and only clean events were studied.
+	The proton-proton collision data was recorded at a centre-of-mass energy of $\sqrt{s}=13$TeV in 2016. In this dissertation, Data Period D was used owing to limited storage space on analysis computing facilities. For events from the ATLAS detector to be considered usable for analysis, there are certain quality criteria that need to be passed by the event. Events are subdivided into luminosity \textit{blocks}, which are marked as \textit{good} if there are no flaws in the data integrity or missing information from the detector readout. The events were marked as \textit{clean} if there were no errors reported for the tracker or calorimeter components of the detector, and only clean events were studied.
 
 	Information on whether certain luminosity blocks are marked as clean is contained within a configuration \textit{Good Runs List} (GRL). This analysis used the all year 25ns Good Runs List (Table \ref{t:files}, Appendix \ref{a:config}), resulting in a data luminosity of $4.6$fb$^{-1}$.
 
@@ -23,7 +23,7 @@
 		 To accurately compare the simulated events from the Monte-Carlo samples with the real event dataset, it is necessary to normalise the Monte-Carlo samples to the total luminosity of the dataset, based on the theoretical cross-section for the interaction. The Monte-Carlo simulation assigns a weight $w_i$ to each event simulated, which are summed to give the total number of events in the Monte-Carlo sample. Each bin of any histogram in the results produced from the simulated data is reweighted using a scaling factor $w_{MC}$, given by
 
 		 \begin{equation}
-		 w_{MC} = \frac{\sigma k L}{N}
+		 w_{MC} = \frac{\sigma k L}{N},
 		 \end{equation}
 
 		 where $\sigma$ is the theoretical cross section, $L$ the integrated luminosity of the real dataset, $N$ the total number of simulated events ($\Sigma_N w_i$) and $k$ the Real $K$-Factor, which is a correction to the leading order cross section to reproduce the higher order calculation for the interaction. This reweighting of the Monte-Carlo datasets allows valid comparison of the Monte-Carlo simulated events with varying data sample sizes, as in the case of the reduced data luminosity in this analysis.
