@@ -8,7 +8,8 @@ Prior to conducting a full study of TLA on the \VBFHBB\, channel, the features o
 	\caption[$\Delta R$ values for online/offline jet pairs in Monte-Carlo simulation]{Plot of $\Delta R$ values for all online/offline jet pairs taken from the Monte-Carlo simulations. The large spike at $\sim0$ accounts for matching jets, with the higher $\Delta R$ Values corresponding to differing jet pairs.}
 	\label{f:deltaR}
 \end{figure}
-To compare the online and offline jets, the ratios of the difference in value for a variety of jet kinematic properties between the matched jets were evaluated. These values were calculated for jet feature $X$ using the ratio of the difference between the offline and online jet features to the offline jet feature
+To compare the online and offline jets, the fractional
+. difference in value for a variety of jet kinematic properties between the matched jets were evaluated. These values were calculated for jet feature $X$ using the ratio of the difference between the offline and online jet features to the offline jet feature
 
 	\begin{equation}
 	\frac{\Delta X}{X} = \frac{X_{Offline} - X_{Online}}{X_{Offline}}
@@ -57,7 +58,7 @@ To compare the online and offline jets, the ratios of the difference in value fo
 
 		The curve of the distribution shown in the right panel of Figure \ref{fig:O:leadingbpt} can be explained given \dptpt is predominantly positive. In the average case based on this, the \pt of the offline jet is higher than the online jet. As the trigger is evaluated on the online jet, only events with an online \pt$>80$GeV will be entered into this histogram. For an offline jet with \pt$=85$GeV to have \dptpt$=0.1$, the online jet would be less than the trigger \pt cut and as such will not enter into the plot shown in Figure \ref{fig:O:leadingbpt}. This exclusion of certain \dptpt values for certain offline \pt values follows from the demonstrated bias in \dptpt, and produces the curved edge of the distribution.
 
-		The distribution of the \dptpt about zero can be shown in more detail by taking a slice across the distribution for a representative \pt value, which is shown in Figure \ref{fig:O:leadingbptslice} for leading \bjets\ with $89< $\pt$<91$GeV. The \dptpt values were also split into the $\eta$ bands from Table \ref{tab:etabands}. For the leading \bjet, this is constrained to be within the region of the detector where \btag\, is available, so the forward band is excluded.
+		The distribution of the \dptpt about zero can be shown in more detail by taking a slice across the distribution for a representative \pt value, which is shown in Figure \ref{fig:O:leadingbptslice} for leading \bjets\ with $89< $\pt$<91$GeV. The \dptpt values were also split into the $\eta$ bands from Table~\ref{tab:etabands}. For the leading \bjet, this is constrained to be within the region of the detector where \btag\, is available, so the forward band is excluded.
 
 		\begin{figure}[h]
 			\centering
@@ -74,7 +75,7 @@ To compare the online and offline jets, the ratios of the difference in value fo
 		\end{figure}
 
 		\newpage
-		The results show similar profiles between the Monte-Carlo and Data events for \dptpt. Both plots show the median offline \pt values to be higher than the online, with a median shift of $4\%$ in data and $2\%$ in Monte-Carlo simulations. The performance between $\eta$ ranges was also consistent. The profiles broadly match the full shape of each other, but the Monte-Carlo plot in the left panel of Figure \ref{fig:O:leadingbptslice} showed a slight difference in \dptpt value as the central $\eta$ range peaked at approximately zero. The breadth of these distributions is quite large, with both data and Monte-Carlo simulations showing a spread of $10\%$ in \dptpt.
+		The results show similar profiles between the Monte-Carlo and Data events for $\frac{\Delta p_\text{T}}{p_\text{T}}$. Both plots show the median offline \pt values to be higher than the online, with a median shift of $4\%$ in data and $2\%$ in Monte-Carlo simulations. The performance between $\eta$ ranges was also consistent. The profiles broadly match the full shape of each other, but the Monte-Carlo plot in the left panel of Figure \ref{fig:O:leadingbptslice} showed a slight difference in \dptpt value as the central $\eta$ range peaked at approximately zero. The breadth of these distributions is quite large, with the data and Monte-Carlo simulations showing a $\frac{\Delta p_\text{T}}{p_\text{T}}$  distribution width of $\sim20\%$ about 0.
 
 		This offset of the median \dptpt value shows that there is a difference in the jet energy calibration between the HLT and the offline reconstruction. The difference between the two is also shown by the offset peaks of the $\eta$ bands in Figure \ref{fig:O:leadingbptslice}, with the more central region performing better. Prior calibration studies of the ATLAS calorimeter have shown the energy readouts to be more consistent towards the central regions of the detector \cite{JES}. This could cause the inaccuracy of the trigger jets in the higher pseudorapidity regions, as offline jet reconstruction can make use of developed calibration tools to account for these differences. Using these standard tools, the energy scale calibration difference between the offline and online jets can be rectified for future analyses \cite{jetcalib, JES}.
 
@@ -137,7 +138,7 @@ To compare the online and offline jets, the ratios of the difference in value fo
 	\newpage
 	The slight upward shift in \pt can be explained by the \pt requirements of the trigger applied only to the data. Requiring the jet components to exceed high \pt cuts will bias the results to events containing high \pt jets, accounting for the upward \pt shift of the data events in the right panel of Figure \ref{fig:O:leadingnonbpt} relative to the left.
 
-	As for the leading \bjet\,, slices can be taken of the \dptpt distribution to show the spread of values more clearly. Plots of \dptpt values for leading non-\bjets\ with $89<$ \pt$<91$GeV are shown for Monte-Carlo simulation and data in Figure \ref{fig:O:leadingnonbptslice}, and results have been split into the pseudorapidity bands from Table \ref{tab:etabands}.
+	As for the leading \bjet, slices can be taken of the \dptpt distribution to show the spread of values more clearly. Plots of \dptpt values for leading non-\bjets\ with $89<$ \pt$<91$GeV are shown for Monte-Carlo simulation and data in Figure \ref{fig:O:leadingnonbptslice}, and results have been split into the pseudorapidity bands from Table \ref{tab:etabands}.
 
 	\begin{figure}[h]
 		\centering
@@ -194,7 +195,7 @@ To compare the online and offline jets, the ratios of the difference in value fo
 	\subsection{Summary of Comparison of Jet Objects between Offline and Online}
 	\label{obp:jetsum}
 
-		The jet objects reconstructed in the HLT have some slight differences in the reported values for key topological variables, but overall they perform in a similar fashion, both in Monte-Carlo simulations and in data. The positional variables $\phi$ and $\eta$ are directly comparable between offline and online jet objects, with the majority of objects having values with $<1\%$ disagreement for both \bjets\, and non-\bjets\,. For the \pt of jet objects, the values are not in perfect agreement, but have a consistent offset observed in Monte-Carlo simulation and data.
+		The jet objects reconstructed in the HLT have some slight differences in the reported values for key topological variables, but overall they perform in a similar fashion, both in Monte-Carlo simulations and in data. The positional variables $\phi$ and $\eta$ are directly comparable between offline and online jet objects, with the majority of objects having values with $<1\%$ disagreement for both \bjets\ and non-\bjets. For the \pt of jet objects, the values are not in perfect agreement, but have a consistent offset observed in Monte-Carlo simulation and data.
 
 		This difference in jet energy scale calibration can easily be overcome by constructing  or using specific online jet calibrations using already standard jet calibration tools \cite{JES, jetcalib} to correct the offset of the \pt values.
 
@@ -202,7 +203,7 @@ To compare the online and offline jets, the ratios of the difference in value fo
 
 \section{Jet Tagging Efficiency}
 
-	As covered in Section  \ref{det:btag:mv}, the standard algorithm for 2016 physics analyses was chosen to be the 2016 MV2c10 algorithm. However, the HLT \btag\, algorithm uses the older MV2c20 algorithm \cite{trig2015}. For any form a Trigger Level Analysis to be considered valid, the performance of the tagging algorithms used in the trigger, which are fixed at the point of data collection, must be comparable with the tagging executed offline with more up to date \btag\, configurations.
+	As covered in Section  \ref{det:btag:mv}, the standard algorithm for 2016 physics analyses was chosen to be the 2016 MV2c10 algorithm. However, the HLT \btag\, algorithm uses the older MV2c20 algorithm \cite{trig2015}. For any form of a Trigger Level Analysis to be considered valid, the performance of the tagging algorithms used in the trigger, which are fixed at the point of data collection, must be comparable with the tagging executed offline with more up to date \btag\, configurations.
 
 	To study this, the \btag\, efficiency at trigger level and offline is studied for different jet flavours using the Monte-Carlo sample. The Monte-Carlo sample was used as the \textit{truth} nature of the jet object is known, and the result of the \btag\, algorithm can be compared for \bjets, \cjets\, and light-jets.
 
