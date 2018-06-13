@@ -238,6 +238,13 @@ P.~Z. Skands, {\em {Tuning Monte Carlo Generators: The Perugia Tunes}},
 \href{http://arxiv.org/abs/1005.3457}{{\ttfamily arXiv:1005.3457 [hep-ph]}}.
 %%CITATION = ARXIV:1005.3457;%%.
 
+\bibitem{lhctunes}
+P.~Skands, S.~Carrazza, and J.~Rojo, {\em {Tuning PYTHIA 8.1: the Monash 2013
+  Tune}}, \href{http://dx.doi.org/10.1140/epjc/s10052-014-3024-y}{Eur. Phys. J.
+  {\bfseries C74} no.~8, (2014) 3024},
+\href{http://arxiv.org/abs/1404.5630}{{\ttfamily arXiv:1404.5630 [hep-ph]}}.
+%%CITATION = ARXIV:1404.5630;%%.
+
 \bibitem{higgsproduction}
 M.~Y. Hussein, {\em {Higgs Boson Production at the LHC}},
 \href{http://arxiv.org/abs/1703.03952}{{\ttfamily arXiv:1703.03952 [hep-ph]}}.
@@ -248,6 +255,54 @@ M.~Y. Hussein, {\em {Higgs Boson Production at the LHC}},
 eConf {\bfseries C080625} (2008) 0031.
 %%CITATION = ECONF,C080625,0031;%%.
 
+\bibitem{vhpaper}
+A.~Collaboration, {\em Search for the Standard Model Higgs boson produced in
+  association with a vector boson and decaying to a b-quark pair with the ATLAS
+  detector},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.physletb.2012.10.061}{Physics
+  Letters B {\bfseries 718} no.~2, (2012) 369 -- 390}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269312011276}.
+
+\bibitem{tthpaper}
+{ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Evidence for the associated
+  production of the Higgs boson and a top quark pair with the ATLAS detector}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.97.072003}{Phys. Rev. {\bfseries
+  D97} no.~7, (2018) 072003},
+\href{http://arxiv.org/abs/1712.08891}{{\ttfamily arXiv:1712.08891 [hep-ex]}}.
+%%CITATION = ARXIV:1712.08891;%%.
+
+\bibitem{LHCHiggsXS2013}
+{LHC Higgs Cross Section Working Group} Collaboration, J.~R. Andersen {et~al.},
+  {\em {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}},
+\href{http://arxiv.org/abs/1307.1347}{{\ttfamily arXiv:1307.1347 [hep-ph]}}.
+%%CITATION = ARXIV:1307.1347;%%.
+
+\bibitem{hzz4l}
+{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {Measurement of the Higgs boson
+  mass from the $H\rightarrow \gamma\gamma$ and $H \rightarrow ZZ^{*}
+  \rightarrow 4\ell$ channels with the ATLAS detector using 25 fb$^{-1}$ of
+  $pp$ collision data}},
+  \href{http://dx.doi.org/10.1103/PhysRevD.90.052004}{Phys. Rev. {\bfseries
+  D90} no.~5, (2014) 052004},
+\href{http://arxiv.org/abs/1406.3827}{{\ttfamily arXiv:1406.3827 [hep-ex]}}.
+%%CITATION = ARXIV:1406.3827;%%.
+
+\bibitem{hwwlvlv}
+{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {Search for the Higgs boson in the
+  $H \to$ WW(*) $\to \ell_\nu\ell_\nu$ decay channel in $pp$ collisions at
+  $\sqrt{s}=7$ TeV with the ATLAS detector}},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.108.111802}{Phys. Rev. Lett.
+  {\bfseries 108} (2012) 111802},
+\href{http://arxiv.org/abs/1112.2577}{{\ttfamily arXiv:1112.2577 [hep-ex]}}.
+%%CITATION = ARXIV:1112.2577;%%.
+
+\bibitem{hgammagamma}
+{ATLAS} Collaboration,
+{\em {Measurements of the properties of the Higgs-like boson in the two photon
+  decay channel with the ATLAS detector using 25 $\mathrm{fb}^{-1}$ of
+  proton-proton collision data}},.
+%%CITATION = ATLAS-CONF-2013-012;%%.
+
 \bibitem{tth}
 {ATLAS} Collaboration, M.~Aaboud {et~al.}, {\em {Search for the Standard Model
   Higgs boson produced in association with top quarks and decaying into a
@@ -256,26 +311,9 @@ eConf {\bfseries C080625} (2008) 0031.
 \href{http://arxiv.org/abs/1712.08895}{{\ttfamily arXiv:1712.08895 [hep-ex]}}.
 %%CITATION = ARXIV:1712.08895;%%.
 
-\bibitem{LHCHiggsXS2013}
-{LHC Higgs Cross Section Working Group} Collaboration, J.~R. Andersen {et~al.},
-  {\em {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}},
-\href{http://arxiv.org/abs/1307.1347}{{\ttfamily arXiv:1307.1347 [hep-ph]}}.
-%%CITATION = ARXIV:1307.1347;%%.
-
-\bibitem{hprod}
-J.~Baglio and A.~Djouadi, {\em Higgs production at the lHC},
-  \href{http://dx.doi.org/10.1007/JHEP03(2011)055}{Journal of High Energy
-  Physics {\bfseries 2011} no.~3, (2011) 55}.
-  \url{https://doi.org/10.1007/JHEP03(2011)055}.
-
-\bibitem{searchggf}
-M.~Dittmar and H.~K. Dreiner, {\em {How to find a Higgs boson with a mass
-  between 155-GeV - 180-GeV at the LHC}},
-  \href{http://dx.doi.org/10.1103/PhysRevD.55.167}{Phys. Rev. {\bfseries D55}
-  (1997) 167--172},
-\href{http://arxiv.org/abs/hep-ph/9608317}{{\ttfamily arXiv:hep-ph/9608317
-  [hep-ph]}}.
-%%CITATION = HEP-PH/9608317;%%.
+\bibitem{pdghiggs}
+{Particle Data Group} Collaboration, C.~Patrignani {et~al.}, {\em {Review of
+  Particle Physics - Status of the Higgs Boson}},.
 
 \bibitem{searchvh}
 S.~L. Glashow, D.~V. Nanopoulos, and A.~Yildiz, {\em {Associated Production of
@@ -283,10 +321,6 @@ S.~L. Glashow, D.~V. Nanopoulos, and A.~Yildiz, {\em {Associated Production of
 \href{http://dx.doi.org/10.1103/PhysRevD.18.1724}{Phys. Rev. {\bfseries D18}
   (1978) 1724--1727}.
 %%CITATION = PHRVA,D18,1724;%%.
-
-\bibitem{pdghiggs}
-{Particle Data Group} Collaboration, C.~Patrignani {et~al.}, {\em {Review of
-  Particle Physics - Status of the Higgs Boson}},.
 
 \bibitem{VBF2004}
 S.~Asai {et~al.}, {\em {Prospects for the search for a standard model Higgs
@@ -309,6 +343,34 @@ S.~Asai {et~al.}, {\em {Prospects for the search for a standard model Higgs
 \newblock \url{https://cds.cern.ch/record/102083}.
 \newblock Copies shelved as reports in LEP, PS and SPS libraries.
 
+\bibitem{ATLAS}
+{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {The ATLAS Experiment at the CERN
+  Large Hadron Collider}},
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{JINST {\bfseries 3}
+  (2008) S08003}.
+%%CITATION = JINST,3,S08003;%%.
+
+\bibitem{CMS}
+{CMS} Collaboration, S.~Chatrchyan {et~al.}, {\em {The CMS Experiment at the
+  CERN LHC}},
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{JINST {\bfseries 3}
+  (2008) S08004}.
+%%CITATION = JINST,3,S08004;%%.
+
+\bibitem{LHCB}
+{LHCb} Collaboration, A.~A. Alves, Jr. {et~al.}, {\em {The LHCb Detector at the
+  LHC}},
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08005}{JINST {\bfseries 3}
+  (2008) S08005}.
+%%CITATION = JINST,3,S08005;%%.
+
+\bibitem{ALICE}
+{ALICE} Collaboration, K.~Aamodt {et~al.}, {\em {The ALICE experiment at the
+  CERN LHC}},
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08002}{JINST {\bfseries 3}
+  (2008) S08002}.
+%%CITATION = JINST,3,S08002;%%.
+
 \bibitem{Run2016}
 Y.~Koshiba {et~al.},
   \href{http://dx.doi.org/https://doi.org/10.18429/JACoW-IPAC2017-MOPVA023}{{\em
@@ -318,13 +380,6 @@ Y.~Koshiba {et~al.},
 \newblock JACoW, Geneva, Switzerland, May, 2017.
 \newblock \url{http://jacow.org/ipac2017/papers/mopva023.pdf}.
 \newblock https://doi.org/10.18429/JACoW-IPAC2017-MOPVA023.
-
-\bibitem{ATLAS}
-{ATLAS} Collaboration, G.~Aad {et~al.}, {\em {The ATLAS Experiment at the CERN
-  Large Hadron Collider}},
-\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{JINST {\bfseries 3}
-  (2008) S08003}.
-%%CITATION = JINST,3,S08003;%%.
 
 \bibitem{ATLASSchem}
 J.~Pequenao, ``{Computer generated image of the whole ATLAS detector}.''

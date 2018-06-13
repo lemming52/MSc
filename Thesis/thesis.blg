@@ -28,6 +28,7 @@ ptr=1, stack=
 in {\em {Proceedings, 69th Scottish Universities Summer School in Physics : LHC Phenomenology (SUSSP69): St.Andrews, Scotland, August 19-September 1, 2012}}
 ---the literal stack isn't empty for entry monte-carlo
 while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
+Warning--empty author in hgammagamma
 Warning--empty author and editor in lep1
 Warning--empty author and editor in lep2
 ptr=1, stack=
