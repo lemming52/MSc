@@ -19,14 +19,14 @@ A level-1 auxiliary file: APP/bdt.aux
 A level-1 auxiliary file: OTHER/references.aux
 The style file: OTHER/atlasBibStyleWithTitle.bst
 Database file #1: OTHER/ref.bib
-I was expecting an "="---line 14 of file OTHER/ref.bib
- :  
- :  journal        = "Chin. Phys.",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--empty author in tla
 ptr=1, stack=
 in {\em {Proceedings, 69th Scottish Universities Summer School in Physics : LHC Phenomenology (SUSSP69): St.Andrews, Scotland, August 19-September 1, 2012}}
 ---the literal stack isn't empty for entry monte-carlo
+while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
+Name 1 in "Sjostrand, Torbjorn, and others" has a comma at the end for entry pythia
+while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
+Name 1 in "Gleisberg, T., and others" has a comma at the end for entry sherpa
 while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
 Warning--empty author in hgammagamma
 Warning--empty author and editor in lep1
@@ -35,7 +35,9 @@ ptr=1, stack=
 no.~8 in International Particle Accelerator Conference
 ---the literal stack isn't empty for entry Run2016
 while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
-Warning--empty author in innerdetector
+Warning--empty author and editor in innerdetector
+Name 1 in "A Artamonov, and others" has a comma at the end for entry forwardcal
+while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
 Warning--empty author in triggermenu
 ptr=1, stack=
 in {\em {Proceedings, 32nd International Symposium on Physics in Collision (PIC 2012): Strbske Pleso, Slovakia, September 12-15, 2012}}
@@ -46,4 +48,14 @@ Warning--empty author in bTagPerformance
 Warning--empty author in bTagExpPerf
 Warning--empty pages in btagOptimisation
 Warning--empty author in IP3D
-(There were 4 error messages)
+Name 1 in "I. Antcheva, and others" has a comma at the end for entry ROOT
+while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
+Name 1 in "James Catmore, and others" has a comma at the end for entry xAOD
+while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
+Name 1 in "Eck, Christoph, and others" has a comma at the end for entry grid
+while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
+Name 1 in "Pumplin, J., and others" has a comma at the end for entry CTEQ
+while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
+Name 1 in "S. Agostinelli, and others" has a comma at the end for entry geant4
+while executing---line 1160 of file OTHER/atlasBibStyleWithTitle.bst
+(There were 11 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  13 JUN 2018 04:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  13 JUN 2018 05:21
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2190,7 +2190,7 @@ bibitemlist
 
 
 
-] [79] [80] [81] [82] [83] [84])) [85]
+] [79] [80] [81] [82] [83])) [84]
 **************************************************************
 * This is Version 1.12 of Dave Green's thesis template 
 * (see http://www.mrao.cam.ac.uk/~dag/THESIS/ for any updates)
@@ -2218,13 +2218,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: B97E07D9A8DB05A15977E6CFD3C7B153;2823.
  ) 
 Here is how much of TeX's memory you used:
- 14990 strings out of 493335
- 216499 string characters out of 3130230
+ 14989 strings out of 493335
+ 216492 string characters out of 3130230
  349076 words of memory out of 3000000
  17633 multiletter control sequences out of 15000+200000
  172644 words of font info for 280 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,17n,39p,2069b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,17n,39p,2065b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-e
 c-tlf.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/new
 tx/ntx-ecth-tlf.enc}{C:/Users/andre/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
@@ -2255,9 +2255,9 @@ X 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/andre/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/andre/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/andre/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (85 pages, 2257747 bytes).
+Output written on thesis.pdf (84 pages, 2255251 bytes).
 PDF statistics:
- 3484 PDF objects out of 3580 (max. 8388607)
- 308 named destinations out of 1000 (max. 500000)
+ 3485 PDF objects out of 3580 (max. 8388607)
+ 307 named destinations out of 1000 (max. 500000)
  631 words of extra memory for PDF output out of 10000 (max. 10000000)
 
