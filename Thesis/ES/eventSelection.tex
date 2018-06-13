@@ -1,6 +1,6 @@
 \chapter{Event Selection}\label{c:ES}
 
-	This chapter is describes the selection criteria for data and simulated Monte-Carlo events, along with the specific calibrations and configurations used in the extraction and reconstruction of the objects making up the analysis. The event selections described here were chosen to target the typical \VBFHBB\, final state topology described in Section \ref{t:VBF}.
+	This chapter describes the selection criteria for data and simulated Monte-Carlo events, along with the specific calibrations and configurations used in the extraction and reconstruction of the objects making up the analysis. The event selections described here were chosen to target the typical \VBFHBB\, final state topology described in Section \ref{t:VBF}.
 
 	\section{ATLAS Event Data}
 
@@ -14,11 +14,11 @@
 
 	The proton-proton collision data was recorded at a centre-of-mass energy of $\sqrt{s}=13$TeV in 2016. In this dissertation, Data Period D was used owing to limited storage space on analysis computing facilities. For events from the ATLAS detector to be considered usable for analysis, there are certain quality criteria that need to be passed by the event. Events are subdivided into luminosity \textit{blocks}, which are marked as \textit{good} if there are no flaws in the data integrity or missing information from the detector readout. The events were marked as \textit{clean} if there were no errors reported for the tracker or calorimiter components of the detector, and only clean events were studied.
 
-	Information on whether certain luminosity blocks are marked as clean is contained within a configuration \textit{Good Runs List} (GRL). This analysis used the all year 25ns Good Runs List (Table \ref{t:files}, Appendix \ref{a:config}), resulting in a data luminosity of $4.6312$fb$^{-1}$.
+	Information on whether certain luminosity blocks are marked as clean is contained within a configuration \textit{Good Runs List} (GRL). This analysis used the all year 25ns Good Runs List (Table \ref{t:files}, Appendix \ref{a:config}), resulting in a data luminosity of $4.6$fb$^{-1}$.
 
 	\section{Monte-Carlo simulated events}
 
-		 The simulated VBF sample (Table \ref{t:files}, Appendix \ref{a:config}) was produced during the MC15c production period. This sample was produced using the NLO generator \textsc{powheg} configured using the CTEQ6L1 \cite{CTEQ} set of PDFs and interfaced with \textsc{pythia8} tuned to AZNLO \cite{AZNLO}. The response of the ATLAS detector to the Monte-Carlo events was simulated using the \textcal{GEANT4} \cite{geant4, geant4atlas} simulation, which recreates a configurable model of the ATLAS detector, and performs the same calibrations and reconstructions on the Monte-Carlo simulated events as the physical detector performs on data.
+		 The simulated VBF sample (Table \ref{t:files}, Appendix \ref{a:config}) was produced by Monte-Carlo event generators in 2015. This sample was produced using the NLO generator \textsc{powheg}~\cite{powheg} configured using the CTEQ6L1 \cite{CTEQ} set of PDFs and interfaced with \textsc{pythia8}~\cite{pythia} tuned to AZNLO \cite{AZNLO}. The response of the ATLAS detector to the Monte-Carlo events was simulated using the \textcal{GEANT4} \cite{geant4, geant4atlas} simulation, which recreates a configurable model of the ATLAS detector, and calibrations and reconstructions were executed identically using ATLAS reconstruction code on the Monte-Carlo simulated events and the real  data.
 
 		 To accurately compare the simulated events from the Monte-Carlo samples with the real event dataset, it is necessary to normalise the Monte-Carlo samples to the total luminosity of the dataset, based on the theoretical cross-section for the interaction. The Monte-Carlo simulation assigns a weight $w_i$ to each event simulated, which are summed to give the total number of events in the Monte-Carlo sample. Each bin of any histogram in the results produced from the simulated data is reweighted using a scaling factor $w_{MC}$, given by
 
@@ -34,13 +34,14 @@
 
 		The analysis is based on the jet objects from the detector contained in the DxAOD, the reconstruction of which is covered in Section \ref{d:jetreco}. Both the offline jet objects and the online equivalents are retrieved, but the method by which the full collection of jets is assembled differs in each case. For offline jet objects, the DxAOD contains a complete set of jets for each reconstruction algorithm, which are each associated with the relevant jet \btag\, information. Offline jets were calibrated in line with the 20.7 recommendations (Table \ref{t:config}). In addition, recorded individual jets were required to have \pt$>45$GeV.
 
-		Recovering the trigger-level jet objects from the xAOD is done by assembling distinct object collections from the data into a single jet collection. The jets that satisfied the trigger requirements are stored as \textit{split}-jets in the data. These \textit{split}-jet objects are those that will have \btag\ decisions associated with them. Any duplicate \textit{split}-jets in this collection, determined by pairing jets and removing those with $\Delta R$ spacings below a threshold value of 0.3, are removed and the \btag\, information stored in a separate xAOD container is associated with the \textit{split}-jets. Following this all HLT trigger jets are retrieved. These HLT trigger jets are different from the \textit{split}-jets and do not possess \btag\, information. The full set of HLT jets is compared to the \textit{split}-jets and any duplicates are removed from the HLT jet collection (again using $\Delta R$ matching) to form the \textit{nonsplit}-jets. The combination of the \textit{split}-jets and \textit{nonsplit}-jets forms the complete jet collection for the trigger level event.
+		Recovering the trigger-level jet objects from the xAOD is done by assembling distinct object collections from the data into a single jet collection. The jets that satisfied the trigger requirements (Section \ref{es:as}) are stored as \textit{split}-jets in the data. These \textit{split}-jet objects are those that will have \btag\ decisions associated with them. Any duplicate \textit{split}-jets in this collection, determined by pairing jets and removing those with $\Delta R$ spacings below a threshold value of 0.3, are removed and the \btag\, information stored in a separate xAOD container is associated with the \textit{split}-jets. Following this all HLT trigger jets are retrieved. These HLT trigger jets are different from the \textit{split}-jets and do not possess \btag\, information. The full set of HLT jets is compared to the \textit{split}-jets and any duplicates are removed from the HLT jet collection (again using $\Delta R$ matching) to form the \textit{nonsplit}-jets. The combination of the \textit{split}-jets and \textit{nonsplit}-jets forms the complete jet collection for the trigger level event.
 
 		This complete collection of \textit{split} and \textit{nonsplit}-jets was taken as the comprehensive full set of jets for an event. The lack of associated \btag\ information for the \textit{nonsplit}-jets meant only jets from the \textit{split}-jet list could be designated as \bjets.
 
 		\subsection{\bjets}
 
-		The details of \bjet\ identification are covered in Section \ref{det:btagging}. Offline $b$-jets were tagged using the \textit{MV2c10}-tagger configured using the January 2017 recommendations (Table \ref{t:config}) with two defined efficiency working points: \textit{tight}, with an overall efficiency of 70\% and \textit{loose} with 85\% tagging efficiency. Online $b$-jets were tagged using the \textit{MV2c20}-tagger as configured during the data taking, which made use of the March 2016 Recommendations (Table \ref{t:config}) with two identically defined \textit{tight} and \textit{loose} working points. The use of the older \btagging\ algorithm in the decision for the online jets was forced. The online trigger objects in the DxAOD only contain the results of the evaluated \btag, the quantities used during the calculation were previously discarded. As such, this analysis was required to use the MV2c20 algorithm for HLT jets.
+		The details of \bjet\ identification are covered in Section \ref{det:btagging}. Offline $b$-jets were tagged using the MV2c10-tagger configured using the January 2017 recommendations (Table \ref{t:config}) with two defined efficiency working points: \textit{tight}, with an overall efficiency of 70\% and \textit{loose} with 85\% tagging efficiency. Online $b$-jets were tagged using the MV2c20
+		-tagger as configured during the data taking, which made use of the March 2016 Recommendations (Table \ref{t:config}) with two identically defined \textit{tight} and \textit{loose} working points. The use of the older \btagging\ algorithm in the decision for the online jets was forced. The online trigger objects in the DxAOD only contain the results of the evaluated \btag, the quantities used during the calculation were previously discarded. As such, this analysis was required to use the MV2c20 algorithm for HLT jets.
 
 
 	\section{\VBFHBB\, Analysis Strategy}
@@ -51,12 +52,12 @@
 		The analysis presented in this dissertation focuses on the \textit{two-central} channel as this is a more standard VBF topology.
 
 		For the \textit{two-central} channel, the event was required to pass the \texttt{HLT\_j80\_bmv2c2070\_split\_\-j60\_bmv2c2085\_split\_j45\_320eta490} trigger. This trigger requires a single L1 jet ROI of $E_\text{T} > 40$GeV and $|\eta| < 2.5$, a second central jet ROI with $E_\text{T} > 25$, and a forward jet ROI with $E_\text{T} > 20$GeV and $3.1 < |\eta| < 4.9$.
-		At the HLT, one central jet \btagged\, at the \textit{tight} working point with \pt $>80$GeV, and a jet with \pt$>60$GeV tagged at the \textit{loose} working point were both required. Finally a HLT forward jet with $E_\text{t}>45$ between $3.2 < |\eta| < 4.9$ was needed.
+		At the HLT, one central jet \btagged\, at the \textit{tight} working point with \pt $>80$GeV, and a jet with \pt$>60$GeV tagged at the \textit{loose} working point were both required. Finally a HLT forward jet with $E_\text{T}>45$ between $3.2 < |\eta| < 4.9$ was needed.
 
 		Once the trigger was passed, the event was required to contain one jet with \pt$>95$GeV which was \btagged\, at the \textit{tight} working point and one additional jet with \pt$>70$GeV that passed the \textit{loose} \btag\, working point. One forward jet with $3.2 < |\eta| < 4.4$ and $p_{\text{T}}>60$GeV was required along with a final VBF jet with \pt$>20$GeV and $|\eta| < 4.4$. Finally the \pt of the $b\bar{b}$ pair was required to exceed 160 GeV. This cut is to remove kinematic sculpting of the $M_{bb}$ distribution, which for absent or lower \ptbb cuts has a pronounced bump in the $200$-$300$GeV $M_{bb}$ region. This bump is a result of the correlation between \mbb and \ptbb values. By requiring the \ptbb cut, the \mbb distribution forms a regular falling distribution. The cuts as applied in the analysis code are summarised in Table \ref{tab:cuts}
 
 		\begin{table}[h]
-		\caption[\textit{Two-central} channel event cuts]{Cutflow for the \textit{two-central} \VBFHBB\. channel.}
+		\caption[\textit{Two-central} channel event cuts]{Cutflow for the \textit{two-central} \VBFHBB\ channel.}
 		\label{tab:cuts}
 		\medskip
 		\centering
@@ -68,7 +69,7 @@
 			$\geq2$ \textit{loose} & Event was required to contain at least two \bjets\ with \pt$>70$GeV tagged at the \textit{loose} working point.\\
 			$\geq2$ light-jets & Event was required to contain at least two non-\bjets\ with \pt$>20$GeV.\\
 			\textit{Tight} \bjet & Event was required to contain one \bjet\ with \pt$>95$GeV tagged at the \textit{tight} working point.\\
-			Forward jet requirement & Event was required to contain at one non-\bjet\ with \pt$>60$GeV and $3.2 < |\eta| < 4.4$.\\
+			Forward jet requirement & Event was required to contain one non-\bjet\ with \pt$>60$GeV and $3.2 < |\eta| < 4.4$.\\
 			\ptbb$>160$GeV & The chosen $b\bar{b}$ pair was required to have a combined \pt$>160$GeV \\
 			\bottomrule
 		\end{tabularx}
