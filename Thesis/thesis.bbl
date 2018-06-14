@@ -270,11 +270,12 @@ eConf {\bfseries C080625} (2008) 0031.
 \href{http://arxiv.org/abs/1712.08891}{{\ttfamily arXiv:1712.08891 [hep-ex]}}.
 %%CITATION = ARXIV:1712.08891;%%.
 
-\bibitem{LHCHiggsXS2013}
-{LHC Higgs Cross Section Working Group} Collaboration, J.~R. Andersen {et~al.},
-  {\em {Handbook of LHC Higgs Cross Sections: 3. Higgs Properties}},
-\href{http://arxiv.org/abs/1307.1347}{{\ttfamily arXiv:1307.1347 [hep-ph]}}.
-%%CITATION = ARXIV:1307.1347;%%.
+\bibitem{pdghiggs}
+{Particle Data Group} Collaboration, C.~Patrignani {et~al.}, {\em {Review of
+  Particle Physics - Status of the Higgs Boson}},
+\href{http://dx.doi.org/10.1088/1674-1137/40/10/100001}{Chin. Phys. {\bfseries
+  C40} no.~10, (2016) 100001}.
+%%CITATION = CHPHD,C40,100001;%%.
 
 \bibitem{hzz4l}
 {ATLAS} Collaboration, G.~Aad {et~al.}, {\em {Measurement of the Higgs boson
@@ -309,13 +310,6 @@ eConf {\bfseries C080625} (2008) 0031.
   detector}},
 \href{http://arxiv.org/abs/1712.08895}{{\ttfamily arXiv:1712.08895 [hep-ex]}}.
 %%CITATION = ARXIV:1712.08895;%%.
-
-\bibitem{pdghiggs}
-{Particle Data Group} Collaboration, C.~Patrignani {et~al.}, {\em {Review of
-  Particle Physics - Status of the Higgs Boson}},
-\href{http://dx.doi.org/10.1088/1674-1137/40/10/100001}{Chin. Phys. {\bfseries
-  C40} no.~10, (2016) 100001}.
-%%CITATION = CHPHD,C40,100001;%%.
 
 \bibitem{searchvh}
 S.~L. Glashow, D.~V. Nanopoulos, and A.~Yildiz, {\em {Associated Production of
