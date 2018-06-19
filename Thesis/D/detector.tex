@@ -105,9 +105,7 @@
 
 \section{Event Cleaning}
 
-	Beyond the reduction in the event storage rate handled by the trigger chains and prescaling, only select sections of the overall data output by the LHC are ever used in analyses. The LHC is not free from operational errors or issues with the hardware and software of the detector. Parts of the output data can be corrupted by incomplete events due to detector failings, poor data integrity or disruption of the machine. The operational time of the LHC is split into Run sections, which are divided into luminosity blocks, time intervals of data recording where the experimental conditions are assumed to be constant. From the complete output for a Run section, only the blocks which have been marked as \textit{good} are made use of in analyses. The internal directory of usable luminosity blocks is named the Good Runs List (GRL).
-
-	Along with these event selections based on using correct data, analyses typically refine events down to a particular area of focus, which is discussed in Chapters \ref{c:ES}, \ref{c:OP} and \ref{c:K}.
+	Beyond the reduction in the event storage rate handled by the trigger chains and prescaling, only select sections of the overall data output by the LHC are ever used in analyses. The LHC is not free from operational errors or issues with the hardware and software of the detector. Parts of the output data can be corrupted by incomplete events due to detector failings, poor data integrity or disruption of the machine. The operational time of the LHC is split into Run sections, which are divided into luminosity blocks, time intervals of data recording where the experimental conditions are assumed to be constant. From the complete output for a Run section, only the blocks which have been marked as \textit{good} are made use of in analyses. The internal directory of usable luminosity blocks is named the Good Runs List (GRL). Along with these event selections based on using correct data, analyses typically refine events down to a particular area of focus, which is discussed in Chapters \ref{c:ES}, \ref{c:OP} and \ref{c:K}.
 
 \section{Object Reconstruction}
 
@@ -125,7 +123,7 @@
 	where $a$ is a particular exponent for a given algorithm, $R$ is the radius parameter of the final reconstructed jet size and $\Delta R_{ij}$ is the ($\eta, \phi$) space distance between the two objects. The second parameter $d_{iB}$, is the momentum space distance between the beam axis and an object \cite{jetreco} and is given by
 
 	\begin{equation}
-	d_{iB} = p_{\text{T}i}^a,
+	d_{iB} = p_{\text{T}i}^a.
 	\end{equation}
 
 	The principal algorithm used for jet reconstruction at ATLAS is the anti-$k_t$ algorithm \cite{antikt}, which is a sequential clustering algorithm with $a=-2$. The algorithm is seeded with the highest \pt topological clusters from the calorimeter cells in the event, and iteratively computes the distance parameters. At each step, the two are compared: if $d_{ij}$ is smaller, particles $i$ and $j$ are combined whereas if $d_{iB}$ is smaller particle $j$ is labeled as a jet. The fact this algorithm tends to result in approximately circular reconstructed jet objects makes it favourable for experimental analyses as they are easily calibrated. The anti-$k_t$ algorithm is IRC safe and typical used with $R=0.4$ in the ATLAS experiment, and can be readily applied to clustering partons and calorimeter deposits in addition to hadrons.
@@ -139,7 +137,7 @@
 \subsection{\textit{b}-Tagging}
 \label{det:btagging}
 
-	Hadrons containing a \bquark\, tend to feature a signature topology as a result of the long lifetime of \textit{b}-hadrons. The extended lifetime results in a significant mean flight path of the \bhadron between its production and decay, typically around 3 mm transverse to the beam line, forming a displaced secondary vertex from the primary hard scatter interaction point. This distinctive structure can be used to identify \bjets, and algorithms that exploit this are known as lifetime-based tagging algorithms \cite{bTagPerformance}.
+	Hadrons containing a \bquark\, tend to feature a signature topology as a result of the long lifetime of \textit{b}-hadrons. The extended lifetime results in a significant mean flight path of the \bhadron\ between its production and decay, typically around 3 mm transverse to the beam line, forming a displaced secondary vertex from the primary hard scatter interaction point. This distinctive structure can be used to identify \bjets, and algorithms that exploit this are known as lifetime-based tagging algorithms \cite{bTagPerformance}.
 
 	Identification of jets containing $b$-hadrons in ATLAS is based on combining the output of three separate lifetime-based \btag\, algorithms \cite{bTagExpPerf}: Impact Parameter based algorithms (IP2D and IP3D, Section \ref{det:btag:ip}), Secondary Vertex based (SV, Section \ref{det:btag:sv}) and Decay Chain based (JetFitter, Section \ref{det:btag:jf}) into a multivariate discriminant (MV2, Section \ref{det:btag:mv}) which is used to distinguish the jet flavours. These algorithms have undergone continuous improvement over the Run-2 cycle of the LHC to improve the separation of jet flavours.
 
@@ -152,6 +150,7 @@
 
 		The significance of the impact parameter values ($\frac{d_0}{\sigma_{d_0}}$, $\frac{z_0}{\sigma_{z_0}}$) for each track are compared to probability density functions obtained from reference histograms derived from Monte Carlo simulation, with each track being compared to a selection of reference track categories. This results in weights which are combined using a log-likelihood ratio (LLR) discriminant to compute an overall jet weight separating between the three jet flavours: $b$-jets, $c$-jets from to $c$ quarks, and light-jets from the $u$, $d$ and $s$ quarks~\cite{btagOptimisation, bTagPerformance}.
 
+	\newpage
 	\subsubsection{SV1: Secondary Vertex Finding algorithm}
 	\label{det:btag:sv}
 
@@ -181,6 +180,7 @@
 
 	This constraint can be alleviated by recording only a fraction of the detector readout for any given event, specifically the jet information reconstructed by the triggering system. This partial event corresponds to a reduction in the event size in bytes which allows for present bandwidth limitations to be upheld with an increased event rate. This process of using the objects produced in the trigger as substitutes for the offline objects is referred to as Trigger-Object Level Analysis (TLA) \cite{tla}.
 
+	\newpage
 	In these analyses, partially built events are collected using an additional TLA stream of the output data, which records the jet four-momentum along with a selection of additional identifying variables for jet objects in the HLT, triggered by jet objects from the L1 trigger. The readout does not include individual calorimeter cells nor information from the muon or tracking detectors, and in prior application of a TLA approach to a search for light dijet resonances \cite{tla} a partial TLA event was $~5\%$ of the size of a full detector readout, and TLA events were read out from the detector at a rate of $2$kHz.
 
 \endinput
