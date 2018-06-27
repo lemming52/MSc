@@ -1,22 +1,22 @@
 \select@language {british}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Properties of Spin-$\frac {1}{2}$ quarks}}{13}{table.2.1}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Properties of Spin-$\frac {1}{2}$ leptons}}{13}{table.2.2}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Properties of Spin-$1$ gauge bosons}}{14}{table.2.3}
-\contentsline {table}{\numberline {2.4}{\ignorespaces Branching ratios of SM Higgs boson with $m_H=125$GeV}}{23}{table.2.4}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Properties of Spin-$\frac {1}{2}$ quarks}}{15}{table.2.1}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Properties of Spin-$\frac {1}{2}$ leptons}}{15}{table.2.2}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Properties of Spin-$1$ gauge bosons}}{16}{table.2.3}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Branching ratios of SM Higgs boson with $m_H=125$GeV}}{25}{table.2.4}
 \addvspace {10pt}
-\contentsline {table}{\numberline {3.1}{\ignorespaces Performance goals and operational ranges of the ATLAS detector}}{29}{table.3.1}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Performance goals and operational ranges of the ATLAS detector}}{31}{table.3.1}
 \addvspace {10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces \textit {Two-central} channel event cuts}}{42}{table.4.1}
+\contentsline {table}{\numberline {4.1}{\ignorespaces \textit {Two-central} channel event cuts}}{44}{table.4.1}
 \addvspace {10pt}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Pseudorapidity bands of the object performance analysis}}{44}{table.5.1}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Pseudorapidity bands of the object performance analysis}}{46}{table.5.1}
 \addvspace {10pt}
-\contentsline {table}{\numberline {6.1}{\ignorespaces Results cutflow for the \textit {two-central} VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} events}}{57}{table.6.1}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Signal/Background definition $m_{bb}$ values}}{61}{table.6.2}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Results cutflow for the \textit {two-central} VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} events}}{60}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Signal/Background definition $m_{bb}$ values}}{63}{table.6.2}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {A.1}{\ignorespaces Full filenames of samples and other files used during the analysis}}{73}{table.A.1}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Full names of configurations used during the analysis}}{74}{table.A.2}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Full filenames of samples and other files used during the analysis}}{75}{table.A.1}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Full names of configurations used during the analysis}}{76}{table.A.2}
 \addvspace {10pt}
-\contentsline {table}{\numberline {B.1}{\ignorespaces BDT Variables used in training for the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} analysis.}}{76}{table.B.1}
+\contentsline {table}{\numberline {B.1}{\ignorespaces BDT Variables used in training for the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} analysis.}}{78}{table.B.1}

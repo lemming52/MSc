@@ -1,38 +1,38 @@
 \select@language {british}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Feynmann diagrams of lowest order Higgs production processes}}{21}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Higgs production cross section as a function of Higgs mass at a $\sqrt {s}=14$TeV}}{22}{figure.2.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Feynmann diagrams of lowest order Higgs production processes}}{23}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Higgs production cross section as a function of Higgs mass at a $\sqrt {s}=14$TeV}}{24}{figure.2.2}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic cut-away of the ATLAS detector}}{27}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic plot of the ATLAS Trigger and Data acquisition system}}{30}{figure.3.2}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic cut-away of the ATLAS detector}}{29}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic plot of the ATLAS Trigger and Data acquisition system}}{32}{figure.3.2}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces $\Delta R$ values for online/offline jet pairs in Monte-Carlo simulation}}{43}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ for the leading $b$-jet in data and Monte-Carlo simulations}}{45}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ distribution for leading \textit {b}-jets\ with $89<$$p_\text {T}$ $<91$ in data and Monte-Carlo simulations}}{46}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces $\frac {\Delta \eta }{\eta }$ for the leading \textit {b}-jet\ in data and Monte-Carlo simulations}}{47}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces $\frac {\Delta \phi }{\phi }$ for the leading \textit {b}-jet\ in data and Monte-Carlo simulations}}{47}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ for the leading $p_\text {T}$ non-$b$-jet in data and Monte-Carlo simulations}}{48}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ distribution for leading non-\textit {b}-jets\ with $89<$$p_\text {T}$ $<91$ in data and Monte-Carlo simulations}}{50}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces $\frac {\Delta \eta }{\eta }$ for the leading non-\textit {b}-jet\ in data and Monte-Carlo simulations}}{51}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces $\frac {\Delta \phi }{\phi }$ for the leading non-\textit {b}-jet\ in data and Monte-Carlo simulations}}{51}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of \textit {b}-jet\ tagging efficiency on truth \textit {b}-jets\ between online and offline jets in Monte-Carlo simulation}}{53}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison of mistag rate between online and offline truth \textit {c}-jets\ in Monte-Carlo simulation}}{55}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison of mistag rate between online and offline truth light-jets in Monte-Carlo simulation}}{55}{figure.5.12}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces $\Delta R$ values for online/offline jet pairs in Monte-Carlo simulation}}{45}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ for the leading $b$-jet in data and Monte-Carlo simulations}}{47}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ distribution for leading \textit {b}-jets\ with $89<$$p_\text {T}$ $<91$ in data and Monte-Carlo simulations}}{48}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces $\frac {\Delta \eta }{\eta }$ for the leading \textit {b}-jet\ in data and Monte-Carlo simulations}}{49}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces $\frac {\Delta \phi }{\phi }$ for the leading \textit {b}-jet\ in data and Monte-Carlo simulations}}{49}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ for the leading $p_\text {T}$ non-$b$-jet in data and Monte-Carlo simulations}}{50}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ distribution for leading non-\textit {b}-jets\ with $89<$$p_\text {T}$ $<91$ in data and Monte-Carlo simulations}}{51}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces $\frac {\Delta \eta }{\eta }$ for the leading non-\textit {b}-jet\ in data and Monte-Carlo simulations}}{53}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces $\frac {\Delta \phi }{\phi }$ for the leading non-\textit {b}-jet\ in data and Monte-Carlo simulations}}{53}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of \textit {b}-jet\ tagging efficiency on truth \textit {b}-jets\ between online and offline jets in Monte-Carlo simulation}}{55}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison of mistag rate between online and offline truth \textit {c}-jets\ in Monte-Carlo simulation}}{57}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison of mistag rate between online and offline truth light-jets in Monte-Carlo simulation}}{57}{figure.5.12}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ Cutflow ratio for Monte-Carlo simulation}}{58}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ Cutflow ratio for data}}{59}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces $p_\text {T}$ distribution of the leading \textit {b}-jet\ of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}}{61}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces $p_\text {T}$ distribution of the leading non-\textit {b}-jet\ of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}}{62}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces $\eta $ distribution of the leading \textit {b}-jet\ of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}}{63}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces $\eta $ distribution of the leading non-\textit {b}-jet\ of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}}{64}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Comparison of the $p_{\text {T}jj}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{65}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Comparison of the $m_{jj}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{65}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Comparison of the $p_{\text {T}bb}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{66}{figure.6.9}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Comparison of the $m_{bb}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{67}{figure.6.10}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Comparison of the $\eta ^*$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{68}{figure.6.11}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Comparison of the $p_{\text {T} balance}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{68}{figure.6.12}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ Cutflow ratio for Monte-Carlo simulation}}{60}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ Cutflow ratio for data}}{61}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces $p_\text {T}$ distribution of the leading \textit {b}-jet\ of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}}{63}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces $p_\text {T}$ distribution of the leading non-\textit {b}-jet\ of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}}{64}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces $\eta $ distribution of the leading \textit {b}-jet\ of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}}{65}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces $\eta $ distribution of the leading non-\textit {b}-jet\ of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}}{66}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Comparison of the $p_{\text {T}jj}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{67}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Comparison of the $m_{jj}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{67}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Comparison of the $p_{\text {T}bb}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{68}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Comparison of the $m_{bb}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{69}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Comparison of the $\eta ^*$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{70}{figure.6.11}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Comparison of the $p_{\text {T} balance}$ distribution of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events for HLT and offline objects}}{70}{figure.6.12}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
