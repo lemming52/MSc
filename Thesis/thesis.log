@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  27 JUN 2018 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  28 JUN 2018 23:26
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2329,10 +2329,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: B97E07D9A8DB05A15977E6CFD3C7B153;2823.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  14982 strings out of 493335
@@ -2372,7 +2368,7 @@ X 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/andre/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/andre/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/andre/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (85 pages, 2228520 bytes).
+Output written on thesis.pdf (85 pages, 2240091 bytes).
 PDF statistics:
  3477 PDF objects out of 3580 (max. 8388607)
  306 named destinations out of 1000 (max. 500000)
