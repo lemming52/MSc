@@ -56,26 +56,26 @@
 \contentsline {chapter}{\chapternumberline {5}Object Performance}{45}{chapter.5}
 \contentsline {section}{\numberline {5.1}Leading \textit {b}-jets}{46}{section.5.1}
 \contentsline {section}{\numberline {5.2}Leading Non \textit {b}-jets}{50}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Summary of Comparison of Jet Objects between Offline and Online}{54}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Jet Tagging Efficiency}{54}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}\textit {b}-jet efficiency}{55}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}\textit {c}-jet efficiency}{56}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Light-jet efficiency}{57}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Summary}{58}{section.5.4}
-\contentsline {chapter}{\chapternumberline {6}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} Analysis}{59}{chapter.6}
-\contentsline {section}{\numberline {6.1}Cutflow}{59}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Monte-Carlo}{59}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Data}{61}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Summary of Cutflow Comparison for the Online and Offline VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events}{62}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Specific Jet Feature Distributions}{63}{section.6.2}
-\contentsline {section}{\numberline {6.3}Kinematic quantities of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}{66}{section.6.3}
-\contentsline {section}{\numberline {6.4}BDT Input Variables}{69}{section.6.4}
-\contentsline {section}{\numberline {6.5}Summary}{71}{section.6.5}
-\contentsline {chapter}{\chapternumberline {7}Conclusions}{72}{chapter.7}
-\contentsline {appendix}{\chapternumberline {A}Configuration}{75}{appendix.A}
-\contentsline {section}{\numberline {A.1}Files}{75}{section.A.1}
-\contentsline {section}{\numberline {A.2}Configurations}{76}{section.A.2}
-\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{77}{appendix.B}
-\contentsline {section}{\numberline {B.1}Machine Learning}{77}{section.B.1}
-\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{78}{section.B.2}
-\contentsline {chapter}{Bibliography}{79}{section*.9}
+\contentsline {subsection}{\numberline {5.2.1}Summary of Comparison of Jet Objects between Offline and Online}{52}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Jet Tagging Efficiency}{53}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}\textit {b}-jet efficiency}{54}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}\textit {c}-jet efficiency}{55}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Light-jet efficiency}{56}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Summary}{57}{section.5.4}
+\contentsline {chapter}{\chapternumberline {6}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} Analysis}{58}{chapter.6}
+\contentsline {section}{\numberline {6.1}Cutflow}{58}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Monte-Carlo}{58}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Data}{60}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Summary of Cutflow Comparison for the Online and Offline VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ events}{61}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Specific Jet Feature Distributions}{62}{section.6.2}
+\contentsline {section}{\numberline {6.3}Kinematic quantities of the VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ event}{65}{section.6.3}
+\contentsline {section}{\numberline {6.4}BDT Input Variables}{68}{section.6.4}
+\contentsline {section}{\numberline {6.5}Summary}{70}{section.6.5}
+\contentsline {chapter}{\chapternumberline {7}Conclusions}{71}{chapter.7}
+\contentsline {appendix}{\chapternumberline {A}Configuration}{74}{appendix.A}
+\contentsline {section}{\numberline {A.1}Files}{74}{section.A.1}
+\contentsline {section}{\numberline {A.2}Configurations}{75}{section.A.2}
+\contentsline {appendix}{\chapternumberline {B}Boosted Decision Trees}{76}{appendix.B}
+\contentsline {section}{\numberline {B.1}Machine Learning}{76}{section.B.1}
+\contentsline {section}{\numberline {B.2}VBF $H\rightarrow b\mathaccentV {bar}016{b}$\tmspace +\thinmuskip {.1667em} BDT Training}{77}{section.B.2}
+\contentsline {chapter}{Bibliography}{78}{section*.9}
