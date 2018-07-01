@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  30 JUN 2018 18:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  2 JUL 2018 00:48
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2089,32 +2089,25 @@ File: K/FIGS/ptjj_mc_.pdf Graphic file (type pdf)
 <use K/FIGS/ptjj_mc_.pdf>
 Package pdftex.def Info: K/FIGS/ptjj_mc_.pdf used on input line 170.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<K/FIGS/mjj_data_.pdf, id=2440, 569.12625pt x 558.085pt>
+ [65 <./K/FIGS/eta_lJet1_data_.pdf, page is rotated 90 degrees> <./K/FIGS/eta_l
+Jet1_mc_.pdf, page is rotated 90 degrees>]
+<K/FIGS/mjj_data_.pdf, id=2530, 569.12625pt x 558.085pt>
 File: K/FIGS/mjj_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/mjj_data_.pdf>
 Package pdftex.def Info: K/FIGS/mjj_data_.pdf used on input line 179.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
-<K/FIGS/mjj_mc_.pdf, id=2441, 569.12625pt x 558.085pt>
+<K/FIGS/mjj_mc_.pdf, id=2531, 569.12625pt x 558.085pt>
 File: K/FIGS/mjj_mc_.pdf Graphic file (type pdf)
 
 <use K/FIGS/mjj_mc_.pdf>
 Package pdftex.def Info: K/FIGS/mjj_mc_.pdf used on input line 183.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[65 <./K/FIGS/eta_lJet1_data_.pdf, page is rotated 90 degrees> <./K/FIGS/eta_lJ
-et1_mc_.pdf, page is rotated 90 degrees>] [66 <./K/FIGS/ptjj_data_.pdf, page is
- rotated 90 degrees> <./K/FIGS/ptjj_mc_.pdf, page is rotated 90 degrees> <./K/F
-IGS/mjj_data_.pdf, page is rotated 90 degrees> <./K/FIGS/mjj_mc_.pdf, page is r
-otated 90 degrees>] <K/FIGS/ptbb_data_.pdf, id=2714, 569.12625pt x 558.085pt>
+ [66 <./K/FIGS/ptjj_data_.pdf, page is rotated 90 degrees> <./K/FIGS/ptjj_mc_.p
+df, page is rotated 90 degrees> <./K/FIGS/mjj_data_.pdf, page is rotated 90 deg
+rees> <./K/FIGS/mjj_mc_.pdf, page is rotated 90 degrees>] <K/FIGS/ptbb_data_.pd
+f, id=2714, 569.12625pt x 558.085pt>
 File: K/FIGS/ptbb_data_.pdf Graphic file (type pdf)
 
 <use K/FIGS/ptbb_data_.pdf>
@@ -2371,7 +2364,7 @@ X 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/andre/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/andre/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/andre/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (84 pages, 2240026 bytes).
+Output written on thesis.pdf (84 pages, 2240150 bytes).
 PDF statistics:
  3472 PDF objects out of 3580 (max. 8388607)
  305 named destinations out of 1000 (max. 500000)
