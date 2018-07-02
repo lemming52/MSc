@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  2 JUL 2018 00:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.28)  2 JUL 2018 14:00
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1731,9 +1731,9 @@ Package pdftex.def Info: ObP/FIGS/deltaR.pdf used on input line 7.
 
 
  <./ObP/FIGS/deltaR.pdf, page is rotated 90 degrees>]
-Overfull \hbox (19.82133pt too wide) in paragraph at lines 35--36
-\T1/ntxtlf/m/n/10.95 all real data events where the \T1/ntxtt/m/n/10.95 HLT_j80
-_bmv2c2070_split_-j60_bmv2c2085_split_j45_320eta490
+Overfull \hbox (1.76488pt too wide) in paragraph at lines 34--35
+\T1/ntxtlf/m/n/10.95 all data events where the \T1/ntxtt/m/n/10.95 HLT_j80_bmv2
+c2070_split_-j60_bmv2c2085_split_j45_320eta490
  []
 
 <ObP/FIGS/ptRatio_Leading_BJet.pdf, id=934, 569.12625pt x 558.085pt>
@@ -1741,14 +1741,14 @@ File: ObP/FIGS/ptRatio_Leading_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptRatio_Leading_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/ptRatio_Leading_BJet.pdf used on input line 4
-5.
+4.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 <ObP/FIGS/Offline_2C_ptRatio_Leading_BJet.pdf, id=935, 569.12625pt x 558.085pt>
 File: ObP/FIGS/Offline_2C_ptRatio_Leading_BJet.pdf Graphic file (type pdf)
 <use ObP/FIGS/Offline_2C_ptRatio_Leading_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Offline_2C_ptRatio_Leading_BJet.pdf used on i
-nput line 50.
+nput line 49.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 
@@ -1760,7 +1760,7 @@ File: ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf used on input
- line 67.
+ line 66.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 <ObP/FIGS/Slices_Data_ptRatio_Leading_BJet.pdf, id=946, 569.12625pt x 558.085pt
@@ -1768,7 +1768,7 @@ Package pdftex.def Info: ObP/FIGS/Slices_ptRatio_Leading_BJet.pdf used on input
 File: ObP/FIGS/Slices_Data_ptRatio_Leading_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Slices_Data_ptRatio_Leading_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Slices_Data_ptRatio_Leading_BJet.pdf used on 
-input line 71.
+input line 70.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 
@@ -1781,7 +1781,7 @@ File: ObP/FIGS/etaRatio_Leading_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaRatio_Leading_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/etaRatio_Leading_BJet.pdf used on input line 
-87.
+86.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 <ObP/FIGS/Offline_2C_etaRatio_Leading_BJet.pdf, id=1045, 569.12625pt x 558.085p
@@ -1789,7 +1789,7 @@ t>
 File: ObP/FIGS/Offline_2C_etaRatio_Leading_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Offline_2C_etaRatio_Leading_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Offline_2C_etaRatio_Leading_BJet.pdf used on 
-input line 92.
+input line 91.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 
@@ -1800,7 +1800,7 @@ File: ObP/FIGS/phiRatio_Leading_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/phiRatio_Leading_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/phiRatio_Leading_BJet.pdf used on input line 
-101.
+100.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 <ObP/FIGS/Offline_2C_phiRatio_Leading_BJet.pdf, id=1047, 569.12625pt x 558.085p
@@ -1808,7 +1808,7 @@ t>
 File: ObP/FIGS/Offline_2C_phiRatio_Leading_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Offline_2C_phiRatio_Leading_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Offline_2C_phiRatio_Leading_BJet.pdf used on 
-input line 106.
+input line 105.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 
@@ -1825,7 +1825,7 @@ File: ObP/FIGS/ptRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptRatio_Leading_Non_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/ptRatio_Leading_Non_BJet.pdf used on input li
-ne 125.
+ne 124.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 <ObP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf, id=1321, 569.12625pt x 558.0
@@ -1833,7 +1833,7 @@ ne 125.
 File: ObP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf used 
-on input line 130.
+on input line 129.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
  [50 <./ObP/FIGS/ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees> <./O
 bP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees>]
@@ -1842,7 +1842,7 @@ bP/FIGS/Offline_2C_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees>]
 File: ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
  <use ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf used on i
-nput line 146.
+nput line 145.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 <ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf, id=1421, 569.12625pt x 558.
@@ -1851,7 +1851,7 @@ File: ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
  <use ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf used
- on input line 150.
+ on input line 149.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
  [51 <./ObP/FIGS/Slices_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 degree
 s> <./ObP/FIGS/Slices_Data_ptRatio_Leading_Non_BJet.pdf, page is rotated 90 deg
@@ -1861,7 +1861,7 @@ File: ObP/FIGS/etaRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaRatio_Leading_Non_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/etaRatio_Leading_Non_BJet.pdf used on input l
-ine 167.
+ine 166.
 (pdftex.def)             Requested size: 187.06049pt x 183.43626pt.
 
 <ObP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf, id=1516, 569.12625pt x 558.
@@ -1870,7 +1870,7 @@ File: ObP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
  <use ObP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Offline_2C_etaRatio_Leading_Non_BJet.pdf used
- on input line 171.
+ on input line 170.
 (pdftex.def)             Requested size: 187.06049pt x 183.43626pt.
 
 <ObP/FIGS/phiRatio_Leading_Non_BJet.pdf, id=1517, 569.12625pt x 558.085pt>
@@ -1878,7 +1878,7 @@ File: ObP/FIGS/phiRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/phiRatio_Leading_Non_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/phiRatio_Leading_Non_BJet.pdf used on input l
-ine 180.
+ine 179.
 (pdftex.def)             Requested size: 187.06049pt x 183.43626pt.
 
 <ObP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf, id=1518, 569.12625pt x 558.
@@ -1887,7 +1887,7 @@ File: ObP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf Graphic file (type pdf)
 
  <use ObP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf>
 Package pdftex.def Info: ObP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf used
- on input line 184.
+ on input line 183.
 (pdftex.def)             Requested size: 187.06049pt x 183.43626pt.
 
 
@@ -1901,14 +1901,14 @@ bP/FIGS/Offline_2C_phiRatio_Leading_Non_BJet.pdf, page is rotated 90 degrees>]
 File: ObP/FIGS/ptBJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptBJET.pdf>
-Package pdftex.def Info: ObP/FIGS/ptBJET.pdf used on input line 219.
+Package pdftex.def Info: ObP/FIGS/ptBJET.pdf used on input line 218.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 <ObP/FIGS/etaBJET.pdf, id=1711, 569.12625pt x 558.085pt>
 File: ObP/FIGS/etaBJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaBJET.pdf>
-Package pdftex.def Info: ObP/FIGS/etaBJET.pdf used on input line 224.
+Package pdftex.def Info: ObP/FIGS/etaBJET.pdf used on input line 223.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
  [54 <./ObP/FIGS/ptBJET.pdf, page is rotated 90 degrees> <./ObP/FIGS/etaBJET.pd
 f, page is rotated 90 degrees>]
@@ -1916,14 +1916,14 @@ f, page is rotated 90 degrees>]
 File: ObP/FIGS/ptCJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptCJET.pdf>
-Package pdftex.def Info: ObP/FIGS/ptCJET.pdf used on input line 241.
+Package pdftex.def Info: ObP/FIGS/ptCJET.pdf used on input line 240.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 <ObP/FIGS/etaCJET.pdf, id=1810, 569.12625pt x 558.085pt>
 File: ObP/FIGS/etaCJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaCJET.pdf>
-Package pdftex.def Info: ObP/FIGS/etaCJET.pdf used on input line 246.
+Package pdftex.def Info: ObP/FIGS/etaCJET.pdf used on input line 245.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 
@@ -1933,14 +1933,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ObP/FIGS/ptLIGHTJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/ptLIGHTJET.pdf>
-Package pdftex.def Info: ObP/FIGS/ptLIGHTJET.pdf used on input line 263.
+Package pdftex.def Info: ObP/FIGS/ptLIGHTJET.pdf used on input line 262.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
 
 <ObP/FIGS/etaLIGHTJET.pdf, id=1823, 569.12625pt x 558.085pt>
 File: ObP/FIGS/etaLIGHTJET.pdf Graphic file (type pdf)
 
 <use ObP/FIGS/etaLIGHTJET.pdf>
-Package pdftex.def Info: ObP/FIGS/etaLIGHTJET.pdf used on input line 268.
+Package pdftex.def Info: ObP/FIGS/etaLIGHTJET.pdf used on input line 267.
 (pdftex.def)             Requested size: 191.0383pt x 187.33646pt.
  [56 <./ObP/FIGS/ptCJET.pdf, page is rotated 90 degrees> <./ObP/FIGS/etaCJET.pd
 f, page is rotated 90 degrees> <./ObP/FIGS/ptLIGHTJET.pdf, page is rotated 90 d
@@ -2364,7 +2364,7 @@ X 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/andre/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/andre/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/andre/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (84 pages, 2240150 bytes).
+Output written on thesis.pdf (84 pages, 2240131 bytes).
 PDF statistics:
  3472 PDF objects out of 3580 (max. 8388607)
  305 named destinations out of 1000 (max. 500000)

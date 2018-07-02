@@ -5,11 +5,10 @@ Prior to conducting a full study of TLA on the \VBFHBB\, channel, the features o
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\linewidth]{deltaR}
-	\caption[$\Delta R$ values for online/offline jet pairs in Monte-Carlo simulation]{Plot of $\Delta R$ values for all online/offline jet pairs taken from the Monte-Carlo simulations. The large spike at $\sim0$ accounts for matching jets, with the higher $\Delta R$ Values corresponding to differing jet pairs.}
+	\caption[$\Delta R$ values for online/offline jet pairs in Monte-Carlo simulation]{Plot of $\Delta R$ values for all online/offline jet pairs taken from the Monte-Carlo simulations. The large spike at $\sim0$ accounts for matching jets, with the higher $\Delta R$ values corresponding to differing jet pairs.}
 	\label{f:deltaR}
 \end{figure}
-To compare the online and offline jets, the fractional
-. difference in value for a variety of jet kinematic properties between the matched jets were evaluated. These values were calculated for jet feature $X$ using the ratio of the difference between the offline and online jet features to the offline jet feature
+To compare the online and offline jets, the fractional difference in value for a variety of jet kinematic properties between the matched jets were evaluated. These values were calculated for jet feature $X$ using the ratio of the difference between the offline and online jet features to the offline jet feature
 
 	\begin{equation}
 	\frac{\Delta X}{X} = \frac{X_{Offline} - X_{Online}}{X_{Offline}},
@@ -32,12 +31,12 @@ To compare the online and offline jets, the fractional
 		\end{tabular}\\[5pt]
 	\end{table}
 
-	The jets used to produce these plots were taken from all analysed Monte-Carlo events and all real data events where the \texttt{HLT\_j80\_bmv2c2070\_split\_\-j60\_bmv2c2085\_split\_j45\_320eta490} trigger was passed, but the additional \VBFHBB\, requirements mentioned in Section \ref{es:as} were not enforced. In addition, given the \pt requirements of the desired event are high, only jets with \pt$>45$~GeV were considered for analysis.
+	The jets used to produce these plots were taken from all analysed Monte-Carlo events and all data events where the \texttt{HLT\_j80\_bmv2c2070\_split\_\-j60\_bmv2c2085\_split\_j45\_320eta490} trigger was passed, but the additional \VBFHBB\, requirements mentioned in Section \ref{es:as} were not enforced. In addition, given the \pt requirements of the desired event are high, only jets with \pt$>45$~GeV were considered for analysis.
 
 \section{Leading \textit{b}-jets}
 \label{OP:leadingb}
 
-	The leading \pt offline $b$-jet was selected from an event, requiring the jet to pass the \textit{Tight} \btagging\ working point. This jet was matched to a corresponding online jet using $\Delta R$ matching, and the properties of each of these jets compared in both data and Monte-Carlo simulations. The \dptpt distribution for both the Monte-Carlo and data with respect to the \pt of the leading \bjet\ is shown in Figure \ref{fig:O:leadingbpt}.
+	The leading \pt offline $b$-jet was selected from an event, requiring the jet to pass the tight \btagging\ working point. This jet was matched to a corresponding online jet using $\Delta R$ matching, and the properties of each of these jets compared in both data and Monte-Carlo simulations. The \dptpt distribution for both the Monte-Carlo and data with respect to the \pt of the leading \bjet\ is shown in Figure \ref{fig:O:leadingbpt}.
 
 		\begin{figure}[h]
 			\centering
@@ -133,7 +132,7 @@ To compare the online and offline jets, the fractional
 		\label{fig:O:leadingnonbpt}
 	\end{figure}
 
-	The leading non-\bjet\ distributions show similar results to the leading \bjet\ distributions in Figure \ref{fig:O:leadingbpt}. The peak of the distribution between $0<$ \dptpt$<0.1$ shows there is agreement between the \pt of the offline and the online non-\bjet. The overall shape of the distribution shows some differences between the Monte-Carlo simulation and data however. The distributions are similarly structured, with a \dptpt width between $-0.1$ and $0.15$ and the \pt offline distribution reaching a maximum value of $\sim180$~GeV. However, there is a distinct cluster of results shown only in the right panel of Figure \ref{fig:O:leadingnonbpt} of low \pt offline jets with \dptpt$>0.1$. This bulge is likely caused by the different calibrations applied to trigger and offline jets. The default jet energy scale calibration is known to need large in-situ corrections in different regions of the calorimeter and these are applied only to the offline jets as shown in Table \ref{t:config},  so differing responses are expected. In addition, Figure \ref{fig:O:leadingnonbptslice} shows the origin of the bulge could be due to jets reconstructed in the forward calorimeter, which are peaked toward higher \dptpt values than jets from other calorimeter r There is also a suggestion of a curving edge to the distribution for the data, in an opposite direction to that shown for the leading \bjet\ in Figure \ref{fig:O:leadingbpt}. In addition, the peak of the data is slightly higher in \pt ($\sim80$-$120$~GeV) than in the Monte-Carlo simulations ($\sim60$-$110$~GeV).
+	The leading non-\bjet\ distributions show similar results to the leading \bjet\ distributions in Figure \ref{fig:O:leadingbpt}. The peak of the distribution between $0<$ \dptpt$<0.1$ shows there is agreement between the \pt of the offline and the online non-\bjet. The overall shape of the distribution shows some differences between the Monte-Carlo simulation and data. The distributions are similarly structured, with a \dptpt width between $-0.1$ and $0.15$ and the \pt offline distribution reaching a maximum value of $\sim180$~GeV. However, there is a distinct cluster of results shown only in the right panel of Figure \ref{fig:O:leadingnonbpt} of low \pt offline jets with \dptpt$>0.1$. This bulge is likely caused by the different calibrations applied to trigger and offline jets. The default jet energy scale calibration is known to need large in-situ corrections in different regions of the calorimeter and these are applied only to the offline jets as shown in Table \ref{t:config},  so differing responses are expected. In addition, Figure \ref{fig:O:leadingnonbptslice} shows the origin of the bulge could be due to jets reconstructed in the forward calorimeter, which are peaked toward higher \dptpt values than jets from other calorimeter. There is also a suggestion of a curving edge to the distribution for the data, in an opposite direction to that shown for the leading \bjet\ in Figure \ref{fig:O:leadingbpt}. In addition, the peak of the data is slightly higher in \pt ($\sim80$-$120$~GeV) than in the Monte-Carlo simulations ($\sim60$-$110$~GeV).
 
 	The slight upward shift in \pt can be explained by the \pt requirements of the trigger applied only to the data. Requiring the jet components to exceed high \pt cuts will bias the results to events containing high \pt jets, accounting for the upward \pt shift of the data events in the right panel of Figure \ref{fig:O:leadingnonbpt} relative to the left.
 
@@ -204,9 +203,9 @@ To compare the online and offline jets, the fractional
 	As covered in Section  \ref{det:btag:mv}, the standard algorithm for 2016 physics analyses was chosen to be the 2016 MV2c10 algorithm. However, the HLT \btag\ algorithm uses the older MV2c20 algorithm \cite{trig2015}. For any form of a Trigger Level Analysis to be considered valid, the performance of the tagging algorithms used in the trigger, which are fixed at the point of data collection, must be comparable with the tagging executed offline with more up to date \btag\ configurations.
 
 	\newpage
-	To study this, the \btag\ efficiency at trigger level and offline is studied for different jet flavours using the Monte-Carlo sample. The Monte-Carlo sample was used as the \textit{truth} nature of the jet object is known, and the result of the \btag\ algorithm can be compared for \bjets, \cjets\, and light-jets.
+	To study this, the \btag\ efficiency at trigger level and offline is studied for different jet flavours using the Monte-Carlo sample. The Monte-Carlo sample was used as the \textit{truth} nature of the jet object is known, and the result of the \btag\ algorithm can be compared for \bjets, \cjets\ and light-jets.
 
-	In the analysis, an offline/HLT jet pair was formed using $\Delta R$ matching and using the truth label of the offline jet to assign a flavour to the pair. Light-jets, \bjets\, and \cjets\, were all studied separately to view the \btag\, efficiency and the mistag rate of both algorithms operating at the \textit{tight} working point for an expected \btag\ efficiency of $70\%$. The efficiency plots in Figures \ref{fig:MC:bjetefficiency}, \ref{fig:MC:cjetefficiency} and \ref{fig:MC:lightjetefficiency} show the fraction of these jets that were identified as \bjets\, by the HLT and offline tagging algorithms. These plots were created from events following the same cuts as for the leading \bjet\ and non-\bjet\ as discussed at the beginning of the chapter.
+	In the analysis, an offline/HLT jet pair was formed using $\Delta R$ matching and using the truth label of the offline jet to assign a flavour to the pair. Light-jets, \bjets\ and \cjets\ were all studied separately to view the \btag\ efficiency and the mistag rate of both algorithms operating at the tight working point for an expected \btag\ efficiency of $70\%$. The efficiency plots in Figures \ref{fig:MC:bjetefficiency}, \ref{fig:MC:cjetefficiency} and \ref{fig:MC:lightjetefficiency} show the fraction of these jets that were identified as \bjets\ by the HLT and offline tagging algorithms. These plots were created from events following the same cuts as for the leading \bjet\ and non-\bjet\ as discussed at the beginning of the chapter.
 
 	\subsection{\textit{b}-jet efficiency}
 	\label{obp:beff}
@@ -227,7 +226,7 @@ To compare the online and offline jets, the fractional
 			\label{fig:MC:bjetefficiency}
 		\end{figure}
 
-		The overall distribution shape in \pt and $\eta$ for the \btag\ efficiency is consistent for both the online and offline \bjet. The shape of the distribution in \pt shown in the left panel of Figure \ref{fig:MC:bjetefficiency} is consistent with the efficiency curves expected for the MV2 \btag\ algorithm with respect to \pt \cite{btagOptimisation}, and the efficiency is consistent with the $70\%$ value expected for the \textit{tight} working point for the offline jets, shown clearly by the flat peak of the $\eta$ distribution in the right panel for the central $\eta$ regions.
+		The overall distribution shape in \pt and $\eta$ for the \btag\ efficiency is consistent for both the online and offline \bjet. The shape of the distribution in \pt shown in the left panel of Figure \ref{fig:MC:bjetefficiency} is consistent with the efficiency curves expected for the MV2 \btag\ algorithm with respect to \pt \cite{btagOptimisation}, and the efficiency is consistent with the $70\%$ value expected for the tight working point for the offline jets, shown clearly by the flat peak of the $\eta$ distribution in the right panel for the central $\eta$ regions.
 
 		However, the HLT \btag\ is shown to be around 5\% less efficient than the offline \btag\ for jets with \pt$>50$~GeV. This value is consistent across the \pt distribution shown by the flat line at $\sim0.95$ in the ratio plot in the left panel of Figure \ref{fig:MC:bjetefficiency}. The improvement in efficiency between the 2016 MV2c10 and 2015 MV2c20 algorithms is consistent with the comparative behaviour shown for a training $t\bar{t}$ sample \cite{btagOptimisation}, but of a larger magnitude. The performance will also differ as the computational time available for the online algorithm is greatly reduced compared to the offline tagging. This requires a less precise tracking algorithm which will perform slightly worse than the offline algorithm, which should account for some of the difference.
 
@@ -251,7 +250,7 @@ To compare the online and offline jets, the fractional
 
 		The shape of the mistag rate distribution is more noisy than the \bjet\ efficiency plots in Figure \ref{fig:MC:bjetefficiency}, but across the \pt distribution in the left panel of Figure \ref{fig:MC:cjetefficiency} the online mistag rate is $\sim50\%$ higher than the offline rate.
 
-		The increase in the rate of \cjet\ mistagging is absolutely consistent with the refinements to the algorithm between the 2016 MV2c10 and 2015 MV2c20, with increased levels of \cjet\ rejection in the offline 2016 MV2c10, and the increase is consistent with the expected shift from the optimised algorithm \cite{btagOptimisation}. Similar to the solution for changes in \btag\ efficiency in Section \ref{obp:beff}, retaining the inputs to the \btag\ algorithms would allow improved versions of the \btag\ algorithms to be applied to the HLT jets.
+		The increase in the rate of \cjet\ mistagging is absolutely consistent with the refinements to the algorithm between the 2016 MV2c10 and 2015 MV2c20, with increased levels of \cjet\ rejection in the offline 2016 MV2c10, and the increase is consistent with the expected shift from the optimised algorithm \cite{btagOptimisation}. Similar to the solution for changes in \btag\ efficiency in Section \ref{obp:beff}, retaining the inputs to the \btag\ algorithms would allow improved versions of the algorithms to be applied to the HLT jets.
 
 	\subsection{Light-jet efficiency}
 
