@@ -69,7 +69,7 @@ To compare the online and offline jets, the fractional difference in value for a
 			\begin{minipage}[h]{0.48\linewidth}
 				\includegraphics[width=1\linewidth]{Slices_Data_ptRatio_Leading_BJet}
 			\end{minipage}
-			\caption[\dptpt distribution for leading \bjets\ with $89<$\pt$<91$ in data and Monte-Carlo simulations]{\dptpt distribution for the leading \bjet\ with $89<$\pt$<91$ GeV. The distributions for all events and events split by $\eta$ region are shown. Monte-Carlo simulation is shown in the left panel and data in the right panel.}
+			\caption[\dptpt distribution for leading \bjets\ with $89<$\pt$<91$~GeV in data and Monte-Carlo simulations]{\dptpt distribution for the leading \bjet\ with $89<$\pt$<91$ GeV. The distributions for all events and events split by $\eta$ region are shown. Monte-Carlo simulation is shown in the left panel and data in the right panel.}
 			\label{fig:O:leadingbptslice}
 		\end{figure}
 
@@ -148,7 +148,7 @@ To compare the online and offline jets, the fractional difference in value for a
 		\begin{minipage}[h]{0.48\linewidth}
 			\includegraphics[width=1\linewidth]{Slices_Data_ptRatio_Leading_Non_BJet}
 		\end{minipage}
-		\caption[\dptpt distribution for leading non-\bjets\ with $89<$\pt$<91$ in data and Monte-Carlo simulations]{\dptpt distribution for the leading non-\bjet, with $89<$\pt$<91$~GeV plotted for Monte-Carlo simulation in the left panel and data in the right panel. The distributions for all events and events split by $\eta$ region are shown.}
+		\caption[\dptpt distribution for leading non-\bjets\ with $89<$\pt$<91$~GeV in data and Monte-Carlo simulations]{\dptpt distribution for the leading non-\bjet, with $89<$\pt$<91$~GeV plotted for Monte-Carlo simulation in the left panel and data in the right panel. The distributions for all events and events split by $\eta$ region are shown.}
 		\label{fig:O:leadingnonbptslice}
 	\end{figure}
 
@@ -159,6 +159,8 @@ To compare the online and offline jets, the fractional difference in value for a
 	The relatively increased proportion of forward jets is likely a consequence of the \texttt{HLT\_j80\_\-bmv2c2070\_split\_\-j60\_bmv2c2085\_split\_j45\_320eta490} trigger being applied to the data. As the data events are required to have a forward jet to be stored in the histogram, this will bias the results to contain a greater proportion of forward jets, leading to the larger peak.
 
 	The \dptpt results for the leading non-\bjet\, as for the leading \bjet\, show a difference in energy calibration between the HLT jet objects and the reconstructed offline objects. This difference in calibration can be corrected using standard jet calibration tools to bring the \pt values into closer agreement with one another \cite{JES, jetcalib}.
+
+	These \dxx values can be calculated and plotted for the topological kinematic quantities ($\eta$,~$\phi$), with \dee for the leading non-\bjet\ plotted in Figure \ref{fig:O:leadingnonbeta} against the offline jet $\eta$, and \dphph against offline $\phi$ plotted in Figure \ref{fig:O:leadingnonbphi}. As with the \bjets\, the ($\eta$,~$\phi$) values of the offline and online jets produce nearly identical results, with the distribution of \dxx firmly centred around 0 and a width of less than $1\%$. As with the \bjets, this shows the spatial position of the leading non-\bjet\ is comparable for online and offline objects.
 
 	\begin{figure}[h]
 		\centering
@@ -186,9 +188,8 @@ To compare the online and offline jets, the fractional difference in value for a
 		\label{fig:O:leadingnonbphi}
 	\end{figure}
 
-	These \dxx values can be calculated and plotted for the topological kinematic quantities ($\eta$,~$\phi$), with \dee for the leading non-\bjet\ plotted in Figure \ref{fig:O:leadingnonbeta} against the offline jet $\eta$, and \dphph against offline $\phi$ plotted in Figure \ref{fig:O:leadingnonbphi}. As with the \bjets\, the ($\eta$,~$\phi$) values of the offline and online jets produce nearly identical results, with the distribution of \dxx firmly centred around 0 and a width of less than $1\%$. As with the \bjets, this shows the spatial position of the leading non-\bjet\ is comparable for online and offline objects.
 
-
+	\newpage
 	\subsection{Summary of Comparison of Jet Objects between Offline and Online}
 	\label{obp:jetsum}
 
@@ -198,11 +199,11 @@ To compare the online and offline jets, the fractional difference in value for a
 
 		With this calibration executed on the HLT jet objects, the online jets would then be directly comparable in energy scale and topographical location to the offline jet objects, and as such would be usable in analyses as a replacement for the offline objects. Further verification of this could be carried out by emulating the trigger for the Monte-Carlo simulation to check if the same features arise in the kinematic quantity distributions.
 
+\newpage
 \section{Jet Tagging Efficiency}
 
 	As covered in Section  \ref{det:btag:mv}, the standard algorithm for 2016 physics analyses was chosen to be the 2016 MV2c10 algorithm. However, the HLT \btag\ algorithm uses the older MV2c20 algorithm \cite{trig2015}. For any form of a Trigger Level Analysis to be considered valid, the performance of the tagging algorithms used in the trigger, which are fixed at the point of data collection, must be comparable with the tagging executed offline with more up to date \btag\ configurations.
 
-	\newpage
 	To study this, the \btag\ efficiency at trigger level and offline is studied for different jet flavours using the Monte-Carlo sample. The Monte-Carlo sample was used as the \textit{truth} nature of the jet object is known, and the result of the \btag\ algorithm can be compared for \bjets, \cjets\ and light-jets.
 
 	In the analysis, an offline/HLT jet pair was formed using $\Delta R$ matching and using the truth label of the offline jet to assign a flavour to the pair. Light-jets, \bjets\ and \cjets\ were all studied separately to view the \btag\ efficiency and the mistag rate of both algorithms operating at the tight working point for an expected \btag\ efficiency of $70\%$. The efficiency plots in Figures \ref{fig:MC:bjetefficiency}, \ref{fig:MC:cjetefficiency} and \ref{fig:MC:lightjetefficiency} show the fraction of these jets that were identified as \bjets\ by the HLT and offline tagging algorithms. These plots were created from events following the same cuts as for the leading \bjet\ and non-\bjet\ as discussed at the beginning of the chapter.

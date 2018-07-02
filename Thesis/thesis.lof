@@ -2,7 +2,7 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Feynmann diagrams of lowest order Higgs production processes}}{23}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Higgs production cross section as a function of Higgs mass at a $\sqrt {s}=14$TeV}}{24}{figure.2.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Higgs production cross section as a function of Higgs mass at a $\sqrt {s}=14$~TeV}}{24}{figure.2.2}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic cut-away of the ATLAS detector}}{29}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic plot of the ATLAS Trigger and Data acquisition system}}{32}{figure.3.2}
@@ -10,16 +10,16 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces $\Delta R$ values for online/offline jet pairs in Monte-Carlo simulation}}{45}{figure.5.1}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ for the leading $b$-jet in data and Monte-Carlo simulations}}{47}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ distribution for leading \textit {b}-jets\ with $89<$$p_\text {T}$ $<91$ in data and Monte-Carlo simulations}}{48}{figure.5.3}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ distribution for leading \textit {b}-jets\ with $89<$$p_\text {T}$ $<91$~GeV in data and Monte-Carlo simulations}}{48}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces $\frac {\Delta \eta }{\eta }$ for the leading \textit {b}-jet\ in data and Monte-Carlo simulations}}{49}{figure.5.4}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces $\frac {\Delta \phi }{\phi }$ for the leading \textit {b}-jet\ in data and Monte-Carlo simulations}}{49}{figure.5.5}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ for the leading $p_\text {T}$ non-$b$-jet in data and Monte-Carlo simulations}}{50}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ distribution for leading non-\textit {b}-jets\ with $89<$$p_\text {T}$ $<91$ in data and Monte-Carlo simulations}}{51}{figure.5.7}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces $\frac {\Delta p_\text {T}}{p_\text {T}}$ distribution for leading non-\textit {b}-jets\ with $89<$$p_\text {T}$ $<91$~GeV in data and Monte-Carlo simulations}}{51}{figure.5.7}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces $\frac {\Delta \eta }{\eta }$ for the leading non-\textit {b}-jet\ in data and Monte-Carlo simulations}}{52}{figure.5.8}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces $\frac {\Delta \phi }{\phi }$ for the leading non-\textit {b}-jet\ in data and Monte-Carlo simulations}}{53}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of \textit {b}-jet\ tagging efficiency on truth \textit {b}-jets\ between online and offline jets in Monte-Carlo simulation}}{54}{figure.5.10}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of \textit {b}-jet\ tagging efficiency on truth \textit {b}-jets\ between online and offline jets in Monte-Carlo simulation}}{55}{figure.5.10}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison of mistag rate between online and offline truth \textit {c}-jets\ in Monte-Carlo simulation}}{56}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison of mistag rate between online and offline truth light-jets in Monte-Carlo simulation}}{56}{figure.5.12}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison of mistag rate between online and offline truth light-jets in Monte-Carlo simulation}}{57}{figure.5.12}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {6.1}{\ignorespaces VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ Cutflow ratio for Monte-Carlo simulation}}{59}{figure.6.1}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces VBF $H\rightarrow b\mathaccentV {bar}016{b}$\ Cutflow ratio for data}}{60}{figure.6.2}
